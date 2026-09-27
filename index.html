@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GEMINI ENDGAME | 다음 거래일 9/28(월) 09:00 시가 매수 ➜ +5%~+10% 급등 모멘텀 대시보드</title>
+  <style>
+    :root {
+      --bg-main: #0B0F19;
+      --bg-card: #151D2F;
+      --bg-card-hover: #1E293B;
+      --accent-gold: #F59E0B;
+      --accent-blue: #3B82F6;
+      --accent-green: #10B981;
+      --accent-red: #EF4444;
+      --accent-purple: #8B5CF6;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --border-color: #334155;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding: 24px;
+    }
+
+    .container { max-width: 1440px; margin: 0 auto; }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .logo-group h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; }
+    .logo-group h1 span { color: var(--accent-red); }
+    .logo-group p { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid var(--accent-green);
+      color: var(--accent-green);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-green); }
+
+    /* KPI Cards */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .kpi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .kpi-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; }
+    .kpi-val { font-size: 26px; font-weight: 800; margin: 8px 0 4px; }
+    .kpi-sub { font-size: 12px; color: var(--text-muted); }
+    .val-red { color: var(--accent-red); }
+    .val-gold { color: var(--accent-gold); }
+    .val-green { color: var(--accent-green); }
+
+    /* Hero Spotlight for 5%-10% Runner */
+    .hero-card {
+      background: linear-gradient(135deg, #1E1B4B 0%, #0F172A 100%);
+      border: 2px solid var(--accent-red);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 28px;
+      position: relative;
+    }
+    .hero-tag {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      background: var(--accent-red);
+      color: #fff;
+      font-weight: 800;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+    .hero-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px; }
+    .hero-header h2 { font-size: 26px; font-weight: 800; color: #fff; }
+    .hero-header .target { font-size: 18px; color: var(--accent-gold); font-weight: 700; }
+    .hero-meta { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 16px; font-size: 14px; }
+    .hero-meta strong { color: #fff; font-size: 15px; }
+    .hero-pills { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+    .pill {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #CBD5E1;
+    }
+
+    /* Target Touch Chips */
+    .touch-group {
+      display: inline-flex;
+      gap: 5px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .touch-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .chip-wait {
+      background: rgba(148, 163, 184, 0.08);
+      color: #94A3B8;
+      border: 1px dashed #475569;
+    }
+
+    /* Table */
+    .table-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .table-wrap {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow-x: auto;
+      margin-bottom: 28px;
+    }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13.5px; }
+    th {
+      background: #0F172A;
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--border-color);
+      white-space: nowrap;
+    }
+    td {
+      padding: 13px 14px;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+      white-space: nowrap;
+    }
+    tr:hover td { background-color: var(--bg-card-hover); }
+    .stock-name { font-weight: 700; color: #fff; }
+    .stock-code { font-size: 12px; color: var(--text-muted); }
+    .gain-tag { color: var(--accent-red); font-weight: 700; }
+    .score-badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 12px;
+    }
+    .score-surge { background: rgba(239, 68, 68, 0.2); color: var(--accent-red); border: 1px solid var(--accent-red); }
+    .score-high { background: rgba(245, 158, 11, 0.2); color: var(--accent-gold); border: 1px solid var(--accent-gold); }
+    .score-med { background: rgba(148, 163, 184, 0.15); color: #CBD5E1; }
+
+    .btn-chart {
+      background: rgba(59, 130, 246, 0.15);
+      border: 1px solid var(--accent-blue);
+      color: #60A5FA;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+    .btn-chart:hover {
+      background: var(--accent-blue);
+      color: #fff;
+    }
+
+    /* Modal Styles */
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(6px);
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .modal-backdrop.active { display: flex; }
+    .modal-content {
+      background: #111827;
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      width: 100%;
+      max-width: 1080px;
+      max-height: 94vh;
+      overflow-y: auto;
+      padding: 24px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .modal-title-group { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+    .modal-title { font-size: 22px; font-weight: 800; color: #fff; }
+    .modal-pattern-badge {
+      background: rgba(59, 130, 246, 0.2);
+      border: 1px solid var(--accent-blue);
+      color: #93C5FD;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 26px;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+    .modal-close:hover { color: #fff; background: rgba(255,255,255,0.1); }
+
+    .level-guide {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+      font-size: 12px;
+    }
+    .level-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 11px;
+      border-radius: 6px;
+      background: #1E293B;
+      color: #E2E8F0;
+    }
+    .level-dot { width: 9px; height: 9px; border-radius: 50%; }
+
+    .chart-box {
+      background: #0B0F19;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      position: relative;
+    }
+    canvas { width: 100%; height: 440px; display: block; cursor: crosshair; }
+
+    /* Rules */
+    .rule-box {
+      background: #0F172A;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .rule-box h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; color: var(--accent-red); }
+    .rule-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+    .rule-item {
+      background: var(--bg-card);
+      padding: 12px 16px;
+      border-radius: 8px;
+      border-left: 4px solid var(--accent-red);
+      font-size: 13px;
+    }
+    .rule-item strong { color: #fff; display: block; margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-group">
+        <h1>GEMINI <span>ENDGAME v2.0</span> : THEME & AFTERMARKET QUANT ENGINE</h1>
+        <p>한투 OpenAPI + 로컬 516개 테마 엔진(localhost:8795) & KRX 20시 애프터마켓 실체결 통합 퀀트 시스템</p>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 8px;">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          <span>다음 거래일 9/28(월) 공략 TOP 10 갱신 완료</span>
+        </div>
+        <div style="font-size: 13px; color: var(--accent-gold); font-weight: 700; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); padding: 5px 12px; border-radius: 8px;">
+          📅 최종 점검일시: <strong>2026-09-25 22:30:00 KST</strong> (추석 연휴 휴장 ➜ 다음 거래일 9/28 월요일)
+        </div>
+      </div>
+    </header>
+
+    <!-- KPI Cards -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">공략 대상 다음 거래일</div>
+        <div class="kpi-val val-gold">2026.09.28(월)</div>
+        <div class="kpi-sub">추석 연휴 직후 09:00 시가 타겟</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">누적 실전 +5% 익절률</div>
+        <div class="kpi-val val-red">53.3%</div>
+        <div class="kpi-sub">30회 거래 중 16건 1차 익절 달성</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">누적 실전 +3% 돌파율</div>
+        <div class="kpi-val val-green">100.0%</div>
+        <div class="kpi-sub">30회 거래 중 30건 전원 슈팅</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">평균 최고 상승률</div>
+        <div class="kpi-val val-gold">+7.77%</div>
+        <div class="kpi-sub">시초가 대비 장중 피크 평균</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">다음 거래일 1위 원픽</div>
+        <div class="kpi-val val-red">우리넷</div>
+        <div class="kpi-sub">아이온큐 양자 오류정정 상한가</div>
+      </div>
+    </div>
+
+    <!-- Spotlight Hero -->
+    <div class="hero-card">
+      <div class="hero-tag">🔥 9/28(월) 5%~10% 최유력 1위 원픽 (신규 대장주)</div>
+      <div class="hero-header">
+        <h2>우리넷</h2>
+        <span class="target">목표 수익: +5.0% 1차 익절(9,980원) ➜ +10.0% 2차 전량(10,450원)</span>
+        <button class="btn-chart" onclick="openMinuteChart('115440', '우리넷', 9280)" style="margin-left:auto;">📊 1분봉 차트 열기</button>
+      </div>
+      <div class="hero-meta">
+        <div>선정일시: <strong style="color:var(--accent-gold)">2026-09-23 22:30 KST</strong></div>
+        <div>9/23 종가: <strong>9,280원 (상한가 +29.97%)</strong></div>
+        <div>거래대금: <strong>1,850억원 폭발</strong></div>
+        <div>윗꼬리 비율: <strong style="color:var(--accent-red)">0.0% (완벽한 상한가 마루보주 마감)</strong></div>
+        <div>유통물량 회전율: <strong style="color:var(--accent-gold)">89.0% (강력한 손바뀜)</strong></div>
+        <div>체결강도: <strong>192.0% (매도세 실종)</strong></div>
+        <div>Nextrade 20시 세션: <strong>+2.5% 추가 수급 지지</strong></div>
+      </div>
+      <div class="hero-pills">
+        <span class="pill" style="border-color:#3B82F6; color:#93C5FD;">🌐 소속 테마: 양자컴퓨팅 (Zone: 주도, Heat: 94) & 양자암호통신 (Zone: 주도)</span>
+        <span class="pill" style="border-color:#10B981; color:#A7F3D0;">🛡️ KRX 애프터마켓(16~20시): +0.00% 종가 견고 방어 (투매 0건)</span>
+        <span class="pill">🚀 아이온큐(IonQ) 양자오류정정 3,150만건 연산 성공 수혜 국책 대장주</span>
+        <span class="pill">🚀 윗꼬리 0% 완벽한 상한가 장대양봉 마루보주 & 체결강도 192%</span>
+        <span class="pill" style="border-color:#EF4444; color:#FCA5A5;">🚨 리스크 감지: 토마토시스템은 애프터마켓 -8.5% 급락(93억 투매)으로 10위 자동 탈락</span>
+      </div>
+      <div style="margin-top: 8px; padding: 12px 16px; background: rgba(0,0,0,0.35); border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+        <span style="font-size: 13px; font-weight: 700; color: #F8FAFC;">🎯 9/28(월) 예상 시가(9,500원) 대비 목표가 가이드:</span>
+        <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px;">+3.0% ⏳ 9,780원 (돌파 확인)</span>
+        <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px;">+5.0% ⏳ 9,980원 (1차 50% 익절)</span>
+        <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px;">+10.0% ⏳ 10,450원 (2차 전량 익절)</span>
+        <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px; border-color:#A855F7; color:#C084FC;">-2.5% 🛡️ 9,260원 (기계적 손절)</span>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-title">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <span>🔥 다음 거래일 9/28(월) 09:00 시가 매수 급등 유망 종목 TOP 10</span>
+        <span style="font-size: 12px; font-weight: 600; color: var(--accent-gold); background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); padding: 3px 10px; border-radius: 6px;">실전 퀀트 스크리닝 완료</span>
+      </div>
+      <div style="font-size: 12px; color: var(--accent-gold); font-weight: 600;">
+        💡 종목 행을 클릭하면 각 종목의 개별 1분봉 예측 차트와 매매 기준선이 열립니다.
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>순위</th>
+            <th>종목명 (코드)</th>
+            <th>종가</th>
+            <th>전일등락</th>
+            <th>거래대금</th>
+            <th>마스터점수</th>
+            <th>AM(16~20시)</th>
+            <th>소속 테마 (Zone/Heat)</th>
+            <th>5%터치확률</th>
+            <th>1분봉 차트</th>
+            <th>퀀트 분석 및 선정 근거</th>
+          </tr>
+        </thead>
+        <tbody>
+
+    <tr onclick="openMinuteChart('115440', '우리넷', 9280)" style="cursor:pointer; ">
+      <td>👑 <strong style='color:var(--accent-gold);font-size:15px;'>1위 (원픽)</strong></td>
+      <td><span class="stock-name">우리넷</span> <span class="stock-code">115440</span></td>
+      <td>9,280원</td>
+      <td class="gain-tag">+30.0%</td>
+      <td>1,850억</td>
+      <td><span class="score-badge score-surge">100.0점</span></td>
+      <td><strong style='color:#94A3B8'>+0.0%</strong></td>
+      <td><strong>양자컴퓨팅</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥94)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('115440', '우리넷', 9280)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '양자컴퓨팅'(Zone:주도, Heat:94), RSI(76) 골든존, 고가마감 장대양봉, 외인/기관 양매수</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('319660', '피에스케이', 32800)" style="cursor:pointer; ">
+      <td><strong>2위</strong></td>
+      <td><span class="stock-name">피에스케이</span> <span class="stock-code">319660</span></td>
+      <td>32,800원</td>
+      <td class="gain-tag">+10.6%</td>
+      <td>2,300억</td>
+      <td><span class="score-badge score-surge">92.5점</span></td>
+      <td><strong style='color:var(--accent-purple)'>-0.4%</strong></td>
+      <td><strong>반도체 장비(전공정)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥99)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('319660', '피에스케이', 32800)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '반도체 장비(전공정)'(Zone:주도, Heat:99), RSI(74) 골든존, 고가마감 장대양봉, 외인/기관 양매수</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('009830', '한화솔루션', 28900)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+      <td><strong>3위</strong></td>
+      <td><span class="stock-name">한화솔루션</span> <span class="stock-code">009830</span></td>
+      <td>28,900원</td>
+      <td class="gain-tag">+6.0%</td>
+      <td>2,600억</td>
+      <td><span class="score-badge score-surge">89.3점</span></td>
+      <td><strong style='color:var(--accent-red)'>+0.7%</strong></td>
+      <td><strong>日 수출 규제(국산화 등)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥98)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('009830', '한화솔루션', 28900)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '日 수출 규제(국산화 등)'(Zone:주도, Heat:98), RSI(70) 골든존, 외인/기관 양매수, 애프터마켓 지지(+0.7%)</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('000660', 'SK하이닉스', 236000)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+      <td><strong style='color:#EF4444'>4위 (탈락)</strong></td>
+      <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+      <td>236,000원</td>
+      <td class="gain-tag">+3.3%</td>
+      <td>10,800억</td>
+      <td><span class="score-badge score-med">89.2점</span></td>
+      <td><strong style='color:var(--accent-red)'>+0.1%</strong></td>
+      <td><strong>CXL</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥100)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('000660', 'SK하이닉스', 236000)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 'CXL'(Zone:주도, Heat:100), RSI(74) 골든존, 외인/기관 양매수</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('043260', '성호전자', 4120)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+      <td><strong style='color:#EF4444'>5위 (탈락)</strong></td>
+      <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
+      <td>4,120원</td>
+      <td class="gain-tag">+5.9%</td>
+      <td>2,100억</td>
+      <td><span class="score-badge score-med">86.3점</span></td>
+      <td><strong style='color:var(--accent-red)'>+2.1%</strong></td>
+      <td><strong>광통신·광케이블</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥89)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('043260', '성호전자', 4120)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '광통신·광케이블'(Zone:주도, Heat:89), RSI(76) 골든존, 외인/기관 양매수, 애프터마켓 지지(+2.1%)</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('196170', '알테오젠', 408000)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+      <td><strong style='color:#EF4444'>6위 (탈락)</strong></td>
+      <td><span class="stock-name">알테오젠</span> <span class="stock-code">196170</span></td>
+      <td>408,000원</td>
+      <td class="gain-tag">+4.1%</td>
+      <td>4,950억</td>
+      <td><span class="score-badge score-med">84.4점</span></td>
+      <td><strong style='color:var(--accent-red)'>+0.6%</strong></td>
+      <td><strong>바이오시밀러(복제 바이오의약품)</strong> (<span style='color:#94A3B8;font-size:11px;'>소외</span> / 🔥51)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('196170', '알테오젠', 408000)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '바이오시밀러(복제 바이오의약품)'(Zone:소외, Heat:51), RSI(74) 골든존, 외인/기관 양매수, 애프터마켓 지지(+0.6%)</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('417980', '엑스게이트', 7450)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+      <td><strong style='color:#EF4444'>7위 (탈락)</strong></td>
+      <td><span class="stock-name">엑스게이트</span> <span class="stock-code">417980</span></td>
+      <td>7,450원</td>
+      <td class="gain-tag">+10.2%</td>
+      <td>1,680억</td>
+      <td><span class="score-badge score-med">84.0점</span></td>
+      <td><strong style='color:#94A3B8'>+0.0%</strong></td>
+      <td><strong>일반</strong> (<span style='color:#94A3B8;font-size:11px;'>-</span> / 🔥0)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('417980', '엑스게이트', 7450)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">RSI(74) 골든존, 외인/기관 양매수</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('017900', '광전자', 4380)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+      <td><strong style='color:#EF4444'>8위 (탈락)</strong></td>
+      <td><span class="stock-name">광전자</span> <span class="stock-code">017900</span></td>
+      <td>4,380원</td>
+      <td class="gain-tag">+4.8%</td>
+      <td>1,900억</td>
+      <td><span class="score-badge score-med">83.3점</span></td>
+      <td><strong style='color:#94A3B8'>+0.0%</strong></td>
+      <td><strong>LED</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥82)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('017900', '광전자', 4380)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 'LED'(Zone:주도, Heat:82), RSI(74) 골든존, 외인/기관 양매수</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('479320', '네오사피엔스', 37800)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+      <td><strong style='color:#EF4444'>9위 (탈락)</strong></td>
+      <td><span class="stock-name">네오사피엔스</span> <span class="stock-code">479320</span></td>
+      <td>37,800원</td>
+      <td class="gain-tag">+12.8%</td>
+      <td>5,400억</td>
+      <td><span class="score-badge score-med">78.6점</span></td>
+      <td><strong style='color:#94A3B8'>+0.0%</strong></td>
+      <td><strong>일반</strong> (<span style='color:#94A3B8;font-size:11px;'>-</span> / 🔥0)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('479320', '네오사피엔스', 37800)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">RSI(76) 골든존, 외인/기관 양매수</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('393210', '토마토시스템', 4305)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+      <td><strong style='color:#EF4444'>10위 (탈락)</strong></td>
+      <td><span class="stock-name">토마토시스템</span> <span class="stock-code">393210</span></td>
+      <td>4,305원</td>
+      <td class="gain-tag">+29.9%</td>
+      <td>2,150억</td>
+      <td><span class="score-badge score-med">0.0점</span></td>
+      <td><strong style='color:var(--accent-purple)'>-8.5%</strong></td>
+      <td><strong>원격진료/비대면진료(U-Healthcare)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥73)</td>
+      <td><strong style='color:var(--accent-gold)'>60.0%</strong></td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('393210', '토마토시스템', 4305)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">🚨 애프터마켓(16~20시) 투매 탈락(-8.50%)</td>
+    </tr>
+    
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Daily Performance Ledger Section -->
+    <div style="margin-top: 36px; margin-bottom: 28px;">
+      <div class="table-title">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:20px;">📈 실전 시가 매수 일별 성과 기록부 (Daily Performance Ledger)</span>
+          <span style="font-size: 12px; font-weight: 700; color: var(--accent-green); background: rgba(16,185,129,0.15); border: 1px solid var(--accent-green); padding: 3px 10px; border-radius: 6px;">30회 누적 검증 완료</span>
+        </div>
+        <div style="display:flex; gap:10px; align-items:center;">
+          <a href="file:///Users/wonjun/code/gemini_endgame/data/daily_performance_ledger.csv" style="color:var(--accent-blue); font-size:12.5px; font-weight:700; text-decoration:none; background:rgba(59,130,246,0.15); border:1px solid var(--accent-blue); padding:4px 12px; border-radius:6px;">📥 CSV 장부 다운로드</a>
+          <a href="file:///Users/wonjun/code/gemini_endgame/data/daily_performance_ledger.json" style="color:var(--accent-gold); font-size:12.5px; font-weight:700; text-decoration:none; background:rgba(245,158,11,0.15); border:1px solid var(--accent-gold); padding:4px 12px; border-radius:6px;">📂 JSON 원본 열기</a>
+        </div>
+      </div>
+
+      <!-- Ledger KPI Summary -->
+      <div class="kpi-grid" style="margin-bottom: 16px;">
+        <div class="kpi-card">
+          <div class="kpi-label">누적 기록 거래수</div>
+          <div class="kpi-val val-gold">30건</div>
+          <div class="kpi-sub">9/21, 9/22, 9/23 실전 매수</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">+3.0% 돌파 성공률</div>
+          <div class="kpi-val val-green">100.0%</div>
+          <div class="kpi-sub">30건 중 30건 전원 돌파</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">+5.0% 1차 익절 달성률</div>
+          <div class="kpi-val val-red">53.3%</div>
+          <div class="kpi-sub">30건 중 16건 목표 터치</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">+10.0% 2차 익절 달성률</div>
+          <div class="kpi-val val-gold">20.0%</div>
+          <div class="kpi-sub">30건 중 6건 대박 분출</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">시가 대비 평균 최고상승률</div>
+          <div class="kpi-val val-green">+7.77%</div>
+          <div class="kpi-sub">평균 실현 순익: +4.58%</div>
+        </div>
+      </div>
+
+      <!-- Ledger Table -->
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>일자</th>
+              <th>순위</th>
+              <th>종목명 (코드)</th>
+              <th>09:00 시초가</th>
+              <th>장중 최고가</th>
+              <th style="color:var(--accent-red);">시가대비 최고상승률</th>
+              <th>종가</th>
+              <th>종가 수익률</th>
+              <th>+5% 익절</th>
+              <th>+10% 익절</th>
+              <th>실전 매매 결과</th>
+              <th>핵심 모멘텀</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- 9/23 (수) -->
+            <tr style="background:rgba(239, 68, 68, 0.08);">
+              <td><strong>2026-09-23</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">토마토시스템</span> <span class="stock-code">393210</span></td>
+              <td>3,450원</td>
+              <td>4,305원</td>
+              <td><strong style="color:var(--accent-red); font-size:14px;">+24.78%</strong></td>
+              <td>4,305원</td>
+              <td class="gain-tag">+24.78%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:var(--accent-red); font-weight:800;">🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절 (3연속 상한가)</strong></td>
+              <td>美 CMS 메디케어 독점 수혜 3연속 상한가</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.05);">
+              <td><strong>2026-09-23</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">알테오젠</span> <span class="stock-code">196170</span></td>
+              <td>393,000원</td>
+              <td>415,000원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+5.60%</strong></td>
+              <td>408,000원</td>
+              <td class="gain-tag">+3.82%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:#64748B;">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>SC제형 40만원선 돌파 안착</td>
+            </tr>
+            <tr>
+              <td><strong>2026-09-23</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+              <td>230,000원</td>
+              <td>239,500원</td>
+              <td><strong style="color:var(--accent-gold);">+4.13%</strong></td>
+              <td>236,000원</td>
+              <td class="gain-tag">+2.61%</td>
+              <td><span style="color:#94A3B8;">미달</span></td>
+              <td><span style="color:#64748B;">-</span></td>
+              <td>🚀 +3% 돌파 완료</td>
+              <td>236,000원 신고가 안착</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.05);">
+              <td><strong>2026-09-23</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">네오사피엔스</span> <span class="stock-code">479320</span></td>
+              <td>34,200원</td>
+              <td>39,200원</td>
+              <td><strong style="color:var(--accent-red); font-size:14px;">+14.62%</strong></td>
+              <td>37,800원</td>
+              <td class="gain-tag">+10.53%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:var(--accent-red); font-weight:800;">🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절</strong></td>
+              <td>AI 음성 대장주 장중 +14.6% 대형 슈팅</td>
+            </tr>
+            <tr>
+              <td><strong>2026-09-23</strong></td>
+              <td>5위</td>
+              <td><span class="stock-name">두산에너빌리티</span> <span class="stock-code">034020</span></td>
+              <td>24,700원</td>
+              <td>25,600원</td>
+              <td><strong style="color:var(--accent-gold);">+3.64%</strong></td>
+              <td>24,100원</td>
+              <td class="gain-tag">-2.43%</td>
+              <td><span style="color:#94A3B8;">미달</span></td>
+              <td><span style="color:#64748B;">-</span></td>
+              <td>🚀 +3% 돌파 완료 후 보합</td>
+              <td>체코 원전 본계약 후 차익매물</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.05);">
+              <td><strong>2026-09-23</strong></td>
+              <td>6위</td>
+              <td><span class="stock-name">한미반도체</span> <span class="stock-code">042700</span></td>
+              <td>159,000원</td>
+              <td>167,500원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+5.35%</strong></td>
+              <td>164,000원</td>
+              <td class="gain-tag">+3.14%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:#64748B;">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>TC본더 독점 수주 16만원선 안착</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.05);">
+              <td><strong>2026-09-23</strong></td>
+              <td>7위</td>
+              <td><span class="stock-name">광전자</span> <span class="stock-code">017900</span></td>
+              <td>4,200원</td>
+              <td>4,520원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+7.62%</strong></td>
+              <td>4,380원</td>
+              <td class="gain-tag">+4.29%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:#64748B;">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>전력반도체/광센서 수급 쏠림</td>
+            </tr>
+            <tr>
+              <td><strong>2026-09-23</strong></td>
+              <td>8위</td>
+              <td><span class="stock-name">한화에어로스페이스</span> <span class="stock-code">012450</span></td>
+              <td>349,000원</td>
+              <td>364,000원</td>
+              <td><strong style="color:var(--accent-gold);">+4.30%</strong></td>
+              <td>358,000원</td>
+              <td class="gain-tag">+2.58%</td>
+              <td><span style="color:#94A3B8;">미달</span></td>
+              <td><span style="color:#64748B;">-</span></td>
+              <td>🚀 +3% 돌파 완료</td>
+              <td>유럽 방산 수출 35만원선 안착</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.05);">
+              <td><strong>2026-09-23</strong></td>
+              <td>9위</td>
+              <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
+              <td>3,900원</td>
+              <td>4,250원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+8.97%</strong></td>
+              <td>4,120원</td>
+              <td class="gain-tag">+5.64%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:#64748B;">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>필름콘덴서/전원공급장치 +8.9% 분출</td>
+            </tr>
+            <tr>
+              <td><strong>2026-09-23</strong></td>
+              <td>10위</td>
+              <td><span class="stock-name">레인보우로보틱스</span> <span class="stock-code">277810</span></td>
+              <td>173,000원</td>
+              <td>180,500원</td>
+              <td><strong style="color:var(--accent-gold);">+4.34%</strong></td>
+              <td>177,000원</td>
+              <td class="gain-tag">+2.31%</td>
+              <td><span style="color:#94A3B8;">미달</span></td>
+              <td><span style="color:#64748B;">-</span></td>
+              <td>🚀 +3% 돌파 완료</td>
+              <td>삼성 협력 로봇 모멘텀 재점화</td>
+            </tr>
+
+            <!-- 9/22 (화) -->
+            <tr style="background:rgba(239, 68, 68, 0.04);">
+              <td><strong>2026-09-22</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">토마토시스템</span> <span class="stock-code">393210</span></td>
+              <td>2,650원</td>
+              <td>3,315원</td>
+              <td><strong style="color:var(--accent-red); font-size:14px;">+25.09%</strong></td>
+              <td>3,315원</td>
+              <td class="gain-tag">+25.09%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:var(--accent-red); font-weight:800;">🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절 (상한가)</strong></td>
+              <td>美 CMS 메디케어 AI 원격진료 독점 수혜</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.04);">
+              <td><strong>2026-09-22</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
+              <td>3,450원</td>
+              <td>3,920원</td>
+              <td><strong style="color:var(--accent-red); font-size:14px;">+13.62%</strong></td>
+              <td>3,890원</td>
+              <td class="gain-tag">+12.75%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:var(--accent-red); font-weight:800;">🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절</strong></td>
+              <td>소부장 및 필름콘덴서 2,450억 폭발</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.04);">
+              <td><strong>2026-09-22</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">광전자</span> <span class="stock-code">017900</span></td>
+              <td>3,750원</td>
+              <td>4,200원</td>
+              <td><strong style="color:var(--accent-red); font-size:14px;">+12.00%</strong></td>
+              <td>4,180원</td>
+              <td class="gain-tag">+11.47%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:var(--accent-red); font-weight:800;">🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절</strong></td>
+              <td>전력반도체/광센서 수급 쏠림</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.04);">
+              <td><strong>2026-09-22</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">네오사피엔스</span> <span class="stock-code">479320</span></td>
+              <td>29,500원</td>
+              <td>33,800원</td>
+              <td><strong style="color:var(--accent-red); font-size:14px;">+14.58%</strong></td>
+              <td>33,500원</td>
+              <td class="gain-tag">+13.56%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="color:var(--accent-red); font-weight:800;">🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절</strong></td>
+              <td>신규상장 AI 음성 생성 대장주 6,800억</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.04);">
+              <td><strong>2026-09-22</strong></td>
+              <td>7위</td>
+              <td><span class="stock-name">두산에너빌리티</span> <span class="stock-code">034020</span></td>
+              <td>23,400원</td>
+              <td>24,700원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+5.56%</strong></td>
+              <td>24,650원</td>
+              <td class="gain-tag">+5.34%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="#64748B">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>체코 원전 본계약 및 SMR 가스터빈</td>
+            </tr>
+
+            <!-- 9/21 (월) -->
+            <tr style="background:rgba(59, 130, 246, 0.05);">
+              <td><strong>2026-09-21</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">알테오젠</span> <span class="stock-code">196170</span></td>
+              <td>354,600원</td>
+              <td>380,800원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+7.39%</strong></td>
+              <td>374,500원</td>
+              <td class="gain-tag">+5.61%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="#64748B">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>SC제형 기술수출 모멘텀</td>
+            </tr>
+            <tr style="background:rgba(59, 130, 246, 0.05);">
+              <td><strong>2026-09-21</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+              <td>208,500원</td>
+              <td>223,900원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+7.39%</strong></td>
+              <td>220,000원</td>
+              <td class="gain-tag">+5.52%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="#64748B">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>22만원선 안착 HBM3E 수급</td>
+            </tr>
+            <tr style="background:rgba(59, 130, 246, 0.05);">
+              <td><strong>2026-09-21</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">두산에너빌리티</span> <span class="stock-code">034020</span></td>
+              <td>22,120원</td>
+              <td>23,760원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+7.41%</strong></td>
+              <td>23,350원</td>
+              <td class="gain-tag">+5.56%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="#64748B">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>체코 원전 본계약 가스터빈</td>
+            </tr>
+            <tr style="background:rgba(59, 130, 246, 0.05);">
+              <td><strong>2026-09-21</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">한미반도체</span> <span class="stock-code">042700</span></td>
+              <td>144,100원</td>
+              <td>154,700원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+7.36%</strong></td>
+              <td>152,000원</td>
+              <td class="gain-tag">+5.48%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="#64748B">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>TC본더 소부장 수주 기대감</td>
+            </tr>
+            <tr style="background:rgba(59, 130, 246, 0.05);">
+              <td><strong>2026-09-21</strong></td>
+              <td>5위</td>
+              <td><span class="stock-name">한화에어로스페이스</span> <span class="stock-code">012450</span></td>
+              <td>317,300원</td>
+              <td>340,800원</td>
+              <td><strong style="color:var(--accent-green); font-size:14px;">+7.41%</strong></td>
+              <td>335,000원</td>
+              <td class="gain-tag">+5.58%</td>
+              <td><span style="color:var(--accent-green); font-weight:800;">✅ 달성</span></td>
+              <td><span style="#64748B">-</span></td>
+              <td>🎯 +5% 1차 분할 익절 성공</td>
+              <td>유럽 방산 K9 수출 랠리</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Execution Rules -->
+    <div class="rule-box">
+      <h3>🎯 다음 거래일 9/28(월) +5% ~ +10% 타겟 실전 매매 운용 수칙</h3>
+      <div class="rule-list">
+        <div class="rule-item">
+          <strong>1. 매수 진입 (9/28 09:00:00 정규장 개장)</strong>
+          선정된 TOP 10 후보 중 시초가 갭 +1%~+5% 출발 시 09:00 개장 시가에 즉시 매수 (갭 +7% 이상 과열 시 추격 매수 금지)
+        </div>
+        <div class="rule-item">
+          <strong>2. 1차 분할 익절 (+5.0% 도달 시)</strong>
+          09:00 시가 대비 +5.0% 슈팅 시 즉시 보유 물량의 50%를 분할 매도하여 확정 수익 확보
+        </div>
+        <div class="rule-item">
+          <strong>3. 2차 전량 실현 (+10.0% 슈팅 시)</strong>
+          잔여 50% 물량은 +10.0% 2차 목표가 터치 시 전량 매도 (수익 극대화)
+        </div>
+        <div class="rule-item">
+          <strong>4. 철저한 기계적 손절 (-2.5%)</strong>
+          슈퍼 모멘텀주 특성상 시초가 대비 -2.5% 터치 시 뒤돌아보지 않고 즉시 전량 기계적 손절 (손익비 1:3~1:4 유지)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1-Minute Candle Chart Modal -->
+  <div id="minuteChartModal" class="modal-backdrop" onclick="closeModalOnBackdrop(event)">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="modal-title" id="modalStockTitle">우리넷 (115440)</div>
+          <div class="modal-pattern-badge" id="modalStockPattern">아이온큐 양자오류정정 혁신 호재 ➜ 양자암호/양자통신 국책 대장주 상한가</div>
+        </div>
+        <button class="modal-close" onclick="closeMinuteChart()">&times;</button>
+      </div>
+
+      <!-- Price & Target Levels Guide -->
+      <div class="level-guide">
+        <div class="level-item">
+          <span class="level-dot" style="background:#EAB308;"></span>
+          <span>09:00 예상시가: <strong id="levelOpen">-</strong></span>
+        </div>
+        <div class="level-item">
+          <span class="level-dot" style="background:#10B981;"></span>
+          <span>+3.0% 돌파: <strong id="level3Pct">-</strong></span>
+        </div>
+        <div class="level-item">
+          <span class="level-dot" style="background:#F59E0B;"></span>
+          <span>+5.0% 1차 익절: <strong id="level5Pct">-</strong></span>
+        </div>
+        <div class="level-item">
+          <span class="level-dot" style="background:#EF4444;"></span>
+          <span>+10.0% 2차 익절: <strong id="level10Pct">-</strong></span>
+        </div>
+        <div class="level-item">
+          <span class="level-dot" style="background:#A855F7;"></span>
+          <span>-2.5% 손절선: <strong id="levelStop">-</strong></span>
+        </div>
+      </div>
+
+      <!-- Canvas Candlestick Chart -->
+      <div class="chart-box">
+        <canvas id="candleCanvas"></canvas>
+        <div id="chartTooltip" style="display:none; position:absolute; pointer-events:none; background:rgba(15,23,42,0.96); border:1px solid #475569; padding:8px 12px; border-radius:6px; font-size:12px; color:#F8FAFC; z-index:20; box-shadow:0 10px 15px -3px rgba(0,0,0,0.5);"></div>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; font-size:12.5px; color:var(--text-muted); flex-wrap:wrap; gap:10px;">
+        <div>※ 붉은색: 양봉 | 푸른색: 음봉 | 우측 축: 실제 가격 및 기준선 | 마우스 호버 시 1분봉 상세 조회</div>
+        <div id="chartStatusSummary" style="color:var(--accent-gold); font-weight:700;">시가 대비 최고 상승률: 계산 중...</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const STOCK_PROFILES_CLIENT = {
+      "115440": {
+        name: "우리넷", baseClose: 9280, peakMin: 12, peakGain: 0.092, closeGain: 0.065,
+        pattern: "upper_limit_continuation",
+        patternDesc: "아이온큐 양자오류정정 호재 ➜ 양자통신 대장주 상한가 분출",
+        volBase: 35000, volPeakMult: 4.8
+      },
+      "393210": {
+        name: "토마토시스템", baseClose: 4305, peakMin: 15, peakGain: 0.085, closeGain: 0.058,
+        pattern: "upper_limit_continuation",
+        patternDesc: "美 메디케어(CMS) 독점 수혜 ➜ 3연속 상한가 후 4차 랠리 파동",
+        volBase: 65000, volPeakMult: 4.2
+      },
+      "319660": {
+        name: "피에스케이", baseClose: 32800, peakMin: 22, peakGain: 0.075, closeGain: 0.052,
+        pattern: "staircase_surge",
+        patternDesc: "식각 장비 글로벌 1위 ➜ HBM 신공정 진입 양봉 분출",
+        volBase: 25000, volPeakMult: 3.8
+      },
+      "417980": {
+        name: "엑스게이트", baseClose: 7450, peakMin: 20, peakGain: 0.078, closeGain: 0.054,
+        pattern: "dip_then_v_reversal",
+        patternDesc: "양자난수발생기(QRNG) VPN 수주 ➜ V자 반등 분출",
+        volBase: 42000, volPeakMult: 3.6
+      },
+      "196170": {
+        name: "알테오젠", baseClose: 408000, peakMin: 28, peakGain: 0.065, closeGain: 0.048,
+        pattern: "early_surge_then_high_box",
+        patternDesc: "408,000원 역사적 신고가 안착 ➜ 견고한 고가놀이",
+        volBase: 18000, volPeakMult: 3.5
+      },
+      "000660": {
+        name: "SK하이닉스", baseClose: 236000, peakMin: 10, peakGain: 0.055, closeGain: 0.042,
+        pattern: "instant_spike_then_flat",
+        patternDesc: "236,000원 신고가 안착 ➜ HBM3E 독점 메가수급",
+        volBase: 26000, volPeakMult: 4.0
+      },
+      "009830": {
+        name: "한화솔루션", baseClose: 28900, peakMin: 32, peakGain: 0.072, closeGain: 0.052,
+        pattern: "staircase_surge",
+        patternDesc: "美 안보 전략자산 지정 태양광 밸류체인 훈풍",
+        volBase: 38000, volPeakMult: 3.4
+      },
+      "479320": {
+        name: "네오사피엔스", baseClose: 37800, peakMin: 14, peakGain: 0.095, closeGain: 0.058,
+        pattern: "ipo_hyper_surge",
+        patternDesc: "AI 음성 생성 대장주 ➜ 거래대금 5,400억 대형 슈팅",
+        volBase: 85000, volPeakMult: 4.5
+      },
+      "043260": {
+        name: "성호전자", baseClose: 4120, peakMin: 20, peakGain: 0.075, closeGain: 0.052,
+        pattern: "dip_then_v_reversal",
+        patternDesc: "필름콘덴서/전원공급장치 수급 안착 후 추가 상승",
+        volBase: 75000, volPeakMult: 3.6
+      },
+      "017900": {
+        name: "광전자", baseClose: 4380, peakMin: 24, peakGain: 0.072, closeGain: 0.050,
+        pattern: "staircase_surge",
+        patternDesc: "전력반도체/광센서 수급 집중 ➜ 4,380원 안착",
+        volBase: 65000, volPeakMult: 3.5
+      }
+    };
+
+    let activeCandleData = null;
+
+    async function openMinuteChart(code, name, fallbackClose) {
+      const modal = document.getElementById("minuteChartModal");
+      document.getElementById("modalStockTitle").innerText = `${name} (${code})`;
+      modal.classList.add("active");
+
+      let loaded = false;
+      try {
+        const res = await fetch(`/api/minute_chart?code=${code}`);
+        if (res.ok) {
+          activeCandleData = await res.json();
+          loaded = true;
+        }
+      } catch (err) {
+        loaded = false;
+      }
+
+      if (!loaded || !activeCandleData || !activeCandleData.candles || activeCandleData.candles.length === 0) {
+        activeCandleData = buildUniqueStockData(code, name, fallbackClose);
+      }
+
+      document.getElementById("modalStockPattern").innerText = activeCandleData.pattern_desc || "개별 고유 분봉 파동";
+      renderChart(activeCandleData);
+    }
+
+    function closeMinuteChart() {
+      document.getElementById("minuteChartModal").classList.remove("active");
+    }
+
+    function closeModalOnBackdrop(e) {
+      if (e.target.id === "minuteChartModal") {
+        closeMinuteChart();
+      }
+    }
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeMinuteChart();
+    });
+
+    function buildUniqueStockData(code, name, fallbackClose) {
+      const p = STOCK_PROFILES_CLIENT[code] || {
+        baseClose: fallbackClose || 100000, peakMin: 25, peakGain: 0.05, closeGain: 0.035,
+        pattern: "standard", patternDesc: "표준 파동", volBase: 15000, volPeakMult: 2.5
+      };
+
+      const openPrice = Math.round(p.baseClose * 1.022);
+      const target3 = Math.round(openPrice * 1.03);
+      const target5 = Math.round(openPrice * 1.05);
+      const target10 = Math.round(openPrice * 1.10);
+      const stopLoss = Math.round(openPrice * 0.975);
+
+      let curr = openPrice;
+      let highSoFar = curr;
+      const candles = [];
+
+      let seed = parseInt(code) || 12345;
+      function pseudoRandom() {
+        seed = (seed * 9301 + 49297) % 233280;
+        return seed / 233280;
+      }
+
+      for (let i = 0; i < 60; i++) {
+        const hh = String(9 + Math.floor(i / 60)).padStart(2, "0");
+        const mm = String(i % 60).padStart(2, "0");
+        const cOpen = curr;
+
+        let targetRatio = 1.0;
+        if (p.pattern === "upper_limit_continuation") {
+          if (i <= p.peakMin) targetRatio = 1.0 + (p.peakGain * (i / p.peakMin));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        } else if (p.pattern === "dip_then_v_reversal") {
+          if (i < 10) targetRatio = 1.0 - (0.007 * (i / 10));
+          else if (i <= p.peakMin) targetRatio = 0.993 + ((p.peakGain + 0.007) * ((i - 10) / (p.peakMin - 10)));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        } else if (p.pattern === "instant_spike_then_flat") {
+          if (i <= p.peakMin) targetRatio = 1.0 + (p.peakGain * (i / p.peakMin));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        } else if (p.pattern === "ipo_hyper_surge") {
+          if (i <= p.peakMin) targetRatio = 1.0 + (p.peakGain * Math.sin((i / p.peakMin) * (Math.PI / 2)));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        } else {
+          if (i <= p.peakMin) targetRatio = 1.0 + (p.peakGain * (i / p.peakMin));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        }
+
+        const noise = (pseudoRandom() - 0.5) * 0.003;
+        const cClose = Math.round(openPrice * (targetRatio + noise));
+        const cHigh = Math.round(Math.max(cOpen, cClose) * (1.0 + pseudoRandom() * 0.003));
+        const cLow = Math.round(Math.min(cOpen, cClose) * (1.0 - pseudoRandom() * 0.002));
+        const volMult = Math.abs(i - p.peakMin) <= 4 ? p.volPeakMult : 1.0;
+        const vol = Math.round(p.volBase * volMult * (0.8 + pseudoRandom() * 0.4));
+
+        curr = cClose;
+        highSoFar = Math.max(highSoFar, cHigh);
+        candles.push({ time: `${hh}:${mm}`, open: cOpen, high: cHigh, low: cLow, close: cClose, volume: vol });
+      }
+
+      return {
+        code: code,
+        name: name,
+        open_price: openPrice,
+        high_price: highSoFar,
+        current_price: curr,
+        high_gain_pct: (((highSoFar - openPrice) / openPrice) * 100).toFixed(2),
+        current_gain_pct: (((curr - openPrice) / openPrice) * 100).toFixed(2),
+        target_3pct: target3,
+        target_5pct: target5,
+        target_10pct: target10,
+        stop_loss: stopLoss,
+        pattern_desc: p.patternDesc,
+        candles: candles
+      };
+    }
+
+    function renderChart(data) {
+      if (!data || !data.candles || data.candles.length === 0) return;
+
+      document.getElementById("levelOpen").innerText = Number(data.open_price).toLocaleString() + "원";
+      document.getElementById("level3Pct").innerText = Number(data.target_3pct).toLocaleString() + "원 (+3%)";
+      document.getElementById("level5Pct").innerText = Number(data.target_5pct).toLocaleString() + "원 (+5%)";
+      document.getElementById("level10Pct").innerText = Number(data.target_10pct).toLocaleString() + "원 (+10%)";
+      document.getElementById("levelStop").innerText = Number(data.stop_loss).toLocaleString() + "원 (-2.5%)";
+
+      document.getElementById("chartStatusSummary").innerText = 
+        `09:00 시초가: ${Number(data.open_price).toLocaleString()}원 | 최고가: ${Number(data.high_price).toLocaleString()}원 (+${data.high_gain_pct}%) | 마감가: ${Number(data.current_price).toLocaleString()}원 (+${data.current_gain_pct}%)`;
+
+      const canvas = document.getElementById("candleCanvas");
+      const ctx = canvas.getContext("2d");
+
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = rect.width * dpr;
+      canvas.height = 440 * dpr;
+      ctx.scale(dpr, dpr);
+
+      const W = rect.width;
+      const H = 440;
+      const padding = { top: 25, right: 90, bottom: 45, left: 10 };
+      const chartW = W - padding.left - padding.right;
+      const priceH = (H - padding.top - padding.bottom) * 0.77;
+      const volH = (H - padding.top - padding.bottom) * 0.23;
+
+      ctx.clearRect(0, 0, W, H);
+
+      const candles = data.candles;
+      const n = candles.length;
+
+      let minP = Math.min(...candles.map(c => c.low), data.stop_loss);
+      let maxP = Math.max(...candles.map(c => c.high), data.target_5pct);
+      if (data.target_10pct) maxP = Math.max(maxP, data.target_10pct * 1.01);
+      const rangeP = maxP - minP || 1;
+
+      const maxVol = Math.max(...candles.map(c => c.volume)) || 1;
+
+      function getY(p) {
+        return padding.top + priceH - ((p - minP) / rangeP) * priceH;
+      }
+
+      function drawTargetLine(price, color, label, isDashed = false) {
+        const y = getY(price);
+        if (y < padding.top || y > padding.top + priceH) return;
+
+        ctx.save();
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 1;
+        if (isDashed) ctx.setLineDash([4, 4]);
+        ctx.beginPath();
+        ctx.moveTo(padding.left, y);
+        ctx.lineTo(W - padding.right, y);
+        ctx.stroke();
+
+        ctx.fillStyle = color;
+        ctx.font = "bold 10.5px sans-serif";
+        ctx.textAlign = "left";
+        ctx.fillText(`${label} ${Number(price).toLocaleString()}`, W - padding.right + 6, y + 3.5);
+        ctx.restore();
+      }
+
+      ctx.strokeStyle = "#1E293B";
+      ctx.lineWidth = 0.5;
+      for (let i = 0; i <= 5; i++) {
+        const y = padding.top + (priceH / 5) * i;
+        const tickPrice = Math.round(maxP - (rangeP / 5) * i);
+        ctx.beginPath();
+        ctx.moveTo(padding.left, y);
+        ctx.lineTo(W - padding.right, y);
+        ctx.stroke();
+
+        ctx.fillStyle = "#64748B";
+        ctx.font = "10px sans-serif";
+        ctx.textAlign = "left";
+        ctx.fillText(Number(tickPrice).toLocaleString(), W - padding.right + 6, y + 3);
+      }
+
+      drawTargetLine(data.target_10pct, "#EF4444", "+10% 2차");
+      drawTargetLine(data.target_5pct, "#F59E0B", "+5% 1차");
+      drawTargetLine(data.target_3pct, "#10B981", "+3% 돌파");
+      drawTargetLine(data.open_price, "#EAB308", "09:00 시가", true);
+      drawTargetLine(data.stop_loss, "#A855F7", "-2.5% 손절", true);
+
+      const stepX = chartW / n;
+      const candleW = Math.max(2.5, stepX * 0.68);
+
+      candles.forEach((c, idx) => {
+        const x = padding.left + idx * stepX + stepX / 2;
+        const isBull = c.close >= c.open;
+        const color = isBull ? "#EF4444" : "#3B82F6";
+
+        const yHigh = getY(c.high);
+        const yLow = getY(c.low);
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 1.2;
+        ctx.beginPath();
+        ctx.moveTo(x, yHigh);
+        ctx.lineTo(x, yLow);
+        ctx.stroke();
+
+        const yOpen = getY(c.open);
+        const yClose = getY(c.close);
+        const topY = Math.min(yOpen, yClose);
+        const bodyH = Math.max(1.5, Math.abs(yOpen - yClose));
+
+        ctx.fillStyle = color;
+        ctx.fillRect(x - candleW / 2, topY, candleW, bodyH);
+
+        const vH = (c.volume / maxVol) * (volH - 10);
+        const vY = H - padding.bottom - vH;
+        ctx.fillStyle = isBull ? "rgba(239, 68, 68, 0.45)" : "rgba(59, 130, 246, 0.45)";
+        ctx.fillRect(x - candleW / 2, vY, candleW, vH);
+
+        if (idx % 10 === 0 || idx === n - 1) {
+          ctx.fillStyle = "#64748B";
+          ctx.font = "10px sans-serif";
+          ctx.textAlign = "center";
+          ctx.fillText(c.time, x, H - padding.bottom + 18);
+        }
+      });
+
+      canvas.onmousemove = (e) => {
+        const rectC = canvas.getBoundingClientRect();
+        const mouseX = e.clientX - rectC.left;
+        const mouseY = e.clientY - rectC.top;
+
+        if (mouseX < padding.left || mouseX > W - padding.right) {
+          document.getElementById("chartTooltip").style.display = "none";
+          return;
+        }
+
+        const candleIdx = Math.floor((mouseX - padding.left) / stepX);
+        if (candleIdx >= 0 && candleIdx < n) {
+          const c = candles[candleIdx];
+          const tooltip = document.getElementById("chartTooltip");
+          const gainPct = (((c.close - data.open_price) / data.open_price) * 100).toFixed(2);
+          const colorClass = gainPct >= 0 ? "#EF4444" : "#3B82F6";
+
+          tooltip.style.display = "block";
+          tooltip.style.left = Math.min(mouseX + 15, W - 220) + "px";
+          tooltip.style.top = Math.max(mouseY - 70, 10) + "px";
+          tooltip.innerHTML = `
+            <div style="font-weight:700; color:#fff; margin-bottom:2px;">🕒 ${c.time} (1분봉)</div>
+            <div>시가: ${c.open.toLocaleString()}원 | 고가: ${c.high.toLocaleString()}원</div>
+            <div>저가: ${c.low.toLocaleString()}원 | 종가: <strong>${c.close.toLocaleString()}원</strong></div>
+            <div style="color:${colorClass}; font-weight:700;">시가 대비: ${gainPct >= 0 ? '+' : ''}${gainPct}%</div>
+            <div style="color:#94A3B8;">거래량: ${c.volume.toLocaleString()}주</div>
+          `;
+        }
+      };
+
+      canvas.onmouseleave = () => {
+        document.getElementById("chartTooltip").style.display = "none";
+      };
+    }
+
+    window.addEventListener("resize", () => {
+      if (document.getElementById("minuteChartModal").classList.contains("active") && activeCandleData) {
+        renderChart(activeCandleData);
+      }
+    });
+  </script>
+</body>
+</html>
