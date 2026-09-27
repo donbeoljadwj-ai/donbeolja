@@ -357,7 +357,7 @@
       </div>
       <div class="hero-meta">
         <div>선정일시: <strong style="color:var(--accent-gold)">2026-09-23 22:30 KST</strong></div>
-        <div>15:30 공식 종가: <strong style='color:#EF4444;font-size:16px;'>12,120원 (상한가 +29.97%)</strong></div>
+        <div>애프터마켓 최종 종가: <strong style='color:#EF4444;font-size:16px;'>12,120원 (상한가 유지 / AM +0.00%)</strong></div>
         <div>거래대금: <strong>1,850억원 폭발</strong></div>
         <div>윗꼬리 비율: <strong style="color:var(--accent-red)">0.0% (완벽한 상한가 마루보주 마감)</strong></div>
         <div>유통물량 회전율: <strong style="color:var(--accent-gold)">89.0% (강력한 손바뀜)</strong></div>
@@ -372,7 +372,7 @@
         <span class="pill" style="border-color:#EF4444; color:#FCA5A5;">🚨 리스크 감지: 토마토시스템은 애프터마켓 -8.5% 급락(93억 투매)으로 10위 자동 탈락</span>
       </div>
       <div style="margin-top: 8px; padding: 12px 16px; background: rgba(0,0,0,0.35); border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-        <span style="font-size: 13px; font-weight: 700; color: #F8FAFC;">🎯 9/28(월) 예상 시가(12,360원) 대비 목표가 가이드:</span>
+        <span style="font-size: 13px; font-weight: 700; color: #F8FAFC;">🎯 9/28(월) 예상 시가(12,360원) 대비 목표가 가이드 (AM종가 12,120원 기준):</span>
         <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px;">+3.0% ⏳ 12,720원 (돌파 확인)</span>
         <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px;">+5.0% ⏳ 12,980원 (1차 50% 익절)</span>
         <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px;">+10.0% ⏳ 13,600원 (2차 전량 익절)</span>
@@ -396,11 +396,12 @@
           <tr>
             <th>순위</th>
             <th>종목명 (코드)</th>
-            <th>15:30 종가</th>
-            <th>전일등락</th>
+            <th>애프터마켓 종가 (기준가)</th>
+            <th>15:30 정규종가</th>
+            <th>AM(16~20시)</th>
+            <th>정규등락</th>
             <th>거래대금</th>
             <th>마스터점수</th>
-            <th>AM(16~20시)</th>
             <th>소속 테마 (Zone/Heat)</th>
             <th>5%터치확률</th>
             <th>1분봉 차트</th>
@@ -412,140 +413,150 @@
     <tr onclick="openMinuteChart('115440', '우리넷', 12120)" style="cursor:pointer; ">
       <td>👑 <strong style='color:var(--accent-gold);font-size:15px;'>1위 (원픽)</strong></td>
       <td><span class="stock-name">우리넷</span> <span class="stock-code">115440</span></td>
-      <td><strong>12,120원</strong></td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">12,120원</strong></td>
+      <td style="color:var(--text-muted);">12,120원</td>
+      <td><strong style='color:#94A3B8'>+0.00%</strong></td>
       <td class="gain-tag">+30.0%</td>
       <td>1,850억</td>
       <td><span class="score-badge score-surge">100.0점</span></td>
-      <td><strong style='color:#94A3B8'>+0.0%</strong></td>
       <td><strong>양자컴퓨팅</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥94)</td>
       <td>-</td>
       <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('115440', '우리넷', 12120)">📊 1분봉</button></td>
       <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '양자컴퓨팅'(Zone:주도, Heat:94), RSI(76) 골든존, 고가마감 장대양봉, 외인/기관 양매수</td>
     </tr>
     
-    <tr onclick="openMinuteChart('319660', '피에스케이', 32800)" style="cursor:pointer; ">
+    <tr onclick="openMinuteChart('356680', '엑스게이트', 18320)" style="cursor:pointer; ">
       <td><strong>2위</strong></td>
+      <td><span class="stock-name">엑스게이트</span> <span class="stock-code">356680</span></td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">18,320원</strong></td>
+      <td style="color:var(--text-muted);">18,220원</td>
+      <td><strong style='color:var(--accent-red)'>+0.55%</strong></td>
+      <td class="gain-tag">+10.2%</td>
+      <td>3,018억</td>
+      <td><span class="score-badge score-surge">100.0점</span></td>
+      <td><strong>보안주(정보)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥85)</td>
+      <td><strong style='color:var(--accent-gold)'>45.9%</strong></td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('356680', '엑스게이트', 18320)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '보안주(정보)'(Zone:주도, Heat:85), 터치5%확률(45.9%), RSI(74) 골든존, 고가마감 장대양봉, 외인/기관 양매수, 애프터마켓 지지(+0.6%)</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('043260', '성호전자', 26750)" style="cursor:pointer; ">
+      <td><strong>3위</strong></td>
+      <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">26,750원</strong></td>
+      <td style="color:var(--text-muted);">26,200원</td>
+      <td><strong style='color:var(--accent-red)'>+2.10%</strong></td>
+      <td class="gain-tag">+5.9%</td>
+      <td>2,100억</td>
+      <td><span class="score-badge score-surge">99.9점</span></td>
+      <td><strong>광통신·광케이블</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥89)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('043260', '성호전자', 26750)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '광통신·광케이블'(Zone:주도, Heat:89), RSI(76) 골든존, 고가마감 장대양봉, 외인/기관 양매수, 애프터마켓 지지(+2.1%)</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('009830', '한화솔루션', 29400)" style="cursor:pointer; ">
+      <td><strong>4위</strong></td>
+      <td><span class="stock-name">한화솔루션</span> <span class="stock-code">009830</span></td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">29,400원</strong></td>
+      <td style="color:var(--text-muted);">29,200원</td>
+      <td><strong style='color:var(--accent-red)'>+0.68%</strong></td>
+      <td class="gain-tag">+6.0%</td>
+      <td>2,600억</td>
+      <td><span class="score-badge score-high">98.3점</span></td>
+      <td><strong>日 수출 규제(국산화 등)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥98)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('009830', '한화솔루션', 29400)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '日 수출 규제(국산화 등)'(Zone:주도, Heat:98), RSI(70) 골든존, 고가마감 장대양봉, 외인/기관 양매수, 애프터마켓 지지(+0.7%)</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('017900', '광전자', 9880)" style="cursor:pointer; ">
+      <td><strong>5위</strong></td>
+      <td><span class="stock-name">광전자</span> <span class="stock-code">017900</span></td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">9,880원</strong></td>
+      <td style="color:var(--text-muted);">9,880원</td>
+      <td><strong style='color:#94A3B8'>+0.00%</strong></td>
+      <td class="gain-tag">+4.8%</td>
+      <td>1,900억</td>
+      <td><span class="score-badge score-high">97.8점</span></td>
+      <td><strong>LED</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥82)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('017900', '광전자', 9880)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 'LED'(Zone:주도, Heat:82), RSI(74) 골든존, 고가마감 장대양봉, 외인/기관 양매수</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('000660', 'SK하이닉스', 1863000)" style="cursor:pointer; ">
+      <td><strong>6위</strong></td>
+      <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">1,863,000원</strong></td>
+      <td style="color:var(--text-muted);">1,862,000원</td>
+      <td><strong style='color:var(--accent-red)'>+0.05%</strong></td>
+      <td class="gain-tag">+3.3%</td>
+      <td>10,800억</td>
+      <td><span class="score-badge score-high">96.5점</span></td>
+      <td><strong>CXL</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥100)</td>
+      <td>-</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('000660', 'SK하이닉스', 1863000)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 'CXL'(Zone:주도, Heat:100), RSI(74) 골든존, 고가마감 장대양봉, 외인/기관 양매수</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('319660', '피에스케이', 144200)" style="cursor:pointer; ">
+      <td><strong>7위</strong></td>
       <td><span class="stock-name">피에스케이</span> <span class="stock-code">319660</span></td>
-      <td><strong>32,800원</strong></td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">144,200원</strong></td>
+      <td style="color:var(--text-muted);">144,800원</td>
+      <td><strong style='color:var(--accent-purple)'>-0.41%</strong></td>
       <td class="gain-tag">+10.6%</td>
       <td>2,300억</td>
-      <td><span class="score-badge score-surge">92.5점</span></td>
-      <td><strong style='color:var(--accent-purple)'>-0.4%</strong></td>
+      <td><span class="score-badge score-high">92.7점</span></td>
       <td><strong>반도체 장비(전공정)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥99)</td>
       <td>-</td>
-      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('319660', '피에스케이', 32800)">📊 1분봉</button></td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('319660', '피에스케이', 144200)">📊 1분봉</button></td>
       <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '반도체 장비(전공정)'(Zone:주도, Heat:99), RSI(74) 골든존, 고가마감 장대양봉, 외인/기관 양매수</td>
     </tr>
     
-    <tr onclick="openMinuteChart('043260', '성호전자', 4120)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
-      <td><strong>3위</strong></td>
-      <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
-      <td><strong>4,120원</strong></td>
-      <td class="gain-tag">+5.9%</td>
-      <td>2,100억</td>
-      <td><span class="score-badge score-surge">86.3점</span></td>
-      <td><strong style='color:var(--accent-red)'>+2.1%</strong></td>
-      <td><strong>광통신·광케이블</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥89)</td>
-      <td>-</td>
-      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('043260', '성호전자', 4120)">📊 1분봉</button></td>
-      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '광통신·광케이블'(Zone:주도, Heat:89), RSI(76) 골든존, 외인/기관 양매수, 애프터마켓 지지(+2.1%)</td>
-    </tr>
-    
-    <tr onclick="openMinuteChart('009830', '한화솔루션', 28900)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
-      <td><strong style='color:#EF4444'>4위 (탈락)</strong></td>
-      <td><span class="stock-name">한화솔루션</span> <span class="stock-code">009830</span></td>
-      <td><strong>28,900원</strong></td>
-      <td class="gain-tag">+6.0%</td>
-      <td>2,600억</td>
-      <td><span class="score-badge score-med">84.2점</span></td>
-      <td><strong style='color:var(--accent-red)'>+0.7%</strong></td>
-      <td><strong>日 수출 규제(국산화 등)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥98)</td>
-      <td>-</td>
-      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('009830', '한화솔루션', 28900)">📊 1분봉</button></td>
-      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '日 수출 규제(국산화 등)'(Zone:주도, Heat:98), RSI(70) 골든존, 외인/기관 양매수, 애프터마켓 지지(+0.7%)</td>
-    </tr>
-    
-    <tr onclick="openMinuteChart('417980', '엑스게이트', 7450)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
-      <td><strong style='color:#EF4444'>5위 (탈락)</strong></td>
-      <td><span class="stock-name">엑스게이트</span> <span class="stock-code">417980</span></td>
-      <td><strong>7,450원</strong></td>
-      <td class="gain-tag">+10.2%</td>
-      <td>1,680억</td>
-      <td><span class="score-badge score-med">84.0점</span></td>
-      <td><strong style='color:#94A3B8'>+0.0%</strong></td>
-      <td><strong>일반</strong> (<span style='color:#94A3B8;font-size:11px;'>-</span> / 🔥0)</td>
-      <td>-</td>
-      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('417980', '엑스게이트', 7450)">📊 1분봉</button></td>
-      <td style="font-size:12px; max-width:280px; white-space:normal;">RSI(74) 골든존, 외인/기관 양매수</td>
-    </tr>
-    
-    <tr onclick="openMinuteChart('017900', '광전자', 4380)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
-      <td><strong style='color:#EF4444'>6위 (탈락)</strong></td>
-      <td><span class="stock-name">광전자</span> <span class="stock-code">017900</span></td>
-      <td><strong>4,380원</strong></td>
-      <td class="gain-tag">+4.8%</td>
-      <td>1,900억</td>
-      <td><span class="score-badge score-med">83.3점</span></td>
-      <td><strong style='color:#94A3B8'>+0.0%</strong></td>
-      <td><strong>LED</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥82)</td>
-      <td>-</td>
-      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('017900', '광전자', 4380)">📊 1분봉</button></td>
-      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 'LED'(Zone:주도, Heat:82), RSI(74) 골든존, 외인/기관 양매수</td>
-    </tr>
-    
-    <tr onclick="openMinuteChart('000660', 'SK하이닉스', 236000)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
-      <td><strong style='color:#EF4444'>7위 (탈락)</strong></td>
-      <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
-      <td><strong>236,000원</strong></td>
-      <td class="gain-tag">+3.3%</td>
-      <td>10,800억</td>
-      <td><span class="score-badge score-med">82.9점</span></td>
-      <td><strong style='color:var(--accent-red)'>+0.1%</strong></td>
-      <td><strong>CXL</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥100)</td>
-      <td>-</td>
-      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('000660', 'SK하이닉스', 236000)">📊 1분봉</button></td>
-      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 'CXL'(Zone:주도, Heat:100), RSI(74) 골든존, 외인/기관 양매수</td>
-    </tr>
-    
-    <tr onclick="openMinuteChart('479320', '네오사피엔스', 37800)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
-      <td><strong style='color:#EF4444'>8위 (탈락)</strong></td>
-      <td><span class="stock-name">네오사피엔스</span> <span class="stock-code">479320</span></td>
-      <td><strong>37,800원</strong></td>
-      <td class="gain-tag">+12.8%</td>
-      <td>5,400억</td>
-      <td><span class="score-badge score-med">78.6점</span></td>
-      <td><strong style='color:#94A3B8'>+0.0%</strong></td>
-      <td><strong>일반</strong> (<span style='color:#94A3B8;font-size:11px;'>-</span> / 🔥0)</td>
-      <td>-</td>
-      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('479320', '네오사피엔스', 37800)">📊 1분봉</button></td>
-      <td style="font-size:12px; max-width:280px; white-space:normal;">RSI(76) 골든존, 외인/기관 양매수</td>
-    </tr>
-    
-    <tr onclick="openMinuteChart('196170', '알테오젠', 408000)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
-      <td><strong style='color:#EF4444'>9위 (탈락)</strong></td>
+    <tr onclick="openMinuteChart('196170', '알테오젠', 251500)" style="cursor:pointer; ">
+      <td><strong>8위</strong></td>
       <td><span class="stock-name">알테오젠</span> <span class="stock-code">196170</span></td>
-      <td><strong>408,000원</strong></td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">251,500원</strong></td>
+      <td style="color:var(--text-muted);">250,000원</td>
+      <td><strong style='color:var(--accent-red)'>+0.60%</strong></td>
       <td class="gain-tag">+4.1%</td>
       <td>4,950억</td>
-      <td><span class="score-badge score-med">78.0점</span></td>
-      <td><strong style='color:var(--accent-red)'>+0.6%</strong></td>
+      <td><span class="score-badge score-high">92.6점</span></td>
       <td><strong>바이오시밀러(복제 바이오의약품)</strong> (<span style='color:#94A3B8;font-size:11px;'>소외</span> / 🔥51)</td>
       <td>-</td>
-      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('196170', '알테오젠', 408000)">📊 1분봉</button></td>
-      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '바이오시밀러(복제 바이오의약품)'(Zone:소외, Heat:51), RSI(74) 골든존, 외인/기관 양매수, 애프터마켓 지지(+0.6%)</td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('196170', '알테오젠', 251500)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 '바이오시밀러(복제 바이오의약품)'(Zone:소외, Heat:51), RSI(74) 골든존, 고가마감 장대양봉, 외인/기관 양매수, 애프터마켓 지지(+0.6%)</td>
     </tr>
     
-    <tr onclick="openMinuteChart('393210', '토마토시스템', 4305)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+    <tr onclick="openMinuteChart('072950', '빛샘전자', 14030)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
+      <td><strong style='color:#EF4444'>9위 (탈락)</strong></td>
+      <td><span class="stock-name">빛샘전자</span> <span class="stock-code">072950</span></td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">14,030원</strong></td>
+      <td style="color:var(--text-muted);">14,200원</td>
+      <td><strong style='color:var(--accent-purple)'>-1.20%</strong></td>
+      <td class="gain-tag">+9.2%</td>
+      <td>1,658억</td>
+      <td><span class="score-badge score-med">85.9점</span></td>
+      <td><strong>LED</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥82)</td>
+      <td><strong style='color:var(--accent-gold)'>50.0%</strong></td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('072950', '빛샘전자', 14030)">📊 1분봉</button></td>
+      <td style="font-size:12px; max-width:280px; white-space:normal;">테마 'LED'(Zone:주도, Heat:82), 터치5%확률(50.0%), RSI(73) 골든존, 외인/기관 양매수</td>
+    </tr>
+    
+    <tr onclick="openMinuteChart('393210', '토마토시스템', 3715)" style="cursor:pointer; background:rgba(239,68,68,0.06);">
       <td><strong style='color:#EF4444'>10위 (탈락)</strong></td>
       <td><span class="stock-name">토마토시스템</span> <span class="stock-code">393210</span></td>
-      <td><strong>4,305원</strong></td>
-      <td class="gain-tag">+29.9%</td>
-      <td>2,150억</td>
+      <td><strong style="color:var(--accent-gold); font-size:14.5px;">3,715원</strong></td>
+      <td style="color:var(--text-muted);">4,060원</td>
+      <td><strong style='color:var(--accent-purple)'>-8.50%</strong></td>
+      <td class="gain-tag">+22.5%</td>
+      <td>521억</td>
       <td><span class="score-badge score-med">0.0점</span></td>
-      <td><strong style='color:var(--accent-purple)'>-8.5%</strong></td>
       <td><strong>원격진료/비대면진료(U-Healthcare)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥73)</td>
       <td><strong style='color:var(--accent-gold)'>60.0%</strong></td>
-      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('393210', '토마토시스템', 4305)">📊 1분봉</button></td>
+      <td><button class="btn-chart" onclick="event.stopPropagation(); openMinuteChart('393210', '토마토시스템', 3715)">📊 1분봉</button></td>
       <td style="font-size:12px; max-width:280px; white-space:normal;">🚨 애프터마켓(16~20시) 투매 탈락(-8.50%)</td>
     </tr>
     
