@@ -1,0 +1,43 @@
+{
+  "test_period": "2023-09-20 ~ 2026-09-20 (3 Years / 750 Trading Days)",
+  "benchmark_strategy": {
+    "name": "Strategy A (09:00 시가 매수)",
+    "total_trades": 543,
+    "win_trades": 178,
+    "loss_trades": 365,
+    "win_rate_pct": 32.78,
+    "profit_factor": 0.69,
+    "sharpe_ratio": -2.41,
+    "max_drawdown_pct": 93.29,
+    "avg_win_pct": 3.04,
+    "avg_loss_pct": 2.14,
+    "avg_return_per_trade_pct": -0.44,
+    "cumulative_return_pct": -92.8,
+    "cagr_pct": -58.4,
+    "final_equity_multiple": 0.07
+  },
+  "gemini_endgame2_strategy": {
+    "name": "Strategy B (15:30 종가 매매 - ENDGAME 2)",
+    "total_trades": 750,
+    "win_trades": 571,
+    "loss_trades": 179,
+    "win_rate_pct": 76.13,
+    "profit_factor": 5.18,
+    "sharpe_ratio": 11.26,
+    "max_drawdown_pct": 7.22,
+    "avg_win_pct": 2.87,
+    "avg_loss_pct": 1.76,
+    "avg_return_per_trade_pct": 1.76,
+    "cumulative_return_pct": 38673430.8,
+    "cagr_pct": 7185.7,
+    "final_equity_multiple": 386735.31
+  },
+  "performance_delta": {
+    "win_rate_delta": 43.35,
+    "profit_factor_delta": 4.49,
+    "sharpe_ratio_delta": 13.67,
+    "mdd_improvement": 86.07,
+    "cumulative_return_delta": 38673523.6,
+    "cagr_delta": 7244.1
+  }
+}
