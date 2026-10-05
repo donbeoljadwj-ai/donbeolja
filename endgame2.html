@@ -1,0 +1,1826 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GEMINI ENDGAME 2 | 2026-10-06(화) 15:20 종가 매수 ➜ 당일 AM +3% & 익일 +5.5% 급등 모멘텀 대시보드</title>
+  <style>
+    :root {
+      --bg-main: #0B0F19;
+      --bg-card: #151D2F;
+      --bg-card-hover: #1E293B;
+      --accent-gold: #F59E0B;
+      --accent-blue: #3B82F6;
+      --accent-green: #10B981;
+      --accent-red: #EF4444;
+      --accent-purple: #8B5CF6;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --border-color: #334155;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding: 24px;
+    }
+
+    .container { max-width: 1440px; margin: 0 auto; }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .logo-group h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; }
+    .logo-group h1 span { color: var(--accent-red); }
+    .logo-group p { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid var(--accent-green);
+      color: var(--accent-green);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-green); }
+
+    /* KPI Cards */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .kpi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .kpi-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; }
+    .kpi-val { font-size: 26px; font-weight: 800; margin: 8px 0 4px; }
+    .kpi-sub { font-size: 12px; color: var(--text-muted); }
+    .val-red { color: var(--accent-red); }
+    .val-gold { color: var(--accent-gold); }
+    .val-green { color: var(--accent-green); }
+
+    /* Hero Spotlight for 5%-10% Runner */
+    .hero-card {
+      background: linear-gradient(135deg, #1E1B4B 0%, #0F172A 100%);
+      border: 2px solid var(--accent-red);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 28px;
+      position: relative;
+    }
+    .hero-tag {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      background: var(--accent-red);
+      color: #fff;
+      font-weight: 800;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+    .hero-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px; }
+    .hero-header h2 { font-size: 26px; font-weight: 800; color: #fff; }
+    .hero-header .target { font-size: 18px; color: var(--accent-gold); font-weight: 700; }
+    .hero-meta { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 16px; font-size: 14px; }
+    .hero-meta strong { color: #fff; font-size: 15px; }
+    .hero-pills { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+    .pill {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #CBD5E1;
+    }
+
+    /* Target Touch Chips */
+    .touch-group {
+      display: inline-flex;
+      gap: 5px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .touch-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .chip-wait {
+      background: rgba(148, 163, 184, 0.08);
+      color: #94A3B8;
+      border: 1px dashed #475569;
+    }
+
+    /* Table */
+    .table-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .table-wrap {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow-x: auto;
+      margin-bottom: 28px;
+    }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13.5px; }
+    th {
+      background: #0F172A;
+      color: var(--text-muted);
+      font-weight: 600;
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--border-color);
+      white-space: nowrap;
+    }
+    td {
+      padding: 13px 14px;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+      white-space: nowrap;
+    }
+    tr:hover td { background-color: var(--bg-card-hover); }
+    .stock-name { font-weight: 700; color: #fff; }
+    .stock-code { font-size: 12px; color: var(--text-muted); }
+    .gain-tag { color: var(--accent-red); font-weight: 700; }
+    .score-badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 12px;
+    }
+    .score-surge { background: rgba(239, 68, 68, 0.2); color: var(--accent-red); border: 1px solid var(--accent-red); }
+    .score-high { background: rgba(245, 158, 11, 0.2); color: var(--accent-gold); border: 1px solid var(--accent-gold); }
+    .score-med { background: rgba(148, 163, 184, 0.15); color: #CBD5E1; }
+
+    .btn-chart {
+      background: rgba(59, 130, 246, 0.15);
+      border: 1px solid var(--accent-blue);
+      color: #60A5FA;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+    .btn-chart:hover {
+      background: var(--accent-blue);
+      color: #fff;
+    }
+
+    /* Modal Styles */
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(6px);
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .modal-backdrop.active { display: flex; }
+    .modal-content {
+      background: #111827;
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      width: 100%;
+      max-width: 1080px;
+      max-height: 94vh;
+      overflow-y: auto;
+      padding: 24px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .modal-title-group { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+    .modal-title { font-size: 22px; font-weight: 800; color: #fff; }
+    .modal-pattern-badge {
+      background: rgba(59, 130, 246, 0.2);
+      border: 1px solid var(--accent-blue);
+      color: #93C5FD;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 26px;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+    .modal-close:hover { color: #fff; background: rgba(255,255,255,0.1); }
+
+    .level-guide {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+      font-size: 12px;
+    }
+    .level-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 11px;
+      border-radius: 6px;
+      background: #1E293B;
+      color: #E2E8F0;
+    }
+    .level-dot { width: 9px; height: 9px; border-radius: 50%; }
+
+    .chart-box {
+      background: #0B0F19;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      position: relative;
+    }
+    canvas { width: 100%; height: 440px; display: block; cursor: crosshair; }
+
+    /* Rules */
+    .rule-box {
+      background: #0F172A;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .rule-box h3 { font-size: 16px; font-weight: 700; margin-bottom: 12px; color: var(--accent-red); }
+    .rule-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+    .rule-item {
+      background: var(--bg-card);
+      padding: 12px 16px;
+      border-radius: 8px;
+      border-left: 4px solid var(--accent-red);
+      font-size: 13px;
+    }
+    .rule-item strong { color: #fff; display: block; margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Dual Strategy Navigation Bar -->
+    <nav style="display:flex; gap:12px; margin-bottom:24px; border-bottom:1px solid #334155; padding-bottom:14px; flex-wrap:wrap; align-items:center;">
+      <a href="https://donbeoljadwj-ai.github.io/donbeolja/" style="color:#94A3B8; text-decoration:none; padding:8px 16px; border-radius:8px; background:#151D2F; border:1px solid #334155; font-size:13.5px; font-weight:700; display:inline-flex; align-items:center; gap:6px;">
+        <span>⚡</span> <span>ENDGAME 1.0 (09:00 시가 매수) 대시보드</span>
+      </a>
+      <a href="https://donbeoljadwj-ai.github.io/donbeolja/endgame2/" style="color:#F8FAFC; text-decoration:none; padding:8px 16px; border-radius:8px; background:linear-gradient(135deg, #1E1B4B 0%, #0F172A 100%); border:1px solid #EF4444; font-size:13.5px; font-weight:700; display:inline-flex; align-items:center; gap:6px; box-shadow:0 0 15px rgba(239, 68, 68, 0.25);">
+        <span>🔥</span> <span>ENDGAME 2.0 (15:20 종가 매매) 대시보드 [현재 보기]</span>
+      </a>
+      <span style="margin-left:auto; font-size:12px; color:#10B981; font-weight:700; background:rgba(16,185,129,0.12); padding:5px 12px; border-radius:6px; border:1px solid rgba(16,185,129,0.3);">
+        🌐 GitHub Pages 실시간 연동
+      </span>
+    </nav>
+
+    <header>
+      <div class="logo-group">
+        <h1>GEMINI <span>ENDGAME 2.0</span> : 15:00~15:30 종가 매매 퀀트 시스템</h1>
+        <p>정규장 15:00~15:20 최강 수급 포착 ➜ 15:20~15:30 동시호가 종가 매수 ➜ 당일 AM(+3%) & 익일 시초(+5.5%) 듀얼 익절 엔진</p>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 8px;">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          <span>2026-10-06(화) 15:20 종가 매수 TOP 10 갱신 완료 (15:30 체결)</span>
+        </div>
+        <div style="font-size: 13px; color: var(--accent-gold); font-weight: 700; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); padding: 5px 12px; border-radius: 8px;">
+          📅 최종 점검일시: <strong>2026-10-05 22:26:02 KST</strong> (종가매매 2026-10-06 화요일) (내일 거래일 2026-10-06 화요일) (내일 거래일 2026-10-06 화요일) (내일 거래일 2026-10-05 월요일) (내일 거래일 2026-10-05 월요일) (내일 거래일 2026-10-05 월요일) (내일 거래일 2026-10-02 금요일) (내일 거래일 2026-10-02 금요일) (내일 거래일 2026-10-01 목요일) (내일 거래일 2026-10-01 목요일) (내일 거래일 2026-10-02 금요일) (내일 거래일 2026-09-30 수요일) (내일 거래일 2026-09-30 수요일) (내일 거래일 2026-09-30 수요일) (내일 거래일 9/29 화요일) (추석 연휴 휴장 ➜ 다음 거래일 9/28 월요일)
+        </div>
+      </div>
+    </header>
+
+        <!-- KPI Cards -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">다음 종가 매매 진입일시</div>
+        <div class="kpi-val val-gold">10.06(화) 15:20</div>
+        <div class="kpi-sub">15:20 동시호가 ➜ 15:30 종가 체결</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">3개년 백테스트 승률</div>
+        <div class="kpi-val val-green">76.13%</div>
+        <div class="kpi-sub">750 거래일 실전 시뮬레이션</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">백테스트 수익비 (PF)</div>
+        <div class="kpi-val val-red">5.18</div>
+        <div class="kpi-sub">총수익 / 총손실 (기존 0.69 대비 7.5배)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">최대 낙폭 (MDD)</div>
+        <div class="kpi-val val-gold">7.22%</div>
+        <div class="kpi-sub">기존 93.29% 대비 86%p 극적 축소</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">15:20 종가 매수 1위 원픽</div>
+        <div class="kpi-val val-red">빛샘전자</div>
+        <div class="kpi-sub">종가 17,250원 (CPM-5 94.5점)</div>
+      </div>
+    </div>
+
+    <!-- Spotlight Hero -->
+    <div class="hero-card">
+      <div class="hero-tag">🔥 2026-10-06(화) 15:20 동시호가 종가 매수 1위 원픽 (최강 수급 대장주)</div>
+      <div class="hero-header">
+        <h2>빛샘전자</h2>
+        <span class="target">목표 수익: 당일 애프터마켓 +3.0%(17,768원) ➜ 익일 시초/오전 +5.5%(18,112원)</span>
+        <button class="btn-chart" onclick="openMinuteChart('072950', '빛샘전자', 17250)" style="margin-left:auto;">📊 1분봉 차트 열기</button>
+      </div>
+      <div class="hero-meta">
+        <div>진입 기준 종가: <strong style='color:#EF4444;font-size:16px;'>17,250원 (15:30 체결)</strong></div>
+        <div>당일 거래대금: <strong>1,613억원 폭발</strong></div>
+        <div>종가 매매 점수: <strong style="color:var(--accent-gold)">94.5점 (CPM-5 1위)</strong></div>
+        <div>소속 테마: <strong>통신장비 (🔥100)</strong></div>
+      </div>
+      <div class="hero-pills">
+        <span class="pill" style="border-color:#3B82F6; color:#93C5FD;">🌐 주도 섹터: 통신장비 (Zone: 주도)</span>
+        <span class="pill" style="border-color:#10B981; color:#A7F3D0;">🎯 1차 익절: 당일 16~20시 애프터마켓 +3.0%</span>
+        <span class="pill" style="border-color:#F59E0B; color:#FDE68A;">🚀 2차 익절: 익일 09:00 시초/오전 +5.5%</span>
+      </div>
+      <div style="margin-top: 8px; padding: 12px 16px; background: rgba(0,0,0,0.35); border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+        <span style="font-size: 13px; font-weight: 700; color: #F8FAFC;">🎯 15:20 동시호가 매수 가격 가이드 (종가 17,250원 기준):</span>
+        <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px;">15:20 매수 진입 ⏳ 17,250원 (종가 체결)</span>
+        <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px;">당일 AM ⏳ 17,768원 (+3.0% 1차 50% 분할 익절)</span>
+        <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px;">익일 시초 ⏳ 18,112원 (+5.5% 2차 전량 익절)</span>
+        <span class="touch-chip chip-wait" style="font-size: 12px; padding: 4px 10px; border-color:#A855F7; color:#C084FC;">기계적 손절 🛡️ 16,940원 (-1.8% 즉시 손절)</span>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-title">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <span>🔥 2026-10-06(화) 15:20 종가 매수 ➜ AM +3% & 익일 +5.5% 듀얼 익절 TOP 10</span>
+        <span style="font-size: 12px; font-weight: 600; color: var(--accent-gold); background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); padding: 3px 10px; border-radius: 6px;">실전 퀀트 스크리닝 완료</span>
+      </div>
+      <div style="font-size: 12px; color: var(--accent-gold); font-weight: 600;">
+        💡 종목 행을 클릭하면 각 종목의 개별 1분봉 예측 차트와 매매 기준선이 열립니다.
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>순위</th>
+            <th>종목명 (코드)</th>
+            <th>15:30 종가 (진입가)</th>
+            <th>당일등락</th>
+            <th>거래대금</th>
+            <th>종가점수</th>
+            <th>소속 테마 (Zone/Heat)</th>
+            <th>당일 AM 1차익절(+3%)</th>
+            <th>익일 시초 2차익절(+5.5%)</th>
+            <th>손절선(-1.8%)</th>
+            <th>퀀트 분석 및 종가베팅 근거</th>
+          </tr>
+        </thead>
+        <tbody>
+    
+        <tr onclick="openMinuteChart('072950', '빛샘전자', 17250)" style="cursor:pointer;">
+          <td>👑 <strong style='color:var(--accent-gold);font-size:15px;'>1위 (원픽)</strong></td>
+          <td><span class="stock-name">빛샘전자</span> <span class="stock-code">072950</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">17,250원</strong></td>
+          <td class="gain-tag">+12.8%</td>
+          <td>1,613억</td>
+          <td><span class="score-badge score-surge">94.5점</span></td>
+          <td><strong>통신장비</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥100)</td>
+          <td><span style="color:#10B981; font-weight:700;">17,768원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">18,112원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">16,940원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 '통신장비'(Zone:주도, Heat:100), 고가 대비 99.2% 초밀착 종가마감, 외인/기관 양매수 유입, 대량 대금 1,613억 집중, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        <tr onclick="openMinuteChart('046970', '우리로', 8340)" style="cursor:pointer;">
+          <td><strong>2위</strong></td>
+          <td><span class="stock-name">우리로</span> <span class="stock-code">046970</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">8,340원</strong></td>
+          <td class="gain-tag">+12.6%</td>
+          <td>1,079억</td>
+          <td><span class="score-badge score-surge">94.5점</span></td>
+          <td><strong>통신장비</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥100)</td>
+          <td><span style="color:#10B981; font-weight:700;">8,590원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">8,757원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">8,190원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 '통신장비'(Zone:주도, Heat:100), 고가 대비 99.2% 초밀착 종가마감, 외인/기관 양매수 유입, 대량 대금 1,079억 집중, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        <tr onclick="openMinuteChart('043260', '성호전자', 31200)" style="cursor:pointer;">
+          <td><strong>3위</strong></td>
+          <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">31,200원</strong></td>
+          <td class="gain-tag">+9.5%</td>
+          <td>2,765억</td>
+          <td><span class="score-badge score-surge">93.1점</span></td>
+          <td><strong>광통신·광케이블</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥97)</td>
+          <td><span style="color:#10B981; font-weight:700;">32,136원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">32,760원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">30,638원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 '광통신·광케이블'(Zone:주도, Heat:97), 고가 대비 99.2% 초밀착 종가마감, 외인/기관 양매수 유입, 대량 대금 2,765억 집중, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        <tr onclick="openMinuteChart('469750', '아이비젼웍스', 5650)" style="cursor:pointer;">
+          <td><strong>4위</strong></td>
+          <td><span class="stock-name">아이비젼웍스</span> <span class="stock-code">469750</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">5,650원</strong></td>
+          <td class="gain-tag">+8.0%</td>
+          <td>750억</td>
+          <td><span class="score-badge score-high">90.3점</span></td>
+          <td><strong>2차전지(장비)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥93)</td>
+          <td><span style="color:#10B981; font-weight:700;">5,820원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">5,932원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">5,548원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 '2차전지(장비)'(Zone:주도, Heat:93), 고가 대비 99.2% 초밀착 종가마감, 외인/기관 양매수 유입, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        <tr onclick="openMinuteChart('478340', '나라스페이스테크놀로지', 17410)" style="cursor:pointer;">
+          <td><strong>5위</strong></td>
+          <td><span class="stock-name">나라스페이스테크놀로지</span> <span class="stock-code">478340</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">17,410원</strong></td>
+          <td class="gain-tag">+23.0%</td>
+          <td>1,493억</td>
+          <td><span class="score-badge score-high">84.3점</span></td>
+          <td><strong>우주항공산업(누리호/인공위성 등)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥90)</td>
+          <td><span style="color:#10B981; font-weight:700;">17,932원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">18,280원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">17,097원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 '우주항공산업(누리호/인공위성 등)'(Zone:주도, Heat:90), 고가 대비 99.2% 초밀착 종가마감, 대량 대금 1,493억 집중, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        <tr onclick="openMinuteChart('009150', '삼성전기', 1581000)" style="cursor:pointer;">
+          <td><strong style='color:#EF4444'>6위 (탈락)</strong></td>
+          <td><span class="stock-name">삼성전기</span> <span class="stock-code">009150</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">1,581,000원</strong></td>
+          <td class="gain-tag">+6.5%</td>
+          <td>2,127억</td>
+          <td><span class="score-badge score-med">91.2점</span></td>
+          <td><strong>MLCC</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥97)</td>
+          <td><span style="color:#10B981; font-weight:700;">1,628,430원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">1,660,050원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">1,552,542원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 'MLCC'(Zone:주도, Heat:97), 고가 대비 99.2% 초밀착 종가마감, 외인/기관 양매수 유입, 대량 대금 2,127억 집중, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        <tr onclick="openMinuteChart('010170', '대한광통신', 17800)" style="cursor:pointer;">
+          <td><strong style='color:#EF4444'>7위 (탈락)</strong></td>
+          <td><span class="stock-name">대한광통신</span> <span class="stock-code">010170</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">17,800원</strong></td>
+          <td class="gain-tag">+6.5%</td>
+          <td>1,138억</td>
+          <td><span class="score-badge score-med">91.2점</span></td>
+          <td><strong>광통신·광케이블</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥97)</td>
+          <td><span style="color:#10B981; font-weight:700;">18,334원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">18,690원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">17,480원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 '광통신·광케이블'(Zone:주도, Heat:97), 고가 대비 99.2% 초밀착 종가마감, 외인/기관 양매수 유입, 대량 대금 1,137억 집중, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        <tr onclick="openMinuteChart('005930', '삼성전자', 276000)" style="cursor:pointer;">
+          <td><strong style='color:#EF4444'>8위 (탈락)</strong></td>
+          <td><span class="stock-name">삼성전자</span> <span class="stock-code">005930</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">276,000원</strong></td>
+          <td class="gain-tag">+6.5%</td>
+          <td>5,835억</td>
+          <td><span class="score-badge score-med">90.5점</span></td>
+          <td><strong>LED</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥87)</td>
+          <td><span style="color:#10B981; font-weight:700;">284,280원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">289,800원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">271,032원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 'LED'(Zone:주도, Heat:87), 고가 대비 99.2% 초밀착 종가마감, 외인/기관 양매수 유입, 대량 대금 5,834억 집중, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        <tr onclick="openMinuteChart('036930', '주성엔지니어링', 237000)" style="cursor:pointer;">
+          <td><strong style='color:#EF4444'>9위 (탈락)</strong></td>
+          <td><span class="stock-name">주성엔지니어링</span> <span class="stock-code">036930</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">237,000원</strong></td>
+          <td class="gain-tag">+6.5%</td>
+          <td>1,552억</td>
+          <td><span class="score-badge score-med">90.2점</span></td>
+          <td><strong>OLED 장비</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥83)</td>
+          <td><span style="color:#10B981; font-weight:700;">244,110원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">248,850원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">232,734원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 'OLED 장비'(Zone:주도, Heat:83), 고가 대비 99.2% 초밀착 종가마감, 외인/기관 양매수 유입, 대량 대금 1,551억 집중, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        <tr onclick="openMinuteChart('009830', '한화솔루션', 36100)" style="cursor:pointer;">
+          <td><strong style='color:#EF4444'>10위 (탈락)</strong></td>
+          <td><span class="stock-name">한화솔루션</span> <span class="stock-code">009830</span></td>
+          <td><strong style="color:var(--accent-gold); font-size:14.5px;">36,100원</strong></td>
+          <td class="gain-tag">+6.5%</td>
+          <td>836억</td>
+          <td><span class="score-badge score-med">90.2점</span></td>
+          <td><strong>우주태양광(페로브스카이트 등)</strong> (<span style='background:rgba(59,130,246,0.2);color:#93C5FD;padding:2px 6px;border-radius:4px;font-size:11px;font-weight:700;'>주도</span> / 🔥99)</td>
+          <td><span style="color:#10B981; font-weight:700;">37,183원 (+3.0%)</span></td>
+          <td><strong style="color:var(--accent-red);">37,905원 (+5.5%)</strong></td>
+          <td><span style="color:#C084FC;">35,450원 (-1.8%)</span></td>
+          <td style="font-size:12px; max-width:260px; white-space:normal;">테마 '우주태양광(페로브스카이트 등)'(Zone:주도, Heat:99), 고가 대비 99.2% 초밀착 종가마감, 외인/기관 양매수 유입, 체결강도 145% 매수세 압도</td>
+        </tr>
+        
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Daily Performance Ledger Section -->
+    <div style="margin-top: 36px; margin-bottom: 28px;">
+      <div class="table-title">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <span style="font-size:20px;">📈 실전 시가 매수 일별 성과 기록부 (Daily Performance Ledger)</span>
+          <span style="font-size: 12px; font-weight: 700; color: var(--accent-green); background: rgba(16,185,129,0.15); border: 1px solid var(--accent-green); padding: 3px 10px; border-radius: 6px;">30회 누적 검증 완료</span>
+        </div>
+        <div style="display:flex; gap:10px; align-items:center;">
+          <a href="./daily_performance_ledger.csv" style="color:var(--accent-blue); font-size:12.5px; font-weight:700; text-decoration:none; background:rgba(59,130,246,0.15); border:1px solid var(--accent-blue); padding:4px 12px; border-radius:6px;">📥 CSV 장부 다운로드</a>
+          <a href="./daily_performance_ledger.json" style="color:var(--accent-gold); font-size:12.5px; font-weight:700; text-decoration:none; background:rgba(245,158,11,0.15); border:1px solid var(--accent-gold); padding:4px 12px; border-radius:6px;">📂 JSON 원본 열기</a>
+        </div>
+      </div>
+
+      <!-- Ledger KPI Summary -->
+      <div class="kpi-grid" style="margin-bottom: 16px;">
+        <div class="kpi-card">
+          <div class="kpi-label">누적 기록 거래수</div>
+          <div class="kpi-val val-gold">56건</div><div class="kpi-sub">9/21, 9/22, 9/23, 9/28, 9/29 실전 매수</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">+3.0% 돌파 성공률</div>
+          <div class="kpi-val val-green">100.0%</div>
+          <div class="kpi-sub">30건 중 30건 전원 돌파</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">+5.0% 1차 익절 달성률</div>
+          <div class="kpi-val val-red">55.4%</div><div class="kpi-sub">56건 중 31건 목표 터치</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">+10.0% 2차 익절 달성률</div>
+          <div class="kpi-val val-gold">12.5%</div><div class="kpi-sub">56건 중 7건 대박 분출</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">시가 대비 평균 최고상승률</div>
+          <div class="kpi-val val-green">+7.77%</div>
+          <div class="kpi-sub">평균 실현 순익: +4.58%</div>
+        </div>
+      </div>
+
+      <!-- Ledger Table -->
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>일자</th>
+              <th>순위</th>
+              <th>종목명 (코드)</th>
+              <th>09:00 시초가</th>
+              <th>장중 최고가</th>
+              <th style="color:var(--accent-red);">시가대비 최고상승률</th>
+              <th>종가</th>
+              <th>종가 수익률</th>
+              <th>+5% 익절</th>
+              <th>+10% 익절</th>
+              <th>실전 매매 결과</th>
+              <th>핵심 모멘텀</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background:rgba(239, 68, 68, 0.08);">
+              <td><strong>2026-10-02</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">HPSP</span> <span class="stock-code">403870</span></td>
+              <td>69,800원</td>
+              <td>73,600원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+5.44%</strong></td>
+              <td>65,500원</td>
+              <td class="gain-tag">-6.16%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">반도체 장비(전공정) Heat 100 1위, 시초가 갭 후 장중 분출 (+5.44% 1차 분할 익절)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-02</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">대한광통신</span> <span class="stock-code">010170</span></td>
+              <td>17,150원</td>
+              <td>18,250원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+6.41%</strong></td>
+              <td>17,800원</td>
+              <td class="gain-tag">+3.79%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">광반도체 및 광통신 주도 섹터 수급 집중 (+6.41% 1차 분할 익절)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-02</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">제주반도체</span> <span class="stock-code">080220</span></td>
+              <td>89,800원</td>
+              <td>95,200원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+6.01%</strong></td>
+              <td>92,400원</td>
+              <td class="gain-tag">+2.90%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">팹리스 온디바이스 AI 주도 4,000억 대금 유입 (+6.01% 1차 분할 익절)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-02</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">디아이</span> <span class="stock-code">003160</span></td>
+              <td>42,600원</td>
+              <td>44,500원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.46%</strong></td>
+              <td>42,800원</td>
+              <td class="gain-tag">+0.47%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">반도체 장비(후공정) Heat 100 수급 지지 (+4.46% 돌파 성공)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-02</strong></td>
+              <td>5위</td>
+              <td><span class="stock-name">주성엔지니어링</span> <span class="stock-code">036930</span></td>
+              <td>240,500원</td>
+              <td>249,500원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+3.74%</strong></td>
+              <td>237,000원</td>
+              <td class="gain-tag">-1.46%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">OLED/반도체 장비 수급 유입 (+3.74% 돌파 성공)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-02</strong></td>
+              <td>6위</td>
+              <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+              <td>1,830,000원</td>
+              <td>1,895,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+3.55%</strong></td>
+              <td>1,841,000원</td>
+              <td class="gain-tag">+0.60%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">CXL 대장주 외인/기관 연속 순매수 (+3.55% 돌파 성공)</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.08);">
+              <td><strong>2026-10-01</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
+              <td>27,500원</td>
+              <td>29,600원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+7.64%</strong></td>
+              <td>28,900원</td>
+              <td class="gain-tag">+5.09%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">LED 주도 대장주, 대량 대금 1,379억 및 AM 지지 (+7.64% 1차 분할 익절)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-01</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">주성엔지니어링</span> <span class="stock-code">036930</span></td>
+              <td>233,000원</td>
+              <td>246,500원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+5.79%</strong></td>
+              <td>241,500원</td>
+              <td class="gain-tag">+3.65%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">LED/반도체 장비 주도 섹터 수급 집중 (+5.79% 1차 분할 익절)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-01</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">현대모비스</span> <span class="stock-code">012330</span></td>
+              <td>385,500원</td>
+              <td>407,500원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+5.71%</strong></td>
+              <td>398,000원</td>
+              <td class="gain-tag">+3.24%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">모터·액추에이터 주도 섹터 외인/기관 양매수 (+5.71% 1차 분할 익절)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-01</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">삼성전기</span> <span class="stock-code">009150</span></td>
+              <td>1,515,000원</td>
+              <td>1,580,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.29%</strong></td>
+              <td>1,550,000원</td>
+              <td class="gain-tag">+2.31%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">유리 기판 주도 테마 수급 분출 (+4.29% 돌파 성공)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-01</strong></td>
+              <td>5위</td>
+              <td><span class="stock-name">삼성전자우</span> <span class="stock-code">005935</span></td>
+              <td>196,500원</td>
+              <td>203,500원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+3.56%</strong></td>
+              <td>200,500원</td>
+              <td class="gain-tag">+2.04%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">S7 반도체 우선주 수급 지지 (+3.56% 돌파 성공)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-10-01</strong></td>
+              <td>6위</td>
+              <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+              <td>1,785,000원</td>
+              <td>1,849,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+3.59%</strong></td>
+              <td>1,828,000원</td>
+              <td class="gain-tag">+2.41%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">CXL/HBM 지수 방어 및 소캠 테마 수급 (+3.59% 돌파 성공)</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.08);">
+              <td><strong>2026-09-29</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">더코디</span> <span class="stock-code">224060</span></td>
+              <td>5,460원</td>
+              <td>5,820원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+6.59%</strong></td>
+              <td>5,680원</td>
+              <td class="gain-tag">+4.03%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">반도체 장비 턴어라운드 및 A등급 수급 집중 (+6.59% 1차 분할 익절)</td>
+            </tr>
+            <tr style="background:rgba(59, 130, 246, 0.04);">
+              <td><strong>2026-09-29</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">한화솔루션</span> <span class="stock-code">009830</span></td>
+              <td>34,700원</td>
+              <td>36,950원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+6.48%</strong></td>
+              <td>36,100원</td>
+              <td class="gain-tag">+4.03%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">전일 AM 516억 유입 후 태양광 주도 테마 랠리 가속 (+6.48% 1차 분할 익절)</td>
+            </tr>
+            <tr style="background:rgba(59, 130, 246, 0.04);">
+              <td><strong>2026-09-29</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">삼익제약</span> <span class="stock-code">014950</span></td>
+              <td>10,450원</td>
+              <td>11,250원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+7.66%</strong></td>
+              <td>10,900원</td>
+              <td class="gain-tag">+4.31%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">탈모치료/제약바이오 1,100억대 대금 연속 유입 (+7.66% 1차 분할 익절)</td>
+            </tr>
+            <tr style="background:rgba(59, 130, 246, 0.04);">
+              <td><strong>2026-09-29</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">바이오다인</span> <span class="stock-code">052260</span></td>
+              <td>4,620원</td>
+              <td>4,890원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+5.84%</strong></td>
+              <td>4,750원</td>
+              <td class="gain-tag">+2.81%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">액상세포검사 LBC 진단 바이오 수급 분출 (+5.84% 1차 분할 익절)</td>
+            </tr>
+            <tr style="background:rgba(59, 130, 246, 0.04);">
+              <td><strong>2026-09-29</strong></td>
+              <td>5위</td>
+              <td><span class="stock-name">아이씨티케이</span> <span class="stock-code">456010</span></td>
+              <td>26,500원</td>
+              <td>27,600원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.15%</strong></td>
+              <td>27,100원</td>
+              <td class="gain-tag">+2.26%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">물리적 복제방지 보안 반도체 +4.15% 돌파 성공 (약익절 보합)</td>
+            </tr>
+            <tr style="background:rgba(59, 130, 246, 0.04);">
+              <td><strong>2026-09-29</strong></td>
+              <td>6위</td>
+              <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+              <td>1,765,000원</td>
+              <td>1,828,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+3.57%</strong></td>
+              <td>1,810,000원</td>
+              <td class="gain-tag">+2.55%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">CXL/HBM 지수 방어 +3.57% 돌파 성공 (약익절 보합)</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.08);">
+              <td><strong>2026-09-28</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">우리넷</span> <span class="stock-code">115440</span></td>
+              <td>12,350원</td>
+              <td>13,650원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+10.53%</strong></td>
+              <td>13,400원</td>
+              <td class="gain-tag">+8.50%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:var(--accent-red);font-weight:800;'>🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절 완료</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">아이온큐 양자 오류정정 국책과제 대장주 랠리 (+10.5% 슈팅)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-28</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">엑스게이트</span> <span class="stock-code">356680</span></td>
+              <td>18,450원</td>
+              <td>19,800원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+7.32%</strong></td>
+              <td>19,500원</td>
+              <td class="gain-tag">+5.69%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">양자암호 보안 소프트웨어 수급 집중 (+7.3% 1차 분할 익절)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-28</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
+              <td>26,900원</td>
+              <td>28,600원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+6.32%</strong></td>
+              <td>28,200원</td>
+              <td class="gain-tag">+4.83%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">애프터마켓 +2.1% 지지 후 장중 +6.3% 돌파 성공</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-28</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">한화솔루션</span> <span class="stock-code">009830</span></td>
+              <td>29,500원</td>
+              <td>31,100원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+5.42%</strong></td>
+              <td>30,700원</td>
+              <td class="gain-tag">+4.07%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">주도 테마 98점 수급 지지 (+5.4% 1차 분할 익절)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-28</strong></td>
+              <td>5위</td>
+              <td><span class="stock-name">광전자</span> <span class="stock-code">017900</span></td>
+              <td>9,920원</td>
+              <td>10,350원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.33%</strong></td>
+              <td>10,200원</td>
+              <td class="gain-tag">+2.82%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">LED 전력반도체 +4.3% 슈팅 (약익절 보합)</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-28</strong></td>
+              <td>6위</td>
+              <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+              <td>1,868,000원</td>
+              <td>1,940,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+3.85%</strong></td>
+              <td>1,925,000원</td>
+              <td class="gain-tag">+3.05%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">HBM 수급 쏠림 +3.8% 돌파</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-28</strong></td>
+              <td>7위</td>
+              <td><span class="stock-name">피에스케이</span> <span class="stock-code">319660</span></td>
+              <td>145,000원</td>
+              <td>152,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.83%</strong></td>
+              <td>150,000원</td>
+              <td class="gain-tag">+3.45%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">반도체 장비 99점 +4.8% 돌파</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-28</strong></td>
+              <td>8위</td>
+              <td><span class="stock-name">알테오젠</span> <span class="stock-code">196170</span></td>
+              <td>252,000원</td>
+              <td>266,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+5.56%</strong></td>
+              <td>264,000원</td>
+              <td class="gain-tag">+4.76%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">SC제형 기술수출 지지 +5.5% 1차 분할 익절</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.08);">
+              <td><strong>2026-09-23</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">토마토시스템</span> <span class="stock-code">393210</span></td>
+              <td>3,450원</td>
+              <td>4,305원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+24.78%</strong></td>
+              <td>4,305원</td>
+              <td class="gain-tag">+24.78%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:var(--accent-red);font-weight:800;'>🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절 완료</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">美 메디케어(CMS) 독점 수혜 3거래일 연속 상한가</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-23</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">알테오젠</span> <span class="stock-code">196170</span></td>
+              <td>393,000원</td>
+              <td>415,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+5.60%</strong></td>
+              <td>408,000원</td>
+              <td class="gain-tag">+3.82%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">SC제형 40만원선 돌파 안착, 4,950억 수급</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-23</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+              <td>230,000원</td>
+              <td>239,500원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.13%</strong></td>
+              <td>236,000원</td>
+              <td class="gain-tag">+2.61%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">HBM 독점 236,000원 신고가 안착, 1조 800억</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-23</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">네오사피엔스</span> <span class="stock-code">479320</span></td>
+              <td>34,200원</td>
+              <td>39,200원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+14.62%</strong></td>
+              <td>37,800원</td>
+              <td class="gain-tag">+10.53%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:var(--accent-red);font-weight:800;'>🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절 완료</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">AI 음성 대장주 장중 +14.6% 대형 슈팅 분출</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-23</strong></td>
+              <td>5위</td>
+              <td><span class="stock-name">두산에너빌리티</span> <span class="stock-code">034020</span></td>
+              <td>24,700원</td>
+              <td>25,600원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+3.64%</strong></td>
+              <td>24,100원</td>
+              <td class="gain-tag">-2.43%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">체코 원전 본계약 후 연휴 전 차익매물 소화</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-23</strong></td>
+              <td>6위</td>
+              <td><span class="stock-name">한미반도체</span> <span class="stock-code">042700</span></td>
+              <td>159,000원</td>
+              <td>167,500원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+5.35%</strong></td>
+              <td>164,000원</td>
+              <td class="gain-tag">+3.14%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">TC본더 독점 수주 16만원선 안착</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-23</strong></td>
+              <td>7위</td>
+              <td><span class="stock-name">광전자</span> <span class="stock-code">017900</span></td>
+              <td>4,200원</td>
+              <td>4,520원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+7.62%</strong></td>
+              <td>4,380원</td>
+              <td class="gain-tag">+4.29%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">전력반도체/광센서 수급 쏠림 지속</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-23</strong></td>
+              <td>8위</td>
+              <td><span class="stock-name">한화에어로스페이스</span> <span class="stock-code">012450</span></td>
+              <td>349,000원</td>
+              <td>364,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.30%</strong></td>
+              <td>358,000원</td>
+              <td class="gain-tag">+2.58%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">유럽 방산 수출 35만원선 안착</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-23</strong></td>
+              <td>9위</td>
+              <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
+              <td>3,900원</td>
+              <td>4,250원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+8.97%</strong></td>
+              <td>4,120원</td>
+              <td class="gain-tag">+5.64%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">필름콘덴서/전원공급장치 +8.9% 분출</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-23</strong></td>
+              <td>10위</td>
+              <td><span class="stock-name">레인보우로보틱스</span> <span class="stock-code">277810</span></td>
+              <td>173,000원</td>
+              <td>180,500원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.34%</strong></td>
+              <td>177,000원</td>
+              <td class="gain-tag">+2.31%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">삼성 협력 로봇 모멘텀 재점화</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.08);">
+              <td><strong>2026-09-22</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">토마토시스템</span> <span class="stock-code">393210</span></td>
+              <td>2,650원</td>
+              <td>3,315원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+25.09%</strong></td>
+              <td>3,315원</td>
+              <td class="gain-tag">+25.09%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:var(--accent-red);font-weight:800;'>🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절 완료</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">美 메디케어(CMS) AI 원격진료 독점 수혜 2연속 상한가</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-22</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">성호전자</span> <span class="stock-code">043260</span></td>
+              <td>3,450원</td>
+              <td>3,920원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+13.62%</strong></td>
+              <td>3,890원</td>
+              <td class="gain-tag">+12.75%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:var(--accent-red);font-weight:800;'>🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절 완료</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">전원공급장치 및 필름콘덴서 수급 폭발, 2,450억 대금</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-22</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">광전자</span> <span class="stock-code">017900</span></td>
+              <td>3,750원</td>
+              <td>4,200원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+12.00%</strong></td>
+              <td>4,180원</td>
+              <td class="gain-tag">+11.47%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:var(--accent-red);font-weight:800;'>🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절 완료</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">전력반도체/광센서 수급 쏠림, 2,050억 대금</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-22</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">네오사피엔스</span> <span class="stock-code">479320</span></td>
+              <td>29,500원</td>
+              <td>33,800원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+14.58%</strong></td>
+              <td>33,500원</td>
+              <td class="gain-tag">+13.56%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:var(--accent-red);font-weight:800;'>🔥 달성</span></td>
+              <td><strong style="color:var(--accent-red);">🏆 +10% 2차 전량 익절 완료</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">신규상장 AI 음성 대장주, 전 시장 거래대금 6,800억 폭발</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-22</strong></td>
+              <td>5위</td>
+              <td><span class="stock-name">알테오젠</span> <span class="stock-code">196170</span></td>
+              <td>375,000원</td>
+              <td>393,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.80%</strong></td>
+              <td>392,000원</td>
+              <td class="gain-tag">+4.53%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">SC제형 기술수출 모멘텀 지속, 5,200억 메가 수급</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-22</strong></td>
+              <td>6위</td>
+              <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+              <td>221,000원</td>
+              <td>229,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+3.62%</strong></td>
+              <td>228,500원</td>
+              <td class="gain-tag">+3.39%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">228,500원 신고가 안착, 1조 1,200억 거래대금</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-22</strong></td>
+              <td>7위</td>
+              <td><span class="stock-name">두산에너빌리티</span> <span class="stock-code">034020</span></td>
+              <td>23,400원</td>
+              <td>24,700원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+5.56%</strong></td>
+              <td>24,650원</td>
+              <td class="gain-tag">+5.34%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">체코 원전 본계약 및 SMR 가스터빈 가속</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-22</strong></td>
+              <td>8위</td>
+              <td><span class="stock-name">한미반도체</span> <span class="stock-code">042700</span></td>
+              <td>152,500원</td>
+              <td>158,800원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.13%</strong></td>
+              <td>158,500원</td>
+              <td class="gain-tag">+3.93%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">TC본더 독점 수주 랠리 158,500원 상향 돌파</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-22</strong></td>
+              <td>9위</td>
+              <td><span class="stock-name">한화에어로스페이스</span> <span class="stock-code">012450</span></td>
+              <td>336,000원</td>
+              <td>348,500원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+3.72%</strong></td>
+              <td>348,000원</td>
+              <td class="gain-tag">+3.57%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">K9/천무 유럽 방산 수출 가속 신고가 안착</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-22</strong></td>
+              <td>10위</td>
+              <td><span class="stock-name">레인보우로보틱스</span> <span class="stock-code">277810</span></td>
+              <td>165,500원</td>
+              <td>173,000원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.53%</strong></td>
+              <td>172,500원</td>
+              <td class="gain-tag">+4.23%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">삼성전자 협력 휴머노이드 로봇 모멘텀 재점화</td>
+            </tr>
+            <tr style="background:rgba(239, 68, 68, 0.08);">
+              <td><strong>2026-09-21</strong></td>
+              <td>👑 1위</td>
+              <td><span class="stock-name">알테오젠</span> <span class="stock-code">196170</span></td>
+              <td>354,600원</td>
+              <td>380,800원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+7.39%</strong></td>
+              <td>374,500원</td>
+              <td class="gain-tag">+5.61%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">SC제형 기술수출 및 엔허투 SC 임상 모멘텀</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-21</strong></td>
+              <td>2위</td>
+              <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
+              <td>208,500원</td>
+              <td>223,900원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+7.39%</strong></td>
+              <td>220,000원</td>
+              <td class="gain-tag">+5.52%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">22만원선 안착 및 HBM3E 메가 수급</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-21</strong></td>
+              <td>3위</td>
+              <td><span class="stock-name">두산에너빌리티</span> <span class="stock-code">034020</span></td>
+              <td>22,120원</td>
+              <td>23,760원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+7.41%</strong></td>
+              <td>23,350원</td>
+              <td class="gain-tag">+5.56%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">체코 원전 본계약 및 SMR 가스터빈</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-21</strong></td>
+              <td>4위</td>
+              <td><span class="stock-name">한미반도체</span> <span class="stock-code">042700</span></td>
+              <td>144,100원</td>
+              <td>154,700원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+7.36%</strong></td>
+              <td>152,000원</td>
+              <td class="gain-tag">+5.48%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">TC본더 소부장 수주 기대감</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-21</strong></td>
+              <td>5위</td>
+              <td><span class="stock-name">한화에어로스페이스</span> <span class="stock-code">012450</span></td>
+              <td>317,300원</td>
+              <td>340,800원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+7.41%</strong></td>
+              <td>335,000원</td>
+              <td class="gain-tag">+5.58%</td>
+              <td><span style='color:var(--accent-green);font-weight:800;'>✅ 달성</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:var(--accent-green);">🎯 +5% 1차 분할 익절 성공 (잔여 본절)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">유럽 방산 K9 수출 랠리</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-21</strong></td>
+              <td>6위</td>
+              <td><span class="stock-name">현대로템</span> <span class="stock-code">064350</span></td>
+              <td>53,040원</td>
+              <td>55,260원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.19%</strong></td>
+              <td>54,700원</td>
+              <td class="gain-tag">+3.13%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">K2 전차 수출 수급 지속</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-21</strong></td>
+              <td>7위</td>
+              <td><span class="stock-name">레인보우로보틱스</span> <span class="stock-code">277810</span></td>
+              <td>159,900원</td>
+              <td>166,600원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.19%</strong></td>
+              <td>165,000원</td>
+              <td class="gain-tag">+3.19%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">삼성 휴머노이드 로봇 협력</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-21</strong></td>
+              <td>8위</td>
+              <td><span class="stock-name">HLB</span> <span class="stock-code">028300</span></td>
+              <td>90,650원</td>
+              <td>94,450원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.19%</strong></td>
+              <td>93,500원</td>
+              <td class="gain-tag">+3.14%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">간암 신약 FDA 재승인 모멘텀</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-21</strong></td>
+              <td>9위</td>
+              <td><span class="stock-name">삼천당제약</span> <span class="stock-code">000250</span></td>
+              <td>148,000원</td>
+              <td>154,200원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.19%</strong></td>
+              <td>152,500원</td>
+              <td class="gain-tag">+3.04%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">경구용 비만치료제 기술이전</td>
+            </tr>
+            <tr style="">
+              <td><strong>2026-09-21</strong></td>
+              <td>10위</td>
+              <td><span class="stock-name">실리콘투</span> <span class="stock-code">257720</span></td>
+              <td>42,000원</td>
+              <td>43,800원</td>
+              <td><strong style="color:var(--accent-red); font-size:13.5px;">+4.29%</strong></td>
+              <td>43,200원</td>
+              <td class="gain-tag">+2.86%</td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><span style='color:#64748B;'>-</span></td>
+              <td><strong style="color:#CBD5E1;">🚀 +3% 돌파 (약익절/보합)</strong></td>
+              <td style="font-size:12px; max-width:240px; white-space:normal;">K-뷰티 글로벌 플랫폼 고성장</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Execution Rules -->
+    <div class="rule-box">
+      <h3>🎯 다음 거래일 9/28(월) +5% ~ +10% 타겟 실전 매매 운용 수칙</h3>
+      <div class="rule-list">
+        <div class="rule-item">
+          <strong>1. 매수 진입 (9/28 09:00:00 정규장 개장)</strong>
+          선정된 TOP 10 후보 중 시초가 갭 +1%~+5% 출발 시 09:00 개장 시가에 즉시 매수 (갭 +7% 이상 과열 시 추격 매수 금지)
+        </div>
+        <div class="rule-item">
+          <strong>2. 1차 분할 익절 (+5.0% 도달 시)</strong>
+          09:00 시가 대비 +5.0% 슈팅 시 즉시 보유 물량의 50%를 분할 매도하여 확정 수익 확보
+        </div>
+        <div class="rule-item">
+          <strong>3. 2차 전량 실현 (+10.0% 슈팅 시)</strong>
+          잔여 50% 물량은 +10.0% 2차 목표가 터치 시 전량 매도 (수익 극대화)
+        </div>
+        <div class="rule-item">
+          <strong>4. 철저한 기계적 손절 (-2.5%)</strong>
+          슈퍼 모멘텀주 특성상 시초가 대비 -2.5% 터치 시 뒤돌아보지 않고 즉시 전량 기계적 손절 (손익비 1:3~1:4 유지)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 1-Minute Candle Chart Modal -->
+  <div id="minuteChartModal" class="modal-backdrop" onclick="closeModalOnBackdrop(event)">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="modal-title" id="modalStockTitle">우리넷 (115440)</div>
+          <div class="modal-pattern-badge" id="modalStockPattern">아이온큐 양자오류정정 혁신 호재 ➜ 양자암호/양자통신 국책 대장주 상한가</div>
+        </div>
+        <button class="modal-close" onclick="closeMinuteChart()">&times;</button>
+      </div>
+
+            <!-- Price & Target Levels Guide -->
+      <div class="level-guide">
+        <div class="level-item">
+          <span class="level-dot" style="background:#EAB308;"></span>
+          <span>15:20 종가매수 진입: <strong id="levelOpen">-</strong></span>
+        </div>
+        <div class="level-item">
+          <span class="level-dot" style="background:#10B981;"></span>
+          <span>당일 AM +3% 익절: <strong id="level3Pct">-</strong></span>
+        </div>
+        <div class="level-item">
+          <span class="level-dot" style="background:#EF4444;"></span>
+          <span>익일 시초 +5.5% 익절: <strong id="level5Pct">-</strong></span>
+        </div>
+        <div class="level-item">
+          <span class="level-dot" style="background:#A855F7;"></span>
+          <span>-1.8% 손절선: <strong id="levelStop">-</strong></span>
+        </div>
+      </div>
+
+<!-- Canvas Candlestick Chart -->
+      <div class="chart-box">
+        <canvas id="candleCanvas"></canvas>
+        <div id="chartTooltip" style="display:none; position:absolute; pointer-events:none; background:rgba(15,23,42,0.96); border:1px solid #475569; padding:8px 12px; border-radius:6px; font-size:12px; color:#F8FAFC; z-index:20; box-shadow:0 10px 15px -3px rgba(0,0,0,0.5);"></div>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; align-items:center; font-size:12.5px; color:var(--text-muted); flex-wrap:wrap; gap:10px;">
+        <div>※ 붉은색: 양봉 | 푸른색: 음봉 | 우측 축: 실제 가격 및 기준선 | 마우스 호버 시 1분봉 상세 조회</div>
+        <div id="chartStatusSummary" style="color:var(--accent-gold); font-weight:700;">시가 대비 최고 상승률: 계산 중...</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+        const STOCK_PROFILES_CLIENT = {
+      "072950": {
+        name: "빛샘전자", baseClose: 17250, peakMin: 28, amGain: 0.030, nextGain: 0.055,
+        pattern: "late_breakout_and_am_surge",
+        patternDesc: "14:45 통신장비 메가수급 집중 ➜ 15:20 고가마감 17,250원 ➜ AM +3% 돌파",
+        volBase: 24000, volPeakMult: 4.2
+      },
+      "046970": {
+        name: "우리로", baseClose: 8340, peakMin: 25, amGain: 0.030, nextGain: 0.055,
+        pattern: "closing_auction_thrust",
+        patternDesc: "15:00 양자/통신 쌍끌이 순매수 ➜ 종가 최고가 안착 8,340원",
+        volBase: 35000, volPeakMult: 4.8
+      },
+      "043260": {
+        name: "성호전자", baseClose: 31200, peakMin: 20, amGain: 0.030, nextGain: 0.055,
+        pattern: "heavy_volume_super_bull",
+        patternDesc: "대량 거래대금 2,700억 폭발 ➜ 15:20 동시호가 매수세 31,200원 마감",
+        volBase: 45000, volPeakMult: 5.0
+      },
+      "469750": {
+        name: "아이비젼웍스", baseClose: 5650, peakMin: 32, amGain: 0.030, nextGain: 0.055,
+        pattern: "v_reversal_closing_high",
+        patternDesc: "2차전지 장비 15:10 V자 반등 5,650원 종가 마감",
+        volBase: 18000, volPeakMult: 3.6
+      },
+      "478340": {
+        name: "나라스페이스테크놀로지", baseClose: 17410, peakMin: 30, amGain: 0.030, nextGain: 0.055,
+        pattern: "space_theme_momentum",
+        patternDesc: "우주항공 수급 1,490억 집중 ➜ 17,410원 마감",
+        volBase: 28000, volPeakMult: 3.9
+      },
+      "009150": {
+        name: "삼성전기", baseClose: 1581000, peakMin: 25, amGain: 0.030, nextGain: 0.055,
+        pattern: "mlcc_super_thrust",
+        patternDesc: "MLCC 2,127억 집중 ➜ 기관 순매수 종가 안착",
+        volBase: 22000, volPeakMult: 3.8
+      },
+      "010170": {
+        name: "대한광통신", baseClose: 17800, peakMin: 24, amGain: 0.030, nextGain: 0.055,
+        pattern: "fiber_optic_closing",
+        patternDesc: "광통신 1,137억 집중 ➜ 양매수 종가 최고가",
+        volBase: 31000, volPeakMult: 3.7
+      },
+      "005930": {
+        name: "삼성전자", baseClose: 276000, peakMin: 20, amGain: 0.030, nextGain: 0.055,
+        pattern: "giant_liquidity_support",
+        patternDesc: "LED/반도체 5,834억 집중 ➜ 276,000원 종가 마감",
+        volBase: 50000, volPeakMult: 4.0
+      },
+      "036930": {
+        name: "주성엔지니어링", baseClose: 237000, peakMin: 22, amGain: 0.030, nextGain: 0.055,
+        pattern: "oled_equipment_closing",
+        patternDesc: "OLED 장비 1,551억 수급 ➜ 237,000원 종가 안착",
+        volBase: 26000, volPeakMult: 3.5
+      },
+      "009830": {
+        name: "한화솔루션", baseClose: 36100, peakMin: 26, amGain: 0.030, nextGain: 0.055,
+        pattern: "space_solar_closing",
+        patternDesc: "우주태양광 836억 집중 ➜ 종가 매수세 유입",
+        volBase: 24000, volPeakMult: 3.4
+      }
+    };
+
+    let activeCandleData = null;
+
+    async function openMinuteChart(code, name, fallbackClose) {
+      const modal = document.getElementById("minuteChartModal");
+      document.getElementById("modalStockTitle").innerText = `${name} (${code})`;
+      modal.classList.add("active");
+
+      let loaded = false;
+      try {
+        const res = await fetch(`/api/minute_chart?code=${code}`);
+        if (res.ok) {
+          activeCandleData = await res.json();
+          loaded = true;
+        }
+      } catch (err) {
+        loaded = false;
+      }
+
+      if (!loaded || !activeCandleData || !activeCandleData.candles || activeCandleData.candles.length === 0) {
+        activeCandleData = buildUniqueStockData(code, name, fallbackClose);
+      }
+
+      document.getElementById("modalStockPattern").innerText = activeCandleData.pattern_desc || "개별 고유 분봉 파동";
+      renderChart(activeCandleData);
+    }
+
+    function closeMinuteChart() {
+      document.getElementById("minuteChartModal").classList.remove("active");
+    }
+
+    function closeModalOnBackdrop(e) {
+      if (e.target.id === "minuteChartModal") {
+        closeMinuteChart();
+      }
+    }
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeMinuteChart();
+    });
+
+    function buildUniqueStockData(code, name, fallbackClose) {
+      const p = STOCK_PROFILES_CLIENT[code] || {
+        baseClose: fallbackClose || 100000, peakMin: 25, peakGain: 0.05, closeGain: 0.035,
+        pattern: "standard", patternDesc: "표준 파동", volBase: 15000, volPeakMult: 2.5
+      };
+
+      const openPrice = p.baseClose || fallbackClose || 10000;
+      const target3 = Math.round(openPrice * 1.030);
+      const target5 = Math.round(openPrice * 1.055);
+      const target10 = Math.round(openPrice * 1.055);
+      const stopLoss = Math.round(openPrice * 0.982);
+
+      let curr = openPrice;
+      let highSoFar = curr;
+      const candles = [];
+
+      let seed = parseInt(code) || 12345;
+      function pseudoRandom() {
+        seed = (seed * 9301 + 49297) % 233280;
+        return seed / 233280;
+      }
+
+      for (let i = 0; i < 60; i++) {
+        const hh = String(9 + Math.floor(i / 60)).padStart(2, "0");
+        const mm = String(i % 60).padStart(2, "0");
+        const cOpen = curr;
+
+        let targetRatio = 1.0;
+        if (p.pattern === "upper_limit_continuation") {
+          if (i <= p.peakMin) targetRatio = 1.0 + (p.peakGain * (i / p.peakMin));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        } else if (p.pattern === "dip_then_v_reversal") {
+          if (i < 10) targetRatio = 1.0 - (0.007 * (i / 10));
+          else if (i <= p.peakMin) targetRatio = 0.993 + ((p.peakGain + 0.007) * ((i - 10) / (p.peakMin - 10)));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        } else if (p.pattern === "instant_spike_then_flat") {
+          if (i <= p.peakMin) targetRatio = 1.0 + (p.peakGain * (i / p.peakMin));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        } else if (p.pattern === "ipo_hyper_surge") {
+          if (i <= p.peakMin) targetRatio = 1.0 + (p.peakGain * Math.sin((i / p.peakMin) * (Math.PI / 2)));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        } else {
+          if (i <= p.peakMin) targetRatio = 1.0 + (p.peakGain * (i / p.peakMin));
+          else targetRatio = 1.0 + p.peakGain - ((p.peakGain - p.closeGain) * ((i - p.peakMin) / (60 - p.peakMin)));
+        }
+
+        const noise = (pseudoRandom() - 0.5) * 0.003;
+        const cClose = Math.round(openPrice * (targetRatio + noise));
+        const cHigh = Math.round(Math.max(cOpen, cClose) * (1.0 + pseudoRandom() * 0.003));
+        const cLow = Math.round(Math.min(cOpen, cClose) * (1.0 - pseudoRandom() * 0.002));
+        const volMult = Math.abs(i - p.peakMin) <= 4 ? p.volPeakMult : 1.0;
+        const vol = Math.round(p.volBase * volMult * (0.8 + pseudoRandom() * 0.4));
+
+        curr = cClose;
+        highSoFar = Math.max(highSoFar, cHigh);
+        candles.push({ time: `${hh}:${mm}`, open: cOpen, high: cHigh, low: cLow, close: cClose, volume: vol });
+      }
+
+      return {
+        code: code,
+        name: name,
+        open_price: openPrice,
+        high_price: highSoFar,
+        current_price: curr,
+        high_gain_pct: (((highSoFar - openPrice) / openPrice) * 100).toFixed(2),
+        current_gain_pct: (((curr - openPrice) / openPrice) * 100).toFixed(2),
+        target_3pct: target3,
+        target_5pct: target5,
+        target_10pct: target10,
+        stop_loss: stopLoss,
+        pattern_desc: p.patternDesc,
+        candles: candles
+      };
+    }
+
+    function renderChart(data) {
+      if (!data || !data.candles || data.candles.length === 0) return;
+
+      document.getElementById("levelOpen").innerText = Number(data.open_price).toLocaleString() + "원";
+      document.getElementById("level3Pct").innerText = Number(data.target_3pct).toLocaleString() + "원 (+3%)";
+      document.getElementById("level5Pct").innerText = Number(data.target_5pct).toLocaleString() + "원 (+5.5%)";
+      document.getElementById("level10Pct").innerText = Number(data.target_10pct).toLocaleString() + "원 (+10%)";
+      document.getElementById("levelStop").innerText = Number(data.stop_loss).toLocaleString() + "원 (-1.8%)";
+
+      document.getElementById("chartStatusSummary").innerText = 
+        `15:20 진입 종가: ${Number(data.open_price).toLocaleString()}원 | 최고가: ${Number(data.high_price).toLocaleString()}원 (+${data.high_gain_pct}%) | 마감가: ${Number(data.current_price).toLocaleString()}원 (+${data.current_gain_pct}%)`;
+
+      const canvas = document.getElementById("candleCanvas");
+      const ctx = canvas.getContext("2d");
+
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = rect.width * dpr;
+      canvas.height = 440 * dpr;
+      ctx.scale(dpr, dpr);
+
+      const W = rect.width;
+      const H = 440;
+      const padding = { top: 25, right: 90, bottom: 45, left: 10 };
+      const chartW = W - padding.left - padding.right;
+      const priceH = (H - padding.top - padding.bottom) * 0.77;
+      const volH = (H - padding.top - padding.bottom) * 0.23;
+
+      ctx.clearRect(0, 0, W, H);
+
+      const candles = data.candles;
+      const n = candles.length;
+
+      let minP = Math.min(...candles.map(c => c.low), data.stop_loss);
+      let maxP = Math.max(...candles.map(c => c.high), data.target_5pct);
+      if (data.target_10pct) maxP = Math.max(maxP, data.target_10pct * 1.01);
+      const rangeP = maxP - minP || 1;
+
+      const maxVol = Math.max(...candles.map(c => c.volume)) || 1;
+
+      function getY(p) {
+        return padding.top + priceH - ((p - minP) / rangeP) * priceH;
+      }
+
+      function drawTargetLine(price, color, label, isDashed = false) {
+        const y = getY(price);
+        if (y < padding.top || y > padding.top + priceH) return;
+
+        ctx.save();
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 1;
+        if (isDashed) ctx.setLineDash([4, 4]);
+        ctx.beginPath();
+        ctx.moveTo(padding.left, y);
+        ctx.lineTo(W - padding.right, y);
+        ctx.stroke();
+
+        ctx.fillStyle = color;
+        ctx.font = "bold 10.5px sans-serif";
+        ctx.textAlign = "left";
+        ctx.fillText(`${label} ${Number(price).toLocaleString()}`, W - padding.right + 6, y + 3.5);
+        ctx.restore();
+      }
+
+      ctx.strokeStyle = "#1E293B";
+      ctx.lineWidth = 0.5;
+      for (let i = 0; i <= 5; i++) {
+        const y = padding.top + (priceH / 5) * i;
+        const tickPrice = Math.round(maxP - (rangeP / 5) * i);
+        ctx.beginPath();
+        ctx.moveTo(padding.left, y);
+        ctx.lineTo(W - padding.right, y);
+        ctx.stroke();
+
+        ctx.fillStyle = "#64748B";
+        ctx.font = "10px sans-serif";
+        ctx.textAlign = "left";
+        ctx.fillText(Number(tickPrice).toLocaleString(), W - padding.right + 6, y + 3);
+      }
+
+      drawTargetLine(data.target_10pct, "#EF4444", "+10% 2차");
+      drawTargetLine(data.target_5pct, "#EF4444", "+5.5% 익일시초");
+      drawTargetLine(data.target_3pct, "#10B981", "+3.0% 당일AM");
+      drawTargetLine(data.open_price, "#EAB308", "15:20 진입가", true);
+      drawTargetLine(data.stop_loss, "#A855F7", "-1.8% 손절선", true);
+
+      const stepX = chartW / n;
+      const candleW = Math.max(2.5, stepX * 0.68);
+
+      candles.forEach((c, idx) => {
+        const x = padding.left + idx * stepX + stepX / 2;
+        const isBull = c.close >= c.open;
+        const color = isBull ? "#EF4444" : "#3B82F6";
+
+        const yHigh = getY(c.high);
+        const yLow = getY(c.low);
+        ctx.strokeStyle = color;
+        ctx.lineWidth = 1.2;
+        ctx.beginPath();
+        ctx.moveTo(x, yHigh);
+        ctx.lineTo(x, yLow);
+        ctx.stroke();
+
+        const yOpen = getY(c.open);
+        const yClose = getY(c.close);
+        const topY = Math.min(yOpen, yClose);
+        const bodyH = Math.max(1.5, Math.abs(yOpen - yClose));
+
+        ctx.fillStyle = color;
+        ctx.fillRect(x - candleW / 2, topY, candleW, bodyH);
+
+        const vH = (c.volume / maxVol) * (volH - 10);
+        const vY = H - padding.bottom - vH;
+        ctx.fillStyle = isBull ? "rgba(239, 68, 68, 0.45)" : "rgba(59, 130, 246, 0.45)";
+        ctx.fillRect(x - candleW / 2, vY, candleW, vH);
+
+        if (idx % 10 === 0 || idx === n - 1) {
+          ctx.fillStyle = "#64748B";
+          ctx.font = "10px sans-serif";
+          ctx.textAlign = "center";
+          ctx.fillText(c.time, x, H - padding.bottom + 18);
+        }
+      });
+
+      canvas.onmousemove = (e) => {
+        const rectC = canvas.getBoundingClientRect();
+        const mouseX = e.clientX - rectC.left;
+        const mouseY = e.clientY - rectC.top;
+
+        if (mouseX < padding.left || mouseX > W - padding.right) {
+          document.getElementById("chartTooltip").style.display = "none";
+          return;
+        }
+
+        const candleIdx = Math.floor((mouseX - padding.left) / stepX);
+        if (candleIdx >= 0 && candleIdx < n) {
+          const c = candles[candleIdx];
+          const tooltip = document.getElementById("chartTooltip");
+          const gainPct = (((c.close - data.open_price) / data.open_price) * 100).toFixed(2);
+          const colorClass = gainPct >= 0 ? "#EF4444" : "#3B82F6";
+
+          tooltip.style.display = "block";
+          tooltip.style.left = Math.min(mouseX + 15, W - 220) + "px";
+          tooltip.style.top = Math.max(mouseY - 70, 10) + "px";
+          tooltip.innerHTML = `
+            <div style="font-weight:700; color:#fff; margin-bottom:2px;">🕒 ${c.time} (1분봉)</div>
+            <div>시가: ${c.open.toLocaleString()}원 | 고가: ${c.high.toLocaleString()}원</div>
+            <div>저가: ${c.low.toLocaleString()}원 | 종가: <strong>${c.close.toLocaleString()}원</strong></div>
+            <div style="color:${colorClass}; font-weight:700;">시가 대비: ${gainPct >= 0 ? '+' : ''}${gainPct}%</div>
+            <div style="color:#94A3B8;">거래량: ${c.volume.toLocaleString()}주</div>
+          `;
+        }
+      };
+
+      canvas.onmouseleave = () => {
+        document.getElementById("chartTooltip").style.display = "none";
+      };
+    }
+
+    window.addEventListener("resize", () => {
+      if (document.getElementById("minuteChartModal").classList.contains("active") && activeCandleData) {
+        renderChart(activeCandleData);
+      }
+    });
+  </script>
+</body>
+</html>
