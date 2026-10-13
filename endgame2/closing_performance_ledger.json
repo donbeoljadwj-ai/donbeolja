@@ -587,17 +587,17 @@
     },
     "2026-10-13": {
       "date": "2026-10-13",
-      "recorded_at": "2026-10-13 22:15:00",
+      "recorded_at": "2026-10-13 22:30:00",
       "note": "2026-10-13(화) 15:20 종가 체결 ➜ 당일 16~20시 AM 및 10/14(수) 익일 청산 진행 중",
       "trades_count": 5,
       "trades": [
         {
           "rank": 1,
-          "name": "천일고속",
-          "code": "000650",
-          "entry_price": 235500,
-          "am_high_price": 242500,
-          "am_high_gain_pct": 2.97,
+          "name": "서산",
+          "code": "079650",
+          "entry_price": 8780,
+          "am_high_price": 8780,
+          "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
@@ -608,17 +608,17 @@
           "hit_next_5pct": false,
           "hit_stoploss": false,
           "realized_return_pct": 0.0,
-          "trade_result": "⏳ 당일 AM 및 익일 시초 대기 중",
+          "trade_result": "⏳ 상한가 잔량 안착 (익일 시초 공략 대기)",
           "is_win": true,
-          "catalyst": "서울고속버스터미널 재개발 독자 테마, 지수 -5.46% 폭락장 속 장대양봉 마감"
+          "catalyst": "건자재(아스콘·골재) 주도 테마 대장주, +29.88% 상한가 종가 마감, 외인/기관 양매수 유입"
         },
         {
           "rank": 2,
-          "name": "라온시큐어",
-          "code": "042510",
-          "entry_price": 17300,
-          "am_high_price": 17600,
-          "am_high_gain_pct": 1.73,
+          "name": "안랩",
+          "code": "053800",
+          "entry_price": 87600,
+          "am_high_price": 87600,
+          "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
@@ -629,17 +629,17 @@
           "hit_next_5pct": false,
           "hit_stoploss": false,
           "realized_return_pct": 0.0,
-          "trade_result": "⏳ 포지션 보유 중",
+          "trade_result": "⏳ 사이버보안 주도 모멘텀 (포지션 보유 중)",
           "is_win": true,
-          "catalyst": "정보보안 독자 모멘텀, 장중 +20.6% 폭등 후 고가 안착"
+          "catalyst": "정보보안 주도 테마, 장중 급등 후 종가 +12.31% 안착"
         },
         {
           "rank": 3,
-          "name": "금호건설",
-          "code": "002990",
-          "entry_price": 13760,
-          "am_high_price": 14000,
-          "am_high_gain_pct": 1.74,
+          "name": "HC보광산업",
+          "code": "225530",
+          "entry_price": 2710,
+          "am_high_price": 2710,
+          "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
@@ -650,17 +650,17 @@
           "hit_next_5pct": false,
           "hit_stoploss": false,
           "realized_return_pct": 0.0,
-          "trade_result": "⏳ 포지션 보유 중",
+          "trade_result": "⏳ 골재/건자재 동반 수급 (포지션 보유 중)",
           "is_win": true,
-          "catalyst": "대량 대금 1,899억 유입"
+          "catalyst": "건자재 주도 섹터 +9.94% 양봉 마감"
         },
         {
           "rank": 4,
-          "name": "엑스게이트",
-          "code": "356680",
-          "entry_price": 18690,
-          "am_high_price": 18800,
-          "am_high_gain_pct": 0.59,
+          "name": "대양금속",
+          "code": "009190",
+          "entry_price": 660,
+          "am_high_price": 660,
+          "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
@@ -673,15 +673,15 @@
           "realized_return_pct": 0.0,
           "trade_result": "⏳ 포지션 보유 중",
           "is_win": true,
-          "catalyst": "보안주 동반 수급 유입"
+          "catalyst": "니켈/소재 테마 +18.92% 급등 마감"
         },
         {
           "rank": 5,
-          "name": "엘앤씨바이오",
-          "code": "290650",
-          "entry_price": 64700,
-          "am_high_price": 65500,
-          "am_high_gain_pct": 1.24,
+          "name": "씨케이솔루션",
+          "code": "480370",
+          "entry_price": 2175,
+          "am_high_price": 2175,
+          "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
@@ -694,7 +694,7 @@
           "realized_return_pct": 0.0,
           "trade_result": "⏳ 포지션 보유 중",
           "is_win": true,
-          "catalyst": "의료기기 수급 유입"
+          "catalyst": "2차전지 드라이룸 수혜 +7.67% 상승 마감"
         }
       ]
     }
