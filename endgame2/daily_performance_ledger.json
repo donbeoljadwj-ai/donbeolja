@@ -711,19 +711,42 @@
           "entry_price": 14170,
           "am_high_price": 14170,
           "am_high_gain_pct": 0.0,
-          "next_open_price": 0,
-          "next_open_gap_pct": 0.0,
-          "next_high_price": 0,
-          "next_max_gain_pct": 0.0,
+          "next_open_price": 14050,
+          "next_open_gap_pct": -0.85,
+          "next_high_price": 14100,
+          "next_max_gain_pct": -0.49,
           "next_close_price": 0,
           "next_close_gain_pct": 0.0,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
           "hit_stoploss": false,
-          "realized_return_pct": 0.0,
-          "trade_result": "⏳ 당일 AM 및 10/15 익일 시초 대기 중",
+          "realized_return_pct": -1.8,
+          "trade_result": "🛡️ -1.8% 기계적 손절 방어",
           "is_win": true,
           "catalyst": "테마 '니켈'(Zone:주도, Heat:99), 고가 대비 100.0% 초밀착 종가마감, 외인/기관 양매수 유입"
+        }
+      ]
+    },
+    "2026-10-15": {
+      "date": "2026-10-15",
+      "note": "2026-10-15 v2.1 종가 매수 진입",
+      "trades": [
+        {
+          "rank": 1,
+          "name": "대한제강",
+          "code": "084010",
+          "entry_price": 10940,
+          "am_high_price": 11020,
+          "am_high_gain_pct": 0.73,
+          "next_open_price": 0,
+          "next_open_gap_pct": 0.0,
+          "next_high_price": 0,
+          "next_max_gain_pct": 0.0,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "realized_return_pct": 0.0,
+          "trade_result": "⏳ 익일(10/16) 시초 대응 대기",
+          "catalyst": "고가 11,000원 대비 99.5% 밀착 마감 (+9.40%), v2.1 1위(96.8점)"
         }
       ]
     }
