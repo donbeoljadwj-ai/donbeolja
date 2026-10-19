@@ -729,8 +729,6 @@
     },
     "2026-10-16": {
       "date": "2026-10-16",
-      "note": "2026-10-16(금) 15:20 종가 체결 ➜ 당일 AM(16~20시) 및 10/19(월) 익일 정규장 실전 청산 완료",
-      "trades_count": 2,
       "trades": [
         {
           "rank": 1,
@@ -743,15 +741,11 @@
           "next_open_gap_pct": -0.23,
           "next_high_price": 9210,
           "next_max_gain_pct": 5.62,
-          "next_close_price": 8380,
-          "next_close_gain_pct": -3.9,
           "hit_am_3pct": true,
           "hit_next_5pct": true,
-          "hit_stoploss": false,
           "trade_result": "🏆 당일 AM +5.39% & 익일 +5.62% 듀얼 익절 완수",
           "realized_return_pct": 4.25,
-          "is_win": true,
-          "catalyst": "[★AI1위확정] 10/16 15:30 종가(8,720원) 진입 ➜ 당일 AM 최고 9,190원(+5.39%, 1차익절 달성, AM종가 8,930원) ➜ 10/19 시초 8,700원 / 장중 최고 9,210원(+5.62%, 2차익절 달성)"
+          "catalyst": "10/16 종가(8,720원) ➜ 당일AM 최고 9,190원(+5.39% 1차익절) ➜ 10/19 시초 8,700원 / 최고 9,210원(+5.62% 2차익절)"
         },
         {
           "rank": 2,
@@ -764,15 +758,11 @@
           "next_open_gap_pct": -4.76,
           "next_high_price": 9710,
           "next_max_gain_pct": 2.75,
-          "next_close_price": 9390,
-          "next_close_gain_pct": -0.63,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
-          "hit_stoploss": false,
-          "trade_result": "🚀 익일 장중 +2.75%(9,710원) 반등 익절 마감",
+          "trade_result": "🚀 익일 장중 +2.75%(9,710원) 반등 마감",
           "realized_return_pct": 1.65,
-          "is_win": true,
-          "catalyst": "[▲AI승격] 10/16 15:30 종가(9,450원) 진입 ➜ 당일 AM 최고 9,570원(+1.27%, AM종가 9,530원) ➜ 10/19 시초 9,000원 / 장중 최고 9,710원(+2.75%) 반등"
+          "catalyst": "10/16 종가(9,450원) ➜ 당일AM 최고 9,570원(+1.27%) ➜ 10/19 시초 9,000원 / 최고 9,710원(+2.75%)"
         }
       ]
     },
