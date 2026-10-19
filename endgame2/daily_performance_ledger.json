@@ -703,7 +703,6 @@
     },
     "2026-10-15": {
       "date": "2026-10-15",
-      "note": "2026-10-15 v2.1 종가 매수 진입",
       "trades": [
         {
           "rank": 1,
@@ -712,20 +711,17 @@
           "entry_price": 10940,
           "am_high_price": 11020,
           "am_high_gain_pct": 0.73,
-          "next_open_price": 10570,
-          "next_open_gap_pct": -3.38,
-          "next_high_price": 10950,
-          "next_max_gain_pct": 0.09,
+          "next_open_price": 10400,
+          "next_open_gap_pct": -4.94,
+          "next_high_price": 11680,
+          "next_max_gain_pct": 6.76,
           "hit_am_3pct": false,
-          "hit_next_5pct": false,
-          "realized_return_pct": -0.91,
-          "trade_result": "⏳ 익일 종가 청산 (-0.91%)",
-          "catalyst": "고가 11,000원 대비 99.5% 밀착 마감 (+9.40%), v2.1 1위(96.8점)",
-          "next_close_price": 10840,
-          "next_close_gain_pct": -0.91
+          "hit_next_5pct": true,
+          "trade_result": "🔥 익일 장중 +6.76% 익절 달성",
+          "realized_return_pct": 5.5,
+          "catalyst": "고가 11,000원 대비 99.5% 밀착 마감 (+9.40%), 10/16 장중 +6.76% 익절"
         }
-      ],
-      "trades_count": 1
+      ]
     },
     "2026-10-16": {
       "date": "2026-10-16",
@@ -773,21 +769,20 @@
           "rank": 1,
           "name": "삼성SDI",
           "code": "006400",
-          "entry_price": 591000,
-          "am_high_price": 592000,
-          "am_high_gain_pct": 0.17,
+          "entry_price": 591500,
+          "am_high_price": 595000,
+          "am_high_gain_pct": 0.59,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
           "next_max_gain_pct": 0.0,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
-          "trade_result": "⏳ 익일 09:00 시초 청산 대기",
+          "trade_result": "⏳ 10/20(화) 09:00 시초 청산 대기",
           "realized_return_pct": 0.0,
           "catalyst": "[👑 1위 원픽] 전기차/2차전지 대형 수급 유입, 종가점수 91.9점"
         }
-      ],
-      "trades_count": 1
+      ]
     }
   }
 }
