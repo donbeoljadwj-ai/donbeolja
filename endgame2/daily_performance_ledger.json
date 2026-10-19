@@ -5,19 +5,14 @@
     "last_updated": "2026-10-12 18:30:00"
   },
   "summary": {
-    "total_trades": 20,
-    "win_trades": 17,
-    "loss_trades": 3,
-    "win_rate_pct": 85.0,
-    "profit_factor": 5.82,
-    "hit_am_3pct_count": 10,
-    "hit_am_3pct_rate": 50.0,
-    "hit_next_5pct_count": 9,
-    "hit_next_5pct_rate": 45.0,
-    "stop_loss_count": 2,
-    "stop_loss_rate": 10.0,
-    "avg_realized_profit_pct": 2.22,
-    "last_updated": "2026-10-12 18:30:00"
+    "total_trades": 34,
+    "win_trades": 29,
+    "win_rate_pct": 85.3,
+    "hit_am_3pct_count": 11,
+    "hit_am_3pct_rate": 32.4,
+    "hit_next_5pct_rate": 38.2,
+    "avg_realized_profit_pct": 2.07,
+    "stop_loss_rate": 8.3
   },
   "days": {
     "2026-10-02": {
@@ -738,15 +733,76 @@
           "entry_price": 10940,
           "am_high_price": 11020,
           "am_high_gain_pct": 0.73,
+          "next_open_price": 11071,
+          "next_open_gap_pct": 1.2,
+          "next_high_price": 11312,
+          "next_max_gain_pct": 3.4,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "realized_return_pct": 1.85,
+          "trade_result": "🚀 익일 +3.4% 반등 익절",
+          "catalyst": "고가 11,000원 대비 99.5% 밀착 마감 (+9.40%), v2.1 1위(96.8점)"
+        }
+      ]
+    },
+    "2026-10-16": {
+      "date": "2026-10-16",
+      "trades": [
+        {
+          "rank": 1,
+          "name": "우리로",
+          "code": "046970",
+          "entry_price": 8720,
+          "am_high_price": 8930,
+          "am_high_gain_pct": 2.41,
+          "next_open_price": 8580,
+          "next_open_gap_pct": -1.61,
+          "next_high_price": 9190,
+          "next_max_gain_pct": 5.39,
+          "hit_am_3pct": false,
+          "hit_next_5pct": true,
+          "trade_result": "🔥 익일 장중 +5.39% 슈팅 익절 완료",
+          "realized_return_pct": 4.15,
+          "catalyst": "[★AI1위확정] 통신장비/양자암호 대장주, 대금 829억, 10/19 장중 9,190원(+5.39%) 슈팅 달성"
+        },
+        {
+          "rank": 2,
+          "name": "금호전기",
+          "code": "001210",
+          "entry_price": 9450,
+          "am_high_price": 9530,
+          "am_high_gain_pct": 0.85,
+          "next_open_price": 9570,
+          "next_open_gap_pct": 1.27,
+          "next_high_price": 9570,
+          "next_max_gain_pct": 1.27,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "trade_result": "🛡️ 익일 시초 +1.27% 약익절/보합 마감",
+          "realized_return_pct": 0.65,
+          "catalyst": "[▲AI승격] 대금 913억 유동성 1위, 10/19 시초 9,570원(+1.27%) 출발"
+        }
+      ]
+    },
+    "2026-10-19": {
+      "date": "2026-10-19",
+      "trades": [
+        {
+          "rank": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "entry_price": 591500,
+          "am_high_price": 595000,
+          "am_high_gain_pct": 0.59,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
           "next_max_gain_pct": 0.0,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
+          "trade_result": "⏳ 10/20(화) 09:00 시초 청산 대기",
           "realized_return_pct": 0.0,
-          "trade_result": "⏳ 익일(10/16) 시초 대응 대기",
-          "catalyst": "고가 11,000원 대비 99.5% 밀착 마감 (+9.40%), v2.1 1위(96.8점)"
+          "catalyst": "[👑 1위 원픽] 전기차/2차전지 대형 수급 유입, 종가점수 91.9점"
         }
       ]
     }
