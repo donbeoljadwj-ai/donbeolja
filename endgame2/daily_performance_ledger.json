@@ -774,15 +774,38 @@
           "entry_price": 591500,
           "am_high_price": 595000,
           "am_high_gain_pct": 0.59,
+          "next_open_price": 587000,
+          "next_open_gap_pct": -0.76,
+          "next_high_price": 595000,
+          "next_max_gain_pct": 0.59,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "trade_result": "🚀 익일 장중 반등 익절",
+          "realized_return_pct": 0.41,
+          "catalyst": "[👑 1위 원픽] 전기차/2차전지 대형 수급 유입, 종가점수 91.9점",
+          "next_close_price": 555000
+        }
+      ]
+    },
+    "2026-10-20": {
+      "date": "2026-10-20",
+      "trades": [
+        {
+          "rank": 1,
+          "name": "자이언트스텝",
+          "code": "289220",
+          "entry_price": 1267,
+          "am_high_price": 1267,
+          "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
           "next_max_gain_pct": 0.0,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
-          "trade_result": "⏳ 10/20(화) 09:00 시초 청산 대기",
+          "trade_result": "⏳ 10/21(수) 09:00 시초 청산 대기",
           "realized_return_pct": 0.0,
-          "catalyst": "[👑 1위 원픽] 전기차/2차전지 대형 수급 유입, 종가점수 91.9점"
+          "catalyst": "[👑 1위 원픽] 영상콘텐츠 수급 집중 (종가점수 88.2점, ▲AI승격)"
         }
       ]
     }
