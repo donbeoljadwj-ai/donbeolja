@@ -2,17 +2,17 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-10-12 18:30:00"
+    "last_updated": "2026-10-23 15:10:10"
   },
   "summary": {
-    "total_trades": 33,
-    "win_trades": 30,
-    "win_rate_pct": 90.9,
+    "total_trades": 37,
+    "win_trades": 34,
+    "win_rate_pct": 91.9,
     "hit_am_3pct_count": 20,
-    "hit_am_3pct_rate": 60.6,
-    "hit_next_5pct_rate": 33.3,
-    "avg_realized_profit_pct": 2.48,
-    "stop_loss_rate": 6.1
+    "hit_am_3pct_rate": 54.1,
+    "hit_next_5pct_rate": 37.8,
+    "avg_realized_profit_pct": 2.64,
+    "stop_loss_rate": 13.5
   },
   "days": {
     "2026-10-02": {
@@ -797,15 +797,103 @@
           "entry_price": 1267,
           "am_high_price": 1267,
           "am_high_gain_pct": 0.0,
+          "next_open_price": 1404,
+          "next_open_gap_pct": 10.81,
+          "next_high_price": 1628,
+          "next_max_gain_pct": 28.49,
+          "hit_am_3pct": false,
+          "hit_next_5pct": true,
+          "trade_result": "🔥 익일 장중 +28.49% 슈팅 익절 달성",
+          "realized_return_pct": 5.5,
+          "catalyst": "[👑 1위 원픽] 영상콘텐츠 수급 집중 (종가점수 88.2점, ▲AI승격)",
+          "is_win": true,
+          "next_close_price": 1489,
+          "next_close_gain_pct": 17.52,
+          "hit_stoploss": false
+        }
+      ]
+    },
+    "2026-10-21": {
+      "date": "2026-10-21",
+      "recorded_at": "2026-10-23 14:19:07",
+      "trades_count": 1,
+      "trades": [
+        {
+          "rank": 1,
+          "name": "SK",
+          "code": "034730",
+          "entry_price": 482000,
+          "am_high_price": 483000,
+          "am_high_gain_pct": 0.21,
+          "next_open_price": 477000,
+          "next_open_gap_pct": -1.04,
+          "next_high_price": 489000,
+          "next_max_gain_pct": 1.45,
+          "next_close_price": 461500,
+          "next_close_gain_pct": -4.25,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": true,
+          "realized_return_pct": -1.8,
+          "trade_result": "🛡️ -1.8% 기계적 손절 방어",
+          "is_win": false,
+          "catalyst": "[AI검증유지|+5%확률:79%/+10%:54%] 1일연속양매수, 테마1등주, 테마 '조림사업'(Zone:소외, Heat:56), 고가 대비 100.1% 초밀착 종가마감, 외인/기관 양매수 유입"
+        }
+      ]
+    },
+    "2026-10-22": {
+      "date": "2026-10-22",
+      "recorded_at": "2026-10-23 14:19:07",
+      "trades_count": 1,
+      "trades": [
+        {
+          "rank": 1,
+          "name": "비나텍",
+          "code": "126340",
+          "entry_price": 108700,
+          "am_high_price": 109900,
+          "am_high_gain_pct": 1.1,
+          "next_open_price": 103700,
+          "next_open_gap_pct": -4.6,
+          "next_high_price": 120800,
+          "next_max_gain_pct": 11.13,
+          "next_close_price": 120800,
+          "next_close_gain_pct": 11.13,
+          "hit_am_3pct": false,
+          "hit_next_5pct": true,
+          "hit_stoploss": false,
+          "realized_return_pct": 5.5,
+          "trade_result": "🔥 익일 장중 +11.13% 슈팅 익절 달성",
+          "is_win": true,
+          "catalyst": "[AI검증유지|+5%확률:78%/+10%:53%] 60일신고가(매물공백), 1일연속양매수, 테마1등주, 테마 '연료전지'(Zone:주도, Heat:81), 고가 대비 100.7% 초밀착 종가마감, 외인/기관 양매수 유입"
+        }
+      ]
+    },
+    "2026-10-23": {
+      "date": "2026-10-23",
+      "recorded_at": "2026-10-23 15:10:09",
+      "trades_count": 1,
+      "trades": [
+        {
+          "rank": 1,
+          "name": "스페코",
+          "code": "013810",
+          "entry_price": 2055,
+          "am_high_price": 2055,
+          "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
           "next_max_gain_pct": 0.0,
+          "next_close_price": 0,
+          "next_close_gain_pct": 0.0,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
-          "trade_result": "⏳ 10/21(수) 09:00 시초 청산 대기",
+          "hit_stoploss": false,
           "realized_return_pct": 0.0,
-          "catalyst": "[👑 1위 원픽] 영상콘텐츠 수급 집중 (종가점수 88.2점, ▲AI승격)"
+          "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
+          "is_win": true,
+          "catalyst": "[▲AI승격(초강력매집·소액)|+5%확률:79%/+10%:54%] 60일신고가(매물공백), 1일연속양매수, 테마1등주, 테마 '아스콘(아스팔트 콘크리트)'(Zone:부상, Heat:88), 고가 대비 100.0% 초밀착 종가마감, 외인/기관 양매수 유입, 체결강도 173% 매수세 압도"
         }
       ]
     }
