@@ -312,7 +312,7 @@
     <header>
       <div class="logo-group">
         <h1>grok_<span>endgame</span></h1>
-        <p>시가 매수 후 전량 매도가는 체결가×1.05. 기준 일봉 2026-10-23. 한국투자증권 상승률 3~18%와 거래대금 상위. endpoint 추천은 쓰지 않음. 확률은 최근 60거래일 시가+5% 체결을 55% 쪽으로 줄인 값.</p>
+        <p>시가 매수 후 전량 매도가는 체결가×1.05. 기준 일봉 2026-10-22. 코스닥 시가총액 상위 100종목의 일봉으로 학습한 로지스틱 모델. 당일 +2~20%, 거래대금 20억 이상만 후보. endpoint 추천은 사용하지 않음.</p>
       </div>
       <div class="status-badge" style="border-color:#F59E0B; color:#F59E0B; background:rgba(245,158,11,0.15);">
         <span class="status-dot" style="background:#F59E0B;"></span>
@@ -333,8 +333,8 @@
       </div>
       <div class="kpi-card">
         <div class="kpi-label">확률 1위</div>
-        <div class="kpi-val val-red">엑시콘</div>
-        <div class="kpi-sub">축소확률 55.0% · 33/60</div>
+        <div class="kpi-val val-red">지투지바이오</div>
+        <div class="kpi-sub">축소확률 42.4% · 20/60</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-label">15일 백테스트 시가+5%</div>
@@ -352,17 +352,17 @@
     <div class="hero-card">
       <div class="hero-tag" style="background:#F59E0B; color:#111;">관망</div>
       <div class="hero-header">
-        <h2>엑시콘</h2>
-        <span class="target">축소확률 55.0%</span>
+        <h2>지투지바이오</h2>
+        <span class="target">축소확률 42.4%</span>
       </div>
       <div class="hero-meta">
-        <div>기준일: <strong style="color:var(--accent-gold)">2026-10-23</strong></div>
-        <div>전일종가: <strong style="color:#EF4444;">51,300원</strong></div>
-        <div>거래대금: <strong>174억</strong></div>
-        <div>60일 체결: <strong>33/60</strong></div>
+        <div>기준일: <strong style="color:var(--accent-gold)">2026-10-22</strong></div>
+        <div>전일종가: <strong style="color:#EF4444;">49,600원</strong></div>
+        <div>거래대금: <strong>700억</strong></div>
+        <div>60일 체결: <strong>20/60</strong></div>
       </div>
       <div class="hero-pills">
-        <span class="pill">1위 축소확률 55.0%가 기준 62%보다 낮음</span>
+        <span class="pill">1위 지투지바이오 모델확률 42.4%. 최근 40일 검증 체결률은 모델 35%, 60일 빈도 1위 45%.</span>
         <span class="pill" style="border-color:#10B981; color:#A7F3D0;">09:00 동시호가 매수</span>
         <span class="pill" style="border-color:#F59E0B; color:#FDE68A;">전량 매도가 = 체결가 × 1.05</span>
       </div>
@@ -392,139 +392,94 @@
         <tbody>
           <tr>
           <td>👑 <strong style='color:var(--accent-gold);font-size:15px;'>1위</strong></td>
-          <td><span class="stock-name">엑시콘</span> <span class="stock-code">092870</span></td>
-          <td><strong style="color:var(--accent-gold);">51,300원</strong></td>
-          <td class="gain-tag">+4.8%</td>
-          <td>174억</td>
-          <td>33/60</td>
-          <td><span class="score-badge score-high">55.0%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 33회, 축소확률 55.0%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="stock-name">지투지바이오</span> <span class="stock-code">456160</span></td>
+          <td><strong style="color:var(--accent-gold);">49,600원</strong></td>
+          <td class="gain-tag">+18.8%</td>
+          <td>700억</td>
+          <td>20/60</td>
+          <td><span class="score-badge score-high">42.4%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 42.4%. 최근 60일 시가+5% 빈도 33%.</td>
         </tr><tr>
           <td><strong>2위</strong></td>
-          <td><span class="stock-name">한양디지텍</span> <span class="stock-code">078350</span></td>
-          <td><strong style="color:var(--accent-gold);">34,150원</strong></td>
-          <td class="gain-tag">+5.7%</td>
-          <td>172억</td>
-          <td>26/60</td>
-          <td><span class="score-badge score-med">46.2%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 26회, 축소확률 46.2%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="stock-name">비나텍</span> <span class="stock-code">126340</span></td>
+          <td><strong style="color:var(--accent-gold);">117,500원</strong></td>
+          <td class="gain-tag">+8.1%</td>
+          <td>652억</td>
+          <td>23/60</td>
+          <td><span class="score-badge score-med">39.9%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 39.9%. 최근 60일 시가+5% 빈도 38%.</td>
         </tr><tr>
           <td><strong>3위</strong></td>
           <td><span class="stock-name">티에프이</span> <span class="stock-code">425420</span></td>
           <td><strong style="color:var(--accent-gold);">64,600원</strong></td>
-          <td class="gain-tag">+7.7%</td>
-          <td>129억</td>
+          <td class="gain-tag">+8.2%</td>
+          <td>132억</td>
           <td>26/60</td>
-          <td><span class="score-badge score-med">46.2%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 26회, 축소확률 46.2%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="score-badge score-med">39.2%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 39.2%. 최근 60일 시가+5% 빈도 43%.</td>
         </tr><tr>
           <td><strong>4위</strong></td>
-          <td><span class="stock-name">HLB바이오스텝</span> <span class="stock-code">278650</span></td>
-          <td><strong style="color:var(--accent-gold);">6,530원</strong></td>
-          <td class="gain-tag">+13.4%</td>
-          <td>94억</td>
-          <td>26/60</td>
-          <td><span class="score-badge score-med">46.2%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 26회, 축소확률 46.2%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="stock-name">샘씨엔에스</span> <span class="stock-code">252990</span></td>
+          <td><strong style="color:var(--accent-gold);">15,470원</strong></td>
+          <td class="gain-tag">+2.0%</td>
+          <td>118억</td>
+          <td>31/60</td>
+          <td><span class="score-badge score-med">35.6%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 35.6%. 최근 60일 시가+5% 빈도 52%.</td>
         </tr><tr>
           <td><strong>5위</strong></td>
-          <td><span class="stock-name">도우인시스</span> <span class="stock-code">484120</span></td>
-          <td><strong style="color:var(--accent-gold);">28,050원</strong></td>
-          <td class="gain-tag">+12.2%</td>
-          <td>66억</td>
-          <td>24/60</td>
-          <td><span class="score-badge score-med">43.8%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 24회, 축소확률 43.8%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="stock-name">엘앤씨바이오</span> <span class="stock-code">290650</span></td>
+          <td><strong style="color:var(--accent-gold);">60,200원</strong></td>
+          <td class="gain-tag">+2.0%</td>
+          <td>172억</td>
+          <td>18/60</td>
+          <td><span class="score-badge score-med">33.0%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 33.0%. 최근 60일 시가+5% 빈도 30%.</td>
         </tr><tr>
           <td><strong>6위</strong></td>
-          <td><span class="stock-name">아스플로</span> <span class="stock-code">159010</span></td>
-          <td><strong style="color:var(--accent-gold);">32,050원</strong></td>
-          <td class="gain-tag">+5.1%</td>
-          <td>58억</td>
-          <td>24/60</td>
-          <td><span class="score-badge score-med">43.8%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 24회, 축소확률 43.8%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="stock-name">보로노이</span> <span class="stock-code">310210</span></td>
+          <td><strong style="color:var(--accent-gold);">134,900원</strong></td>
+          <td class="gain-tag">+2.4%</td>
+          <td>62억</td>
+          <td>25/60</td>
+          <td><span class="score-badge score-med">31.9%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 31.9%. 최근 60일 시가+5% 빈도 42%.</td>
         </tr><tr>
           <td><strong>7위</strong></td>
-          <td><span class="stock-name">비나텍</span> <span class="stock-code">126340</span></td>
-          <td><strong style="color:var(--accent-gold);">117,500원</strong></td>
-          <td class="gain-tag">+8.1%</td>
-          <td>627억</td>
-          <td>23/60</td>
-          <td><span class="score-badge score-med">42.5%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 23회, 축소확률 42.5%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="stock-name">씨어스</span> <span class="stock-code">458870</span></td>
+          <td><strong style="color:var(--accent-gold);">23,700원</strong></td>
+          <td class="gain-tag">+4.2%</td>
+          <td>44억</td>
+          <td>15/60</td>
+          <td><span class="score-badge score-med">30.2%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 30.2%. 최근 60일 시가+5% 빈도 25%.</td>
         </tr><tr>
           <td><strong>8위</strong></td>
-          <td><span class="stock-name">마이크로컨텍솔</span> <span class="stock-code">098120</span></td>
-          <td><strong style="color:var(--accent-gold);">43,600원</strong></td>
-          <td class="gain-tag">+4.6%</td>
-          <td>118억</td>
-          <td>23/60</td>
-          <td><span class="score-badge score-med">42.5%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 23회, 축소확률 42.5%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="stock-name">선익시스템</span> <span class="stock-code">171090</span></td>
+          <td><strong style="color:var(--accent-gold);">84,600원</strong></td>
+          <td class="gain-tag">+4.7%</td>
+          <td>84억</td>
+          <td>19/60</td>
+          <td><span class="score-badge score-med">28.1%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 28.1%. 최근 60일 시가+5% 빈도 32%.</td>
         </tr><tr>
           <td><strong>9위</strong></td>
-          <td><span class="stock-name">LK삼양</span> <span class="stock-code">225190</span></td>
-          <td><strong style="color:var(--accent-gold);">4,360원</strong></td>
-          <td class="gain-tag">+4.8%</td>
-          <td>208억</td>
-          <td>22/60</td>
-          <td><span class="score-badge score-med">41.2%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 22회, 축소확률 41.2%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="stock-name">삼현</span> <span class="stock-code">437730</span></td>
+          <td><strong style="color:var(--accent-gold);">43,900원</strong></td>
+          <td class="gain-tag">+2.1%</td>
+          <td>151억</td>
+          <td>13/60</td>
+          <td><span class="score-badge score-med">28.0%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 28.0%. 최근 60일 시가+5% 빈도 22%.</td>
         </tr><tr>
           <td><strong>10위</strong></td>
-          <td><span class="stock-name">디케이티</span> <span class="stock-code">290550</span></td>
-          <td><strong style="color:var(--accent-gold);">25,700원</strong></td>
-          <td class="gain-tag">+10.1%</td>
-          <td>223억</td>
+          <td><span class="stock-name">카카오게임즈</span> <span class="stock-code">293490</span></td>
+          <td><strong style="color:var(--accent-gold);">11,610원</strong></td>
+          <td class="gain-tag">+6.5%</td>
+          <td>226억</td>
           <td>19/60</td>
-          <td><span class="score-badge score-med">37.5%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 19회, 축소확률 37.5%. 매도가는 아침 체결가×1.05.</td>
-        </tr><tr>
-          <td><strong>11위</strong></td>
-          <td><span class="stock-name">파인엠텍</span> <span class="stock-code">441270</span></td>
-          <td><strong style="color:var(--accent-gold);">11,370원</strong></td>
-          <td class="gain-tag">+12.5%</td>
-          <td>479억</td>
-          <td>18/60</td>
-          <td><span class="score-badge score-med">36.2%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 18회, 축소확률 36.2%. 매도가는 아침 체결가×1.05.</td>
-        </tr><tr>
-          <td><strong>12위</strong></td>
-          <td><span class="stock-name">와이바이오로직스</span> <span class="stock-code">338840</span></td>
-          <td><strong style="color:var(--accent-gold);">10,260원</strong></td>
-          <td class="gain-tag">+16.3%</td>
-          <td>38억</td>
-          <td>14/60</td>
-          <td><span class="score-badge score-med">31.2%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 14회, 축소확률 31.2%. 매도가는 아침 체결가×1.05.</td>
-        </tr><tr>
-          <td><strong>13위</strong></td>
-          <td><span class="stock-name">삼성E&amp;A</span> <span class="stock-code">028050</span></td>
-          <td><strong style="color:var(--accent-gold);">59,100원</strong></td>
-          <td class="gain-tag">+6.7%</td>
-          <td>7,800억</td>
-          <td>13/60</td>
-          <td><span class="score-badge score-med">30.0%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 13회, 축소확률 30.0%. 매도가는 아침 체결가×1.05.</td>
-        </tr><tr>
-          <td><strong>14위</strong></td>
-          <td><span class="stock-name">AP위성</span> <span class="stock-code">211270</span></td>
-          <td><strong style="color:var(--accent-gold);">8,200원</strong></td>
-          <td class="gain-tag">+17.1%</td>
-          <td>355억</td>
-          <td>12/60</td>
-          <td><span class="score-badge score-med">28.7%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 12회, 축소확률 28.7%. 매도가는 아침 체결가×1.05.</td>
-        </tr><tr>
-          <td><strong>15위</strong></td>
-          <td><span class="stock-name">SK하이닉스</span> <span class="stock-code">000660</span></td>
-          <td><strong style="color:var(--accent-gold);">1,263,000원</strong></td>
-          <td class="gain-tag">+3.3%</td>
-          <td>48,514억</td>
-          <td>9/60</td>
-          <td><span class="score-badge score-med">25.0%</span></td>
-          <td style="font-size:12px; max-width:360px; white-space:normal;">최근 60거래일 중 시가+5% 매도 체결 9회, 축소확률 25.0%. 매도가는 아침 체결가×1.05.</td>
+          <td><span class="score-badge score-med">27.6%</span></td>
+          <td style="font-size:12px; max-width:360px; white-space:normal;">로지스틱 모델 확률 27.6%. 최근 60일 시가+5% 빈도 32%.</td>
         </tr>
         </tbody>
       </table>
@@ -536,15 +491,15 @@
 
 [시가+5%] 2026-10-26 관망
 
-1위 축소확률 55.0%가 기준 62%보다 낮음
+1위 지투지바이오 모델확률 42.4%. 최근 40일 검증 체결률은 모델 35%, 60일 빈도 1위 45%.
 
-1위 엑시콘 (092870) 축소확률 55.0%
-최근 60일 중 체결 33회. 기준 62% 미만.
+1위 지투지바이오 (456160) 축소확률 42.4%
+최근 60일 중 체결 20회. 기준 62% 미만.
 
 참고 순위
-2 한양디지텍 46.2% (26/60)
-3 티에프이 46.2% (26/60)
-4 HLB바이오스텝 46.2% (26/60)
+2 비나텍 39.9% (23/60)
+3 티에프이 39.2% (26/60)
+4 샘씨엔에스 35.6% (31/60)
 
 매수하는 날의 주문
 09:00 동시호가 매수 후 전량을 체결가×1.05 호가에 매도</pre>
