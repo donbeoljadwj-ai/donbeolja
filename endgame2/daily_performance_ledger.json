@@ -2,7 +2,7 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-10-25 17:51:42"
+    "last_updated": "2026-10-25 20:10:06"
   },
   "summary": {
     "total_trades": 37,
@@ -855,17 +855,17 @@
           "am_high_gain_pct": 1.1,
           "next_open_price": 103700,
           "next_open_gap_pct": -4.6,
-          "next_high_price": 120800,
-          "next_max_gain_pct": 11.13,
-          "next_close_price": 120800,
-          "next_close_gain_pct": 11.13,
+          "next_high_price": 120900,
+          "next_max_gain_pct": 11.22,
+          "next_close_price": 119500,
+          "next_close_gain_pct": 9.94,
           "hit_am_3pct": false,
           "hit_next_5pct": true,
           "hit_stoploss": false,
           "realized_return_pct": 5.5,
-          "trade_result": "🔥 익일 장중 +11.13% 슈팅 익절 달성",
+          "trade_result": "🔥 익일 장중 +11.22% 슈팅 익절 달성",
           "is_win": true,
-          "catalyst": "[AI검증유지|+5%확률:78%/+10%:53%] 60일신고가(매물공백), 1일연속양매수, 테마1등주, 테마 '연료전지'(Zone:주도, Heat:81), 고가 대비 100.7% 초밀착 종가마감, 외인/기관 양매수 유입"
+          "catalyst": "[AI검증유지|+5%확률:78%/+10%:53%] 60일신고가(매물공백), 1일연속양매수, 테마1등주, 테마 '연료전지'(Zone:주도, Heat:81), 10/22 종가 108,700원 진입 ➜ 당일AM 109,900원(+1.10%) ➜ 10/23 시초 103,700원 / 장중최고 120,900원(+11.22% 슈팅 익절) / 정규종가 119,500원(+9.94%)"
         }
       ]
     },
