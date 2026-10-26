@@ -2,17 +2,17 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-10-25 20:10:06"
+    "last_updated": "2026-10-26 15:10:11"
   },
   "summary": {
-    "total_trades": 37,
+    "total_trades": 38,
     "win_trades": 34,
-    "win_rate_pct": 91.9,
+    "win_rate_pct": 89.5,
     "hit_am_3pct_count": 20,
-    "hit_am_3pct_rate": 54.1,
-    "hit_next_5pct_rate": 37.8,
-    "avg_realized_profit_pct": 2.64,
-    "stop_loss_rate": 13.5
+    "hit_am_3pct_rate": 52.6,
+    "hit_next_5pct_rate": 36.8,
+    "avg_realized_profit_pct": 2.53,
+    "stop_loss_rate": 15.8
   },
   "days": {
     "2026-10-02": {
@@ -881,6 +881,34 @@
           "entry_price": 2055,
           "am_high_price": 2055,
           "am_high_gain_pct": 0.0,
+          "next_open_price": 1850,
+          "next_open_gap_pct": -9.98,
+          "next_high_price": 1850,
+          "next_max_gain_pct": -9.98,
+          "next_close_price": 1610,
+          "next_close_gain_pct": -21.65,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": true,
+          "realized_return_pct": -1.8,
+          "trade_result": "🛡️ -1.8% 기계적 손절 방어",
+          "is_win": false,
+          "catalyst": "[▲AI승격(초강력매집·소액)|+5%확률:79%/+10%:54%] 60일신고가(매물공백), 1일연속양매수, 테마1등주, 테마 '아스콘(아스팔트 콘크리트)'(Zone:부상, Heat:88), 고가 대비 100.0% 초밀착 종가마감, 외인/기관 양매수 유입, 체결강도 173% 매수세 압도"
+        }
+      ]
+    },
+    "2026-10-26": {
+      "date": "2026-10-26",
+      "recorded_at": "2026-10-26 15:10:10",
+      "trades_count": 3,
+      "trades": [
+        {
+          "rank": 1,
+          "name": "AP위성",
+          "code": "211270",
+          "entry_price": 8310,
+          "am_high_price": 8310,
+          "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
@@ -893,7 +921,49 @@
           "realized_return_pct": 0.0,
           "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
           "is_win": true,
-          "catalyst": "[▲AI승격(초강력매집·소액)|+5%확률:79%/+10%:54%] 60일신고가(매물공백), 1일연속양매수, 테마1등주, 테마 '아스콘(아스팔트 콘크리트)'(Zone:부상, Heat:88), 고가 대비 100.0% 초밀착 종가마감, 외인/기관 양매수 유입, 체결강도 173% 매수세 압도"
+          "catalyst": "[ARGON v4 77.0점], 👑 '스타링크·스페이스X 수혜' 독자대장주(동조율 50%), 정규장 대금 470억 집중, 정규장 +18.71% 돌파"
+        },
+        {
+          "rank": 2,
+          "name": "지투지바이오",
+          "code": "456160",
+          "entry_price": 49700,
+          "am_high_price": 49700,
+          "am_high_gain_pct": 0.0,
+          "next_open_price": 0,
+          "next_open_gap_pct": 0.0,
+          "next_high_price": 0,
+          "next_max_gain_pct": 0.0,
+          "next_close_price": 0,
+          "next_close_gain_pct": 0.0,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": 0.0,
+          "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
+          "is_win": true,
+          "catalyst": "[ARGON v4 76.3점], 👑 '비만치료제' 독자대장주(동조율 24%), 정규장 대금 276억 집중, 정규장 +20.63% 돌파"
+        },
+        {
+          "rank": 3,
+          "name": "앤로보틱스",
+          "code": "138360",
+          "entry_price": 1944,
+          "am_high_price": 1944,
+          "am_high_gain_pct": 0.0,
+          "next_open_price": 0,
+          "next_open_gap_pct": 0.0,
+          "next_high_price": 0,
+          "next_max_gain_pct": 0.0,
+          "next_close_price": 0,
+          "next_close_gain_pct": 0.0,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": 0.0,
+          "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
+          "is_win": true,
+          "catalyst": "[ARGON v4 76.1점], 👑 '로봇(산업용/협동로봇 등)' 독자대장주(동조율 14%), 정규장 대금 614억 집중, 정규장 +18.90% 돌파"
         }
       ]
     }
