@@ -2,17 +2,17 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-10-27 20:10:09"
+    "last_updated": "2026-10-28 15:10:10"
   },
   "summary": {
-    "total_trades": 41,
-    "win_trades": 36,
-    "win_rate_pct": 87.8,
-    "hit_am_3pct_count": 21,
-    "hit_am_3pct_rate": 51.2,
-    "hit_next_5pct_rate": 36.6,
-    "avg_realized_profit_pct": 2.47,
-    "stop_loss_rate": 17.1
+    "total_trades": 42,
+    "win_trades": 37,
+    "win_rate_pct": 88.1,
+    "hit_am_3pct_count": 22,
+    "hit_am_3pct_rate": 52.4,
+    "hit_next_5pct_rate": 35.7,
+    "avg_realized_profit_pct": 2.46,
+    "stop_loss_rate": 16.7
   },
   "days": {
     "2026-10-02": {
@@ -976,8 +976,36 @@
           "rank": 1,
           "name": "씨어스",
           "code": "458870",
-          "entry_price": 27850,
+          "entry_price": 26300,
           "am_high_price": 27850,
+          "am_high_gain_pct": 5.89,
+          "next_open_price": 26350,
+          "next_open_gap_pct": 0.19,
+          "next_high_price": 27000,
+          "next_max_gain_pct": 2.66,
+          "next_close_price": 24450,
+          "next_close_gain_pct": -7.03,
+          "hit_am_3pct": true,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": 2.17,
+          "trade_result": "✅ 당일 AM +5.89% 1차 익절 & 본절락인",
+          "is_win": true,
+          "catalyst": "[ARGON v4 82.7점], 테마 '의료AI'(동조율 52%), 고가유지 100.0% 밀착마감, 정규장 대금 145억 집중, 정규장 +17.51% 돌파"
+        }
+      ]
+    },
+    "2026-10-28": {
+      "date": "2026-10-28",
+      "recorded_at": "2026-10-28 15:10:09",
+      "trades_count": 3,
+      "trades": [
+        {
+          "rank": 1,
+          "name": "알멕",
+          "code": "354320",
+          "entry_price": 62300,
+          "am_high_price": 62300,
           "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
@@ -991,7 +1019,49 @@
           "realized_return_pct": 0.0,
           "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
           "is_win": true,
-          "catalyst": "[ARGON v4 82.7점], 테마 '의료AI'(동조율 52%), 고가유지 100.0% 밀착마감, 정규장 대금 145억 집중, 정규장 +17.51% 돌파"
+          "catalyst": "[ARGON v4 83.2점], 👑 '2차전지(소재/부품)' 독자대장주(동조율 86%), 정규장 대금 376억 집중, 정규장 +14.31% 돌파"
+        },
+        {
+          "rank": 2,
+          "name": "기가비스",
+          "code": "420770",
+          "entry_price": 111600,
+          "am_high_price": 111600,
+          "am_high_gain_pct": 0.0,
+          "next_open_price": 0,
+          "next_open_gap_pct": 0.0,
+          "next_high_price": 0,
+          "next_max_gain_pct": 0.0,
+          "next_close_price": 0,
+          "next_close_gain_pct": 0.0,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": 0.0,
+          "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
+          "is_win": true,
+          "catalyst": "[ARGON v4 81.6점], 👑 '반도체 장비' 독자대장주(동조율 92%), 정규장 대금 363억 집중, 정규장 +15.17% 돌파"
+        },
+        {
+          "rank": 3,
+          "name": "안랩",
+          "code": "053800",
+          "entry_price": 92700,
+          "am_high_price": 92700,
+          "am_high_gain_pct": 0.0,
+          "next_open_price": 0,
+          "next_open_gap_pct": 0.0,
+          "next_high_price": 0,
+          "next_max_gain_pct": 0.0,
+          "next_close_price": 0,
+          "next_close_gain_pct": 0.0,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": 0.0,
+          "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
+          "is_win": true,
+          "catalyst": "[ARGON v4 78.7점], 👑 '정보보안·사이버' 독자대장주(동조율 76%), 정규장 대금 1,091억 집중, 정규장 +15.59% 돌파"
         }
       ]
     }
