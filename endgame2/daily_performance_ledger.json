@@ -2,7 +2,7 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-10-30 20:10:14"
+    "last_updated": "2026-10-31 20:10:04"
   },
   "summary": {
     "total_trades": 54,
@@ -1270,20 +1270,20 @@
           "rank": 1,
           "name": "광전자",
           "code": "017900",
-          "entry_price": 9440,
+          "entry_price": 8670,
           "am_high_price": 9440,
-          "am_high_gain_pct": 0.0,
+          "am_high_gain_pct": 8.88,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
           "next_max_gain_pct": 0.0,
           "next_close_price": 0,
           "next_close_gain_pct": 0.0,
-          "hit_am_3pct": false,
+          "hit_am_3pct": true,
           "hit_next_5pct": false,
           "hit_stoploss": false,
-          "realized_return_pct": 0.0,
-          "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
+          "realized_return_pct": 1.5,
+          "trade_result": "✅ 당일 AM +8.88% 1차 익절 완료 (익일 대기)",
           "is_win": true,
           "catalyst": "[ARGON v4 83.3점], 테마 'LED (일반)'(동조율 56%), 정규장 대금 369억 집중, 정규장 +18.15% 돌파"
         }
