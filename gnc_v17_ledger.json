@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-11-02 13:50:22",
-  "evaluated_days": 18,
+  "updated_at": "2026-11-02 20:10:45",
+  "evaluated_days": 19,
   "five_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 77.8,
-      "rank1_cum_return_pct": 67.56,
-      "top2_win_rate_pct": 62.9,
-      "top2_cum_return_pct": 39.23,
-      "top3_cum_return_pct": 39.94,
+      "rank1_win_rate_pct": 78.9,
+      "rank1_cum_return_pct": 75.06,
+      "top2_win_rate_pct": 64.9,
+      "top2_cum_return_pct": 45.73,
+      "top3_cum_return_pct": 44.93,
       "top2_stop_losses": 7
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 88.9,
-      "rank1_cum_return_pct": 76.15,
-      "top2_win_rate_pct": 68.6,
-      "top2_cum_return_pct": 43.87
+      "rank1_win_rate_pct": 89.5,
+      "rank1_cum_return_pct": 83.65,
+      "top2_win_rate_pct": 70.3,
+      "top2_cum_return_pct": 50.38
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 88.2,
-      "rank1_cum_return_pct": 60.23,
-      "top2_win_rate_pct": 76.7,
-      "top2_cum_return_pct": 43.16,
-      "top3_cum_return_pct": 43.15,
+      "rank1_win_rate_pct": 88.9,
+      "rank1_cum_return_pct": 67.06,
+      "top2_win_rate_pct": 78.1,
+      "top2_cum_return_pct": 49.06,
+      "top3_cum_return_pct": 47.28,
       "top2_stop_losses": 4,
       "expired_saved_stop_losses_count": 6,
       "expired_saved_loss_pct": 8.69
     },
     "v1.6_QFE_Full (VolumeProfile + k-NN + MC10K)": {
       "rank1_win_rate_pct": 100.0,
-      "rank1_hit5_rate_pct": 94.1,
-      "rank1_triggered_days": 17,
-      "rank1_cum_return_pct": 87.8,
-      "top2_win_rate_pct": 89.7,
-      "top2_cum_return_pct": 56.86,
-      "top3_cum_return_pct": 49.42,
+      "rank1_hit5_rate_pct": 94.4,
+      "rank1_triggered_days": 18,
+      "rank1_cum_return_pct": 95.3,
+      "top2_win_rate_pct": 90.3,
+      "top2_cum_return_pct": 63.07,
+      "top3_cum_return_pct": 53.79,
       "top2_stop_losses": 3,
       "filtered_saved_stop_losses_count": 5,
       "filtered_saved_loss_pct": 8.45
     },
     "v1.7_GNC_SelectionOnly (L1-ESO + HJ-GP Funnel + MPPI 10K)": {
-      "rank1_win_rate_pct": 88.9,
-      "rank1_hit5_rate_pct": 88.9,
-      "rank1_cum_return_pct": 85.31,
-      "top2_win_rate_pct": 71.4,
-      "top2_cum_return_pct": 51.45,
-      "top3_cum_return_pct": 43.01,
+      "rank1_win_rate_pct": 89.5,
+      "rank1_hit5_rate_pct": 89.5,
+      "rank1_cum_return_pct": 92.81,
+      "top2_win_rate_pct": 73.0,
+      "top2_cum_return_pct": 57.96,
+      "top3_cum_return_pct": 48.0,
       "top2_stop_losses": 6
     },
     "v1.7_GNC_Full (L1-ESO + HJ-GP Funnel + MPPI 10K + CBF-QP Safety Shield)": {
       "rank1_win_rate_pct": 100.0,
-      "rank1_hit5_rate_pct": 94.1,
-      "rank1_triggered_days": 17,
-      "rank1_cum_return_pct": 87.8,
+      "rank1_hit5_rate_pct": 94.4,
+      "rank1_triggered_days": 18,
+      "rank1_cum_return_pct": 95.3,
       "top2_win_rate_pct": 100.0,
-      "top2_cum_return_pct": 60.57,
-      "top3_cum_return_pct": 51.73,
+      "top2_cum_return_pct": 66.78,
+      "top3_cum_return_pct": 55.74,
       "top2_stop_losses": 0,
       "cbf_aborted_stop_losses_count": 8,
       "cbf_saved_loss_pct": 15.95
@@ -590,6 +590,34 @@
         "raw_realized_pct": -2.5,
         "exec_state": "CBF_ABORT (CBF_LOWER_RECOVERY +3.00% 추력미달 진입차단)",
         "exec_realized_pct": 0.0
+      }
+    },
+    "2026-11-02": {
+      "gnc_rank1": {
+        "name": "라온로보틱스",
+        "code": "232680",
+        "gnc_score": 67.9,
+        "v4_score": 67.5,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 1.75,
+        "hj_lcb": 1.85,
+        "mppi_j": 5.11,
+        "notes": [],
+        "p_target": 38.6,
+        "ev_pct": 1.18,
+        "gp_win_rate": 68.2,
+        "high_pct": 14.62,
+        "raw_realized_pct": 7.5,
+        "exec_state": "THRUST_LOCK (CBF_ORB +1.05% 궤도진입)",
+        "exec_realized_pct": 7.5
+      },
+      "gnc_rank2": {
+        "name": "이니텍",
+        "code": "053350",
+        "gnc_score": 56.7,
+        "raw_realized_pct": 5.52,
+        "exec_state": "THRUST_LOCK (CBF_LOWER_RECOVERY +3.00% 궤도진입)",
+        "exec_realized_pct": 4.92
       }
     }
   }
