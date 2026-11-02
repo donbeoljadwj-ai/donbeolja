@@ -2,17 +2,17 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-01 20:10:02"
+    "last_updated": "2026-11-02 15:10:10"
   },
   "summary": {
-    "total_trades": 54,
-    "win_trades": 46,
-    "win_rate_pct": 85.2,
-    "hit_am_3pct_count": 31,
-    "hit_am_3pct_rate": 57.4,
-    "hit_next_5pct_rate": 33.3,
-    "avg_realized_profit_pct": 2.22,
-    "stop_loss_rate": 18.5
+    "total_trades": 55,
+    "win_trades": 47,
+    "win_rate_pct": 85.5,
+    "hit_am_3pct_count": 32,
+    "hit_am_3pct_rate": 58.2,
+    "hit_next_5pct_rate": 34.5,
+    "avg_realized_profit_pct": 2.25,
+    "stop_loss_rate": 18.2
   },
   "days": {
     "2026-10-02": {
@@ -1273,19 +1273,68 @@
           "entry_price": 8670,
           "am_high_price": 9440,
           "am_high_gain_pct": 8.88,
+          "next_open_price": 8530,
+          "next_open_gap_pct": -1.61,
+          "next_high_price": 9200,
+          "next_max_gain_pct": 6.11,
+          "next_close_price": 8990,
+          "next_close_gain_pct": 3.69,
+          "hit_am_3pct": true,
+          "hit_next_5pct": true,
+          "hit_stoploss": false,
+          "realized_return_pct": 4.25,
+          "trade_result": "🏆 당일 AM +8.88% & 익일 +6.11% 듀얼 익절",
+          "is_win": true,
+          "catalyst": "[ARGON v4 83.3점], 테마 'LED (일반)'(동조율 56%), 정규장 대금 369억 집중, 정규장 +18.15% 돌파"
+        }
+      ]
+    },
+    "2026-11-02": {
+      "date": "2026-11-02",
+      "recorded_at": "2026-11-02 15:10:10",
+      "trades_count": 2,
+      "trades": [
+        {
+          "rank": 1,
+          "name": "라온시큐어",
+          "code": "042510",
+          "entry_price": 19450,
+          "am_high_price": 19450,
+          "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
           "next_high_price": 0,
           "next_max_gain_pct": 0.0,
           "next_close_price": 0,
           "next_close_gain_pct": 0.0,
-          "hit_am_3pct": true,
+          "hit_am_3pct": false,
           "hit_next_5pct": false,
           "hit_stoploss": false,
-          "realized_return_pct": 1.5,
-          "trade_result": "✅ 당일 AM +8.88% 1차 익절 완료 (익일 대기)",
+          "realized_return_pct": 0.0,
+          "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
           "is_win": true,
-          "catalyst": "[ARGON v4 83.3점], 테마 'LED (일반)'(동조율 56%), 정규장 대금 369억 집중, 정규장 +18.15% 돌파"
+          "catalyst": "[ARGON v4 86.4점], 👑 '정보보안·사이버' 독자대장주(동조율 48%), 고가유지 99.3% 밀착마감, 정규장 대금 449억 집중, 정규장 +16.82% 돌파"
+        },
+        {
+          "rank": 2,
+          "name": "안랩",
+          "code": "053800",
+          "entry_price": 118100,
+          "am_high_price": 118100,
+          "am_high_gain_pct": 0.0,
+          "next_open_price": 0,
+          "next_open_gap_pct": 0.0,
+          "next_high_price": 0,
+          "next_max_gain_pct": 0.0,
+          "next_close_price": 0,
+          "next_close_gain_pct": 0.0,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": 0.0,
+          "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
+          "is_win": true,
+          "catalyst": "[ARGON v4 83.4점], 테마 '정보보안·사이버'(동조율 48%), 정규장 대금 672억 집중, 정규장 +17.98% 돌파"
         }
       ]
     }
