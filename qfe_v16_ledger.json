@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-11-02 23:10:44",
-  "evaluated_days": 19,
+  "updated_at": "2026-11-03 20:10:37",
+  "evaluated_days": 20,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 78.9,
-      "rank1_cum_return_pct": 75.06,
-      "top2_win_rate_pct": 64.9,
-      "top2_cum_return_pct": 45.73,
-      "top3_cum_return_pct": 44.93,
+      "rank1_win_rate_pct": 80.0,
+      "rank1_cum_return_pct": 79.94,
+      "top2_win_rate_pct": 64.1,
+      "top2_cum_return_pct": 47.71,
+      "top3_cum_return_pct": 47.19,
       "top2_stop_losses": 7
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 89.5,
-      "rank1_cum_return_pct": 83.65,
-      "top2_win_rate_pct": 70.3,
-      "top2_cum_return_pct": 50.38
+      "rank1_win_rate_pct": 90.0,
+      "rank1_cum_return_pct": 86.46,
+      "top2_win_rate_pct": 69.2,
+      "top2_cum_return_pct": 51.32
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
       "rank1_win_rate_pct": 88.9,
       "rank1_cum_return_pct": 67.06,
-      "top2_win_rate_pct": 78.1,
-      "top2_cum_return_pct": 49.06,
-      "top3_cum_return_pct": 47.28,
+      "top2_win_rate_pct": 78.8,
+      "top2_cum_return_pct": 50.2,
+      "top3_cum_return_pct": 48.04,
       "top2_stop_losses": 4,
-      "expired_saved_stop_losses_count": 6,
-      "expired_saved_loss_pct": 8.69
+      "expired_saved_stop_losses_count": 8,
+      "expired_saved_loss_pct": 10.53
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 89.5,
-      "rank1_hit5_rate_pct": 89.5,
-      "rank1_cum_return_pct": 92.81,
-      "top2_win_rate_pct": 73.0,
-      "top2_cum_return_pct": 57.96,
-      "top3_cum_return_pct": 48.0,
+      "rank1_win_rate_pct": 85.0,
+      "rank1_hit5_rate_pct": 85.0,
+      "rank1_cum_return_pct": 91.89,
+      "top2_win_rate_pct": 71.8,
+      "top2_cum_return_pct": 58.91,
+      "top3_cum_return_pct": 48.12,
       "top2_stop_losses": 6
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
@@ -40,12 +40,12 @@
       "rank1_hit5_rate_pct": 94.4,
       "rank1_triggered_days": 18,
       "rank1_cum_return_pct": 95.3,
-      "top2_win_rate_pct": 90.3,
-      "top2_cum_return_pct": 63.07,
-      "top3_cum_return_pct": 53.79,
+      "top2_win_rate_pct": 90.6,
+      "top2_cum_return_pct": 64.35,
+      "top3_cum_return_pct": 53.81,
       "top2_stop_losses": 3,
-      "filtered_saved_stop_losses_count": 5,
-      "filtered_saved_loss_pct": 8.45
+      "filtered_saved_stop_losses_count": 6,
+      "filtered_saved_loss_pct": 9.37
     }
   },
   "upcoming_target_date": "2026-11-03",
@@ -531,6 +531,32 @@
         "raw_realized_pct": 5.52,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
         "exec_realized_pct": 4.92
+      }
+    },
+    "2026-11-03": {
+      "qfe_rank1": {
+        "name": "한화오션",
+        "code": "042660",
+        "qfe_score": 97.2,
+        "v4_score": 90.8,
+        "notes": [
+          "🐂강세테마확산(100%,+4.5)"
+        ],
+        "p_target": 51.2,
+        "ev_pct": 2.53,
+        "knn_win_rate": 57.1,
+        "high_pct": 0.18,
+        "raw_realized_pct": -0.92,
+        "exec_state": "EXPIRED (TICK_UP +0.25% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
+      },
+      "qfe_rank2": {
+        "name": "OCI홀딩스",
+        "code": "010060",
+        "qfe_score": 92.7,
+        "raw_realized_pct": 2.81,
+        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
+        "exec_realized_pct": 2.56
       }
     }
   }
