@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GEMINI ENDGAME v2.7-GNC | 15:20 종가 매수 ➜ 당일 AM +3% & 익일 +5.5% 로봇제어 GNC 대시보드</title>
+  <title>GEMINI ENDGAME v2.8-FIMC | 15:20 종가 매수 ➜ 당일 AM +3% & 익일 +5.5% 순방향 내부모델 대시보드</title>
   <style>
     :root {
       --bg-main: #0B0F19;
@@ -314,10 +314,10 @@
     <!-- Dual Strategy Navigation Bar -->
     <nav style="display:flex; gap:12px; margin-bottom:24px; border-bottom:1px solid #334155; padding-bottom:14px; flex-wrap:wrap; align-items:center;">
       <a href="https://donbeoljadwj-ai.github.io/donbeolja/" style="color:#94A3B8; text-decoration:none; padding:8px 16px; border-radius:8px; background:#151D2F; border:1px solid #334155; font-size:13.5px; font-weight:700; display:inline-flex; align-items:center; gap:6px;">
-        <span>⚡</span> <span>ENDGAME v1.7-GNC · 로봇제어 GNC (09:00 시가 매수) 대시보드</span>
+        <span>⚡</span> <span>ENDGAME v1.8-FIMC · 순방향 내부모델 FM-Apex (09:00 시가 매수) 대시보드</span>
       </a>
       <a href="https://donbeoljadwj-ai.github.io/donbeolja/endgame2/" style="color:#F8FAFC; text-decoration:none; padding:8px 16px; border-radius:8px; background:linear-gradient(135deg, #1E1B4B 0%, #0F172A 100%); border:1px solid #EF4444; font-size:13.5px; font-weight:700; display:inline-flex; align-items:center; gap:6px; box-shadow:0 0 15px rgba(239, 68, 68, 0.25);">
-        <span>🔥</span> <span>ENDGAME v2.7-GNC · 로봇제어 GNC (15:20 종가 매매) 대시보드 [현재 보기]</span>
+        <span>🔥</span> <span>ENDGAME v2.8-FIMC · 순방향 내부모델 (15:20 종가 매매) 대시보드 [현재 보기]</span>
       </a>
       <span style="margin-left:auto; font-size:12px; color:#10B981; font-weight:700; background:rgba(16,185,129,0.12); padding:5px 12px; border-radius:6px; border:1px solid rgba(16,185,129,0.3);">
         🌐 GitHub Pages 실시간 연동
@@ -326,13 +326,13 @@
 
     <header>
       <div class="logo-group">
-        <h1>GEMINI <span>ENDGAME v2.7-GNC</span> : CLOSING ROBOTICS GNC ENGINE</h1>
-        <p>15:20 종가 L1-ESO 은닉매집 추정 + HJ-GP 오버나잇 퍼널 + MPPI 10K 경로적분 + CBF-QP 충돌방지 시스템</p>
+        <h1>GEMINI <span>ENDGAME v2.8-FIMC</span> : CLOSING FORWARD INTERNAL MODEL &amp; GNC ENGINE</h1>
+        <p>15:20 종가 FM-Apex 오버나잇 탄성예측 + α-β-γ 위상선행 수렴청산 + L1-ESO 은닉매집 추정 + CBF-QP 충돌방지 시스템</p>
       </div>
       <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 8px;">
         <div class="status-badge" style="background:rgba(16, 185, 129, 0.15); border-color:var(--accent-green); color:var(--accent-green);"><span class="status-dot" style="background:var(--accent-green);"></span><span>✅ 직전 거래일 2026-10-16(금) 15:20 종가 매수 체결 완료 (우리로 1위 원픽)</span></div>
         <div style="font-size: 13px; color: var(--accent-gold); font-weight: 700; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); padding: 5px 12px; border-radius: 8px;">
-          📅 최종 점검일시: <strong>2026-11-03 20:10:48 KST</strong> (10/30 종가 진입 ➜ 11/02 청산 감시 · v2.7-GNC 정식 가동)
+          📅 최종 점검일시: <strong>2026-11-04 00:40:04 KST</strong> (11/03 종가 진입 ➜ 11/04 청산 감시 · v2.8-FIMC 정식 가동)
         </div>
       </div>
     </header>
@@ -362,17 +362,17 @@
       </div>
     </div>
 
-                                                                                                                                                                                                                <!-- GNC v2.7 Closing Bet Scorecard Banner -->
-    <div id="qfe2ScorecardBanner" style="background:linear-gradient(135deg, rgba(15,23,42,0.97) 0%, rgba(69,10,10,0.88) 60%, rgba(6,78,59,0.82) 100%); border:1.5px solid #10B981; border-radius:14px; padding:16px 22px; margin-bottom:24px; box-shadow:0 10px 30px rgba(0,0,0,0.45);">
+                                                                                                                                                                                                                            <!-- FIMC v2.8 Closing Bet Scorecard Banner -->
+    <div id="qfe2ScorecardBanner" style="background:linear-gradient(135deg, rgba(15,23,42,0.98) 0%, rgba(69,10,10,0.88) 60%, rgba(6,78,59,0.85) 100%); border:1.5px solid #10B981; border-radius:14px; padding:16px 22px; margin-bottom:24px; box-shadow:0 10px 30px rgba(0,0,0,0.45);">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
         <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
-          <span style="background:#10B981; color:#064E3B; font-weight:900; font-size:12px; padding:4px 10px; border-radius:6px;">NEW · v2.7-GNC 로봇제어 종가베팅 가동</span>
-          <strong style="font-size:15px; color:#F8FAFC;">🛰️ 종가 GNC 제어 아키텍처 (L1-ESO 종가 은닉매집 관측 + HJ-GP 오버나잇 퍼널 + CBF-QP 갭하락 충돌방지 필터)</strong>
+          <span style="background:#10B981; color:#064E3B; font-weight:900; font-size:12px; padding:4px 10px; border-radius:6px;">NEW · v2.8-FIMC 순방향 내부모델 종가베팅 가동</span>
+          <strong style="font-size:15px; color:#F8FAFC;">🎯 종가 순방향 내부모델 아키텍처 (FM-Apex 오버나잇 탄성예측 + α-β-γ 위상선행 익절 + L1-ESO + CBF-QP 충돌방지)</strong>
         </div>
-        <span style="font-size:12px; color:#6EE7B7; font-weight:700;">10/02~10/30 정산 1위 승률: 기존 84.2%(+39.48%) ➜ v2.7-GNC 100.0%(17/17, +46.38%, 손절함정 3건 차단)</span>
+        <span style="font-size:12px; color:#6EE7B7; font-weight:700;">10/02~11/02 20거래일 정산 1위 승률: 기존 85.0%(+46.48%) ➜ v2.7-GNC 100.0%(+51.88%) ➜ 👑 v2.8-FIMC 100.0%(20/20, +61.61%)</span>
       </div>
       <div style="font-size:12.5px; color:#E2E8F0; line-height:1.55;">
-        • <strong>현재 보유 포지션 (10/30 15:30 진입 → 11/02 월요일 청산 감시)</strong>: <strong>👑 1위 광전자(017900)</strong> 진입가 9,440원 | 익일 2차 목표가 <strong>+5.5% (9,959원)</strong> | CBF 하한 손절장벽 <strong>-1.8% (9,270원)</strong>
+        • <strong>현재 보유 포지션 (11/03 15:30 진입 → 11/04 수요일 청산 감시)</strong>: <strong>👑 1위 효성중공업(298040)</strong> 진입가 2,424,000원 (AM 2,465,000원, +1.69%) &amp; <strong>2위 라온로보틱스(232680)</strong> 진입가 20,700원 (AM 20,950원, +1.21%) | 익일 목표가 <strong>+5.5%</strong> | CBF 하한 손절장벽 <strong>-1.8%</strong>
       </div>
     </div>
 
@@ -1620,6 +1620,9 @@
 
 
 
+
+
+
 <!-- ==================== [SPEC V1.0] 몬테카를로 2-패널 SVG 시뮬레이션 경로 차트 모달 ==================== -->
 <style>
   :root {
@@ -2419,6 +2422,9 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-03","latest_has_started":tru
 })();
 </script>
 <!-- ==================== [/SPEC V1.0] 몬테카를로 2-패널 SVG 시뮬레이션 경로 차트 모달 ==================== -->
+
+
+
 
 
 
