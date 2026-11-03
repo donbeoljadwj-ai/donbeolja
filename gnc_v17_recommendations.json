@@ -2,117 +2,6 @@
   "2026-10-06": [
     {
       "rank": 1,
-      "v4_rank": 3,
-      "name": "빛샘전자",
-      "code": "072950",
-      "close": 17250,
-      "day_gain_pct": 12.8,
-      "trade_value_krw": 161300000000,
-      "v4_score": 75.0,
-      "composite_score": 75.6,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 75.6,
-        "v4_score": 75.0,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 3.73,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 1.25,
-        "gp_mu_high": 6.2,
-        "gp_sigma": 2.2,
-        "gp_win_rate": 55.0,
-        "gp_matches": 0,
-        "mppi_j": 5.67,
-        "p_lock3": 60.3,
-        "p_target": 43.8,
-        "p_target10": 20.5,
-        "p_stop": 39.1,
-        "ev_pct": 1.62,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.4,
-        "kelly_pct": 10.6,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 2,
-      "v4_rank": 1,
-      "name": "우리로",
-      "code": "046970",
-      "close": 8340,
-      "day_gain_pct": 12.6,
-      "trade_value_krw": 107900000000,
-      "v4_score": 72.6,
-      "composite_score": 73.0,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 73.0,
-        "v4_score": 72.6,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 3.73,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 1.25,
-        "gp_mu_high": 6.2,
-        "gp_sigma": 2.2,
-        "gp_win_rate": 55.0,
-        "gp_matches": 0,
-        "mppi_j": 5.53,
-        "p_lock3": 59.4,
-        "p_target": 41.6,
-        "p_target10": 19.8,
-        "p_stop": 39.9,
-        "ev_pct": 1.49,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.37,
-        "kelly_pct": 9.3,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 3,
-      "v4_rank": 2,
-      "name": "성호전자",
-      "code": "043260",
-      "close": 31400,
-      "day_gain_pct": 9.5,
-      "trade_value_krw": 276500000000,
-      "v4_score": 71.4,
-      "composite_score": 71.2,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 71.2,
-        "v4_score": 71.4,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 3.97,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 1.25,
-        "gp_mu_high": 6.2,
-        "gp_sigma": 2.2,
-        "gp_win_rate": 55.0,
-        "gp_matches": 0,
-        "mppi_j": 4.8,
-        "p_lock3": 56.1,
-        "p_target": 37.8,
-        "p_target10": 14.2,
-        "p_stop": 42.8,
-        "ev_pct": 1.08,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.28,
-        "kelly_pct": 5.9,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 4,
       "v4_rank": 6,
       "name": "디케이락",
       "code": "105740",
@@ -120,8 +9,9 @@
       "day_gain_pct": 8.0,
       "trade_value_krw": 60000000000,
       "v4_score": 65.5,
-      "composite_score": 68.8,
-      "all_filters_passed": false,
+      "gnc_score": 68.8,
+      "composite_score": 77.3,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 68.8,
@@ -145,7 +35,153 @@
         "mc_sharpe": 0.83,
         "kelly_pct": 24.6,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [
+          "⚡FM위상선행돌파(AM+6.18%·무윗꼬리,+8.5)"
+        ],
+        "fimc_score": 77.3,
+        "fimc_bonus": 8.5,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 10.22,
+        "fm_notes": [
+          "⚡FM위상선행돌파(AM+6.18%·무윗꼬리,+8.5)"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "v4_rank": 3,
+      "name": "빛샘전자",
+      "code": "072950",
+      "close": 17250,
+      "day_gain_pct": 12.8,
+      "trade_value_krw": 161300000000,
+      "v4_score": 75.0,
+      "gnc_score": 75.6,
+      "composite_score": 75.6,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 75.6,
+        "v4_score": 75.0,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 3.73,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 1.25,
+        "gp_mu_high": 6.2,
+        "gp_sigma": 2.2,
+        "gp_win_rate": 55.0,
+        "gp_matches": 0,
+        "mppi_j": 5.67,
+        "p_lock3": 60.3,
+        "p_target": 43.8,
+        "p_target10": 20.5,
+        "p_stop": 39.1,
+        "ev_pct": 1.62,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.4,
+        "kelly_pct": 10.6,
+        "orb_req_pct": 1.05,
+        "notes": [],
+        "fimc_score": 75.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.2,
+        "fm_notes": []
+      }
+    },
+    {
+      "rank": 3,
+      "v4_rank": 1,
+      "name": "우리로",
+      "code": "046970",
+      "close": 8340,
+      "day_gain_pct": 12.6,
+      "trade_value_krw": 107900000000,
+      "v4_score": 72.6,
+      "gnc_score": 73.0,
+      "composite_score": 73.0,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 73.0,
+        "v4_score": 72.6,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 3.73,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 1.25,
+        "gp_mu_high": 6.2,
+        "gp_sigma": 2.2,
+        "gp_win_rate": 55.0,
+        "gp_matches": 0,
+        "mppi_j": 5.53,
+        "p_lock3": 59.4,
+        "p_target": 41.6,
+        "p_target10": 19.8,
+        "p_stop": 39.9,
+        "ev_pct": 1.49,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.37,
+        "kelly_pct": 9.3,
+        "orb_req_pct": 1.05,
+        "notes": [],
+        "fimc_score": 73.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.2,
+        "fm_notes": []
+      }
+    },
+    {
+      "rank": 4,
+      "v4_rank": 2,
+      "name": "성호전자",
+      "code": "043260",
+      "close": 31400,
+      "day_gain_pct": 9.5,
+      "trade_value_krw": 276500000000,
+      "v4_score": 71.4,
+      "gnc_score": 71.2,
+      "composite_score": 71.2,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 71.2,
+        "v4_score": 71.4,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 3.97,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 1.25,
+        "gp_mu_high": 6.2,
+        "gp_sigma": 2.2,
+        "gp_win_rate": 55.0,
+        "gp_matches": 0,
+        "mppi_j": 4.8,
+        "p_lock3": 56.1,
+        "p_target": 37.8,
+        "p_target10": 14.2,
+        "p_stop": 42.8,
+        "ev_pct": 1.08,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.28,
+        "kelly_pct": 5.9,
+        "orb_req_pct": 1.05,
+        "notes": [],
+        "fimc_score": 71.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 9.14,
+        "plant_episodes": 4,
+        "pred_apex_pct": 6.62,
+        "fm_notes": []
       }
     },
     {
@@ -157,8 +193,9 @@
       "day_gain_pct": 8.0,
       "trade_value_krw": 60000000000,
       "v4_score": 60.6,
+      "gnc_score": 60.2,
       "composite_score": 60.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 60.2,
@@ -182,7 +219,14 @@
         "mc_sharpe": 0.26,
         "kelly_pct": 5.1,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 60.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.66,
+        "fm_notes": []
       }
     },
     {
@@ -194,8 +238,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 155178496000,
       "v4_score": 59.3,
+      "gnc_score": 59.4,
       "composite_score": 59.4,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 59.4,
@@ -219,7 +264,14 @@
         "mc_sharpe": 0.34,
         "kelly_pct": 8.1,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 59.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 4.77,
+        "plant_episodes": 2,
+        "pred_apex_pct": 6.88,
+        "fm_notes": []
       }
     },
     {
@@ -231,8 +283,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 121487799200,
       "v4_score": 58.1,
+      "gnc_score": 58.3,
       "composite_score": 58.3,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 58.3,
@@ -256,7 +309,14 @@
         "mc_sharpe": 0.35,
         "kelly_pct": 8.3,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 58.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 5.44,
+        "plant_episodes": 1,
+        "pred_apex_pct": 6.9,
+        "fm_notes": []
       }
     },
     {
@@ -268,8 +328,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 75264764000,
       "v4_score": 56.8,
+      "gnc_score": 57.2,
       "composite_score": 57.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 57.2,
@@ -293,7 +354,14 @@
         "mc_sharpe": 0.38,
         "kelly_pct": 9.4,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 57.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.36,
+        "fm_notes": []
       }
     },
     {
@@ -305,8 +373,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 81138865600,
       "v4_score": 55.8,
+      "gnc_score": 55.7,
       "composite_score": 55.7,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 55.7,
@@ -330,7 +399,14 @@
         "mc_sharpe": 0.3,
         "kelly_pct": 6.3,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 55.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.77,
+        "fm_notes": []
       }
     },
     {
@@ -342,8 +418,9 @@
       "day_gain_pct": 4.3,
       "trade_value_krw": 75100000000,
       "v4_score": 53.4,
+      "gnc_score": 53.0,
       "composite_score": 53.0,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 53.0,
@@ -367,7 +444,14 @@
         "mc_sharpe": 0.26,
         "kelly_pct": 5.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 53.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.6,
+        "fm_notes": []
       }
     }
   ],
@@ -381,8 +465,9 @@
       "day_gain_pct": 9.1,
       "trade_value_krw": 143600000000,
       "v4_score": 66.3,
+      "gnc_score": 67.5,
       "composite_score": 67.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 67.5,
@@ -406,7 +491,14 @@
         "mc_sharpe": 0.35,
         "kelly_pct": 6.7,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 67.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 7.32,
+        "plant_episodes": 1,
+        "pred_apex_pct": 5.49,
+        "fm_notes": []
       }
     },
     {
@@ -418,8 +510,9 @@
       "day_gain_pct": 8.0,
       "trade_value_krw": 60000000000,
       "v4_score": 63.4,
+      "gnc_score": 66.2,
       "composite_score": 66.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 66.2,
@@ -443,7 +536,14 @@
         "mc_sharpe": 0.61,
         "kelly_pct": 15.9,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 66.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.29,
+        "fm_notes": []
       }
     },
     {
@@ -455,8 +555,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 208425942640,
       "v4_score": 61.2,
+      "gnc_score": 63.5,
       "composite_score": 63.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 63.5,
@@ -480,7 +581,14 @@
         "mc_sharpe": 0.54,
         "kelly_pct": 14.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 63.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 6.41,
+        "plant_episodes": 1,
+        "pred_apex_pct": 6.32,
+        "fm_notes": []
       }
     },
     {
@@ -492,8 +600,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 70898357600,
       "v4_score": 57.4,
+      "gnc_score": 60.5,
       "composite_score": 60.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 60.5,
@@ -517,7 +626,14 @@
         "mc_sharpe": 0.67,
         "kelly_pct": 18.3,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 60.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.1,
+        "fm_notes": []
       }
     },
     {
@@ -529,8 +645,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 123555221600,
       "v4_score": 58.3,
+      "gnc_score": 60.5,
       "composite_score": 60.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 60.5,
@@ -554,7 +671,14 @@
         "mc_sharpe": 0.52,
         "kelly_pct": 13.4,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 60.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 5.44,
+        "plant_episodes": 1,
+        "pred_apex_pct": 6.17,
+        "fm_notes": []
       }
     },
     {
@@ -566,8 +690,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 99949486400,
       "v4_score": 57.0,
+      "gnc_score": 59.1,
       "composite_score": 59.1,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 59.1,
@@ -591,7 +716,14 @@
         "mc_sharpe": 0.5,
         "kelly_pct": 12.5,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 59.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.05,
+        "fm_notes": []
       }
     },
     {
@@ -603,8 +735,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 111466356000,
       "v4_score": 56.8,
+      "gnc_score": 58.5,
       "composite_score": 58.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 58.5,
@@ -628,7 +761,14 @@
         "mc_sharpe": 0.45,
         "kelly_pct": 10.5,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 58.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 6.01,
+        "plant_episodes": 1,
+        "pred_apex_pct": 5.73,
+        "fm_notes": []
       }
     },
     {
@@ -640,8 +780,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 88390344000,
       "v4_score": 55.4,
+      "gnc_score": 56.9,
       "composite_score": 56.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 56.9,
@@ -665,7 +806,14 @@
         "mc_sharpe": 0.41,
         "kelly_pct": 10.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 56.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.6,
+        "fm_notes": []
       }
     },
     {
@@ -677,8 +825,9 @@
       "day_gain_pct": 3.7,
       "trade_value_krw": 118800000000,
       "v4_score": 54.4,
+      "gnc_score": 56.1,
       "composite_score": 56.1,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 56.1,
@@ -702,7 +851,14 @@
         "mc_sharpe": 0.45,
         "kelly_pct": 10.6,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 56.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 8.53,
+        "plant_episodes": 5,
+        "pred_apex_pct": 5.75,
+        "fm_notes": []
       }
     },
     {
@@ -714,8 +870,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 786691888000,
       "v4_score": 12.9,
+      "gnc_score": 15.9,
       "composite_score": 15.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 15.9,
@@ -739,7 +896,14 @@
         "mc_sharpe": 0.65,
         "kelly_pct": 17.7,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 15.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 4.77,
+        "plant_episodes": 2,
+        "pred_apex_pct": 6.53,
+        "fm_notes": []
       }
     }
   ],
@@ -753,8 +917,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 296497799200,
       "v4_score": 66.1,
+      "gnc_score": 70.2,
       "composite_score": 70.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 70.2,
@@ -778,7 +943,14 @@
         "mc_sharpe": 0.96,
         "kelly_pct": 27.6,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 70.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 17.17,
+        "fm_notes": []
       }
     },
     {
@@ -790,8 +962,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 91296083720,
       "v4_score": 61.0,
+      "gnc_score": 65.0,
       "composite_score": 65.0,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 65.0,
@@ -815,7 +988,14 @@
         "mc_sharpe": 1.0,
         "kelly_pct": 27.6,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 65.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.29,
+        "fm_notes": []
       }
     },
     {
@@ -827,8 +1007,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 304655421280,
       "v4_score": 59.9,
+      "gnc_score": 63.9,
       "composite_score": 63.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 63.9,
@@ -852,7 +1033,14 @@
         "mc_sharpe": 0.94,
         "kelly_pct": 27.1,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 63.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 20.33,
+        "fm_notes": []
       }
     },
     {
@@ -864,8 +1052,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 250850520000,
       "v4_score": 60.1,
+      "gnc_score": 60.0,
       "composite_score": 60.0,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 60.0,
@@ -889,7 +1078,14 @@
         "mc_sharpe": 0.33,
         "kelly_pct": 6.2,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 60.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 4.29,
+        "plant_episodes": 1,
+        "pred_apex_pct": 3.16,
+        "fm_notes": []
       }
     },
     {
@@ -901,8 +1097,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 224130096000,
       "v4_score": 59.5,
+      "gnc_score": 59.3,
       "composite_score": 59.3,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 59.3,
@@ -926,7 +1123,14 @@
         "mc_sharpe": 0.3,
         "kelly_pct": 5.3,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 59.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.04,
+        "fm_notes": []
       }
     },
     {
@@ -938,8 +1142,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 104138072000,
       "v4_score": 57.5,
+      "gnc_score": 58.0,
       "composite_score": 58.0,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 58.0,
@@ -963,7 +1168,14 @@
         "mc_sharpe": 0.43,
         "kelly_pct": 9.8,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 58.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.83,
+        "fm_notes": []
       }
     },
     {
@@ -975,8 +1187,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 57018922920,
       "v4_score": 56.3,
+      "gnc_score": 57.4,
       "composite_score": 57.4,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 57.4,
@@ -1000,7 +1213,14 @@
         "mc_sharpe": 0.52,
         "kelly_pct": 13.4,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 57.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.64,
+        "fm_notes": []
       }
     },
     {
@@ -1012,8 +1232,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 64172412400,
       "v4_score": 56.1,
+      "gnc_score": 57.1,
       "composite_score": 57.1,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 57.1,
@@ -1037,7 +1258,14 @@
         "mc_sharpe": 0.49,
         "kelly_pct": 12.6,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 57.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.3,
+        "fm_notes": []
       }
     },
     {
@@ -1049,8 +1277,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 97993068000,
       "v4_score": 56.1,
+      "gnc_score": 56.1,
       "composite_score": 56.1,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 56.1,
@@ -1074,7 +1303,14 @@
         "mc_sharpe": 0.33,
         "kelly_pct": 6.2,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 56.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.35,
+        "fm_notes": []
       }
     },
     {
@@ -1086,8 +1322,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 498888508000,
       "v4_score": 21.5,
+      "gnc_score": 22.7,
       "composite_score": 22.7,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 22.7,
@@ -1111,7 +1348,14 @@
         "mc_sharpe": 0.54,
         "kelly_pct": 14.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 22.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 3.65,
+        "plant_episodes": 3,
+        "pred_apex_pct": 4.1,
+        "fm_notes": []
       }
     }
   ],
@@ -1125,8 +1369,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 143304072848,
       "v4_score": 63.3,
+      "gnc_score": 64.5,
       "composite_score": 64.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 64.5,
@@ -1150,7 +1395,14 @@
         "mc_sharpe": 0.59,
         "kelly_pct": 16.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 64.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.81,
+        "fm_notes": []
       }
     },
     {
@@ -1162,8 +1414,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 242076792000,
       "v4_score": 61.2,
+      "gnc_score": 60.9,
       "composite_score": 60.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 60.9,
@@ -1187,7 +1440,14 @@
         "mc_sharpe": 0.36,
         "kelly_pct": 7.6,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 60.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 2.27,
+        "plant_episodes": 2,
+        "pred_apex_pct": 2.46,
+        "fm_notes": []
       }
     },
     {
@@ -1199,8 +1459,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 248031383200,
       "v4_score": 60.4,
+      "gnc_score": 59.6,
       "composite_score": 59.6,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 59.6,
@@ -1224,7 +1485,14 @@
         "mc_sharpe": 0.27,
         "kelly_pct": 4.1,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 59.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 3.56,
+        "plant_episodes": 1,
+        "pred_apex_pct": 2.09,
+        "fm_notes": []
       }
     },
     {
@@ -1236,8 +1504,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 74280042800,
       "v4_score": 58.3,
+      "gnc_score": 59.2,
       "composite_score": 59.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 59.2,
@@ -1261,7 +1530,14 @@
         "mc_sharpe": 0.56,
         "kelly_pct": 15.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 59.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.9,
+        "fm_notes": []
       }
     },
     {
@@ -1273,8 +1549,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 173447392000,
       "v4_score": 59.5,
+      "gnc_score": 59.2,
       "composite_score": 59.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 59.2,
@@ -1298,7 +1575,14 @@
         "mc_sharpe": 0.35,
         "kelly_pct": 7.3,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 59.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 2.47,
+        "fm_notes": []
       }
     },
     {
@@ -1310,8 +1594,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 73990774800,
       "v4_score": 54.0,
+      "gnc_score": 57.7,
       "composite_score": 57.7,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 57.7,
@@ -1335,7 +1620,14 @@
         "mc_sharpe": 0.9,
         "kelly_pct": 25.8,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 57.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 32.28,
+        "fm_notes": []
       }
     },
     {
@@ -1347,8 +1639,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 58711989840,
       "v4_score": 56.4,
+      "gnc_score": 56.7,
       "composite_score": 56.7,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 56.7,
@@ -1372,7 +1665,14 @@
         "mc_sharpe": 0.46,
         "kelly_pct": 10.9,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 56.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.6,
+        "fm_notes": []
       }
     },
     {
@@ -1384,8 +1684,9 @@
       "day_gain_pct": 5.3,
       "trade_value_krw": 88500000000,
       "v4_score": 42.9,
+      "gnc_score": 41.4,
       "composite_score": 41.4,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 41.4,
@@ -1409,7 +1710,14 @@
         "mc_sharpe": 0.15,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 41.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 1.93,
+        "fm_notes": []
       }
     },
     {
@@ -1421,11 +1729,15 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 1315277560000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -1446,6 +1758,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -1460,11 +1774,15 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 1249667252000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -1485,6 +1803,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -1501,6 +1821,7 @@
       "day_gain_pct": 20.3,
       "trade_value_krw": 189900000000,
       "v4_score": 91.0,
+      "gnc_score": 93.2,
       "composite_score": 93.2,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -1526,7 +1847,14 @@
         "mc_sharpe": 0.65,
         "kelly_pct": 17.5,
         "orb_req_pct": 0.25,
-        "notes": []
+        "notes": [],
+        "fimc_score": 93.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.72,
+        "fm_notes": []
       }
     },
     {
@@ -1538,8 +1866,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 217262396800,
       "v4_score": 65.4,
+      "gnc_score": 74.3,
       "composite_score": 74.3,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 74.3,
@@ -1563,7 +1892,14 @@
         "mc_sharpe": 1.45,
         "kelly_pct": 35.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 74.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 26.02,
+        "fm_notes": []
       }
     },
     {
@@ -1575,8 +1911,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 256355216000,
       "v4_score": 60.8,
+      "gnc_score": 59.7,
       "composite_score": 59.7,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 59.7,
@@ -1600,7 +1937,14 @@
         "mc_sharpe": 0.26,
         "kelly_pct": 3.8,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 59.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 1.58,
+        "plant_episodes": 3,
+        "pred_apex_pct": 1.27,
+        "fm_notes": []
       }
     },
     {
@@ -1612,8 +1956,9 @@
       "day_gain_pct": 8.0,
       "trade_value_krw": 60000000000,
       "v4_score": 59.5,
+      "gnc_score": 58.8,
       "composite_score": 58.8,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 58.8,
@@ -1637,7 +1982,14 @@
         "mc_sharpe": 0.22,
         "kelly_pct": 1.8,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 58.8,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 28.63,
+        "plant_episodes": 1,
+        "pred_apex_pct": 20.61,
+        "fm_notes": []
       }
     },
     {
@@ -1649,8 +2001,9 @@
       "day_gain_pct": 6.2,
       "trade_value_krw": 96700000000,
       "v4_score": 59.5,
+      "gnc_score": 58.6,
       "composite_score": 58.6,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 58.6,
@@ -1674,7 +2027,14 @@
         "mc_sharpe": 0.29,
         "kelly_pct": 4.9,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 58.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 2.13,
+        "fm_notes": []
       }
     },
     {
@@ -1686,8 +2046,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 109725110736,
       "v4_score": 58.6,
+      "gnc_score": 58.3,
       "composite_score": 58.3,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 58.3,
@@ -1711,7 +2072,14 @@
         "mc_sharpe": 0.4,
         "kelly_pct": 8.7,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 58.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 2.89,
+        "fm_notes": []
       }
     },
     {
@@ -1723,8 +2091,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 115770552000,
       "v4_score": 56.2,
+      "gnc_score": 55.1,
       "composite_score": 55.1,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 55.1,
@@ -1748,7 +2117,14 @@
         "mc_sharpe": 0.22,
         "kelly_pct": 2.5,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 55.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 1.88,
+        "fm_notes": []
       }
     },
     {
@@ -1760,8 +2136,9 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 91459333600,
       "v4_score": 56.2,
+      "gnc_score": 55.1,
       "composite_score": 55.1,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 55.1,
@@ -1785,7 +2162,14 @@
         "mc_sharpe": 0.26,
         "kelly_pct": 3.4,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 55.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 4.15,
+        "plant_episodes": 2,
+        "pred_apex_pct": 1.9,
+        "fm_notes": []
       }
     },
     {
@@ -1797,11 +2181,15 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 1603423456000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -1822,6 +2210,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -1836,11 +2226,15 @@
       "day_gain_pct": 5.0,
       "trade_value_krw": 1375029032000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -1861,6 +2255,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -1877,6 +2273,7 @@
       "day_gain_pct": 18.84,
       "trade_value_krw": 40000000000,
       "v4_score": 87.3,
+      "gnc_score": 95.1,
       "composite_score": 95.1,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -1904,7 +2301,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🚀ESO추력대장(+4.5)"
-        ]
+        ],
+        "fimc_score": 95.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.47,
+        "fm_notes": []
       }
     },
     {
@@ -1916,6 +2320,7 @@
       "day_gain_pct": 19.41,
       "trade_value_krw": 40000000000,
       "v4_score": 86.5,
+      "gnc_score": 94.2,
       "composite_score": 94.2,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -1943,7 +2348,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🚀ESO추력대장(+4.5)"
-        ]
+        ],
+        "fimc_score": 94.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.61,
+        "fm_notes": []
       }
     },
     {
@@ -1955,8 +2367,9 @@
       "day_gain_pct": 12.31,
       "trade_value_krw": 40000000000,
       "v4_score": 69.4,
+      "gnc_score": 71.2,
       "composite_score": 71.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 71.2,
@@ -1980,7 +2393,14 @@
         "mc_sharpe": 0.58,
         "kelly_pct": 15.5,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 71.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.96,
+        "fm_notes": []
       }
     },
     {
@@ -1992,8 +2412,9 @@
       "day_gain_pct": 11.59,
       "trade_value_krw": 40000000000,
       "v4_score": 66.3,
+      "gnc_score": 67.7,
       "composite_score": 67.7,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 67.7,
@@ -2017,7 +2438,14 @@
         "mc_sharpe": 0.49,
         "kelly_pct": 12.2,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 67.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.46,
+        "fm_notes": []
       }
     },
     {
@@ -2029,8 +2457,9 @@
       "day_gain_pct": 11.4,
       "trade_value_krw": 40000000000,
       "v4_score": 65.0,
+      "gnc_score": 66.0,
       "composite_score": 66.0,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 66.0,
@@ -2054,7 +2483,14 @@
         "mc_sharpe": 0.44,
         "kelly_pct": 10.5,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 66.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.78,
+        "fm_notes": []
       }
     },
     {
@@ -2066,8 +2502,9 @@
       "day_gain_pct": 9.66,
       "trade_value_krw": 40000000000,
       "v4_score": 63.6,
+      "gnc_score": 64.0,
       "composite_score": 64.0,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 64.0,
@@ -2091,7 +2528,14 @@
         "mc_sharpe": 0.39,
         "kelly_pct": 8.6,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 64.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.82,
+        "fm_notes": []
       }
     },
     {
@@ -2103,8 +2547,9 @@
       "day_gain_pct": 10.24,
       "trade_value_krw": 40000000000,
       "v4_score": 63.0,
+      "gnc_score": 63.3,
       "composite_score": 63.3,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 63.3,
@@ -2128,7 +2573,14 @@
         "mc_sharpe": 0.3,
         "kelly_pct": 4.8,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 63.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.45,
+        "fm_notes": []
       }
     },
     {
@@ -2140,8 +2592,9 @@
       "day_gain_pct": 7.67,
       "trade_value_krw": 40000000000,
       "v4_score": 60.0,
+      "gnc_score": 60.5,
       "composite_score": 60.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 60.5,
@@ -2165,7 +2618,14 @@
         "mc_sharpe": 0.45,
         "kelly_pct": 10.7,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 60.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.4,
+        "fm_notes": []
       }
     },
     {
@@ -2177,8 +2637,9 @@
       "day_gain_pct": 29.78,
       "trade_value_krw": 40000000000,
       "v4_score": 46.0,
+      "gnc_score": 46.8,
       "composite_score": 46.8,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 46.8,
@@ -2202,7 +2663,14 @@
         "mc_sharpe": 0.29,
         "kelly_pct": 5.2,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 46.8,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.93,
+        "fm_notes": []
       }
     },
     {
@@ -2214,8 +2682,9 @@
       "day_gain_pct": 29.88,
       "trade_value_krw": 40000000000,
       "v4_score": 45.6,
+      "gnc_score": 46.3,
       "composite_score": 46.3,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 46.3,
@@ -2239,7 +2708,14 @@
         "mc_sharpe": 0.27,
         "kelly_pct": 4.8,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 46.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.93,
+        "fm_notes": []
       }
     }
   ],
@@ -2253,7 +2729,8 @@
       "day_gain_pct": 15.13,
       "trade_value_krw": 40000000000,
       "v4_score": 81.2,
-      "composite_score": 96.9,
+      "gnc_score": 96.9,
+      "composite_score": 105.4,
       "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_THRUST_LOCK",
@@ -2279,8 +2756,18 @@
         "kelly_pct": 32.2,
         "orb_req_pct": 0.25,
         "notes": [
+          "⚡FM위상선행돌파(AM+5.24%·무윗꼬리,+8.5)",
           "🚀ESO추력대장(+4.5)",
           "⚡AM신고가추력(+6.0)"
+        ],
+        "fimc_score": 105.4,
+        "fimc_bonus": 8.5,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.27,
+        "fm_notes": [
+          "⚡FM위상선행돌파(AM+5.24%·무윗꼬리,+8.5)"
         ]
       }
     },
@@ -2293,6 +2780,7 @@
       "day_gain_pct": 19.52,
       "trade_value_krw": 40000000000,
       "v4_score": 84.8,
+      "gnc_score": 86.2,
       "composite_score": 86.2,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -2318,7 +2806,14 @@
         "mc_sharpe": 0.55,
         "kelly_pct": 14.7,
         "orb_req_pct": 0.25,
-        "notes": []
+        "notes": [],
+        "fimc_score": 86.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.78,
+        "fm_notes": []
       }
     },
     {
@@ -2330,8 +2825,9 @@
       "day_gain_pct": 14.68,
       "trade_value_krw": 40000000000,
       "v4_score": 75.4,
+      "gnc_score": 81.8,
       "composite_score": 81.8,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 81.8,
@@ -2357,7 +2853,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚀ESO추력대장(+4.5)"
-        ]
+        ],
+        "fimc_score": 81.8,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.99,
+        "fm_notes": []
       }
     },
     {
@@ -2369,8 +2872,9 @@
       "day_gain_pct": 22.13,
       "trade_value_krw": 40000000000,
       "v4_score": 72.8,
+      "gnc_score": 72.6,
       "composite_score": 72.6,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 72.6,
@@ -2394,7 +2898,14 @@
         "mc_sharpe": 0.29,
         "kelly_pct": 5.4,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 72.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.58,
+        "fm_notes": []
       }
     },
     {
@@ -2406,8 +2917,9 @@
       "day_gain_pct": 11.2,
       "trade_value_krw": 40000000000,
       "v4_score": 67.0,
+      "gnc_score": 68.9,
       "composite_score": 68.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 68.9,
@@ -2431,85 +2943,18 @@
         "mc_sharpe": 0.61,
         "kelly_pct": 16.5,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 68.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.63,
+        "fm_notes": []
       }
     },
     {
       "rank": 6,
-      "v4_rank": 10,
-      "name": "에코앤드림",
-      "code": "101360",
-      "close": 9290,
-      "day_gain_pct": 10.46,
-      "trade_value_krw": 40000000000,
-      "v4_score": 64.2,
-      "composite_score": 64.4,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 64.4,
-        "v4_score": 64.2,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 4.06,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 1.25,
-        "gp_mu_high": 4.57,
-        "gp_sigma": 1.35,
-        "gp_win_rate": 40.3,
-        "gp_matches": 12,
-        "mppi_j": 4.64,
-        "p_lock3": 60.8,
-        "p_target": 37.1,
-        "p_target10": 12.5,
-        "p_stop": 37.4,
-        "ev_pct": 1.19,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.33,
-        "kelly_pct": 6.0,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 7,
-      "v4_rank": 5,
-      "name": "LS에코에너지",
-      "code": "229640",
-      "close": 70300,
-      "day_gain_pct": 10.02,
-      "trade_value_krw": 40000000000,
-      "v4_score": 63.7,
-      "composite_score": 64.1,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 64.1,
-        "v4_score": 63.7,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 4.16,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 1.24,
-        "gp_mu_high": 4.58,
-        "gp_sigma": 1.35,
-        "gp_win_rate": 40.0,
-        "gp_matches": 12,
-        "mppi_j": 4.75,
-        "p_lock3": 61.7,
-        "p_target": 38.7,
-        "p_target10": 12.8,
-        "p_stop": 36.7,
-        "ev_pct": 1.3,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.35,
-        "kelly_pct": 7.5,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 8,
       "v4_rank": 1,
       "name": "대양금속",
       "code": "009190",
@@ -2517,8 +2962,9 @@
       "day_gain_pct": 29.92,
       "trade_value_krw": 40000000000,
       "v4_score": 51.5,
-      "composite_score": 60.3,
-      "all_filters_passed": false,
+      "gnc_score": 60.3,
+      "composite_score": 68.8,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 60.3,
@@ -2543,8 +2989,108 @@
         "kelly_pct": 21.0,
         "orb_req_pct": 1.05,
         "notes": [
+          "⚡FM위상선행돌파(AM+11.77%·무윗꼬리,+8.5)",
           "⚡AM신고가추력(+6.0)"
+        ],
+        "fimc_score": 68.8,
+        "fimc_bonus": 8.5,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 13.45,
+        "fm_notes": [
+          "⚡FM위상선행돌파(AM+11.77%·무윗꼬리,+8.5)"
         ]
+      }
+    },
+    {
+      "rank": 7,
+      "v4_rank": 10,
+      "name": "에코앤드림",
+      "code": "101360",
+      "close": 9290,
+      "day_gain_pct": 10.46,
+      "trade_value_krw": 40000000000,
+      "v4_score": 64.2,
+      "gnc_score": 64.4,
+      "composite_score": 64.4,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 64.4,
+        "v4_score": 64.2,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 4.06,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 1.25,
+        "gp_mu_high": 4.57,
+        "gp_sigma": 1.35,
+        "gp_win_rate": 40.3,
+        "gp_matches": 12,
+        "mppi_j": 4.64,
+        "p_lock3": 60.8,
+        "p_target": 37.1,
+        "p_target10": 12.5,
+        "p_stop": 37.4,
+        "ev_pct": 1.19,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.33,
+        "kelly_pct": 6.0,
+        "orb_req_pct": 1.05,
+        "notes": [],
+        "fimc_score": 64.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.14,
+        "fm_notes": []
+      }
+    },
+    {
+      "rank": 8,
+      "v4_rank": 5,
+      "name": "LS에코에너지",
+      "code": "229640",
+      "close": 70300,
+      "day_gain_pct": 10.02,
+      "trade_value_krw": 40000000000,
+      "v4_score": 63.7,
+      "gnc_score": 64.1,
+      "composite_score": 64.1,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 64.1,
+        "v4_score": 63.7,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 4.16,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 1.24,
+        "gp_mu_high": 4.58,
+        "gp_sigma": 1.35,
+        "gp_win_rate": 40.0,
+        "gp_matches": 12,
+        "mppi_j": 4.75,
+        "p_lock3": 61.7,
+        "p_target": 38.7,
+        "p_target10": 12.8,
+        "p_stop": 36.7,
+        "ev_pct": 1.3,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.35,
+        "kelly_pct": 7.5,
+        "orb_req_pct": 1.05,
+        "notes": [],
+        "fimc_score": 64.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.33,
+        "fm_notes": []
       }
     },
     {
@@ -2556,8 +3102,9 @@
       "day_gain_pct": 8.97,
       "trade_value_krw": 40000000000,
       "v4_score": 60.5,
+      "gnc_score": 60.2,
       "composite_score": 60.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 60.2,
@@ -2581,7 +3128,14 @@
         "mc_sharpe": 0.28,
         "kelly_pct": 3.9,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 60.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.57,
+        "fm_notes": []
       }
     },
     {
@@ -2593,8 +3147,9 @@
       "day_gain_pct": 27.65,
       "trade_value_krw": 40000000000,
       "v4_score": 54.3,
+      "gnc_score": 53.9,
       "composite_score": 53.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 53.9,
@@ -2618,47 +3173,64 @@
         "mc_sharpe": 0.28,
         "kelly_pct": 5.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 53.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.97,
+        "fm_notes": []
       }
     }
   ],
   "2026-10-16": [
     {
       "rank": 1,
-      "v4_rank": 1,
-      "name": "에스원",
-      "code": "012750",
-      "close": 98600,
-      "day_gain_pct": 13.9,
-      "trade_value_krw": 29200000000,
-      "v4_score": 72.5,
-      "composite_score": 79.0,
-      "all_filters_passed": false,
+      "v4_rank": 6,
+      "name": "토마토시스템",
+      "code": "393210",
+      "close": 3290,
+      "day_gain_pct": 10.6,
+      "trade_value_krw": 15300000000,
+      "v4_score": 59.8,
+      "gnc_score": 58.4,
+      "composite_score": 82.4,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
-        "gnc_score": 79.0,
-        "v4_score": 72.5,
-        "eso_d_hat": 4.5,
-        "cbf_margin": 6.01,
+        "gnc_score": 58.4,
+        "v4_score": 59.8,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 1.62,
         "cbf_safe": true,
         "cbf_veto": false,
-        "hj_lcb": 0.75,
-        "gp_mu_high": 3.44,
-        "gp_sigma": 1.19,
-        "gp_win_rate": 40.3,
+        "hj_lcb": 0.29,
+        "gp_mu_high": 4.53,
+        "gp_sigma": 1.67,
+        "gp_win_rate": 39.4,
         "gp_matches": 12,
-        "mppi_j": 6.51,
-        "p_lock3": 71.3,
-        "p_target": 51.5,
-        "p_target10": 27.4,
-        "p_stop": 27.9,
-        "ev_pct": 2.55,
+        "mppi_j": 3.84,
+        "p_lock3": 54.0,
+        "p_target": 31.7,
+        "p_target10": 10.0,
+        "p_stop": 45.5,
+        "ev_pct": 0.5,
         "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.63,
-        "kelly_pct": 17.1,
-        "orb_req_pct": 1.05,
+        "mc_sharpe": 0.14,
+        "kelly_pct": 0.0,
+        "orb_req_pct": 0.25,
         "notes": [
-          "🚀ESO추력대장(+4.5)"
+          "🎯FM탄성수렴승격(과거평균고점+24.9%·AM+2.97%,+24.0)"
+        ],
+        "fimc_score": 82.4,
+        "fimc_bonus": 24.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 24.94,
+        "plant_episodes": 2,
+        "pred_apex_pct": 17.95,
+        "fm_notes": [
+          "🎯FM탄성수렴승격(과거평균고점+24.9%·AM+2.97%,+24.0)"
         ]
       }
     },
@@ -2671,6 +3243,7 @@
       "day_gain_pct": 18.9,
       "trade_value_krw": 128600000000,
       "v4_score": 73.4,
+      "gnc_score": 71.6,
       "composite_score": 71.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -2696,7 +3269,14 @@
         "mc_sharpe": 0.02,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 71.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.68,
+        "fm_notes": []
       }
     },
     {
@@ -2708,6 +3288,7 @@
       "day_gain_pct": 14.0,
       "trade_value_krw": 265200000000,
       "v4_score": 64.6,
+      "gnc_score": 62.5,
       "composite_score": 62.5,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -2733,122 +3314,68 @@
         "mc_sharpe": -0.03,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 62.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 21.78,
+        "plant_episodes": 1,
+        "pred_apex_pct": 15.68,
+        "fm_notes": []
       }
     },
     {
       "rank": 4,
-      "v4_rank": 6,
-      "name": "토마토시스템",
-      "code": "393210",
-      "close": 3290,
-      "day_gain_pct": 10.6,
-      "trade_value_krw": 15300000000,
-      "v4_score": 59.8,
-      "composite_score": 58.4,
-      "all_filters_passed": false,
+      "v4_rank": 1,
+      "name": "에스원",
+      "code": "012750",
+      "close": 98600,
+      "day_gain_pct": 13.9,
+      "trade_value_krw": 29200000000,
+      "v4_score": 72.5,
+      "gnc_score": 79.0,
+      "composite_score": 57.0,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
-        "gnc_score": 58.4,
-        "v4_score": 59.8,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 1.62,
+        "gnc_score": 79.0,
+        "v4_score": 72.5,
+        "eso_d_hat": 4.5,
+        "cbf_margin": 6.01,
         "cbf_safe": true,
         "cbf_veto": false,
-        "hj_lcb": 0.29,
-        "gp_mu_high": 4.53,
-        "gp_sigma": 1.67,
-        "gp_win_rate": 39.4,
+        "hj_lcb": 0.75,
+        "gp_mu_high": 3.44,
+        "gp_sigma": 1.19,
+        "gp_win_rate": 40.3,
         "gp_matches": 12,
-        "mppi_j": 3.84,
-        "p_lock3": 54.0,
-        "p_target": 31.7,
-        "p_target10": 10.0,
-        "p_stop": 45.5,
-        "ev_pct": 0.5,
+        "mppi_j": 6.51,
+        "p_lock3": 71.3,
+        "p_target": 51.5,
+        "p_target10": 27.4,
+        "p_stop": 27.9,
+        "ev_pct": 2.55,
         "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.14,
-        "kelly_pct": 0.0,
+        "mc_sharpe": 0.63,
+        "kelly_pct": 17.1,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [
+          "🛑FM관성감점(내재확률32%·GP고점+3.4%,-22.0)",
+          "🚀ESO추력대장(+4.5)"
+        ],
+        "fimc_score": 57.0,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.1,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률32%·GP고점+3.4%,-22.0)"
+        ]
       }
     },
     {
       "rank": 5,
-      "v4_rank": 2,
-      "name": "큐리옥스바이오시스템즈",
-      "code": "445680",
-      "close": 57600,
-      "day_gain_pct": 8.9,
-      "trade_value_krw": 10300000000,
-      "v4_score": 52.3,
-      "composite_score": 51.3,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 51.3,
-        "v4_score": 52.3,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 3.39,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 0.52,
-        "gp_mu_high": 3.87,
-        "gp_sigma": 1.31,
-        "gp_win_rate": 32.5,
-        "gp_matches": 12,
-        "mppi_j": 3.89,
-        "p_lock3": 54.6,
-        "p_target": 31.9,
-        "p_target10": 9.1,
-        "p_stop": 43.0,
-        "ev_pct": 0.69,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.2,
-        "kelly_pct": 1.6,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 6,
-      "v4_rank": 3,
-      "name": "BGF리테일",
-      "code": "282330",
-      "close": 135000,
-      "day_gain_pct": 5.6,
-      "trade_value_krw": 11300000000,
-      "v4_score": 44.9,
-      "composite_score": 43.5,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 43.5,
-        "v4_score": 44.9,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 2.65,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 0.11,
-        "gp_mu_high": 3.61,
-        "gp_sigma": 1.42,
-        "gp_win_rate": 33.8,
-        "gp_matches": 12,
-        "mppi_j": 3.66,
-        "p_lock3": 53.7,
-        "p_target": 30.0,
-        "p_target10": 8.4,
-        "p_stop": 44.2,
-        "ev_pct": 0.56,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.16,
-        "kelly_pct": 0.1,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 7,
       "v4_rank": 7,
       "name": "HT로보틱스",
       "code": "396300",
@@ -2856,6 +3383,7 @@
       "day_gain_pct": 4.1,
       "trade_value_krw": 84500000000,
       "v4_score": 45.0,
+      "gnc_score": 42.3,
       "composite_score": 42.3,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -2881,11 +3409,18 @@
         "mc_sharpe": -0.16,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 42.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.8,
+        "fm_notes": []
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "v4_rank": 8,
       "name": "레메디",
       "code": "387690",
@@ -2893,6 +3428,7 @@
       "day_gain_pct": 5.3,
       "trade_value_krw": 22700000000,
       "v4_score": 43.5,
+      "gnc_score": 41.0,
       "composite_score": 41.0,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -2918,48 +3454,67 @@
         "mc_sharpe": -0.12,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 41.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.97,
+        "fm_notes": []
       }
     },
     {
-      "rank": 9,
-      "v4_rank": 4,
-      "name": "제주항공",
-      "code": "089590",
-      "close": 5810,
-      "day_gain_pct": 4.0,
-      "trade_value_krw": 15100000000,
-      "v4_score": 42.2,
-      "composite_score": 39.7,
-      "all_filters_passed": false,
+      "rank": 7,
+      "v4_rank": 2,
+      "name": "큐리옥스바이오시스템즈",
+      "code": "445680",
+      "close": 57600,
+      "day_gain_pct": 8.9,
+      "trade_value_krw": 10300000000,
+      "v4_score": 52.3,
+      "gnc_score": 51.3,
+      "composite_score": 29.3,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
-        "gnc_score": 39.7,
-        "v4_score": 42.2,
+        "gnc_score": 51.3,
+        "v4_score": 52.3,
         "eso_d_hat": 0.0,
-        "cbf_margin": 1.34,
+        "cbf_margin": 3.39,
         "cbf_safe": true,
         "cbf_veto": false,
-        "hj_lcb": 0.14,
-        "gp_mu_high": 3.92,
-        "gp_sigma": 1.59,
-        "gp_win_rate": 41.7,
+        "hj_lcb": 0.52,
+        "gp_mu_high": 3.87,
+        "gp_sigma": 1.31,
+        "gp_win_rate": 32.5,
         "gp_matches": 12,
-        "mppi_j": 2.44,
-        "p_lock3": 47.0,
-        "p_target": 23.5,
-        "p_target10": 5.1,
-        "p_stop": 51.5,
-        "ev_pct": -0.12,
+        "mppi_j": 3.89,
+        "p_lock3": 54.6,
+        "p_target": 31.9,
+        "p_target10": 9.1,
+        "p_stop": 43.0,
+        "ev_pct": 0.69,
         "cvar_95_pct": -2.5,
-        "mc_sharpe": -0.04,
-        "kelly_pct": 0.0,
+        "mc_sharpe": 0.2,
+        "kelly_pct": 1.6,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [
+          "🛑FM관성감점(내재확률36%·GP고점+3.9%,-22.0)"
+        ],
+        "fimc_score": 29.3,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.98,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률36%·GP고점+3.9%,-22.0)"
+        ]
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "v4_rank": 10,
       "name": "CJ ENM",
       "code": "035760",
@@ -2967,6 +3522,7 @@
       "day_gain_pct": 6.9,
       "trade_value_krw": 8600000000,
       "v4_score": 31.1,
+      "gnc_score": 27.9,
       "composite_score": 27.9,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -2992,7 +3548,112 @@
         "mc_sharpe": -0.24,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 27.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.72,
+        "fm_notes": []
+      }
+    },
+    {
+      "rank": 9,
+      "v4_rank": 3,
+      "name": "BGF리테일",
+      "code": "282330",
+      "close": 135000,
+      "day_gain_pct": 5.6,
+      "trade_value_krw": 11300000000,
+      "v4_score": 44.9,
+      "gnc_score": 43.5,
+      "composite_score": 21.5,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 43.5,
+        "v4_score": 44.9,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 2.65,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 0.11,
+        "gp_mu_high": 3.61,
+        "gp_sigma": 1.42,
+        "gp_win_rate": 33.8,
+        "gp_matches": 12,
+        "mppi_j": 3.66,
+        "p_lock3": 53.7,
+        "p_target": 30.0,
+        "p_target10": 8.4,
+        "p_stop": 44.2,
+        "ev_pct": 0.56,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.16,
+        "kelly_pct": 0.1,
+        "orb_req_pct": 1.05,
+        "notes": [
+          "🛑FM관성감점(내재확률21%·GP고점+3.6%,-22.0)"
+        ],
+        "fimc_score": 21.5,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.66,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률21%·GP고점+3.6%,-22.0)"
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "v4_rank": 4,
+      "name": "제주항공",
+      "code": "089590",
+      "close": 5810,
+      "day_gain_pct": 4.0,
+      "trade_value_krw": 15100000000,
+      "v4_score": 42.2,
+      "gnc_score": 39.7,
+      "composite_score": 17.7,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 39.7,
+        "v4_score": 42.2,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 1.34,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 0.14,
+        "gp_mu_high": 3.92,
+        "gp_sigma": 1.59,
+        "gp_win_rate": 41.7,
+        "gp_matches": 12,
+        "mppi_j": 2.44,
+        "p_lock3": 47.0,
+        "p_target": 23.5,
+        "p_target10": 5.1,
+        "p_stop": 51.5,
+        "ev_pct": -0.12,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": -0.04,
+        "kelly_pct": 0.0,
+        "orb_req_pct": 1.05,
+        "notes": [
+          "🛑FM관성감점(내재확률37%·GP고점+3.9%,-22.0)"
+        ],
+        "fimc_score": 17.7,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.26,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률37%·GP고점+3.9%,-22.0)"
+        ]
       }
     }
   ],
@@ -3006,6 +3667,7 @@
       "day_gain_pct": 22.0,
       "trade_value_krw": 82900000000,
       "v4_score": 80.5,
+      "gnc_score": 81.2,
       "composite_score": 81.2,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -3031,7 +3693,14 @@
         "mc_sharpe": 0.46,
         "kelly_pct": 11.5,
         "orb_req_pct": 0.25,
-        "notes": []
+        "notes": [],
+        "fimc_score": 81.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 6.12,
+        "plant_episodes": 1,
+        "pred_apex_pct": 4.86,
+        "fm_notes": []
       }
     },
     {
@@ -3043,8 +3712,9 @@
       "day_gain_pct": 18.2,
       "trade_value_krw": 5900000000,
       "v4_score": 75.0,
+      "gnc_score": 80.0,
       "composite_score": 80.0,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 80.0,
@@ -3070,7 +3740,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚀ESO추력대장(+4.5)"
-        ]
+        ],
+        "fimc_score": 80.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.33,
+        "fm_notes": []
       }
     },
     {
@@ -3082,8 +3759,9 @@
       "day_gain_pct": 18.6,
       "trade_value_krw": 37900000000,
       "v4_score": 80.9,
+      "gnc_score": 79.7,
       "composite_score": 79.7,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 79.7,
@@ -3107,7 +3785,14 @@
         "mc_sharpe": 0.13,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 79.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 7.66,
+        "plant_episodes": 1,
+        "pred_apex_pct": 4.18,
+        "fm_notes": []
       }
     },
     {
@@ -3119,8 +3804,9 @@
       "day_gain_pct": 22.2,
       "trade_value_krw": 86300000000,
       "v4_score": 73.8,
+      "gnc_score": 72.2,
       "composite_score": 72.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 72.2,
@@ -3144,7 +3830,14 @@
         "mc_sharpe": 0.03,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 72.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.22,
+        "fm_notes": []
       }
     },
     {
@@ -3156,8 +3849,9 @@
       "day_gain_pct": 22.4,
       "trade_value_krw": 42600000000,
       "v4_score": 69.9,
+      "gnc_score": 68.4,
       "composite_score": 68.4,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 68.4,
@@ -3181,7 +3875,14 @@
         "mc_sharpe": 0.09,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 68.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.83,
+        "fm_notes": []
       }
     },
     {
@@ -3193,8 +3894,9 @@
       "day_gain_pct": 16.7,
       "trade_value_krw": 10300000000,
       "v4_score": 57.2,
+      "gnc_score": 55.4,
       "composite_score": 55.4,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 55.4,
@@ -3218,7 +3920,14 @@
         "mc_sharpe": 0.01,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 55.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.8,
+        "fm_notes": []
       }
     },
     {
@@ -3230,6 +3939,7 @@
       "day_gain_pct": 6.9,
       "trade_value_krw": 91300000000,
       "v4_score": 54.2,
+      "gnc_score": 52.0,
       "composite_score": 52.0,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3255,7 +3965,14 @@
         "mc_sharpe": -0.06,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 52.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.9,
+        "fm_notes": []
       }
     },
     {
@@ -3267,6 +3984,7 @@
       "day_gain_pct": 23.6,
       "trade_value_krw": 57000000000,
       "v4_score": 54.3,
+      "gnc_score": 52.0,
       "composite_score": 52.0,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3292,7 +4010,14 @@
         "mc_sharpe": -0.08,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 52.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.98,
+        "fm_notes": []
       }
     },
     {
@@ -3304,6 +4029,7 @@
       "day_gain_pct": 8.4,
       "trade_value_krw": 11300000000,
       "v4_score": 46.4,
+      "gnc_score": 43.7,
       "composite_score": 43.7,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3329,7 +4055,14 @@
         "mc_sharpe": -0.22,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 43.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.72,
+        "fm_notes": []
       }
     },
     {
@@ -3341,6 +4074,7 @@
       "day_gain_pct": 6.7,
       "trade_value_krw": 5500000000,
       "v4_score": 29.0,
+      "gnc_score": 25.6,
       "composite_score": 25.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3366,7 +4100,14 @@
         "mc_sharpe": -0.35,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 25.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.32,
+        "fm_notes": []
       }
     }
   ],
@@ -3380,8 +4121,9 @@
       "day_gain_pct": 19.4,
       "trade_value_krw": 11300000000,
       "v4_score": 73.8,
+      "gnc_score": 73.3,
       "composite_score": 73.3,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 73.3,
@@ -3405,7 +4147,14 @@
         "mc_sharpe": 0.13,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 73.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.88,
+        "fm_notes": []
       }
     },
     {
@@ -3417,8 +4166,9 @@
       "day_gain_pct": 20.8,
       "trade_value_krw": 26200000000,
       "v4_score": 61.8,
+      "gnc_score": 62.4,
       "composite_score": 62.4,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 62.4,
@@ -3442,7 +4192,14 @@
         "mc_sharpe": 0.29,
         "kelly_pct": 5.3,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 62.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.05,
+        "fm_notes": []
       }
     },
     {
@@ -3454,6 +4211,7 @@
       "day_gain_pct": 13.4,
       "trade_value_krw": 8600000000,
       "v4_score": 57.6,
+      "gnc_score": 56.6,
       "composite_score": 56.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3479,7 +4237,14 @@
         "mc_sharpe": 0.05,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 56.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.57,
+        "fm_notes": []
       }
     },
     {
@@ -3491,6 +4256,7 @@
       "day_gain_pct": 13.0,
       "trade_value_krw": 6200000000,
       "v4_score": 55.3,
+      "gnc_score": 54.1,
       "composite_score": 54.1,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3516,7 +4282,14 @@
         "mc_sharpe": -0.04,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 54.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.4,
+        "fm_notes": []
       }
     },
     {
@@ -3528,6 +4301,7 @@
       "day_gain_pct": 17.3,
       "trade_value_krw": 7600000000,
       "v4_score": 53.4,
+      "gnc_score": 50.9,
       "composite_score": 50.9,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3553,7 +4327,14 @@
         "mc_sharpe": -0.11,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 50.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.51,
+        "fm_notes": []
       }
     },
     {
@@ -3565,6 +4346,7 @@
       "day_gain_pct": 10.3,
       "trade_value_krw": 41300000000,
       "v4_score": 45.9,
+      "gnc_score": 44.3,
       "composite_score": 44.3,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3590,7 +4372,14 @@
         "mc_sharpe": -0.12,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 44.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.21,
+        "fm_notes": []
       }
     },
     {
@@ -3602,6 +4391,7 @@
       "day_gain_pct": 10.1,
       "trade_value_krw": 36200000000,
       "v4_score": 45.8,
+      "gnc_score": 44.0,
       "composite_score": 44.0,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3627,7 +4417,14 @@
         "mc_sharpe": -0.11,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 44.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.31,
+        "fm_notes": []
       }
     },
     {
@@ -3639,6 +4436,7 @@
       "day_gain_pct": 7.1,
       "trade_value_krw": 12600000000,
       "v4_score": 43.3,
+      "gnc_score": 40.6,
       "composite_score": 40.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3664,7 +4462,14 @@
         "mc_sharpe": -0.16,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 40.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.0,
+        "fm_notes": []
       }
     },
     {
@@ -3676,6 +4481,7 @@
       "day_gain_pct": 9.7,
       "trade_value_krw": 18400000000,
       "v4_score": 40.9,
+      "gnc_score": 38.9,
       "composite_score": 38.9,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3701,7 +4507,14 @@
         "mc_sharpe": -0.16,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 38.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.41,
+        "fm_notes": []
       }
     },
     {
@@ -3713,6 +4526,7 @@
       "day_gain_pct": 8.3,
       "trade_value_krw": 37100000000,
       "v4_score": 40.6,
+      "gnc_score": 38.9,
       "composite_score": 38.9,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3738,7 +4552,14 @@
         "mc_sharpe": -0.16,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 38.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.35,
+        "fm_notes": []
       }
     }
   ],
@@ -3752,6 +4573,7 @@
       "day_gain_pct": 16.9,
       "trade_value_krw": 57500000000,
       "v4_score": 77.7,
+      "gnc_score": 77.6,
       "composite_score": 77.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3777,7 +4599,14 @@
         "mc_sharpe": 0.17,
         "kelly_pct": 0.3,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 77.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.1,
+        "fm_notes": []
       }
     },
     {
@@ -3789,6 +4618,7 @@
       "day_gain_pct": 12.4,
       "trade_value_krw": 152600000000,
       "v4_score": 67.0,
+      "gnc_score": 66.5,
       "composite_score": 66.5,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3814,7 +4644,14 @@
         "mc_sharpe": 0.09,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 66.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 2.06,
+        "plant_episodes": 1,
+        "pred_apex_pct": 7.93,
+        "fm_notes": []
       }
     },
     {
@@ -3826,6 +4663,7 @@
       "day_gain_pct": 7.1,
       "trade_value_krw": 246900000000,
       "v4_score": 57.8,
+      "gnc_score": 56.1,
       "composite_score": 56.1,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3851,7 +4689,14 @@
         "mc_sharpe": -0.1,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 56.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.64,
+        "fm_notes": []
       }
     },
     {
@@ -3863,6 +4708,7 @@
       "day_gain_pct": 11.8,
       "trade_value_krw": 45800000000,
       "v4_score": 57.3,
+      "gnc_score": 55.0,
       "composite_score": 55.0,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3888,7 +4734,14 @@
         "mc_sharpe": -0.08,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 55.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.15,
+        "fm_notes": []
       }
     },
     {
@@ -3900,6 +4753,7 @@
       "day_gain_pct": 9.2,
       "trade_value_krw": 33700000000,
       "v4_score": 55.0,
+      "gnc_score": 53.7,
       "composite_score": 53.7,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3925,7 +4779,14 @@
         "mc_sharpe": -0.04,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 53.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.61,
+        "fm_notes": []
       }
     },
     {
@@ -3937,6 +4798,7 @@
       "day_gain_pct": 10.3,
       "trade_value_krw": 5400000000,
       "v4_score": 49.4,
+      "gnc_score": 46.8,
       "composite_score": 46.8,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3962,7 +4824,14 @@
         "mc_sharpe": -0.24,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 46.8,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.87,
+        "fm_notes": []
       }
     },
     {
@@ -3974,6 +4843,7 @@
       "day_gain_pct": 8.9,
       "trade_value_krw": 13900000000,
       "v4_score": 47.9,
+      "gnc_score": 46.0,
       "composite_score": 46.0,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -3999,7 +4869,14 @@
         "mc_sharpe": -0.14,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 46.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.44,
+        "fm_notes": []
       }
     },
     {
@@ -4011,6 +4888,7 @@
       "day_gain_pct": 6.6,
       "trade_value_krw": 27200000000,
       "v4_score": 47.1,
+      "gnc_score": 45.6,
       "composite_score": 45.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4036,7 +4914,14 @@
         "mc_sharpe": -0.07,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 45.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.38,
+        "fm_notes": []
       }
     },
     {
@@ -4048,6 +4933,7 @@
       "day_gain_pct": 4.2,
       "trade_value_krw": 12800000000,
       "v4_score": 38.0,
+      "gnc_score": 36.4,
       "composite_score": 36.4,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4073,7 +4959,14 @@
         "mc_sharpe": -0.09,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 36.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 19.59,
+        "plant_episodes": 3,
+        "pred_apex_pct": 14.1,
+        "fm_notes": []
       }
     },
     {
@@ -4085,6 +4978,7 @@
       "day_gain_pct": 5.5,
       "trade_value_krw": 14300000000,
       "v4_score": 20.1,
+      "gnc_score": 16.1,
       "composite_score": 16.1,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4110,7 +5004,14 @@
         "mc_sharpe": -0.46,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 16.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 21.18,
+        "plant_episodes": 1,
+        "pred_apex_pct": 15.25,
+        "fm_notes": []
       }
     }
   ],
@@ -4124,6 +5025,7 @@
       "day_gain_pct": 20.1,
       "trade_value_krw": 54500000000,
       "v4_score": 94.8,
+      "gnc_score": 97.4,
       "composite_score": 97.4,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -4149,7 +5051,14 @@
         "mc_sharpe": 0.63,
         "kelly_pct": 17.6,
         "orb_req_pct": 0.25,
-        "notes": []
+        "notes": [],
+        "fimc_score": 97.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.12,
+        "fm_notes": []
       }
     },
     {
@@ -4161,6 +5070,7 @@
       "day_gain_pct": 14.0,
       "trade_value_krw": 314100000000,
       "v4_score": 79.5,
+      "gnc_score": 87.6,
       "composite_score": 87.6,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -4188,7 +5098,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "💎ESO_AM초대형매집(377억,+6.5)"
-        ]
+        ],
+        "fimc_score": 87.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 13.28,
+        "plant_episodes": 1,
+        "pred_apex_pct": 9.56,
+        "fm_notes": []
       }
     },
     {
@@ -4200,8 +5117,9 @@
       "day_gain_pct": 12.3,
       "trade_value_krw": 33600000000,
       "v4_score": 75.3,
+      "gnc_score": 75.9,
       "composite_score": 75.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 75.9,
@@ -4225,7 +5143,14 @@
         "mc_sharpe": 0.31,
         "kelly_pct": 5.6,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 75.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.21,
+        "fm_notes": []
       }
     },
     {
@@ -4237,6 +5162,7 @@
       "day_gain_pct": 14.8,
       "trade_value_krw": 13200000000,
       "v4_score": 75.5,
+      "gnc_score": 68.8,
       "composite_score": 68.8,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4264,7 +5190,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🧠과거충돌이력(-6.5)"
-        ]
+        ],
+        "fimc_score": 68.8,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 1,
+        "pred_apex_pct": 10.64,
+        "fm_notes": []
       }
     },
     {
@@ -4276,6 +5209,7 @@
       "day_gain_pct": 17.8,
       "trade_value_krw": 71600000000,
       "v4_score": 66.6,
+      "gnc_score": 67.3,
       "composite_score": 67.3,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4301,7 +5235,14 @@
         "mc_sharpe": 0.26,
         "kelly_pct": 3.8,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 67.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.73,
+        "fm_notes": []
       }
     },
     {
@@ -4313,6 +5254,7 @@
       "day_gain_pct": 23.6,
       "trade_value_krw": 7700000000,
       "v4_score": 42.9,
+      "gnc_score": 41.7,
       "composite_score": 41.7,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4338,7 +5280,14 @@
         "mc_sharpe": 0.01,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 41.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.57,
+        "fm_notes": []
       }
     },
     {
@@ -4350,11 +5299,15 @@
       "day_gain_pct": 11.2,
       "trade_value_krw": 14200000000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -4375,6 +5328,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -4389,11 +5344,15 @@
       "day_gain_pct": 17.5,
       "trade_value_krw": 12800000000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -4414,6 +5373,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -4428,11 +5389,15 @@
       "day_gain_pct": 5.9,
       "trade_value_krw": 86800000000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -4453,6 +5418,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -4467,11 +5434,15 @@
       "day_gain_pct": 6.5,
       "trade_value_krw": 12700000000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -4492,6 +5463,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -4508,6 +5481,7 @@
       "day_gain_pct": 14.8,
       "trade_value_krw": 75000000000,
       "v4_score": 84.3,
+      "gnc_score": 95.2,
       "composite_score": 95.2,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -4536,7 +5510,14 @@
         "notes": [
           "🚀ESO추력대장(+4.5)",
           "💎ESO_AM은닉매집(38억,+3.5)"
-        ]
+        ],
+        "fimc_score": 95.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 10.09,
+        "plant_episodes": 1,
+        "pred_apex_pct": 3.29,
+        "fm_notes": []
       }
     },
     {
@@ -4548,6 +5529,7 @@
       "day_gain_pct": 14.6,
       "trade_value_krw": 35800000000,
       "v4_score": 83.6,
+      "gnc_score": 84.5,
       "composite_score": 84.5,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -4573,7 +5555,14 @@
         "mc_sharpe": 0.35,
         "kelly_pct": 7.4,
         "orb_req_pct": 0.25,
-        "notes": []
+        "notes": [],
+        "fimc_score": 84.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 10.13,
+        "fm_notes": []
       }
     },
     {
@@ -4585,6 +5574,7 @@
       "day_gain_pct": 12.4,
       "trade_value_krw": 37500000000,
       "v4_score": 63.4,
+      "gnc_score": 63.6,
       "composite_score": 63.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4610,7 +5600,14 @@
         "mc_sharpe": 0.22,
         "kelly_pct": 2.3,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 63.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 16.97,
+        "plant_episodes": 4,
+        "pred_apex_pct": 12.22,
+        "fm_notes": []
       }
     },
     {
@@ -4622,6 +5619,7 @@
       "day_gain_pct": 10.3,
       "trade_value_krw": 34900000000,
       "v4_score": 69.4,
+      "gnc_score": 61.1,
       "composite_score": 61.1,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4649,7 +5647,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🧠과거충돌이력(-6.5)"
-        ]
+        ],
+        "fimc_score": 61.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 2.26,
+        "plant_episodes": 1,
+        "pred_apex_pct": 8.39,
+        "fm_notes": []
       }
     },
     {
@@ -4661,6 +5666,7 @@
       "day_gain_pct": 10.0,
       "trade_value_krw": 39700000000,
       "v4_score": 43.2,
+      "gnc_score": 41.6,
       "composite_score": 41.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4686,7 +5692,14 @@
         "mc_sharpe": -0.07,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 41.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.83,
+        "fm_notes": []
       }
     },
     {
@@ -4698,6 +5711,7 @@
       "day_gain_pct": 3.9,
       "trade_value_krw": 81000000000,
       "v4_score": 28.4,
+      "gnc_score": 27.3,
       "composite_score": 27.3,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -4723,7 +5737,14 @@
         "mc_sharpe": -0.13,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 27.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 11.32,
+        "fm_notes": []
       }
     },
     {
@@ -4735,11 +5756,15 @@
       "day_gain_pct": 21.4,
       "trade_value_krw": 96500000000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -4760,6 +5785,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -4774,11 +5801,15 @@
       "day_gain_pct": 20.0,
       "trade_value_krw": 26300000000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -4799,6 +5830,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -4813,11 +5846,15 @@
       "day_gain_pct": 10.1,
       "trade_value_krw": 9300000000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -4838,6 +5875,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -4852,11 +5891,15 @@
       "day_gain_pct": 9.8,
       "trade_value_krw": 34400000000,
       "v4_score": 0.0,
+      "gnc_score": 0.0,
       "composite_score": 0.0,
       "all_filters_passed": false,
       "gnc_metrics": {
         "verdict": "GNC_REJECTED",
+        "fimc_verdict": "FIMC_REJECTED",
         "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "eso_d_hat": -10.0,
         "cbf_margin": -5.0,
@@ -4877,6 +5920,8 @@
         "mc_sharpe": -1.0,
         "kelly_pct": 0.0,
         "orb_req_pct": 1.35,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 0.0,
         "notes": [
           "센서기본필터미달"
         ]
@@ -4893,8 +5938,9 @@
       "day_gain_pct": 18.9,
       "trade_value_krw": 95595714000,
       "v4_score": 86.1,
+      "gnc_score": 86.3,
       "composite_score": 86.3,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 86.3,
@@ -4918,7 +5964,14 @@
         "mc_sharpe": 0.32,
         "kelly_pct": 6.4,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 86.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 6.71,
+        "plant_episodes": 1,
+        "pred_apex_pct": 8.19,
+        "fm_notes": []
       }
     },
     {
@@ -4930,8 +5983,9 @@
       "day_gain_pct": 16.1,
       "trade_value_krw": 4038625280,
       "v4_score": 74.4,
+      "gnc_score": 78.3,
       "composite_score": 78.3,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 78.3,
@@ -4957,50 +6011,18 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚀ESO추력대장(+4.5)"
-        ]
+        ],
+        "fimc_score": 78.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.31,
+        "fm_notes": []
       }
     },
     {
       "rank": 3,
-      "v4_rank": 7,
-      "name": "인화정공",
-      "code": "101930",
-      "close": 6490,
-      "day_gain_pct": 11.02,
-      "trade_value_krw": 1961844900,
-      "v4_score": 60.0,
-      "composite_score": 65.3,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 65.3,
-        "v4_score": 60.0,
-        "eso_d_hat": 4.5,
-        "cbf_margin": 5.64,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 1.02,
-        "gp_mu_high": 4.11,
-        "gp_sigma": 1.26,
-        "gp_win_rate": 58.4,
-        "gp_matches": 12,
-        "mppi_j": 5.42,
-        "p_lock3": 63.7,
-        "p_target": 42.4,
-        "p_target10": 17.6,
-        "p_stop": 35.1,
-        "ev_pct": 1.66,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.43,
-        "kelly_pct": 10.3,
-        "orb_req_pct": 1.05,
-        "notes": [
-          "🚀ESO추력대장(+4.5)"
-        ]
-      }
-    },
-    {
-      "rank": 4,
       "v4_rank": 5,
       "name": "지투지바이오",
       "code": "456160",
@@ -5008,8 +6030,9 @@
       "day_gain_pct": 20.63,
       "trade_value_krw": 70178984400,
       "v4_score": 64.4,
+      "gnc_score": 64.0,
       "composite_score": 64.0,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 64.0,
@@ -5033,50 +6056,18 @@
         "mc_sharpe": 0.24,
         "kelly_pct": 3.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 64.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.81,
+        "fm_notes": []
       }
     },
     {
-      "rank": 5,
-      "v4_rank": 9,
-      "name": "마이크로컨텍솔",
-      "code": "098120",
-      "close": 43600,
-      "day_gain_pct": 4.44,
-      "trade_value_krw": 12290332600,
-      "v4_score": 54.0,
-      "composite_score": 58.4,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 58.4,
-        "v4_score": 54.0,
-        "eso_d_hat": 4.5,
-        "cbf_margin": 4.25,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 0.75,
-        "gp_mu_high": 3.74,
-        "gp_sigma": 1.25,
-        "gp_win_rate": 60.2,
-        "gp_matches": 12,
-        "mppi_j": 4.52,
-        "p_lock3": 60.7,
-        "p_target": 36.2,
-        "p_target10": 11.5,
-        "p_stop": 37.0,
-        "ev_pct": 1.2,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.33,
-        "kelly_pct": 6.3,
-        "orb_req_pct": 1.05,
-        "notes": [
-          "🐂강세테마공진(52%,+4.5)"
-        ]
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 4,
       "v4_rank": 1,
       "name": "파인엠텍",
       "code": "441270",
@@ -5084,6 +6075,7 @@
       "day_gain_pct": 10.29,
       "trade_value_krw": 49552952650,
       "v4_score": 78.1,
+      "gnc_score": 57.9,
       "composite_score": 57.9,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5112,11 +6104,18 @@
         "notes": [
           "🚨CBF장벽위반:동종AM역행(-12.0)",
           "⚠️다중일누적피로(-6.0)"
-        ]
+        ],
+        "fimc_score": 57.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.58,
+        "fm_notes": []
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "v4_rank": 4,
       "name": "모니터랩",
       "code": "434480",
@@ -5124,6 +6123,7 @@
       "day_gain_pct": 13.07,
       "trade_value_krw": 17236357140,
       "v4_score": 71.2,
+      "gnc_score": 55.8,
       "composite_score": 55.8,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5151,11 +6151,18 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:59%,-14.0)"
-        ]
+        ],
+        "fimc_score": 55.8,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 11.17,
+        "fm_notes": []
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "v4_rank": 10,
       "name": "삼성바이오로직스",
       "code": "207940",
@@ -5163,8 +6170,9 @@
       "day_gain_pct": 7.71,
       "trade_value_krw": 169566356000,
       "v4_score": 51.0,
+      "gnc_score": 55.6,
       "composite_score": 55.6,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 55.6,
@@ -5190,11 +6198,18 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🐂강세테마공진(67%,+4.5)"
-        ]
+        ],
+        "fimc_score": 55.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.52,
+        "fm_notes": []
       }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "v4_rank": 6,
       "name": "카카오게임즈",
       "code": "293490",
@@ -5202,6 +6217,7 @@
       "day_gain_pct": 6.16,
       "trade_value_krw": 22464738450,
       "v4_score": 60.8,
+      "gnc_score": 43.4,
       "composite_score": 43.4,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5229,11 +6245,68 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:27%,-14.0)"
+        ],
+        "fimc_score": 43.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.78,
+        "fm_notes": []
+      }
+    },
+    {
+      "rank": 8,
+      "v4_rank": 7,
+      "name": "인화정공",
+      "code": "101930",
+      "close": 6490,
+      "day_gain_pct": 11.02,
+      "trade_value_krw": 1961844900,
+      "v4_score": 60.0,
+      "gnc_score": 65.3,
+      "composite_score": 43.3,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 65.3,
+        "v4_score": 60.0,
+        "eso_d_hat": 4.5,
+        "cbf_margin": 5.64,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 1.02,
+        "gp_mu_high": 4.11,
+        "gp_sigma": 1.26,
+        "gp_win_rate": 58.4,
+        "gp_matches": 12,
+        "mppi_j": 5.42,
+        "p_lock3": 63.7,
+        "p_target": 42.4,
+        "p_target10": 17.6,
+        "p_stop": 35.1,
+        "ev_pct": 1.66,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.43,
+        "kelly_pct": 10.3,
+        "orb_req_pct": 1.05,
+        "notes": [
+          "🛑FM관성감점(내재확률34%·GP고점+4.1%,-22.0)",
+          "🚀ESO추력대장(+4.5)"
+        ],
+        "fimc_score": 43.3,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.51,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률34%·GP고점+4.1%,-22.0)"
         ]
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "v4_rank": 8,
       "name": "유니테크노",
       "code": "241690",
@@ -5241,6 +6314,7 @@
       "day_gain_pct": 9.09,
       "trade_value_krw": 9447364080,
       "v4_score": 59.3,
+      "gnc_score": 42.5,
       "composite_score": 42.5,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5268,6 +6342,63 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:53%,-14.0)"
+        ],
+        "fimc_score": 42.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.98,
+        "fm_notes": []
+      }
+    },
+    {
+      "rank": 10,
+      "v4_rank": 9,
+      "name": "마이크로컨텍솔",
+      "code": "098120",
+      "close": 43600,
+      "day_gain_pct": 4.44,
+      "trade_value_krw": 12290332600,
+      "v4_score": 54.0,
+      "gnc_score": 58.4,
+      "composite_score": 36.4,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 58.4,
+        "v4_score": 54.0,
+        "eso_d_hat": 4.5,
+        "cbf_margin": 4.25,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 0.75,
+        "gp_mu_high": 3.74,
+        "gp_sigma": 1.25,
+        "gp_win_rate": 60.2,
+        "gp_matches": 12,
+        "mppi_j": 4.52,
+        "p_lock3": 60.7,
+        "p_target": 36.2,
+        "p_target10": 11.5,
+        "p_stop": 37.0,
+        "ev_pct": 1.2,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.33,
+        "kelly_pct": 6.3,
+        "orb_req_pct": 1.05,
+        "notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+3.7%,-22.0)",
+          "🐂강세테마공진(52%,+4.5)"
+        ],
+        "fimc_score": 36.4,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.81,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+3.7%,-22.0)"
         ]
       }
     }
@@ -5282,6 +6413,7 @@
       "day_gain_pct": 13.0,
       "trade_value_krw": 8521838500,
       "v4_score": 78.4,
+      "gnc_score": 89.8,
       "composite_score": 89.8,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5310,7 +6442,14 @@
         "notes": [
           "🚀ESO추력대장(+4.5)",
           "🐂강세테마공진(52%,+4.5)"
-        ]
+        ],
+        "fimc_score": 89.8,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.81,
+        "fm_notes": []
       }
     },
     {
@@ -5322,6 +6461,7 @@
       "day_gain_pct": 9.56,
       "trade_value_krw": 128922211500,
       "v4_score": 83.3,
+      "gnc_score": 88.2,
       "composite_score": 88.2,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5349,7 +6489,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(50%,+4.5)"
-        ]
+        ],
+        "fimc_score": 88.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.24,
+        "fm_notes": []
       }
     },
     {
@@ -5361,6 +6508,7 @@
       "day_gain_pct": 17.51,
       "trade_value_krw": 32307810250,
       "v4_score": 81.3,
+      "gnc_score": 86.6,
       "composite_score": 86.6,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5388,7 +6536,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(52%,+4.5)"
-        ]
+        ],
+        "fimc_score": 86.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.83,
+        "fm_notes": []
       }
     },
     {
@@ -5400,8 +6555,9 @@
       "day_gain_pct": 8.7,
       "trade_value_krw": 42860991400,
       "v4_score": 72.2,
+      "gnc_score": 87.9,
       "composite_score": 87.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 87.9,
@@ -5428,7 +6584,14 @@
         "notes": [
           "🐂강세테마공진(48%,+4.5)",
           "⚡AM신고가추력(+6.0)"
-        ]
+        ],
+        "fimc_score": 87.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.47,
+        "fm_notes": []
       }
     },
     {
@@ -5440,6 +6603,7 @@
       "day_gain_pct": 16.35,
       "trade_value_krw": 40450319135,
       "v4_score": 88.4,
+      "gnc_score": 73.7,
       "composite_score": 73.7,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5467,7 +6631,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:28%,-14.0)"
-        ]
+        ],
+        "fimc_score": 73.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 11.34,
+        "fm_notes": []
       }
     },
     {
@@ -5479,6 +6650,7 @@
       "day_gain_pct": 20.12,
       "trade_value_krw": 5331976665,
       "v4_score": 76.5,
+      "gnc_score": 59.6,
       "composite_score": 59.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5506,7 +6678,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:28%,-14.0)"
-        ]
+        ],
+        "fimc_score": 59.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.47,
+        "fm_notes": []
       }
     },
     {
@@ -5518,6 +6697,7 @@
       "day_gain_pct": 15.96,
       "trade_value_krw": 27069262740,
       "v4_score": 74.4,
+      "gnc_score": 58.9,
       "composite_score": 58.9,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5545,7 +6725,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:40%,-14.0)"
-        ]
+        ],
+        "fimc_score": 58.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 11.25,
+        "fm_notes": []
       }
     },
     {
@@ -5557,6 +6744,7 @@
       "day_gain_pct": 14.68,
       "trade_value_krw": 28400106585,
       "v4_score": 69.2,
+      "gnc_score": 53.2,
       "composite_score": 53.2,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5584,7 +6772,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:34%,-14.0)"
-        ]
+        ],
+        "fimc_score": 53.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.37,
+        "fm_notes": []
       }
     },
     {
@@ -5596,6 +6791,7 @@
       "day_gain_pct": 7.15,
       "trade_value_krw": 24374775740,
       "v4_score": 68.4,
+      "gnc_score": 51.2,
       "composite_score": 51.2,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5623,7 +6819,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:40%,-14.0)"
-        ]
+        ],
+        "fimc_score": 51.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 16.97,
+        "plant_episodes": 4,
+        "pred_apex_pct": 12.22,
+        "fm_notes": []
       }
     },
     {
@@ -5635,6 +6838,7 @@
       "day_gain_pct": 7.34,
       "trade_value_krw": 43633021200,
       "v4_score": 68.4,
+      "gnc_score": 50.9,
       "composite_score": 50.9,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -5662,7 +6866,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:37%,-14.0)"
-        ]
+        ],
+        "fimc_score": 50.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.19,
+        "fm_notes": []
       }
     }
   ],
@@ -5676,6 +6887,7 @@
       "day_gain_pct": 17.85,
       "trade_value_krw": 18347159200,
       "v4_score": 96.2,
+      "gnc_score": 108.0,
       "composite_score": 108.0,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5704,7 +6916,14 @@
         "notes": [
           "🚀ESO추력대장(+4.5)",
           "🐂강세테마공진(97%,+4.5)"
-        ]
+        ],
+        "fimc_score": 108.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.21,
+        "fm_notes": []
       }
     },
     {
@@ -5716,6 +6935,7 @@
       "day_gain_pct": 17.03,
       "trade_value_krw": 26485651150,
       "v4_score": 93.3,
+      "gnc_score": 99.6,
       "composite_score": 99.6,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5743,7 +6963,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(93%,+4.5)"
-        ]
+        ],
+        "fimc_score": 99.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.38,
+        "fm_notes": []
       }
     },
     {
@@ -5755,6 +6982,7 @@
       "day_gain_pct": 13.4,
       "trade_value_krw": 74155214100,
       "v4_score": 97.2,
+      "gnc_score": 95.9,
       "composite_score": 95.9,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5785,7 +7013,14 @@
           "🐂강세테마공진(100%,+4.5)",
           "⚠️섹터내추력열위(-5.5)",
           "🧠과거충돌이력(-6.5)"
-        ]
+        ],
+        "fimc_score": 95.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 1.83,
+        "plant_episodes": 2,
+        "pred_apex_pct": 4.67,
+        "fm_notes": []
       }
     },
     {
@@ -5797,6 +7032,7 @@
       "day_gain_pct": 23.9,
       "trade_value_krw": 37789561200,
       "v4_score": 85.5,
+      "gnc_score": 91.3,
       "composite_score": 91.3,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5824,7 +7060,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(92%,+4.5)"
-        ]
+        ],
+        "fimc_score": 91.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.61,
+        "fm_notes": []
       }
     },
     {
@@ -5836,6 +7079,7 @@
       "day_gain_pct": 13.29,
       "trade_value_krw": 85909570890,
       "v4_score": 93.2,
+      "gnc_score": 88.6,
       "composite_score": 88.6,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5863,7 +7107,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 88.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.98,
+        "fm_notes": []
       }
     },
     {
@@ -5875,6 +7126,7 @@
       "day_gain_pct": 9.23,
       "trade_value_krw": 122675701200,
       "v4_score": 85.9,
+      "gnc_score": 87.7,
       "composite_score": 87.7,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5900,7 +7152,14 @@
         "mc_sharpe": 0.5,
         "kelly_pct": 13.0,
         "orb_req_pct": 0.25,
-        "notes": []
+        "notes": [],
+        "fimc_score": 87.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.35,
+        "fm_notes": []
       }
     },
     {
@@ -5912,6 +7171,7 @@
       "day_gain_pct": 15.17,
       "trade_value_krw": 25054981200,
       "v4_score": 86.8,
+      "gnc_score": 86.1,
       "composite_score": 86.1,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5940,7 +7200,14 @@
         "notes": [
           "🐂강세테마공진(92%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 86.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.65,
+        "fm_notes": []
       }
     },
     {
@@ -5952,6 +7219,7 @@
       "day_gain_pct": 10.29,
       "trade_value_krw": 42276809520,
       "v4_score": 86.0,
+      "gnc_score": 85.1,
       "composite_score": 85.1,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -5980,7 +7248,14 @@
         "notes": [
           "🐂강세테마공진(93%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 85.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.28,
+        "fm_notes": []
       }
     },
     {
@@ -5992,6 +7267,7 @@
       "day_gain_pct": 14.57,
       "trade_value_krw": 35911388520,
       "v4_score": 89.4,
+      "gnc_score": 84.7,
       "composite_score": 84.7,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6019,7 +7295,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 84.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.68,
+        "fm_notes": []
       }
     },
     {
@@ -6031,8 +7314,9 @@
       "day_gain_pct": 16.45,
       "trade_value_krw": 17993544500,
       "v4_score": 91.3,
+      "gnc_score": 90.5,
       "composite_score": 90.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 90.5,
@@ -6059,7 +7343,14 @@
         "notes": [
           "🐂강세테마공진(100%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 90.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.35,
+        "fm_notes": []
       }
     }
   ],
@@ -6073,6 +7364,7 @@
       "day_gain_pct": 19.1,
       "trade_value_krw": 99252018300,
       "v4_score": 99.5,
+      "gnc_score": 122.5,
       "composite_score": 122.5,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6101,7 +7393,14 @@
         "notes": [
           "🔥ESO대량매물흡수대장(+6.0)",
           "🐂강세테마공진(100%,+4.5)"
-        ]
+        ],
+        "fimc_score": 122.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 5.8,
+        "plant_episodes": 1,
+        "pred_apex_pct": 8.16,
+        "fm_notes": []
       }
     },
     {
@@ -6113,6 +7412,7 @@
       "day_gain_pct": 12.71,
       "trade_value_krw": 115021923670,
       "v4_score": 97.2,
+      "gnc_score": 112.9,
       "composite_score": 112.9,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6141,7 +7441,14 @@
         "notes": [
           "💎ESO_AM초대형매집(187억,+6.5)",
           "🐂강세테마공진(92%,+4.5)"
-        ]
+        ],
+        "fimc_score": 112.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 4.15,
+        "plant_episodes": 2,
+        "pred_apex_pct": 5.96,
+        "fm_notes": []
       }
     },
     {
@@ -6153,6 +7460,7 @@
       "day_gain_pct": 17.89,
       "trade_value_krw": 185983672000,
       "v4_score": 99.5,
+      "gnc_score": 110.6,
       "composite_score": 110.6,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6178,7 +7486,14 @@
         "mc_sharpe": 0.51,
         "kelly_pct": 13.4,
         "orb_req_pct": 0.25,
-        "notes": []
+        "notes": [],
+        "fimc_score": 110.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.56,
+        "fm_notes": []
       }
     },
     {
@@ -6190,6 +7505,7 @@
       "day_gain_pct": 19.63,
       "trade_value_krw": 140885585600,
       "v4_score": 99.5,
+      "gnc_score": 110.0,
       "composite_score": 110.0,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6215,7 +7531,14 @@
         "mc_sharpe": 0.51,
         "kelly_pct": 13.5,
         "orb_req_pct": 0.25,
-        "notes": []
+        "notes": [],
+        "fimc_score": 110.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 1.62,
+        "plant_episodes": 1,
+        "pred_apex_pct": 8.77,
+        "fm_notes": []
       }
     },
     {
@@ -6227,6 +7550,7 @@
       "day_gain_pct": 16.63,
       "trade_value_krw": 29746688000,
       "v4_score": 96.9,
+      "gnc_score": 109.4,
       "composite_score": 109.4,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6255,7 +7579,14 @@
         "notes": [
           "🚀ESO추력대장(+4.5)",
           "🐂강세테마공진(93%,+4.5)"
-        ]
+        ],
+        "fimc_score": 109.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.51,
+        "fm_notes": []
       }
     },
     {
@@ -6267,6 +7598,7 @@
       "day_gain_pct": 14.55,
       "trade_value_krw": 88103765700,
       "v4_score": 99.5,
+      "gnc_score": 108.4,
       "composite_score": 108.4,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6296,7 +7628,14 @@
           "🚀ESO추력대장(+4.5)",
           "🐂강세테마공진(100%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 108.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 4.46,
+        "plant_episodes": 1,
+        "pred_apex_pct": 6.97,
+        "fm_notes": []
       }
     },
     {
@@ -6308,6 +7647,7 @@
       "day_gain_pct": 15.52,
       "trade_value_krw": 54854910000,
       "v4_score": 98.4,
+      "gnc_score": 104.6,
       "composite_score": 104.6,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6337,7 +7677,14 @@
           "🚀ESO추력대장(+4.5)",
           "🐂강세테마공진(100%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 104.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 16.87,
+        "plant_episodes": 1,
+        "pred_apex_pct": 12.15,
+        "fm_notes": []
       }
     },
     {
@@ -6349,6 +7696,7 @@
       "day_gain_pct": 15.08,
       "trade_value_krw": 63996754000,
       "v4_score": 98.3,
+      "gnc_score": 104.1,
       "composite_score": 104.1,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6378,7 +7726,14 @@
           "🚀ESO추력대장(+4.5)",
           "🐂강세테마공진(94%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 104.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 4.35,
+        "plant_episodes": 3,
+        "pred_apex_pct": 5.86,
+        "fm_notes": []
       }
     },
     {
@@ -6390,6 +7745,7 @@
       "day_gain_pct": 19.82,
       "trade_value_krw": 22507771000,
       "v4_score": 95.9,
+      "gnc_score": 102.2,
       "composite_score": 102.2,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6417,7 +7773,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(93%,+4.5)"
-        ]
+        ],
+        "fimc_score": 102.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 6.46,
+        "fm_notes": []
       }
     },
     {
@@ -6429,6 +7792,7 @@
       "day_gain_pct": 16.62,
       "trade_value_krw": 43413587360,
       "v4_score": 96.4,
+      "gnc_score": 97.9,
       "composite_score": 97.9,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6454,7 +7818,14 @@
         "mc_sharpe": 0.43,
         "kelly_pct": 10.8,
         "orb_req_pct": 0.25,
-        "notes": []
+        "notes": [],
+        "fimc_score": 97.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.28,
+        "fm_notes": []
       }
     }
   ],
@@ -6468,6 +7839,7 @@
       "day_gain_pct": 22.14,
       "trade_value_krw": 126621976900,
       "v4_score": 95.8,
+      "gnc_score": 102.5,
       "composite_score": 102.5,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6495,7 +7867,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(71%,+4.5)"
-        ]
+        ],
+        "fimc_score": 102.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 8.22,
+        "fm_notes": []
       }
     },
     {
@@ -6507,6 +7886,7 @@
       "day_gain_pct": 9.05,
       "trade_value_krw": 126003487500,
       "v4_score": 78.3,
+      "gnc_score": 89.0,
       "composite_score": 89.0,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -6535,7 +7915,14 @@
         "notes": [
           "💎ESO_AM은닉매집(48억,+3.5)",
           "🐂강세테마공진(53%,+4.5)"
-        ]
+        ],
+        "fimc_score": 89.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.54,
+        "fm_notes": []
       }
     },
     {
@@ -6547,6 +7934,7 @@
       "day_gain_pct": 18.15,
       "trade_value_krw": 153409213440,
       "v4_score": 99.5,
+      "gnc_score": 87.4,
       "composite_score": 87.4,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -6574,7 +7962,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:28%,-14.0)"
-        ]
+        ],
+        "fimc_score": 87.4,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 7.98,
+        "plant_episodes": 3,
+        "pred_apex_pct": 8.46,
+        "fm_notes": []
       }
     },
     {
@@ -6586,8 +7981,9 @@
       "day_gain_pct": 12.46,
       "trade_value_krw": 16162034450,
       "v4_score": 75.2,
+      "gnc_score": 81.5,
       "composite_score": 81.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 81.5,
@@ -6613,7 +8009,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚀ESO추력대장(+4.5)"
-        ]
+        ],
+        "fimc_score": 81.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.79,
+        "fm_notes": []
       }
     },
     {
@@ -6625,8 +8028,9 @@
       "day_gain_pct": 6.04,
       "trade_value_krw": 109382862800,
       "v4_score": 66.7,
+      "gnc_score": 71.9,
       "composite_score": 71.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 71.9,
@@ -6652,7 +8056,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "💎ESO_AM은닉매집(33억,+3.5)"
-        ]
+        ],
+        "fimc_score": 71.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 9.92,
+        "plant_episodes": 1,
+        "pred_apex_pct": 4.19,
+        "fm_notes": []
       }
     },
     {
@@ -6664,8 +8075,9 @@
       "day_gain_pct": 5.14,
       "trade_value_krw": 63425344500,
       "v4_score": 69.1,
+      "gnc_score": 70.2,
       "composite_score": 70.2,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 70.2,
@@ -6689,7 +8101,14 @@
         "mc_sharpe": 0.58,
         "kelly_pct": 16.0,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 70.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 2.62,
+        "plant_episodes": 1,
+        "pred_apex_pct": 4.84,
+        "fm_notes": []
       }
     },
     {
@@ -6701,8 +8120,9 @@
       "day_gain_pct": 4.1,
       "trade_value_krw": 67671940280,
       "v4_score": 60.1,
+      "gnc_score": 65.0,
       "composite_score": 65.0,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 65.0,
@@ -6728,7 +8148,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "💎ESO_AM은닉매집(31억,+3.5)"
-        ]
+        ],
+        "fimc_score": 65.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.14,
+        "fm_notes": []
       }
     },
     {
@@ -6740,8 +8167,9 @@
       "day_gain_pct": 6.75,
       "trade_value_krw": 14357276980,
       "v4_score": 62.9,
+      "gnc_score": 60.5,
       "composite_score": 60.5,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 60.5,
@@ -6768,48 +8196,18 @@
         "notes": [
           "🐂강세테마공진(67%,+4.5)",
           "🧠과거충돌이력(-6.5)"
-        ]
+        ],
+        "fimc_score": 60.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 2.66,
+        "plant_episodes": 1,
+        "pred_apex_pct": 4.72,
+        "fm_notes": []
       }
     },
     {
       "rank": 9,
-      "v4_rank": 10,
-      "name": "삼화전기",
-      "code": "009470",
-      "close": 31400,
-      "day_gain_pct": 5.41,
-      "trade_value_krw": 5191867200,
-      "v4_score": 54.4,
-      "composite_score": 52.8,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 52.8,
-        "v4_score": 54.4,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 1.97,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 0.43,
-        "gp_mu_high": 3.85,
-        "gp_sigma": 1.66,
-        "gp_win_rate": 59.5,
-        "gp_matches": 12,
-        "mppi_j": 3.45,
-        "p_lock3": 50.2,
-        "p_target": 27.6,
-        "p_target10": 8.4,
-        "p_stop": 47.8,
-        "ev_pct": 0.3,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.09,
-        "kelly_pct": 0.0,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 10,
       "v4_rank": 7,
       "name": "진양화학",
       "code": "051630",
@@ -6817,6 +8215,7 @@
       "day_gain_pct": 15.84,
       "trade_value_krw": 8823640700,
       "v4_score": 65.1,
+      "gnc_score": 49.1,
       "composite_score": 49.1,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -6844,6 +8243,62 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:41%,-14.0)"
+        ],
+        "fimc_score": 49.1,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 10.2,
+        "fm_notes": []
+      }
+    },
+    {
+      "rank": 10,
+      "v4_rank": 10,
+      "name": "삼화전기",
+      "code": "009470",
+      "close": 31400,
+      "day_gain_pct": 5.41,
+      "trade_value_krw": 5191867200,
+      "v4_score": 54.4,
+      "gnc_score": 52.8,
+      "composite_score": 30.8,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 52.8,
+        "v4_score": 54.4,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 1.97,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 0.43,
+        "gp_mu_high": 3.85,
+        "gp_sigma": 1.66,
+        "gp_win_rate": 59.5,
+        "gp_matches": 12,
+        "mppi_j": 3.45,
+        "p_lock3": 50.2,
+        "p_target": 27.6,
+        "p_target10": 8.4,
+        "p_stop": 47.8,
+        "ev_pct": 0.3,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.09,
+        "kelly_pct": 0.0,
+        "orb_req_pct": 1.05,
+        "notes": [
+          "🛑FM관성감점(내재확률26%·GP고점+3.9%,-22.0)"
+        ],
+        "fimc_score": 30.8,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 7.25,
+        "plant_episodes": 1,
+        "pred_apex_pct": 4.27,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률26%·GP고점+3.9%,-22.0)"
         ]
       }
     }
@@ -6858,8 +8313,9 @@
       "day_gain_pct": 24.19,
       "trade_value_krw": 72305333100,
       "v4_score": 67.5,
+      "gnc_score": 67.9,
       "composite_score": 67.9,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 67.9,
@@ -6883,7 +8339,14 @@
         "mc_sharpe": 0.31,
         "kelly_pct": 5.9,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 67.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.89,
+        "fm_notes": []
       }
     },
     {
@@ -6895,8 +8358,9 @@
       "day_gain_pct": 8.56,
       "trade_value_krw": 1310705320,
       "v4_score": 52.4,
-      "composite_score": 56.7,
-      "all_filters_passed": false,
+      "gnc_score": 56.7,
+      "composite_score": 34.7,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 56.7,
@@ -6921,7 +8385,17 @@
         "kelly_pct": 7.2,
         "orb_req_pct": 1.05,
         "notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+2.5%,-22.0)",
           "🐂강세테마공진(45%,+4.5)"
+        ],
+        "fimc_score": 34.7,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.2,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+2.5%,-22.0)"
         ]
       }
     },
@@ -6934,8 +8408,9 @@
       "day_gain_pct": 4.71,
       "trade_value_krw": 44065956550,
       "v4_score": 35.6,
-      "composite_score": 39.1,
-      "all_filters_passed": false,
+      "gnc_score": 39.1,
+      "composite_score": 17.1,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 39.1,
@@ -6960,7 +8435,17 @@
         "kelly_pct": 0.6,
         "orb_req_pct": 1.05,
         "notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+3.5%,-22.0)",
           "🐂강세테마공진(67%,+4.5)"
+        ],
+        "fimc_score": 17.1,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.48,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+3.5%,-22.0)"
         ]
       }
     },
@@ -6973,6 +8458,7 @@
       "day_gain_pct": 5.79,
       "trade_value_krw": 4781930400,
       "v4_score": 26.6,
+      "gnc_score": 7.2,
       "composite_score": 7.2,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -7000,7 +8486,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:25%,-14.0)"
-        ]
+        ],
+        "fimc_score": 7.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 4.45,
+        "fm_notes": []
       }
     }
   ],
@@ -7014,6 +8507,7 @@
       "day_gain_pct": 9.66,
       "trade_value_krw": 269584001900,
       "v4_score": 92.0,
+      "gnc_score": 98.9,
       "composite_score": 98.9,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -7041,7 +8535,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "💎ESO_AM초대형매집(167억,+6.5)"
-        ]
+        ],
+        "fimc_score": 98.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 5.63,
+        "plant_episodes": 1,
+        "pred_apex_pct": 5.36,
+        "fm_notes": []
       }
     },
     {
@@ -7053,6 +8554,7 @@
       "day_gain_pct": 9.8,
       "trade_value_krw": 134419191300,
       "v4_score": 90.8,
+      "gnc_score": 97.3,
       "composite_score": 97.3,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -7080,7 +8582,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(100%,+4.5)"
-        ]
+        ],
+        "fimc_score": 97.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.12,
+        "fm_notes": []
       }
     },
     {
@@ -7092,6 +8601,7 @@
       "day_gain_pct": 11.04,
       "trade_value_krw": 67425655000,
       "v4_score": 88.1,
+      "gnc_score": 92.8,
       "composite_score": 92.8,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -7121,7 +8631,14 @@
           "🚀ESO추력대장(+4.5)",
           "🐂강세테마공진(86%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 92.8,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.02,
+        "fm_notes": []
       }
     },
     {
@@ -7133,6 +8650,7 @@
       "day_gain_pct": 7.72,
       "trade_value_krw": 102247974400,
       "v4_score": 84.8,
+      "gnc_score": 90.7,
       "composite_score": 90.7,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -7160,7 +8678,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(100%,+4.5)"
-        ]
+        ],
+        "fimc_score": 90.7,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.85,
+        "fm_notes": []
       }
     },
     {
@@ -7172,6 +8697,7 @@
       "day_gain_pct": 13.44,
       "trade_value_krw": 12807767850,
       "v4_score": 85.0,
+      "gnc_score": 90.5,
       "composite_score": 90.5,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -7201,7 +8727,14 @@
           "🚀ESO추력대장(+4.5)",
           "🐂강세테마공진(94%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 90.5,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.49,
+        "fm_notes": []
       }
     },
     {
@@ -7213,6 +8746,7 @@
       "day_gain_pct": 8.03,
       "trade_value_krw": 89290266000,
       "v4_score": 83.0,
+      "gnc_score": 89.8,
       "composite_score": 89.8,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -7240,7 +8774,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(73%,+4.5)"
-        ]
+        ],
+        "fimc_score": 89.8,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.02,
+        "fm_notes": []
       }
     },
     {
@@ -7252,6 +8793,7 @@
       "day_gain_pct": 7.35,
       "trade_value_krw": 109958644400,
       "v4_score": 81.5,
+      "gnc_score": 86.2,
       "composite_score": 86.2,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -7279,7 +8821,14 @@
         "orb_req_pct": 0.25,
         "notes": [
           "🐂강세테마공진(92%,+4.5)"
-        ]
+        ],
+        "fimc_score": 86.2,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.72,
+        "fm_notes": []
       }
     },
     {
@@ -7291,6 +8840,7 @@
       "day_gain_pct": 11.61,
       "trade_value_krw": 30794518850,
       "v4_score": 83.3,
+      "gnc_score": 83.0,
       "composite_score": 83.0,
       "all_filters_passed": true,
       "gnc_metrics": {
@@ -7319,7 +8869,14 @@
         "notes": [
           "🐂강세테마공진(100%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 83.0,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 5.29,
+        "fm_notes": []
       }
     },
     {
@@ -7331,8 +8888,9 @@
       "day_gain_pct": 7.81,
       "trade_value_krw": 105690542560,
       "v4_score": 81.4,
+      "gnc_score": 80.6,
       "composite_score": 80.6,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 80.6,
@@ -7356,7 +8914,14 @@
         "mc_sharpe": 0.23,
         "kelly_pct": 2.5,
         "orb_req_pct": 1.05,
-        "notes": []
+        "notes": [],
+        "fimc_score": 80.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.65,
+        "fm_notes": []
       }
     },
     {
@@ -7368,8 +8933,9 @@
       "day_gain_pct": 10.0,
       "trade_value_krw": 28355956200,
       "v4_score": 81.7,
+      "gnc_score": 79.6,
       "composite_score": 79.6,
-      "all_filters_passed": false,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 79.6,
@@ -7396,87 +8962,20 @@
         "notes": [
           "🐂강세테마공진(92%,+4.5)",
           "⚠️섹터내추력열위(-5.5)"
-        ]
+        ],
+        "fimc_score": 79.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 2.72,
+        "fm_notes": []
       }
     }
   ],
   "2026-11-04": [
     {
       "rank": 1,
-      "v4_rank": 1,
-      "name": "휴니드",
-      "code": "005870",
-      "close": 5300,
-      "day_gain_pct": 7.44,
-      "trade_value_krw": 2954614960,
-      "v4_score": 54.1,
-      "composite_score": 52.2,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 52.2,
-        "v4_score": 54.1,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 2.75,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 0.47,
-        "gp_mu_high": 2.84,
-        "gp_sigma": 1.5,
-        "gp_win_rate": 52.4,
-        "gp_matches": 12,
-        "mppi_j": 3.18,
-        "p_lock3": 48.0,
-        "p_target": 24.9,
-        "p_target10": 7.7,
-        "p_stop": 50.1,
-        "ev_pct": 0.13,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.04,
-        "kelly_pct": 0.0,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 2,
-      "v4_rank": 3,
-      "name": "현대그린푸드",
-      "code": "453340",
-      "close": 20900,
-      "day_gain_pct": 8.52,
-      "trade_value_krw": 2484654700,
-      "v4_score": 52.0,
-      "composite_score": 50.3,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 50.3,
-        "v4_score": 52.0,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 2.66,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "hj_lcb": 1.29,
-        "gp_mu_high": 3.09,
-        "gp_sigma": 1.42,
-        "gp_win_rate": 76.3,
-        "gp_matches": 12,
-        "mppi_j": 2.87,
-        "p_lock3": 47.7,
-        "p_target": 24.7,
-        "p_target10": 6.6,
-        "p_stop": 50.9,
-        "ev_pct": 0.01,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": 0.0,
-        "kelly_pct": 0.0,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 3,
       "v4_rank": 4,
       "name": "토마토시스템",
       "code": "393210",
@@ -7484,8 +8983,9 @@
       "day_gain_pct": 7.59,
       "trade_value_krw": 10270859400,
       "v4_score": 49.8,
-      "composite_score": 49.2,
-      "all_filters_passed": false,
+      "gnc_score": 49.2,
+      "composite_score": 73.2,
+      "all_filters_passed": true,
       "gnc_metrics": {
         "verdict": "GNC_STANDBY",
         "gnc_score": 49.2,
@@ -7508,49 +9008,23 @@
         "cvar_95_pct": -2.5,
         "mc_sharpe": 0.23,
         "kelly_pct": 2.4,
-        "orb_req_pct": 1.05,
-        "notes": []
+        "orb_req_pct": 0.25,
+        "notes": [
+          "🎯FM탄성수렴승격(과거평균고점+17.0%·AM+2.21%,+24.0)"
+        ],
+        "fimc_score": 73.2,
+        "fimc_bonus": 24.0,
+        "fimc_verdict": "FIMC_THRUST_LOCK",
+        "plant_elasticity_pct": 16.97,
+        "plant_episodes": 4,
+        "pred_apex_pct": 12.22,
+        "fm_notes": [
+          "🎯FM탄성수렴승격(과거평균고점+17.0%·AM+2.21%,+24.0)"
+        ]
       }
     },
     {
-      "rank": 4,
-      "v4_rank": 5,
-      "name": "삼기에너지솔루션즈",
-      "code": "419050",
-      "close": 2090,
-      "day_gain_pct": 9.74,
-      "trade_value_krw": 48423207785,
-      "v4_score": 47.0,
-      "composite_score": 44.6,
-      "all_filters_passed": false,
-      "gnc_metrics": {
-        "verdict": "GNC_STANDBY",
-        "gnc_score": 44.6,
-        "v4_score": 47.0,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 0.24,
-        "cbf_safe": false,
-        "cbf_veto": false,
-        "hj_lcb": -0.05,
-        "gp_mu_high": 2.75,
-        "gp_sigma": 1.25,
-        "gp_win_rate": 66.0,
-        "gp_matches": 12,
-        "mppi_j": 2.77,
-        "p_lock3": 48.0,
-        "p_target": 24.6,
-        "p_target10": 6.2,
-        "p_stop": 50.9,
-        "ev_pct": -0.02,
-        "cvar_95_pct": -2.5,
-        "mc_sharpe": -0.01,
-        "kelly_pct": 0.0,
-        "orb_req_pct": 1.05,
-        "notes": []
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "v4_rank": 2,
       "name": "진양화학",
       "code": "051630",
@@ -7558,6 +9032,7 @@
       "day_gain_pct": 5.33,
       "trade_value_krw": 13874993200,
       "v4_score": 53.2,
+      "gnc_score": 35.6,
       "composite_score": 35.6,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -7585,11 +9060,116 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:63%,-14.0)"
+        ],
+        "fimc_score": 35.6,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 7.47,
+        "fm_notes": []
+      }
+    },
+    {
+      "rank": 3,
+      "v4_rank": 1,
+      "name": "휴니드",
+      "code": "005870",
+      "close": 5300,
+      "day_gain_pct": 7.44,
+      "trade_value_krw": 2954614960,
+      "v4_score": 54.1,
+      "gnc_score": 52.2,
+      "composite_score": 30.2,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 52.2,
+        "v4_score": 54.1,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 2.75,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 0.47,
+        "gp_mu_high": 2.84,
+        "gp_sigma": 1.5,
+        "gp_win_rate": 52.4,
+        "gp_matches": 12,
+        "mppi_j": 3.18,
+        "p_lock3": 48.0,
+        "p_target": 24.9,
+        "p_target10": 7.7,
+        "p_stop": 50.1,
+        "ev_pct": 0.13,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.04,
+        "kelly_pct": 0.0,
+        "orb_req_pct": 1.05,
+        "notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+2.8%,-22.0)"
+        ],
+        "fimc_score": 30.2,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.21,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+2.8%,-22.0)"
         ]
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
+      "v4_rank": 3,
+      "name": "현대그린푸드",
+      "code": "453340",
+      "close": 20900,
+      "day_gain_pct": 8.52,
+      "trade_value_krw": 2484654700,
+      "v4_score": 52.0,
+      "gnc_score": 50.3,
+      "composite_score": 28.3,
+      "all_filters_passed": true,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 50.3,
+        "v4_score": 52.0,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 2.66,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "hj_lcb": 1.29,
+        "gp_mu_high": 3.09,
+        "gp_sigma": 1.42,
+        "gp_win_rate": 76.3,
+        "gp_matches": 12,
+        "mppi_j": 2.87,
+        "p_lock3": 47.7,
+        "p_target": 24.7,
+        "p_target10": 6.6,
+        "p_stop": 50.9,
+        "ev_pct": 0.01,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": 0.0,
+        "kelly_pct": 0.0,
+        "orb_req_pct": 1.05,
+        "notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+3.1%,-22.0)"
+        ],
+        "fimc_score": 28.3,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 3.09,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+3.1%,-22.0)"
+        ]
+      }
+    },
+    {
+      "rank": 5,
       "v4_rank": 6,
       "name": "피앤에스로보틱스",
       "code": "460940",
@@ -7597,6 +9177,7 @@
       "day_gain_pct": 4.01,
       "trade_value_krw": 57789512700,
       "v4_score": 43.9,
+      "gnc_score": 26.9,
       "composite_score": 26.9,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -7624,6 +9205,62 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:66%,-14.0)"
+        ],
+        "fimc_score": 26.9,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.14,
+        "fm_notes": []
+      }
+    },
+    {
+      "rank": 6,
+      "v4_rank": 5,
+      "name": "삼기에너지솔루션즈",
+      "code": "419050",
+      "close": 2090,
+      "day_gain_pct": 9.74,
+      "trade_value_krw": 48423207785,
+      "v4_score": 47.0,
+      "gnc_score": 44.6,
+      "composite_score": 22.6,
+      "all_filters_passed": false,
+      "gnc_metrics": {
+        "verdict": "GNC_STANDBY",
+        "gnc_score": 44.6,
+        "v4_score": 47.0,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 0.24,
+        "cbf_safe": false,
+        "cbf_veto": false,
+        "hj_lcb": -0.05,
+        "gp_mu_high": 2.75,
+        "gp_sigma": 1.25,
+        "gp_win_rate": 66.0,
+        "gp_matches": 12,
+        "mppi_j": 2.77,
+        "p_lock3": 48.0,
+        "p_target": 24.6,
+        "p_target10": 6.2,
+        "p_stop": 50.9,
+        "ev_pct": -0.02,
+        "cvar_95_pct": -2.5,
+        "mc_sharpe": -0.01,
+        "kelly_pct": 0.0,
+        "orb_req_pct": 1.05,
+        "notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+2.8%,-22.0)"
+        ],
+        "fimc_score": 22.6,
+        "fimc_bonus": -22.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 2.75,
+        "fm_notes": [
+          "🛑FM관성감점(내재확률25%·GP고점+2.8%,-22.0)"
         ]
       }
     },
@@ -7636,6 +9273,7 @@
       "day_gain_pct": 6.74,
       "trade_value_krw": 127391917100,
       "v4_score": 37.5,
+      "gnc_score": 20.3,
       "composite_score": 20.3,
       "all_filters_passed": false,
       "gnc_metrics": {
@@ -7663,7 +9301,14 @@
         "orb_req_pct": 1.05,
         "notes": [
           "🚨CBF장벽위반:윗꼬리매물(usr:80%,-14.0)"
-        ]
+        ],
+        "fimc_score": 20.3,
+        "fimc_bonus": 0.0,
+        "fimc_verdict": "FIMC_STANDBY",
+        "plant_elasticity_pct": 0.0,
+        "plant_episodes": 0,
+        "pred_apex_pct": 9.21,
+        "fm_notes": []
       }
     }
   ]
