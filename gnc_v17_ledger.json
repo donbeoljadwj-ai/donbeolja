@@ -1,31 +1,31 @@
 {
-  "updated_at": "2026-11-04 15:10:43",
+  "updated_at": "2026-11-04 20:11:17",
   "active_version": "v1.8-FIMC",
   "evaluated_days": 20,
   "five_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 80.0,
-      "rank1_cum_return_pct": 79.94,
-      "top2_win_rate_pct": 64.1,
-      "top2_cum_return_pct": 47.71,
-      "top3_cum_return_pct": 47.19,
+      "rank1_win_rate_pct": 76.2,
+      "rank1_cum_return_pct": 77.69,
+      "top2_win_rate_pct": 63.4,
+      "top2_cum_return_pct": 48.92,
+      "top3_cum_return_pct": 47.16,
       "top2_stop_losses": 7
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 90.0,
-      "rank1_cum_return_pct": 86.46,
-      "top2_win_rate_pct": 69.2,
-      "top2_cum_return_pct": 51.32
+      "rank1_win_rate_pct": 85.7,
+      "rank1_cum_return_pct": 84.21,
+      "top2_win_rate_pct": 68.3,
+      "top2_cum_return_pct": 52.53
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 88.9,
-      "rank1_cum_return_pct": 67.06,
-      "top2_win_rate_pct": 78.8,
-      "top2_cum_return_pct": 50.2,
-      "top3_cum_return_pct": 48.04,
+      "rank1_win_rate_pct": 89.5,
+      "rank1_cum_return_pct": 71.18,
+      "top2_win_rate_pct": 79.4,
+      "top2_cum_return_pct": 52.26,
+      "top3_cum_return_pct": 49.41,
       "top2_stop_losses": 4,
-      "expired_saved_stop_losses_count": 8,
-      "expired_saved_loss_pct": 10.53
+      "expired_saved_stop_losses_count": 9,
+      "expired_saved_loss_pct": 12.78
     },
     "v1.6_QFE_Full (VolumeProfile + k-NN + MC10K)": {
       "rank1_win_rate_pct": 100.0,
@@ -34,10 +34,10 @@
       "rank1_cum_return_pct": 95.3,
       "top2_win_rate_pct": 90.6,
       "top2_cum_return_pct": 64.35,
-      "top3_cum_return_pct": 53.81,
+      "top3_cum_return_pct": 56.21,
       "top2_stop_losses": 3,
-      "filtered_saved_stop_losses_count": 6,
-      "filtered_saved_loss_pct": 9.37
+      "filtered_saved_stop_losses_count": 8,
+      "filtered_saved_loss_pct": 14.12
     },
     "v1.7_GNC_Full (L1-ESO + HJ-GP Funnel + MPPI 10K + CBF-QP Safety Shield)": {
       "rank1_win_rate_pct": 100.0,
@@ -47,23 +47,23 @@
       "top2_win_rate_pct": 100.0,
       "top2_cum_return_pct": 69.22,
       "top2_stop_losses": 0,
-      "cbf_aborted_stop_losses_count": 9,
-      "cbf_saved_loss_pct": 16.87
+      "cbf_aborted_stop_losses_count": 11,
+      "cbf_saved_loss_pct": 21.62
     },
     "v1.8_FIMC_Full (FM-Apex 100% +5% Touch Selection + GNC + Phase-Lead Visual Servo)": {
       "rank1_win_rate_pct": 100.0,
       "rank1_hit5_rate_pct": 100.0,
-      "rank1_hit10_rate_pct": 47.4,
-      "rank1_avg_intraday_high_pct": 11.56,
-      "rank1_triggered_days": 19,
-      "rank1_fixed_exit_cum_return_pct": 100.39,
-      "rank1_cum_return_pct": 134.11,
+      "rank1_hit10_rate_pct": 50.0,
+      "rank1_avg_intraday_high_pct": 11.79,
+      "rank1_triggered_days": 20,
+      "rank1_fixed_exit_cum_return_pct": 107.89,
+      "rank1_cum_return_pct": 143.55,
       "full_27d_rank1_hit5_rate_pct": 100.0,
-      "full_27d_rank1_cum_return_pct": 180.17,
+      "full_27d_rank1_cum_return_pct": 189.61,
       "top2_win_rate_pct": 100.0,
-      "top2_cum_return_pct": 91.94,
-      "full_27d_top2_cum_return_pct": 133.88,
-      "top3_cum_return_pct": 77.72,
+      "top2_cum_return_pct": 99.09,
+      "full_27d_top2_cum_return_pct": 141.05,
+      "top3_cum_return_pct": 82.5,
       "top2_stop_losses": 0,
       "cbf_aborted_stop_losses_count": 9,
       "cbf_saved_loss_pct": 16.87
@@ -741,6 +741,40 @@
         "raw_realized_pct": -0.92,
         "exec_state": "CBF_ABORT (CBF_ORB +1.35% 추력미달 진입차단)",
         "exec_realized_pct": 0.0
+      }
+    },
+    "2026-11-04": {
+      "gnc_rank1": {
+        "name": "토마토시스템",
+        "code": "393210",
+        "fimc_score": 73.2,
+        "gnc_score": 49.2,
+        "v4_score": 49.8,
+        "eso_d_hat": 0.0,
+        "cbf_margin": 1.57,
+        "hj_lcb": 0.78,
+        "mppi_j": 4.16,
+        "plant_elasticity_pct": 16.97,
+        "pred_apex_pct": 12.22,
+        "notes": [
+          "🎯FM탄성수렴승격(과거평균고점+17.0%·AM+2.21%,+24.0)"
+        ],
+        "p_target": 33.9,
+        "ev_pct": 0.82,
+        "gp_win_rate": 73.4,
+        "high_pct": 16.11,
+        "raw_realized_pct": 7.5,
+        "fixed_realized_pct": 7.5,
+        "exec_state": "FM_APEX_CONVERGE (초기선행 +20.4% ➜ 고점수렴 +9.44%)",
+        "exec_realized_pct": 9.44
+      },
+      "gnc_rank2": {
+        "name": "진양화학",
+        "code": "051630",
+        "gnc_score": 35.6,
+        "raw_realized_pct": 4.66,
+        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +9.8% ➜ 오차0수렴 +4.88%)",
+        "exec_realized_pct": 4.88
       }
     }
   }
