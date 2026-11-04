@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04 00:40:04",
+  "updated_at": "2026-11-04 15:10:43",
   "active_version": "v1.8-FIMC",
   "evaluated_days": 20,
   "five_version_scorecard": {
@@ -57,13 +57,13 @@
       "rank1_avg_intraday_high_pct": 11.56,
       "rank1_triggered_days": 19,
       "rank1_fixed_exit_cum_return_pct": 100.39,
-      "rank1_cum_return_pct": 132.13,
+      "rank1_cum_return_pct": 134.11,
       "full_27d_rank1_hit5_rate_pct": 100.0,
-      "full_27d_rank1_cum_return_pct": 178.19,
+      "full_27d_rank1_cum_return_pct": 180.17,
       "top2_win_rate_pct": 100.0,
-      "top2_cum_return_pct": 90.89,
-      "full_27d_top2_cum_return_pct": 132.84,
-      "top3_cum_return_pct": 77.03,
+      "top2_cum_return_pct": 91.94,
+      "full_27d_top2_cum_return_pct": 133.88,
+      "top3_cum_return_pct": 77.72,
       "top2_stop_losses": 0,
       "cbf_aborted_stop_losses_count": 9,
       "cbf_saved_loss_pct": 16.87
@@ -100,8 +100,8 @@
         "high_pct": 8.11,
         "raw_realized_pct": 2.5,
         "fixed_realized_pct": 2.5,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +11.0% ➜ 오차0수렴 +5.18%)",
-        "exec_realized_pct": 5.18
+        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -4.97% ➜ 균형복귀·탄성청산 +5.66%)",
+        "exec_realized_pct": 5.66
       },
       "gnc_rank2": {
         "name": "빛샘전자",
@@ -331,8 +331,8 @@
         "high_pct": 8.89,
         "raw_realized_pct": 2.5,
         "fixed_realized_pct": 2.5,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +11.9% ➜ 오차0수렴 +5.43%)",
-        "exec_realized_pct": 5.43
+        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -2.58% ➜ 균형복귀·탄성청산 +5.97%)",
+        "exec_realized_pct": 5.97
       },
       "gnc_rank2": {
         "name": "에스엠벡셀",
@@ -363,8 +363,8 @@
         "high_pct": 5.86,
         "raw_realized_pct": 2.5,
         "fixed_realized_pct": 2.5,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +8.3% ➜ 오차0수렴 +4.43%)",
-        "exec_realized_pct": 4.43
+        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -2.58% ➜ 균형복귀·탄성청산 +4.79%)",
+        "exec_realized_pct": 4.79
       },
       "gnc_rank2": {
         "name": "씨싸이트",
@@ -427,8 +427,8 @@
         "high_pct": 9.94,
         "raw_realized_pct": 3.9,
         "fixed_realized_pct": 3.9,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +13.1% ➜ 오차0수렴 +5.78%)",
-        "exec_realized_pct": 5.78
+        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -4.59% ➜ 균형복귀·탄성청산 +6.38%)",
+        "exec_realized_pct": 6.38
       },
       "gnc_rank2": {
         "name": "코리아써키트",
@@ -534,8 +534,8 @@
         "code": "338840",
         "gnc_score": 78.3,
         "raw_realized_pct": 4.26,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +7.7% ➜ 오차0수렴 +3.87%)",
-        "exec_realized_pct": 3.87
+        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -3.02% ➜ 균형복귀·탄성청산 +3.98%)",
+        "exec_realized_pct": 3.98
       }
     },
     "2026-10-27": {
