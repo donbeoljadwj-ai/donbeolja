@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-03 23:10:40",
-  "evaluated_days": 20,
+  "updated_at": "2026-11-04 20:10:55",
+  "evaluated_days": 21,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 80.0,
-      "rank1_cum_return_pct": 79.94,
-      "top2_win_rate_pct": 64.1,
-      "top2_cum_return_pct": 47.71,
-      "top3_cum_return_pct": 47.19,
+      "rank1_win_rate_pct": 76.2,
+      "rank1_cum_return_pct": 77.69,
+      "top2_win_rate_pct": 63.4,
+      "top2_cum_return_pct": 48.92,
+      "top3_cum_return_pct": 47.16,
       "top2_stop_losses": 7
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 90.0,
-      "rank1_cum_return_pct": 86.46,
-      "top2_win_rate_pct": 69.2,
-      "top2_cum_return_pct": 51.32
+      "rank1_win_rate_pct": 85.7,
+      "rank1_cum_return_pct": 84.21,
+      "top2_win_rate_pct": 68.3,
+      "top2_cum_return_pct": 52.53
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 88.9,
-      "rank1_cum_return_pct": 67.06,
-      "top2_win_rate_pct": 78.8,
-      "top2_cum_return_pct": 50.2,
-      "top3_cum_return_pct": 48.04,
+      "rank1_win_rate_pct": 89.5,
+      "rank1_cum_return_pct": 71.18,
+      "top2_win_rate_pct": 79.4,
+      "top2_cum_return_pct": 52.26,
+      "top3_cum_return_pct": 49.41,
       "top2_stop_losses": 4,
-      "expired_saved_stop_losses_count": 8,
-      "expired_saved_loss_pct": 10.53
+      "expired_saved_stop_losses_count": 9,
+      "expired_saved_loss_pct": 12.78
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 85.0,
-      "rank1_hit5_rate_pct": 85.0,
-      "rank1_cum_return_pct": 91.89,
-      "top2_win_rate_pct": 71.8,
-      "top2_cum_return_pct": 58.91,
-      "top3_cum_return_pct": 48.12,
-      "top2_stop_losses": 6
+      "rank1_win_rate_pct": 81.0,
+      "rank1_hit5_rate_pct": 81.0,
+      "rank1_cum_return_pct": 89.64,
+      "top2_win_rate_pct": 68.3,
+      "top2_cum_return_pct": 56.53,
+      "top3_cum_return_pct": 49.03,
+      "top2_stop_losses": 7
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
       "rank1_win_rate_pct": 100.0,
@@ -42,10 +42,10 @@
       "rank1_cum_return_pct": 95.3,
       "top2_win_rate_pct": 90.6,
       "top2_cum_return_pct": 64.35,
-      "top3_cum_return_pct": 53.81,
+      "top3_cum_return_pct": 56.21,
       "top2_stop_losses": 3,
-      "filtered_saved_stop_losses_count": 6,
-      "filtered_saved_loss_pct": 9.37
+      "filtered_saved_stop_losses_count": 8,
+      "filtered_saved_loss_pct": 14.12
     }
   },
   "upcoming_target_date": "2026-11-04",
@@ -557,6 +557,30 @@
         "raw_realized_pct": 2.81,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
         "exec_realized_pct": 2.56
+      }
+    },
+    "2026-11-04": {
+      "qfe_rank1": {
+        "name": "휴니드",
+        "code": "005870",
+        "qfe_score": 52.2,
+        "v4_score": 54.1,
+        "notes": [],
+        "p_target": 24.9,
+        "ev_pct": 0.13,
+        "knn_win_rate": 53.6,
+        "high_pct": 0.19,
+        "raw_realized_pct": -2.25,
+        "exec_state": "EXPIRED (ORB +1.05% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
+      },
+      "qfe_rank2": {
+        "name": "현대그린푸드",
+        "code": "453340",
+        "qfe_score": 50.3,
+        "raw_realized_pct": -2.5,
+        "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
       }
     }
   }
