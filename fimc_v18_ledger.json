@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 23:12:02",
+  "updated_at": "2026-11-06 15:10:43",
   "active_version": "v1.8-FIMC",
   "evaluated_days": 20,
   "five_version_scorecard": {
@@ -45,10 +45,10 @@
       "rank1_triggered_days": 20,
       "rank1_cum_return_pct": 103.12,
       "top2_win_rate_pct": 100.0,
-      "top2_cum_return_pct": 74.14,
+      "top2_cum_return_pct": 70.69,
       "top2_stop_losses": 0,
-      "cbf_aborted_stop_losses_count": 11,
-      "cbf_saved_loss_pct": 21.62
+      "cbf_aborted_stop_losses_count": 12,
+      "cbf_saved_loss_pct": 24.12
     },
     "v1.8_FIMC_Full (FM-Apex 100% +5% Touch Selection + GNC + Phase-Lead Visual Servo)": {
       "rank1_win_rate_pct": 100.0,
@@ -61,21 +61,21 @@
       "full_27d_rank1_hit5_rate_pct": 100.0,
       "full_27d_rank1_cum_return_pct": 194.64,
       "top2_win_rate_pct": 100.0,
-      "top2_cum_return_pct": 105.41,
-      "full_27d_top2_cum_return_pct": 147.36,
+      "top2_cum_return_pct": 101.61,
+      "full_27d_top2_cum_return_pct": 143.56,
       "top3_cum_return_pct": 86.7,
       "top2_stop_losses": 0,
-      "cbf_aborted_stop_losses_count": 9,
-      "cbf_saved_loss_pct": 16.87
+      "cbf_aborted_stop_losses_count": 10,
+      "cbf_saved_loss_pct": 19.37
     }
   },
   "upcoming_target_date": "2026-11-06",
   "upcoming_v17_gnc_top5": [
     "1위 에스와이(109610) | FIMC점수 112.2점(GNC:103.7점, v4:92.8점) | 🎯FM예측고점 +9.52%(탄성 +0.0%) | 🛰️ESO외란 +6.00 | 🛡️CBF여유도 +7.41(SAFE) | 🚀MPPI10K(J*=+8.24, +5%확률 68.0%, EV +4.25%)",
-    "2위 카카오(035720) | FIMC점수 99.6점(GNC:99.6점, v4:93.9점) | 🎯FM예측고점 +3.23%(탄성 +0.0%) | 🛰️ESO외란 +4.50 | 🛡️CBF여유도 +5.54(SAFE) | 🚀MPPI10K(J*=+6.09, +5%확률 48.5%, EV +2.25%)",
-    "3위 제주항공(089590) | FIMC점수 87.0점(GNC:87.0점, v4:88.4점) | 🎯FM예측고점 +3.50%(탄성 +1.2%) | 🛰️ESO외란 -1.00 | 🛡️CBF여유도 +2.82(SAFE) | 🚀MPPI10K(J*=+5.13, +5%확률 38.6%, EV +1.29%)",
-    "4위 SK바이오팜(326030) | FIMC점수 85.5점(GNC:85.5점, v4:85.9점) | 🎯FM예측고점 +3.97%(탄성 +0.0%) | 🛰️ESO외란 +0.00 | 🛡️CBF여유도 +1.66(SAFE) | 🚀MPPI10K(J*=+4.78, +5%확률 37.8%, EV +1.16%)",
-    "5위 한미약품(128940) | FIMC점수 84.3점(GNC:84.3점, v4:84.7점) | 🎯FM예측고점 +4.93%(탄성 +2.7%) | 🛰️ESO외란 +0.00 | 🛡️CBF여유도 +2.14(SAFE) | 🚀MPPI10K(J*=+4.54, +5%확률 34.2%, EV +0.83%)"
+    "2위 카카오(035720) | FIMC점수 99.5점(GNC:99.5점, v4:93.9점) | 🎯FM예측고점 +3.10%(탄성 +0.0%) | 🛰️ESO외란 +4.50 | 🛡️CBF여유도 +5.54(SAFE) | 🚀MPPI10K(J*=+6.10, +5%확률 48.5%, EV +2.23%)",
+    "3위 제주항공(089590) | FIMC점수 87.5점(GNC:87.5점, v4:88.4점) | 🎯FM예측고점 +3.88%(탄성 +1.2%) | 🛰️ESO외란 -1.00 | 🛡️CBF여유도 +2.82(SAFE) | 🚀MPPI10K(J*=+5.28, +5%확률 39.9%, EV +1.41%)",
+    "4위 SK바이오팜(326030) | FIMC점수 86.1점(GNC:86.1점, v4:85.9점) | 🎯FM예측고점 +4.72%(탄성 +0.0%) | 🛰️ESO외란 +0.00 | 🛡️CBF여유도 +1.66(SAFE) | 🚀MPPI10K(J*=+4.86, +5%확률 38.5%, EV +1.24%)",
+    "5위 한미약품(128940) | FIMC점수 85.3점(GNC:85.3점, v4:84.7점) | 🎯FM예측고점 +6.43%(탄성 +2.7%) | 🛰️ESO외란 +0.00 | 🛡️CBF여유도 +2.14(SAFE) | 🚀MPPI10K(J*=+4.77, +5%확률 36.3%, EV +1.01%)"
   ],
   "daily_comparison": {
     "2026-10-06": {
@@ -805,12 +805,12 @@
         "exec_realized_pct": 5.03
       },
       "gnc_rank2": {
-        "name": "대동기어",
-        "code": "008830",
-        "gnc_score": 105.0,
-        "raw_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +16.3% ➜ 고점수렴 +7.59%)",
-        "exec_realized_pct": 7.59
+        "name": "주성엔지니어링",
+        "code": "036930",
+        "gnc_score": 106.5,
+        "raw_realized_pct": -2.5,
+        "exec_state": "CBF_ABORT (CBF_ORB +1.35% 추력미달 진입차단)",
+        "exec_realized_pct": 0.0
       }
     }
   }
