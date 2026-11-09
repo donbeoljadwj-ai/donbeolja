@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-11-08 23:11:34",
-  "evaluated_days": 23,
+  "updated_at": "2026-11-09 20:11:46",
+  "evaluated_days": 24,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 78.3,
+      "rank1_win_rate_pct": 75.0,
       "rank1_cum_return_pct": 89.89,
-      "top2_win_rate_pct": 66.7,
-      "top2_cum_return_pct": 60.24,
-      "top3_cum_return_pct": 54.97,
+      "top2_win_rate_pct": 66.0,
+      "top2_cum_return_pct": 61.49,
+      "top3_cum_return_pct": 58.3,
       "top2_stop_losses": 7
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 87.0,
+      "rank1_win_rate_pct": 83.3,
       "rank1_cum_return_pct": 94.65,
-      "top2_win_rate_pct": 68.9,
-      "top2_cum_return_pct": 58.85
+      "top2_win_rate_pct": 68.1,
+      "top2_cum_return_pct": 60.1
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
       "rank1_win_rate_pct": 90.5,
       "rank1_cum_return_pct": 81.62,
-      "top2_win_rate_pct": 81.1,
-      "top2_cum_return_pct": 59.55,
-      "top3_cum_return_pct": 55.2,
+      "top2_win_rate_pct": 81.6,
+      "top2_cum_return_pct": 60.8,
+      "top3_cum_return_pct": 58.31,
       "top2_stop_losses": 4,
       "expired_saved_stop_losses_count": 10,
       "expired_saved_loss_pct": 15.28
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 82.6,
-      "rank1_hit5_rate_pct": 82.6,
+      "rank1_win_rate_pct": 79.2,
+      "rank1_hit5_rate_pct": 79.2,
       "rank1_cum_return_pct": 100.08,
-      "top2_win_rate_pct": 71.1,
-      "top2_cum_return_pct": 67.85,
-      "top3_cum_return_pct": 56.84,
+      "top2_win_rate_pct": 70.2,
+      "top2_cum_return_pct": 69.1,
+      "top3_cum_return_pct": 60.18,
       "top2_stop_losses": 7
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
@@ -40,9 +40,9 @@
       "rank1_hit5_rate_pct": 95.0,
       "rank1_triggered_days": 20,
       "rank1_cum_return_pct": 105.74,
-      "top2_win_rate_pct": 91.7,
-      "top2_cum_return_pct": 75.21,
-      "top3_cum_return_pct": 64.35,
+      "top2_win_rate_pct": 91.9,
+      "top2_cum_return_pct": 76.46,
+      "top3_cum_return_pct": 67.43,
       "top2_stop_losses": 3,
       "filtered_saved_stop_losses_count": 8,
       "filtered_saved_loss_pct": 14.12
@@ -634,6 +634,32 @@
         "raw_realized_pct": 4.7,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
         "exec_realized_pct": 4.1
+      }
+    },
+    "2026-11-09": {
+      "qfe_rank1": {
+        "name": "롯데렌탈",
+        "code": "089860",
+        "qfe_score": 88.6,
+        "v4_score": 83.5,
+        "notes": [
+          "🐂강세테마확산(100%,+4.5)"
+        ],
+        "p_target": 42.2,
+        "ev_pct": 1.69,
+        "knn_win_rate": 55.6,
+        "high_pct": 0.17,
+        "raw_realized_pct": 0.0,
+        "exec_state": "EXPIRED (TICK_UP +0.25% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
+      },
+      "qfe_rank2": {
+        "name": "원익홀딩스",
+        "code": "030530",
+        "qfe_score": 75.2,
+        "raw_realized_pct": 2.5,
+        "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
+        "exec_realized_pct": 2.5
       }
     }
   }
