@@ -2,17 +2,17 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-08 20:10:07"
+    "last_updated": "2026-11-09 15:10:26"
   },
   "summary": {
-    "total_trades": 74,
-    "win_trades": 65,
-    "win_rate_pct": 87.8,
-    "hit_am_3pct_count": 48,
+    "total_trades": 77,
+    "win_trades": 67,
+    "win_rate_pct": 87.0,
+    "hit_am_3pct_count": 50,
     "hit_am_3pct_rate": 64.9,
     "hit_next_5pct_rate": 33.8,
-    "avg_realized_profit_pct": 2.28,
-    "stop_loss_rate": 14.9
+    "avg_realized_profit_pct": 2.25,
+    "stop_loss_rate": 14.3
   },
   "days": {
     "2026-10-02": {
@@ -1728,17 +1728,17 @@
           "entry_price": 349500,
           "am_high_price": 367000,
           "am_high_gain_pct": 5.01,
-          "next_open_price": 0,
-          "next_open_gap_pct": 0.0,
-          "next_high_price": 0,
-          "next_max_gain_pct": 0.0,
-          "next_close_price": 0,
-          "next_close_gain_pct": 0.0,
+          "next_open_price": 350000,
+          "next_open_gap_pct": 0.14,
+          "next_high_price": 357000,
+          "next_max_gain_pct": 2.15,
+          "next_close_price": 346000,
+          "next_close_gain_pct": -1.0,
           "hit_am_3pct": true,
           "hit_next_5pct": false,
           "hit_stoploss": false,
           "realized_return_pct": 1.5,
-          "trade_result": "✅ 당일 AM +5.01% 1차 익절 완료 (익일 대기)",
+          "trade_result": "✅ 당일 AM +5.01% 1차 익절 & 본절락인",
           "is_win": true,
           "catalyst": "[ARGON v4 78.0점], 👑 '바이오시밀러' 독자대장주(동조율 55%), 고가유지 100.0% 밀착마감, 정규장 대금 240억 집중, 정규장 +14.33% 돌파"
         },
@@ -1748,6 +1748,55 @@
           "code": "035720",
           "entry_price": 32300,
           "am_high_price": 32300,
+          "am_high_gain_pct": 0.0,
+          "next_open_price": 32200,
+          "next_open_gap_pct": -0.31,
+          "next_high_price": 32650,
+          "next_max_gain_pct": 1.08,
+          "next_close_price": 31900,
+          "next_close_gain_pct": -1.24,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": -1.24,
+          "trade_result": "⏳ 익일 종가 청산 (-1.24%)",
+          "is_win": false,
+          "catalyst": "[ARGON v4 76.7점], 👑 '인터넷 대표주' 독자대장주(동조율 100%), 정규장 대금 1,005억 집중, 정규장 +10.65% 돌파"
+        },
+        {
+          "rank": 3,
+          "name": "제주항공",
+          "code": "089590",
+          "entry_price": 6380,
+          "am_high_price": 6700,
+          "am_high_gain_pct": 5.02,
+          "next_open_price": 6400,
+          "next_open_gap_pct": 0.31,
+          "next_high_price": 7050,
+          "next_max_gain_pct": 10.5,
+          "next_close_price": 6830,
+          "next_close_gain_pct": 7.05,
+          "hit_am_3pct": true,
+          "hit_next_5pct": true,
+          "hit_stoploss": false,
+          "realized_return_pct": 4.25,
+          "trade_result": "🏆 당일 AM +5.02% & 익일 +10.50% 듀얼 익절",
+          "is_win": true,
+          "catalyst": "[ARGON v4 75.1점], 👑 'LCC (저가 항공)' 독자대장주(동조율 100%), 고가유지 100.0% 밀착마감, 검증수급 8.6억 유입(AM +0.30%), 정규장 +13.75% 돌파"
+        }
+      ]
+    },
+    "2026-11-09": {
+      "date": "2026-11-09",
+      "recorded_at": "2026-11-09 15:10:24",
+      "trades_count": 1,
+      "trades": [
+        {
+          "rank": 1,
+          "name": "혜인",
+          "code": "003010",
+          "entry_price": 8140,
+          "am_high_price": 8140,
           "am_high_gain_pct": 0.0,
           "next_open_price": 0,
           "next_open_gap_pct": 0.0,
@@ -1761,28 +1810,7 @@
           "realized_return_pct": 0.0,
           "trade_result": "⏳ 당일 AM 최고 +0.00% (익일 시초 대기)",
           "is_win": true,
-          "catalyst": "[ARGON v4 76.7점], 👑 '인터넷 대표주' 독자대장주(동조율 100%), 정규장 대금 1,005억 집중, 정규장 +10.65% 돌파"
-        },
-        {
-          "rank": 3,
-          "name": "제주항공",
-          "code": "089590",
-          "entry_price": 6380,
-          "am_high_price": 6700,
-          "am_high_gain_pct": 5.02,
-          "next_open_price": 0,
-          "next_open_gap_pct": 0.0,
-          "next_high_price": 0,
-          "next_max_gain_pct": 0.0,
-          "next_close_price": 0,
-          "next_close_gain_pct": 0.0,
-          "hit_am_3pct": true,
-          "hit_next_5pct": false,
-          "hit_stoploss": false,
-          "realized_return_pct": 1.5,
-          "trade_result": "✅ 당일 AM +5.02% 1차 익절 완료 (익일 대기)",
-          "is_win": true,
-          "catalyst": "[ARGON v4 75.1점], 👑 'LCC (저가 항공)' 독자대장주(동조율 100%), 고가유지 100.0% 밀착마감, 검증수급 8.6억 유입(AM +0.30%), 정규장 +13.75% 돌파"
+          "catalyst": "[ARGON v4 70.4점], 👑 '태양광' 독자대장주(동조율 17%), 정규장 대금 586억 집중, 정규장 +15.46% 돌파"
         }
       ]
     }
