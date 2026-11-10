@@ -1,7 +1,7 @@
 {
   "engine_name": "GEMINI ENDGAME v4.0 (Pure Regular-Session 15:30 Engine)",
   "after_market_data_usage_pct": 0.0,
-  "upcoming_target_date": "2026-11-10",
+  "upcoming_target_date": "2026-11-11",
   "schedule_policy": "매일 23:00 KST (평일 정규장 마감 데이터 기반 다음 거래일 종목 자동 선정 · 대시보드 배포 · iMessage 발송)",
   "iteration_progression": [
     {
@@ -437,5 +437,5 @@
       "selection_note": "11/09 15:30 정규장 1위 선정(94.8점) → 11/10 시가 214,000원 진입 후 장중 245,000원(+14.49%) 급등 및 종가 236,500원(+10.51%) 양봉 마감"
     }
   ],
-  "last_updated": "2026-11-10 16:01:30"
+  "last_updated": "2026-11-10 23:10:35"
 }
