@@ -1,72 +1,72 @@
 {
-  "updated_at": "2026-11-10 15:11:04",
+  "updated_at": "2026-11-10 20:12:27",
   "active_version": "v1.8-FIMC",
   "evaluated_days": 20,
   "five_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 75.0,
-      "rank1_cum_return_pct": 89.89,
-      "top2_win_rate_pct": 66.0,
-      "top2_cum_return_pct": 61.49,
-      "top3_cum_return_pct": 58.3,
+      "rank1_win_rate_pct": 76.0,
+      "rank1_cum_return_pct": 97.39,
+      "top2_win_rate_pct": 67.3,
+      "top2_cum_return_pct": 68.99,
+      "top3_cum_return_pct": 62.84,
       "top2_stop_losses": 7
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 83.3,
-      "rank1_cum_return_pct": 94.65,
-      "top2_win_rate_pct": 68.1,
-      "top2_cum_return_pct": 60.1
+      "rank1_win_rate_pct": 84.0,
+      "rank1_cum_return_pct": 102.15,
+      "top2_win_rate_pct": 69.4,
+      "top2_cum_return_pct": 67.6
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 90.5,
-      "rank1_cum_return_pct": 81.62,
-      "top2_win_rate_pct": 81.6,
-      "top2_cum_return_pct": 60.8,
-      "top3_cum_return_pct": 58.31,
+      "rank1_win_rate_pct": 90.9,
+      "rank1_cum_return_pct": 89.12,
+      "top2_win_rate_pct": 82.5,
+      "top2_cum_return_pct": 67.97,
+      "top3_cum_return_pct": 64.95,
       "top2_stop_losses": 4,
       "expired_saved_stop_losses_count": 10,
       "expired_saved_loss_pct": 15.28
     },
     "v1.6_QFE_Full (VolumeProfile + k-NN + MC10K)": {
       "rank1_win_rate_pct": 100.0,
-      "rank1_hit5_rate_pct": 95.0,
-      "rank1_triggered_days": 20,
-      "rank1_cum_return_pct": 105.74,
-      "top2_win_rate_pct": 91.9,
-      "top2_cum_return_pct": 76.46,
-      "top3_cum_return_pct": 67.43,
-      "top2_stop_losses": 3,
+      "rank1_hit5_rate_pct": 95.2,
+      "rank1_triggered_days": 21,
+      "rank1_cum_return_pct": 113.24,
+      "top2_win_rate_pct": 89.7,
+      "top2_cum_return_pct": 78.96,
+      "top3_cum_return_pct": 69.27,
+      "top2_stop_losses": 4,
       "filtered_saved_stop_losses_count": 8,
       "filtered_saved_loss_pct": 14.12
     },
     "v1.7_GNC_Full (L1-ESO + HJ-GP Funnel + MPPI 10K + CBF-QP Safety Shield)": {
       "rank1_win_rate_pct": 100.0,
-      "rank1_hit5_rate_pct": 95.2,
-      "rank1_triggered_days": 21,
-      "rank1_cum_return_pct": 110.62,
+      "rank1_hit5_rate_pct": 95.5,
+      "rank1_triggered_days": 22,
+      "rank1_cum_return_pct": 118.12,
       "top2_win_rate_pct": 100.0,
-      "top2_cum_return_pct": 77.74,
+      "top2_cum_return_pct": 81.49,
       "top2_stop_losses": 0,
-      "cbf_aborted_stop_losses_count": 12,
-      "cbf_saved_loss_pct": 24.12
+      "cbf_aborted_stop_losses_count": 13,
+      "cbf_saved_loss_pct": 25.51
     },
     "v1.8_FIMC_Full (FM-Apex 100% +5% Touch Selection + GNC + Phase-Lead Visual Servo)": {
       "rank1_win_rate_pct": 100.0,
       "rank1_hit5_rate_pct": 100.0,
-      "rank1_hit10_rate_pct": 50.0,
-      "rank1_avg_intraday_high_pct": 11.84,
-      "rank1_triggered_days": 22,
-      "rank1_fixed_exit_cum_return_pct": 118.33,
-      "rank1_cum_return_pct": 158.02,
+      "rank1_hit10_rate_pct": 52.2,
+      "rank1_avg_intraday_high_pct": 11.95,
+      "rank1_triggered_days": 23,
+      "rank1_fixed_exit_cum_return_pct": 125.83,
+      "rank1_cum_return_pct": 167.4,
       "full_27d_rank1_hit5_rate_pct": 100.0,
-      "full_27d_rank1_cum_return_pct": 204.08,
+      "full_27d_rank1_cum_return_pct": 213.46,
       "top2_win_rate_pct": 100.0,
-      "top2_cum_return_pct": 110.98,
-      "full_27d_top2_cum_return_pct": 152.93,
-      "top3_cum_return_pct": 97.05,
+      "top2_cum_return_pct": 115.67,
+      "full_27d_top2_cum_return_pct": 157.62,
+      "top3_cum_return_pct": 101.0,
       "top2_stop_losses": 0,
-      "cbf_aborted_stop_losses_count": 10,
-      "cbf_saved_loss_pct": 19.37
+      "cbf_aborted_stop_losses_count": 11,
+      "cbf_saved_loss_pct": 20.76
     }
   },
   "upcoming_target_date": "2026-11-10",
@@ -880,6 +880,41 @@
         "raw_realized_pct": 2.5,
         "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -5.56% ➜ 균형복귀·탄성청산 +4.41%)",
         "exec_realized_pct": 4.41
+      }
+    },
+    "2026-11-10": {
+      "gnc_rank1": {
+        "name": "한진칼",
+        "code": "180640",
+        "fimc_score": 95.9,
+        "gnc_score": 95.9,
+        "v4_score": 80.7,
+        "eso_d_hat": 11.0,
+        "cbf_margin": 9.49,
+        "hj_lcb": -0.29,
+        "mppi_j": 7.99,
+        "plant_elasticity_pct": 0.0,
+        "pred_apex_pct": 6.11,
+        "notes": [
+          "💎ESO_AM초대형매집(181억,+6.5)",
+          "🐂강세테마공진(78%,+4.5)"
+        ],
+        "p_target": 68.7,
+        "ev_pct": 4.29,
+        "gp_win_rate": 32.7,
+        "high_pct": 14.49,
+        "raw_realized_pct": 7.5,
+        "fixed_realized_pct": 7.5,
+        "exec_state": "FM_APEX_CONVERGE (초기선행 +18.5% ➜ 고점수렴 +9.38%)",
+        "exec_realized_pct": 9.38
+      },
+      "gnc_rank2": {
+        "name": "테크윙",
+        "code": "089030",
+        "gnc_score": 66.9,
+        "raw_realized_pct": -1.39,
+        "exec_state": "CBF_ABORT (CBF_UPPER_CLEARANCE +2.35% 추력미달 진입차단)",
+        "exec_realized_pct": 0.0
       }
     }
   }
