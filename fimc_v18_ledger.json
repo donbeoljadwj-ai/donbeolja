@@ -1,920 +1,587 @@
 {
-  "updated_at": "2026-11-10 23:18:02",
-  "active_version": "v1.8-FIMC",
-  "evaluated_days": 20,
-  "five_version_scorecard": {
-    "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 76.0,
-      "rank1_cum_return_pct": 97.39,
-      "top2_win_rate_pct": 67.3,
-      "top2_cum_return_pct": 68.99,
-      "top3_cum_return_pct": 62.84,
-      "top2_stop_losses": 7
+  "updated_at": "2026-11-11 09:02:20",
+  "active_version": "v1.9-FROZEN",
+  "frozen_winrate_gate": {
+    "track": "v1",
+    "engine_version": "v1.9-FROZEN",
+    "engine_sha256": "533c6508724d9d61",
+    "preopen_logged_days": 0,
+    "settled_preopen_days": 0,
+    "min_required_days": 30,
+    "win_rate_display_allowed": false,
+    "status_badge": "엔진 동결 전진검증 누적 중 (0/30일 · 30거래일 미만 승률 미표시)"
+  },
+  "evaluated_days": 27,
+  "honest_regular_bar_comparison": {
+    "definition": "확정 KRX 정규장 일봉(09:00~15:30) · 왕복비용 0.35% 차감 · 분모=전 추천일(27일)",
+    "v1_before_original_rank1": {
+      "all_recommended_days": 27,
+      "round_trip_cost_pct": 0.35,
+      "rank1_hit5_daily_count": 14,
+      "rank1_hit5_daily_rate_pct": 51.9,
+      "rank1_o2c_gross_wins": 10,
+      "rank1_o2c_gross_win_rate_pct": 37.0,
+      "rank1_o2c_net_wins": 10,
+      "rank1_o2c_net_win_rate_pct": 37.0,
+      "rank1_mean_o2c_gross_pct": -0.43,
+      "rank1_mean_o2c_net_pct": -0.78,
+      "rank1_cum_o2c_net_pct": -20.93
     },
-    "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 84.0,
-      "rank1_cum_return_pct": 102.15,
-      "top2_win_rate_pct": 69.4,
-      "top2_cum_return_pct": 67.6
+    "v1_after_v19_atr_clean_rank1": {
+      "all_recommended_days": 27,
+      "round_trip_cost_pct": 0.35,
+      "rank1_hit5_daily_count": 20,
+      "rank1_hit5_daily_rate_pct": 74.1,
+      "rank1_o2c_gross_wins": 16,
+      "rank1_o2c_gross_win_rate_pct": 59.3,
+      "rank1_o2c_net_wins": 16,
+      "rank1_o2c_net_win_rate_pct": 59.3,
+      "rank1_mean_o2c_gross_pct": 0.9,
+      "rank1_mean_o2c_net_pct": 0.55,
+      "rank1_cum_o2c_net_pct": 14.78
     },
-    "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 90.9,
-      "rank1_cum_return_pct": 89.12,
-      "top2_win_rate_pct": 82.5,
-      "top2_cum_return_pct": 67.97,
-      "top3_cum_return_pct": 64.95,
-      "top2_stop_losses": 4,
-      "expired_saved_stop_losses_count": 10,
-      "expired_saved_loss_pct": 15.28
-    },
-    "v1.6_QFE_Full (VolumeProfile + k-NN + MC10K)": {
-      "rank1_win_rate_pct": 100.0,
-      "rank1_hit5_rate_pct": 95.2,
-      "rank1_triggered_days": 21,
-      "rank1_cum_return_pct": 113.24,
-      "top2_win_rate_pct": 89.7,
-      "top2_cum_return_pct": 78.96,
-      "top3_cum_return_pct": 69.27,
-      "top2_stop_losses": 4,
-      "filtered_saved_stop_losses_count": 8,
-      "filtered_saved_loss_pct": 14.12
-    },
-    "v1.7_GNC_Full (L1-ESO + HJ-GP Funnel + MPPI 10K + CBF-QP Safety Shield)": {
-      "rank1_win_rate_pct": 100.0,
-      "rank1_hit5_rate_pct": 95.5,
-      "rank1_triggered_days": 22,
-      "rank1_cum_return_pct": 118.12,
-      "top2_win_rate_pct": 100.0,
-      "top2_cum_return_pct": 81.49,
-      "top2_stop_losses": 0,
-      "cbf_aborted_stop_losses_count": 13,
-      "cbf_saved_loss_pct": 25.51
-    },
-    "v1.8_FIMC_Full (FM-Apex 100% +5% Touch Selection + GNC + Phase-Lead Visual Servo)": {
-      "rank1_win_rate_pct": 100.0,
-      "rank1_hit5_rate_pct": 100.0,
-      "rank1_hit10_rate_pct": 52.2,
-      "rank1_avg_intraday_high_pct": 11.95,
-      "rank1_triggered_days": 23,
-      "rank1_fixed_exit_cum_return_pct": 125.83,
-      "rank1_cum_return_pct": 167.4,
-      "full_27d_rank1_hit5_rate_pct": 100.0,
-      "full_27d_rank1_cum_return_pct": 213.46,
-      "top2_win_rate_pct": 100.0,
-      "top2_cum_return_pct": 115.67,
-      "full_27d_top2_cum_return_pct": 157.62,
-      "top3_cum_return_pct": 101.0,
-      "top2_stop_losses": 0,
-      "cbf_aborted_stop_losses_count": 11,
-      "cbf_saved_loss_pct": 20.76
-    }
+    "note": "과거 27일 소급 재채점 수치이며, 동결 전진검증 30거래일 누적 전까지 대시보드/메시지 승률 표시는 비활성화됨."
   },
   "upcoming_target_date": "2026-11-11",
-  "upcoming_v17_gnc_top5": [
-    "1위 대한항공(003490) | FIMC점수 105.4점(GNC:105.4점, v4:98.4점) | 🎯FM예측고점 +3.22%(탄성 +2.0%) | 🛰️ESO외란 +5.00 | 🛡️CBF여유도 +5.74(SAFE) | 🚀MPPI10K(J*=+6.66, +5%확률 53.6%, EV +2.74%)",
-    "2위 JW신약(067290) | FIMC점수 102.0점(GNC:102.0점, v4:99.5점) | 🎯FM예측고점 +6.16%(탄성 +0.0%) | 🛰️ESO외란 +0.00 | 🛡️CBF여유도 +1.86(SAFE) | 🚀MPPI10K(J*=+6.00, +5%확률 45.7%, EV +1.91%)",
-    "3위 에스피소프트(443670) | FIMC점수 96.2점(GNC:96.2점, v4:88.7점) | 🎯FM예측고점 +7.33%(탄성 +0.0%) | 🛰️ESO외란 +4.50 | 🛡️CBF여유도 +4.86(SAFE) | 🚀MPPI10K(J*=+6.54, +5%확률 53.2%, EV +2.63%)",
-    "4위 디케이락(105740) | FIMC점수 90.2점(GNC:90.2점, v4:84.4점) | 🎯FM예측고점 +8.35%(탄성 +8.1%) | 🛰️ESO외란 +4.50 | 🛡️CBF여유도 +4.86(SAFE) | 🚀MPPI10K(J*=+5.97, +5%확률 43.7%, EV +1.77%)",
-    "5위 케이씨텍(281820) | FIMC점수 85.9점(GNC:85.9점, v4:85.7점) | 🎯FM예측고점 +5.10%(탄성 +0.0%) | 🛰️ESO외란 -1.00 | 🛡️CBF여유도 +3.16(SAFE) | 🚀MPPI10K(J*=+5.74, +5%확률 44.2%, EV +1.81%)"
-  ],
   "daily_comparison": {
-    "2026-10-06": {
-      "gnc_rank1": {
-        "name": "디케이락",
-        "code": "105740",
-        "fimc_score": 77.3,
-        "gnc_score": 68.8,
-        "v4_score": 65.5,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 5.42,
-        "hj_lcb": 1.25,
-        "mppi_j": 7.46,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 10.22,
-        "notes": [
-          "⚡FM위상선행돌파(AM+6.18%·무윗꼬리,+8.5)"
-        ],
-        "p_target": 62.0,
-        "ev_pct": 3.45,
-        "gp_win_rate": 55.0,
-        "high_pct": 8.11,
-        "raw_realized_pct": 2.5,
-        "fixed_realized_pct": 2.5,
-        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -4.97% ➜ 균형복귀·탄성청산 +5.66%)",
-        "exec_realized_pct": 5.66
+    "2026-10-01": {
+      "before_orig_rank1": {
+        "name": "성호전자",
+        "code": "043260",
+        "o2h_pct": 6.94,
+        "o2c_gross_pct": 6.94,
+        "o2c_net_pct": 6.59,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
+      "after_v19_rank1": {
+        "name": "성호전자",
+        "code": "043260",
+        "atr20_pct": 9.994,
+        "score": 0.0,
+        "o2h_pct": 6.94,
+        "o2c_gross_pct": 6.94,
+        "o2c_net_pct": 6.59,
+        "hit_5pct_daily": true
+      }
+    },
+    "2026-10-02": {
+      "before_orig_rank1": {
+        "name": "HPSP",
+        "code": "403870",
+        "o2h_pct": 0.58,
+        "o2c_gross_pct": -5.07,
+        "o2c_net_pct": -5.42,
+        "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
+        "name": "디아이",
+        "code": "003160",
+        "atr20_pct": 11.459,
+        "score": 0.0,
+        "o2h_pct": 6.55,
+        "o2c_gross_pct": 3.88,
+        "o2c_net_pct": 3.53,
+        "hit_5pct_daily": true
+      }
+    },
+    "2026-10-06": {
+      "before_orig_rank1": {
+        "name": "우리로",
+        "code": "046970",
+        "o2h_pct": 11.77,
+        "o2c_gross_pct": 2.97,
+        "o2c_net_pct": 2.62,
+        "hit_5pct_daily": true
+      },
+      "after_v19_rank1": {
         "name": "빛샘전자",
         "code": "072950",
-        "gnc_score": 75.6,
-        "raw_realized_pct": 4.53,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +8.2% ➜ 오차0수렴 +4.38%)",
-        "exec_realized_pct": 4.38
+        "atr20_pct": 12.506,
+        "score": 156.73,
+        "o2h_pct": 2.19,
+        "o2c_gross_pct": -0.12,
+        "o2c_net_pct": -0.47,
+        "hit_5pct_daily": false
       }
     },
     "2026-10-07": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "엑스게이트",
         "code": "356680",
-        "fimc_score": 67.5,
-        "gnc_score": 67.5,
-        "v4_score": 66.3,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 3.73,
-        "hj_lcb": 3.17,
-        "mppi_j": 4.51,
-        "plant_elasticity_pct": 7.32,
-        "pred_apex_pct": 5.49,
-        "notes": [],
-        "p_target": 37.9,
-        "ev_pct": 1.24,
-        "gp_win_rate": 100.0,
-        "high_pct": 0.97,
-        "raw_realized_pct": -0.24,
-        "fixed_realized_pct": 0.0,
-        "exec_state": "CBF_ABORT (CBF_ORB +1.05% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+        "o2h_pct": 3.23,
+        "o2c_gross_pct": -5.77,
+        "o2c_net_pct": -6.12,
+        "hit_5pct_daily": false
       },
-      "gnc_rank2": {
+      "after_v19_rank1": {
         "name": "빛과전자",
         "code": "069540",
-        "gnc_score": 66.2,
-        "raw_realized_pct": 0.0,
-        "exec_state": "CBF_ABORT (CBF_LOWER_RECOVERY +3.00% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+        "atr20_pct": 11.087,
+        "score": 139.54,
+        "o2h_pct": 16.99,
+        "o2c_gross_pct": 1.76,
+        "o2c_net_pct": 1.41,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-08": {
-      "gnc_rank1": {
-        "name": "한미사이언스",
-        "code": "008930",
-        "fimc_score": 70.2,
-        "gnc_score": 70.2,
-        "v4_score": 66.1,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 5.42,
-        "hj_lcb": 2.33,
-        "mppi_j": 7.74,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 17.17,
-        "notes": [],
-        "p_target": 66.2,
-        "ev_pct": 3.89,
-        "gp_win_rate": 100.0,
-        "high_pct": 17.7,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +22.3% ➜ 고점수렴 +9.44%)",
-        "exec_realized_pct": 9.44
+      "before_orig_rank1": {
+        "name": "주성엔지니어링",
+        "code": "036930",
+        "o2h_pct": 10.3,
+        "o2c_gross_pct": 5.94,
+        "o2c_net_pct": 5.59,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "비아트론",
-        "code": "141000",
-        "gnc_score": 63.9,
-        "raw_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +35.2% ➜ 고점수렴 +8.84%)",
-        "exec_realized_pct": 8.84
+      "after_v19_rank1": {
+        "name": "주성엔지니어링",
+        "code": "036930",
+        "atr20_pct": 9.336,
+        "score": 123.47,
+        "o2h_pct": 10.3,
+        "o2c_gross_pct": 5.94,
+        "o2c_net_pct": 5.59,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-12": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "알루코",
         "code": "001780",
-        "fimc_score": 64.5,
-        "gnc_score": 64.5,
-        "v4_score": 63.3,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 5.42,
-        "hj_lcb": 0.06,
-        "mppi_j": 5.69,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 5.81,
-        "notes": [],
-        "p_target": 47.7,
-        "ev_pct": 2.25,
-        "gp_win_rate": 32.0,
-        "high_pct": 13.94,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +17.9% ➜ 고점수렴 +8.62%)",
-        "exec_realized_pct": 8.62
+        "o2h_pct": 8.62,
+        "o2c_gross_pct": -0.28,
+        "o2c_net_pct": -0.63,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "삼성전기",
-        "code": "009150",
-        "gnc_score": 60.9,
-        "raw_realized_pct": -0.71,
-        "exec_state": "CBF_ABORT (CBF_ORB +1.35% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+      "after_v19_rank1": {
+        "name": "제이앤티씨",
+        "code": "204270",
+        "atr20_pct": 9.513,
+        "score": 123.44,
+        "o2h_pct": 1.09,
+        "o2c_gross_pct": -6.91,
+        "o2c_net_pct": -7.26,
+        "hit_5pct_daily": false
       }
     },
     "2026-10-13": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "라온시큐어",
         "code": "042510",
-        "fimc_score": 58.6,
-        "gnc_score": 58.6,
-        "v4_score": 59.5,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 4.12,
-        "hj_lcb": -0.48,
-        "mppi_j": 4.16,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 2.13,
-        "notes": [],
-        "p_target": 34.2,
-        "ev_pct": 1.04,
-        "gp_win_rate": 16.6,
-        "high_pct": 21.78,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +27.1% ➜ 고점수렴 +9.44%)",
-        "exec_realized_pct": 9.44
+        "o2h_pct": 26.22,
+        "o2c_gross_pct": 9.82,
+        "o2c_net_pct": 9.47,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "흥아해운",
-        "code": "003280",
-        "gnc_score": 58.3,
-        "raw_realized_pct": 2.5,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +8.4% ➜ 오차0수렴 +3.85%)",
-        "exec_realized_pct": 3.85
+      "after_v19_rank1": {
+        "name": "라온시큐어",
+        "code": "042510",
+        "atr20_pct": 12.516,
+        "score": 154.25,
+        "o2h_pct": 26.22,
+        "o2c_gross_pct": 9.82,
+        "o2c_net_pct": 9.47,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-14": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "삼화전기",
         "code": "009470",
-        "fimc_score": 95.1,
-        "gnc_score": 95.1,
-        "v4_score": 87.3,
-        "eso_d_hat": 4.5,
-        "cbf_margin": 6.61,
-        "hj_lcb": 1.77,
-        "mppi_j": 7.19,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 7.47,
-        "notes": [
-          "🚀ESO추력대장(+4.5)"
-        ],
-        "p_target": 57.1,
-        "ev_pct": 3.11,
-        "gp_win_rate": 67.8,
-        "high_pct": 7.25,
-        "raw_realized_pct": 2.5,
-        "fixed_realized_pct": 2.5,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +10.0% ➜ 오차0수렴 +4.89%)",
-        "exec_realized_pct": 4.89
+        "o2h_pct": 1.68,
+        "o2c_gross_pct": -1.01,
+        "o2c_net_pct": -1.36,
+        "hit_5pct_daily": false
       },
-      "gnc_rank2": {
-        "name": "야스",
-        "code": "255440",
-        "gnc_score": 94.2,
-        "raw_realized_pct": -2.5,
-        "exec_state": "CBF_ABORT (CBF_ORB +1.35% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+      "after_v19_rank1": {
+        "name": "안랩",
+        "code": "053800",
+        "atr20_pct": 12.381,
+        "score": 152.82,
+        "o2h_pct": 8.9,
+        "o2c_gross_pct": 4.92,
+        "o2c_net_pct": 4.57,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-15": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "대양금속",
         "code": "009190",
-        "fimc_score": 68.8,
-        "gnc_score": 60.3,
-        "v4_score": 51.5,
-        "eso_d_hat": 6.0,
-        "cbf_margin": 7.95,
-        "hj_lcb": 0.66,
-        "mppi_j": 7.66,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 13.45,
-        "notes": [
-          "⚡FM위상선행돌파(AM+11.77%·무윗꼬리,+8.5)",
-          "⚡AM신고가추력(+6.0)"
-        ],
-        "p_target": 57.5,
-        "ev_pct": 3.16,
-        "gp_win_rate": 50.0,
-        "high_pct": 9.98,
-        "raw_realized_pct": 0.0,
-        "fixed_realized_pct": 2.5,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +13.2% ➜ 오차0수렴 +5.79%)",
-        "exec_realized_pct": 5.79
+        "o2h_pct": 9.98,
+        "o2c_gross_pct": -5.28,
+        "o2c_net_pct": -5.63,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "-",
-        "code": "-",
-        "gnc_score": 0.0,
-        "raw_realized_pct": 0.0,
-        "exec_state": "-",
-        "exec_realized_pct": 0.0
+      "after_v19_rank1": {
+        "name": "동양고속",
+        "code": "084670",
+        "atr20_pct": 14.172,
+        "score": 174.68,
+        "o2h_pct": 9.16,
+        "o2c_gross_pct": -9.28,
+        "o2c_net_pct": -9.63,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-16": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
+        "name": "에스원",
+        "code": "012750",
+        "o2h_pct": 1.43,
+        "o2c_gross_pct": -0.1,
+        "o2c_net_pct": -0.45,
+        "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "fimc_score": 82.4,
-        "gnc_score": 58.4,
-        "v4_score": 59.8,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 1.62,
-        "hj_lcb": 0.29,
-        "mppi_j": 3.84,
-        "plant_elasticity_pct": 24.94,
-        "pred_apex_pct": 17.95,
-        "notes": [
-          "🎯FM탄성수렴승격(과거평균고점+24.9%·AM+2.97%,+24.0)"
-        ],
-        "p_target": 31.7,
-        "ev_pct": 0.5,
-        "gp_win_rate": 39.4,
-        "high_pct": 8.89,
-        "raw_realized_pct": 2.5,
-        "fixed_realized_pct": 2.5,
-        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -2.58% ➜ 균형복귀·탄성청산 +5.97%)",
-        "exec_realized_pct": 5.97
-      },
-      "gnc_rank2": {
-        "name": "에스엠벡셀",
-        "code": "010580",
-        "gnc_score": 71.6,
-        "raw_realized_pct": 2.5,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +7.7% ➜ 오차0수렴 +3.79%)",
-        "exec_realized_pct": 3.79
+        "atr20_pct": 16.73,
+        "score": 200.13,
+        "o2h_pct": 9.86,
+        "o2c_gross_pct": -4.93,
+        "o2c_net_pct": -5.28,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-19": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "우리로",
         "code": "046970",
-        "fimc_score": 81.2,
-        "gnc_score": 81.2,
-        "v4_score": 80.5,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 4.65,
-        "hj_lcb": 0.38,
-        "mppi_j": 5.97,
-        "plant_elasticity_pct": 6.12,
-        "pred_apex_pct": 4.86,
-        "notes": [],
-        "p_target": 44.8,
-        "ev_pct": 1.88,
-        "gp_win_rate": 44.4,
-        "high_pct": 5.86,
-        "raw_realized_pct": 2.5,
-        "fixed_realized_pct": 2.5,
-        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -2.58% ➜ 균형복귀·탄성청산 +4.79%)",
-        "exec_realized_pct": 4.79
+        "o2h_pct": 5.86,
+        "o2c_gross_pct": -3.68,
+        "o2c_net_pct": -4.03,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "씨싸이트",
-        "code": "109670",
-        "gnc_score": 80.0,
-        "raw_realized_pct": 2.54,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +7.6% ➜ 오차0수렴 +3.64%)",
-        "exec_realized_pct": 3.64
+      "after_v19_rank1": {
+        "name": "엑시콘",
+        "code": "092870",
+        "atr20_pct": 15.911,
+        "score": 198.25,
+        "o2h_pct": 16.87,
+        "o2c_gross_pct": 10.16,
+        "o2c_net_pct": 9.81,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-20": {
-      "gnc_rank1": {
-        "name": "쏘닉스",
-        "code": "088280",
-        "fimc_score": 73.3,
-        "gnc_score": 73.3,
-        "v4_score": 73.8,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 0.74,
-        "hj_lcb": 2.22,
-        "mppi_j": 4.01,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 7.88,
-        "notes": [],
-        "p_target": 31.1,
-        "ev_pct": 0.46,
-        "gp_win_rate": 88.4,
-        "high_pct": 21.18,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +26.4% ➜ 고점수렴 +9.44%)",
-        "exec_realized_pct": 9.44
-      },
-      "gnc_rank2": {
+      "before_orig_rank1": {
         "name": "알멕",
         "code": "354320",
-        "gnc_score": 62.4,
-        "raw_realized_pct": -2.5,
-        "exec_state": "CBF_ABORT (CBF_UPPER_CLEARANCE +2.35% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+        "o2h_pct": 2.26,
+        "o2c_gross_pct": -6.45,
+        "o2c_net_pct": -6.8,
+        "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
+        "name": "알멕",
+        "code": "354320",
+        "atr20_pct": 17.014,
+        "score": 196.0,
+        "o2h_pct": 2.26,
+        "o2c_gross_pct": -6.45,
+        "o2c_net_pct": -6.8,
+        "hit_5pct_daily": false
       }
     },
     "2026-10-21": {
-      "gnc_rank1": {
-        "name": "양지사",
-        "code": "030960",
-        "fimc_score": 77.6,
-        "gnc_score": 77.6,
-        "v4_score": 77.7,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 0.33,
-        "hj_lcb": 2.59,
-        "mppi_j": 4.1,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 9.1,
-        "notes": [],
-        "p_target": 33.2,
-        "ev_pct": 0.59,
-        "gp_win_rate": 85.5,
-        "high_pct": 9.94,
-        "raw_realized_pct": 3.9,
-        "fixed_realized_pct": 3.9,
-        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -4.59% ➜ 균형복귀·탄성청산 +6.38%)",
-        "exec_realized_pct": 6.38
+      "before_orig_rank1": {
+        "name": "세아메카닉스",
+        "code": "396300",
+        "o2h_pct": 13.28,
+        "o2c_gross_pct": 7.95,
+        "o2c_net_pct": 7.6,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "코리아써키트",
-        "code": "007810",
-        "gnc_score": 66.5,
-        "raw_realized_pct": -2.5,
-        "exec_state": "CBF_ABORT (CBF_UPPER_CLEARANCE +2.35% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+      "after_v19_rank1": {
+        "name": "토마토시스템",
+        "code": "393210",
+        "atr20_pct": 16.73,
+        "score": 191.2,
+        "o2h_pct": 9.12,
+        "o2c_gross_pct": 1.45,
+        "o2c_net_pct": 1.1,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-22": {
-      "gnc_rank1": {
-        "name": "앤로보틱스",
-        "code": "138360",
-        "fimc_score": 97.4,
-        "gnc_score": 97.4,
-        "v4_score": 94.8,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 2.44,
-        "hj_lcb": 1.83,
-        "mppi_j": 6.88,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 9.12,
-        "notes": [],
-        "p_target": 53.0,
-        "ev_pct": 2.65,
-        "gp_win_rate": 74.8,
-        "high_pct": 6.71,
-        "raw_realized_pct": 2.5,
-        "fixed_realized_pct": 2.5,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +9.3% ➜ 오차0수렴 +4.71%)",
-        "exec_realized_pct": 4.71
+      "before_orig_rank1": {
+        "name": "아이크래프트",
+        "code": "052460",
+        "o2h_pct": 1.36,
+        "o2c_gross_pct": -13.22,
+        "o2c_net_pct": -13.57,
+        "hit_5pct_daily": false
       },
-      "gnc_rank2": {
+      "after_v19_rank1": {
         "name": "세아메카닉스",
         "code": "396300",
-        "gnc_score": 87.6,
-        "raw_realized_pct": -2.5,
-        "exec_state": "CBF_ABORT (CBF_LOWER_RECOVERY +3.00% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+        "atr20_pct": 13.408,
+        "score": 177.44,
+        "o2h_pct": 0.46,
+        "o2c_gross_pct": -6.83,
+        "o2c_net_pct": -7.18,
+        "hit_5pct_daily": false
       }
     },
     "2026-10-23": {
-      "gnc_rank1": {
-        "name": "비나텍",
-        "code": "126340",
-        "fimc_score": 95.2,
-        "gnc_score": 95.2,
-        "v4_score": 84.3,
-        "eso_d_hat": 8.0,
-        "cbf_margin": 6.41,
-        "hj_lcb": 0.94,
-        "mppi_j": 7.05,
-        "plant_elasticity_pct": 10.09,
-        "pred_apex_pct": 3.29,
-        "notes": [
-          "🚀ESO추력대장(+4.5)",
-          "💎ESO_AM은닉매집(38억,+3.5)"
-        ],
-        "p_target": 57.2,
-        "ev_pct": 3.1,
-        "gp_win_rate": 57.4,
-        "high_pct": 16.59,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +21.0% ➜ 고점수렴 +9.44%)",
-        "exec_realized_pct": 9.44
-      },
-      "gnc_rank2": {
+      "before_orig_rank1": {
         "name": "유니퀘스트",
         "code": "077500",
-        "gnc_score": 84.5,
-        "raw_realized_pct": -2.5,
-        "exec_state": "CBF_ABORT (CBF_LOWER_RECOVERY +3.00% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+        "o2h_pct": 2.66,
+        "o2c_gross_pct": -4.71,
+        "o2c_net_pct": -5.06,
+        "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
+        "name": "토마토시스템",
+        "code": "393210",
+        "atr20_pct": 16.804,
+        "score": 202.45,
+        "o2h_pct": 8.29,
+        "o2c_gross_pct": -4.02,
+        "o2c_net_pct": -4.37,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-26": {
-      "gnc_rank1": {
-        "name": "앤로보틱스",
-        "code": "138360",
-        "fimc_score": 86.3,
-        "gnc_score": 86.3,
-        "v4_score": 86.1,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 0.53,
-        "hj_lcb": 1.26,
-        "mppi_j": 5.09,
-        "plant_elasticity_pct": 6.71,
-        "pred_apex_pct": 8.19,
-        "notes": [],
-        "p_target": 39.0,
-        "ev_pct": 1.22,
-        "gp_win_rate": 58.5,
-        "high_pct": 10.71,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +14.0% ➜ 고점수렴 +7.50%)",
-        "exec_realized_pct": 7.5
+      "before_orig_rank1": {
+        "name": "파인엠텍",
+        "code": "441270",
+        "o2h_pct": 1.24,
+        "o2c_gross_pct": -10.22,
+        "o2c_net_pct": -10.57,
+        "hit_5pct_daily": false
       },
-      "gnc_rank2": {
-        "name": "와이바이오로직스",
-        "code": "338840",
-        "gnc_score": 78.3,
-        "raw_realized_pct": 4.26,
-        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -3.02% ➜ 균형복귀·탄성청산 +3.98%)",
-        "exec_realized_pct": 3.98
+      "after_v19_rank1": {
+        "name": "지투지바이오",
+        "code": "456160",
+        "atr20_pct": 11.572,
+        "score": 158.83,
+        "o2h_pct": 7.19,
+        "o2c_gross_pct": -7.19,
+        "o2c_net_pct": -7.54,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-27": {
-      "gnc_rank1": {
-        "name": "쓰리빌리언",
-        "code": "394800",
-        "fimc_score": 89.8,
-        "gnc_score": 89.8,
-        "v4_score": 78.4,
-        "eso_d_hat": 9.0,
-        "cbf_margin": 6.84,
-        "hj_lcb": 0.67,
-        "mppi_j": 6.89,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 3.81,
-        "notes": [
-          "🚀ESO추력대장(+4.5)",
-          "🐂강세테마공진(52%,+4.5)"
-        ],
-        "p_target": 54.5,
-        "ev_pct": 2.86,
-        "gp_win_rate": 57.6,
-        "high_pct": 6.69,
-        "raw_realized_pct": 5.85,
-        "fixed_realized_pct": 5.85,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +9.3% ➜ 오차0수렴 +5.85%)",
-        "exec_realized_pct": 5.85
+      "before_orig_rank1": {
+        "name": "SKAI",
+        "code": "357880",
+        "o2h_pct": 1.0,
+        "o2c_gross_pct": -0.6,
+        "o2c_net_pct": -0.95,
+        "hit_5pct_daily": false
       },
-      "gnc_rank2": {
-        "name": "로보티즈",
-        "code": "108490",
-        "gnc_score": 88.2,
-        "raw_realized_pct": 2.64,
-        "exec_state": "FM_SUB5_CONVERGE (고점 +3.04% ➜ 수렴 +2.37%)",
-        "exec_realized_pct": 2.37
+      "after_v19_rank1": {
+        "name": "토마토시스템",
+        "code": "393210",
+        "atr20_pct": 15.374,
+        "score": 181.18,
+        "o2h_pct": 18.8,
+        "o2c_gross_pct": 5.24,
+        "o2c_net_pct": 4.89,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-28": {
-      "gnc_rank1": {
-        "name": "마이크로컨텍솔",
-        "code": "098120",
-        "fimc_score": 108.0,
-        "gnc_score": 108.0,
-        "v4_score": 96.2,
-        "eso_d_hat": 9.0,
-        "cbf_margin": 7.95,
-        "hj_lcb": 1.31,
-        "mppi_j": 7.01,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 5.21,
-        "notes": [
-          "🚀ESO추력대장(+4.5)",
-          "🐂강세테마공진(97%,+4.5)"
-        ],
-        "p_target": 56.0,
-        "ev_pct": 2.96,
-        "gp_win_rate": 66.7,
-        "high_pct": 12.04,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +15.6% ➜ 고점수렴 +8.23%)",
-        "exec_realized_pct": 8.23
+      "before_orig_rank1": {
+        "name": "코리아써키트",
+        "code": "007810",
+        "o2h_pct": 2.5,
+        "o2c_gross_pct": 0.38,
+        "o2c_net_pct": 0.03,
+        "hit_5pct_daily": false
       },
-      "gnc_rank2": {
+      "after_v19_rank1": {
         "name": "한양디지텍",
         "code": "078350",
-        "gnc_score": 99.6,
-        "raw_realized_pct": 3.12,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +7.3% ➜ 오차0수렴 +3.89%)",
-        "exec_realized_pct": 3.89
+        "atr20_pct": 12.472,
+        "score": 167.65,
+        "o2h_pct": 5.04,
+        "o2c_gross_pct": 0.86,
+        "o2c_net_pct": 0.51,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-29": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "빛샘전자",
         "code": "072950",
-        "fimc_score": 122.5,
-        "gnc_score": 122.5,
-        "v4_score": 99.5,
-        "eso_d_hat": 10.5,
-        "cbf_margin": 7.58,
-        "hj_lcb": 2.41,
-        "mppi_j": 7.52,
-        "plant_elasticity_pct": 5.8,
-        "pred_apex_pct": 8.16,
-        "notes": [
-          "🔥ESO대량매물흡수대장(+6.0)",
-          "🐂강세테마공진(100%,+4.5)"
-        ],
-        "p_target": 58.8,
-        "ev_pct": 3.3,
-        "gp_win_rate": 74.6,
-        "high_pct": 17.06,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +21.5% ➜ 고점수렴 +9.44%)",
-        "exec_realized_pct": 9.44
+        "o2h_pct": 17.06,
+        "o2c_gross_pct": 2.56,
+        "o2c_net_pct": 2.21,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "원익홀딩스",
-        "code": "030530",
-        "gnc_score": 110.6,
-        "raw_realized_pct": 4.31,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +8.0% ➜ 오차0수렴 +4.31%)",
-        "exec_realized_pct": 4.31
+      "after_v19_rank1": {
+        "name": "엑시콘",
+        "code": "092870",
+        "atr20_pct": 13.324,
+        "score": 171.12,
+        "o2h_pct": 1.19,
+        "o2c_gross_pct": -2.54,
+        "o2c_net_pct": -2.89,
+        "hit_5pct_daily": false
       }
     },
     "2026-10-30": {
-      "gnc_rank1": {
-        "name": "한화비전",
-        "code": "489790",
-        "fimc_score": 102.5,
-        "gnc_score": 102.5,
-        "v4_score": 95.8,
-        "eso_d_hat": 4.5,
-        "cbf_margin": 4.17,
-        "hj_lcb": 2.1,
-        "mppi_j": 6.49,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 8.22,
-        "notes": [
-          "🐂강세테마공진(71%,+4.5)"
-        ],
-        "p_target": 48.9,
-        "ev_pct": 2.27,
-        "gp_win_rate": 66.6,
-        "high_pct": 5.16,
-        "raw_realized_pct": 3.26,
-        "fixed_realized_pct": 3.26,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +7.5% ➜ 오차0수렴 +4.20%)",
-        "exec_realized_pct": 4.2
+      "before_orig_rank1": {
+        "name": "광전자",
+        "code": "017900",
+        "o2h_pct": 2.43,
+        "o2c_gross_pct": -8.25,
+        "o2c_net_pct": -8.6,
+        "hit_5pct_daily": false
       },
-      "gnc_rank2": {
-        "name": "RF머트리얼즈",
-        "code": "327260",
-        "gnc_score": 89.0,
-        "raw_realized_pct": -2.5,
-        "exec_state": "CBF_ABORT (CBF_LOWER_RECOVERY +3.00% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+      "after_v19_rank1": {
+        "name": "서산",
+        "code": "079650",
+        "atr20_pct": 14.923,
+        "score": 183.0,
+        "o2h_pct": 4.36,
+        "o2c_gross_pct": -7.32,
+        "o2c_net_pct": -7.67,
+        "hit_5pct_daily": false
       }
     },
     "2026-11-02": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "라온로보틱스",
         "code": "232680",
-        "fimc_score": 67.9,
-        "gnc_score": 67.9,
-        "v4_score": 67.5,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 1.75,
-        "hj_lcb": 1.85,
-        "mppi_j": 5.11,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 7.89,
-        "notes": [],
-        "p_target": 38.6,
-        "ev_pct": 1.18,
-        "gp_win_rate": 68.2,
-        "high_pct": 14.62,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +18.6% ➜ 고점수렴 +9.44%)",
-        "exec_realized_pct": 9.44
+        "o2h_pct": 14.62,
+        "o2c_gross_pct": 12.13,
+        "o2c_net_pct": 11.78,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "이니텍",
-        "code": "053350",
-        "gnc_score": 34.7,
-        "raw_realized_pct": 5.52,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +9.7% ➜ 오차0수렴 +4.92%)",
-        "exec_realized_pct": 4.92
+      "after_v19_rank1": {
+        "name": "라온로보틱스",
+        "code": "232680",
+        "atr20_pct": 8.434,
+        "score": 128.35,
+        "o2h_pct": 14.62,
+        "o2c_gross_pct": 12.13,
+        "o2c_net_pct": 11.78,
+        "hit_5pct_daily": true
       }
     },
     "2026-11-03": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "원익홀딩스",
         "code": "030530",
-        "fimc_score": 98.9,
-        "gnc_score": 98.9,
-        "v4_score": 92.0,
-        "eso_d_hat": 6.5,
-        "cbf_margin": 3.6,
-        "hj_lcb": 1.22,
-        "mppi_j": 5.03,
-        "plant_elasticity_pct": 5.63,
-        "pred_apex_pct": 5.36,
-        "notes": [
-          "💎ESO_AM초대형매집(167억,+6.5)"
-        ],
-        "p_target": 39.6,
-        "ev_pct": 1.32,
-        "gp_win_rate": 75.9,
-        "high_pct": 5.38,
-        "raw_realized_pct": 4.88,
-        "fixed_realized_pct": 4.88,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +7.8% ➜ 오차0수렴 +4.88%)",
-        "exec_realized_pct": 4.88
+        "o2h_pct": 5.38,
+        "o2c_gross_pct": 2.37,
+        "o2c_net_pct": 2.02,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "한화오션",
-        "code": "042660",
-        "gnc_score": 97.3,
-        "raw_realized_pct": -0.92,
-        "exec_state": "CBF_ABORT (CBF_ORB +1.35% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+      "after_v19_rank1": {
+        "name": "원익홀딩스",
+        "code": "030530",
+        "atr20_pct": 9.258,
+        "score": 135.85,
+        "o2h_pct": 5.38,
+        "o2c_gross_pct": 2.37,
+        "o2c_net_pct": 2.02,
+        "hit_5pct_daily": true
       }
     },
     "2026-11-04": {
-      "gnc_rank1": {
-        "name": "토마토시스템",
-        "code": "393210",
-        "fimc_score": 73.2,
-        "gnc_score": 49.2,
-        "v4_score": 49.8,
-        "eso_d_hat": 0.0,
-        "cbf_margin": 1.57,
-        "hj_lcb": 0.78,
-        "mppi_j": 4.16,
-        "plant_elasticity_pct": 16.97,
-        "pred_apex_pct": 12.22,
-        "notes": [
-          "🎯FM탄성수렴승격(과거평균고점+17.0%·AM+2.21%,+24.0)"
-        ],
-        "p_target": 33.9,
-        "ev_pct": 0.82,
-        "gp_win_rate": 73.4,
-        "high_pct": 16.11,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +20.4% ➜ 고점수렴 +9.44%)",
-        "exec_realized_pct": 9.44
+      "before_orig_rank1": {
+        "name": "휴니드",
+        "code": "005870",
+        "o2h_pct": 0.19,
+        "o2c_gross_pct": -3.0,
+        "o2c_net_pct": -3.35,
+        "hit_5pct_daily": false
       },
-      "gnc_rank2": {
+      "after_v19_rank1": {
         "name": "진양화학",
         "code": "051630",
-        "gnc_score": 35.6,
-        "raw_realized_pct": 4.66,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +9.8% ➜ 오차0수렴 +4.88%)",
-        "exec_realized_pct": 4.88
+        "atr20_pct": 15.641,
+        "score": 186.24,
+        "o2h_pct": 5.27,
+        "o2c_gross_pct": 1.35,
+        "o2c_net_pct": 1.0,
+        "hit_5pct_daily": true
       }
     },
     "2026-11-05": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "HD현대에너지솔루션",
         "code": "322000",
-        "fimc_score": 119.0,
-        "gnc_score": 119.0,
-        "v4_score": 98.8,
-        "eso_d_hat": 15.5,
-        "cbf_margin": 10.53,
-        "hj_lcb": -0.11,
-        "mppi_j": 8.48,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 4.52,
-        "notes": [
-          "🚀ESO추력대장(+4.5)",
-          "💎ESO_AM초대형매집(199억,+6.5)",
-          "🐂강세테마공진(93%,+4.5)"
-        ],
-        "p_target": 71.4,
-        "ev_pct": 4.63,
-        "gp_win_rate": 44.8,
-        "high_pct": 7.67,
-        "raw_realized_pct": 2.94,
-        "fixed_realized_pct": 2.94,
-        "exec_state": "FM_ERROR_ZERO_LOCK (초기선행 +10.4% ➜ 오차0수렴 +5.03%)",
-        "exec_realized_pct": 5.03
+        "o2h_pct": 7.67,
+        "o2c_gross_pct": -0.11,
+        "o2c_net_pct": -0.46,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "주성엔지니어링",
-        "code": "036930",
-        "gnc_score": 106.5,
-        "raw_realized_pct": -2.5,
-        "exec_state": "CBF_ABORT (CBF_ORB +1.35% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+      "after_v19_rank1": {
+        "name": "피노",
+        "code": "033790",
+        "atr20_pct": 10.266,
+        "score": 144.81,
+        "o2h_pct": 0.0,
+        "o2c_gross_pct": 0.0,
+        "o2c_net_pct": -0.35,
+        "hit_5pct_daily": false
       }
     },
     "2026-11-06": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "에스와이",
         "code": "109610",
-        "fimc_score": 112.2,
-        "gnc_score": 103.7,
-        "v4_score": 92.8,
-        "eso_d_hat": 6.0,
-        "cbf_margin": 7.41,
-        "hj_lcb": 1.38,
-        "mppi_j": 8.24,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 9.52,
-        "notes": [
-          "⚡FM위상선행돌파(AM+5.85%·무윗꼬리,+8.5)",
-          "⚡AM신고가추력(+6.0)"
-        ],
-        "p_target": 68.0,
-        "ev_pct": 4.25,
-        "gp_win_rate": 74.4,
-        "high_pct": 17.05,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +21.5% ➜ 고점수렴 +9.44%)",
-        "exec_realized_pct": 9.44
+        "o2h_pct": 17.05,
+        "o2c_gross_pct": -5.3,
+        "o2c_net_pct": -5.65,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "카카오",
-        "code": "035720",
-        "gnc_score": 99.5,
-        "raw_realized_pct": 4.7,
-        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -5.40% ➜ 균형복귀·탄성청산 +4.89%)",
-        "exec_realized_pct": 4.89
+      "after_v19_rank1": {
+        "name": "제주항공",
+        "code": "089590",
+        "atr20_pct": 8.285,
+        "score": 120.88,
+        "o2h_pct": 6.35,
+        "o2c_gross_pct": 1.59,
+        "o2c_net_pct": 1.24,
+        "hit_5pct_daily": true
       }
     },
     "2026-11-09": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "롯데렌탈",
         "code": "089860",
-        "fimc_score": 88.7,
-        "gnc_score": 88.7,
-        "v4_score": 83.5,
-        "eso_d_hat": 4.5,
-        "cbf_margin": 5.68,
-        "hj_lcb": 0.78,
-        "mppi_j": 5.32,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 3.37,
-        "notes": [
-          "🐂강세테마공진(100%,+4.5)"
-        ],
-        "p_target": 42.2,
-        "ev_pct": 1.69,
-        "gp_win_rate": 55.7,
-        "high_pct": 0.17,
-        "raw_realized_pct": 0.0,
-        "fixed_realized_pct": 0.0,
-        "exec_state": "CBF_ABORT (THRUST_TICK +0.25% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+        "o2h_pct": 0.17,
+        "o2c_gross_pct": 0.0,
+        "o2c_net_pct": -0.35,
+        "hit_5pct_daily": false
       },
-      "gnc_rank2": {
-        "name": "원익홀딩스",
-        "code": "030530",
-        "gnc_score": 75.3,
-        "raw_realized_pct": 2.5,
-        "exec_state": "BNF_RUBBER_SNAPBACK (시초갭 -5.56% ➜ 균형복귀·탄성청산 +4.41%)",
-        "exec_realized_pct": 4.41
+      "after_v19_rank1": {
+        "name": "혜인",
+        "code": "003010",
+        "atr20_pct": 12.974,
+        "score": 159.3,
+        "o2h_pct": 10.59,
+        "o2c_gross_pct": 1.98,
+        "o2c_net_pct": 1.63,
+        "hit_5pct_daily": true
       }
     },
     "2026-11-10": {
-      "gnc_rank1": {
+      "before_orig_rank1": {
         "name": "한진칼",
         "code": "180640",
-        "fimc_score": 95.9,
-        "gnc_score": 95.9,
-        "v4_score": 80.7,
-        "eso_d_hat": 11.0,
-        "cbf_margin": 9.49,
-        "hj_lcb": -0.29,
-        "mppi_j": 7.99,
-        "plant_elasticity_pct": 0.0,
-        "pred_apex_pct": 6.11,
-        "notes": [
-          "💎ESO_AM초대형매집(181억,+6.5)",
-          "🐂강세테마공진(78%,+4.5)"
-        ],
-        "p_target": 68.7,
-        "ev_pct": 4.29,
-        "gp_win_rate": 32.7,
-        "high_pct": 14.49,
-        "raw_realized_pct": 7.5,
-        "fixed_realized_pct": 7.5,
-        "exec_state": "FM_APEX_CONVERGE (초기선행 +18.5% ➜ 고점수렴 +9.38%)",
-        "exec_realized_pct": 9.38
+        "o2h_pct": 14.49,
+        "o2c_gross_pct": 10.51,
+        "o2c_net_pct": 10.16,
+        "hit_5pct_daily": true
       },
-      "gnc_rank2": {
-        "name": "테크윙",
-        "code": "089030",
-        "gnc_score": 66.9,
-        "raw_realized_pct": -1.39,
-        "exec_state": "CBF_ABORT (CBF_UPPER_CLEARANCE +2.35% 추력미달 진입차단)",
-        "exec_realized_pct": 0.0
+      "after_v19_rank1": {
+        "name": "RFHIC",
+        "code": "218410",
+        "atr20_pct": 11.05,
+        "score": 157.02,
+        "o2h_pct": 11.16,
+        "o2c_gross_pct": 9.43,
+        "o2c_net_pct": 9.08,
+        "hit_5pct_daily": true
       }
     }
   }
