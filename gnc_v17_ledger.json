@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-11 20:10:54",
+  "updated_at": "2026-11-11 23:12:01",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v1.9-FROZEN",
     "engine_sha256": "533c6508724d9d61",
-    "preopen_logged_days": 0,
+    "preopen_logged_days": 1,
     "settled_preopen_days": 0,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
@@ -42,7 +42,7 @@
     },
     "note": "과거 27일 소급 재채점 수치이며, 동결 전진검증 30거래일 누적 전까지 대시보드/메시지 승률 표시는 비활성화됨."
   },
-  "upcoming_target_date": "2026-11-11",
+  "upcoming_target_date": "2026-11-12",
   "daily_comparison": {
     "2026-10-01": {
       "before_orig_rank1": {
@@ -236,8 +236,8 @@
       "after_v19_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 16.89,
-        "score": 201.73,
+        "atr20_pct": 16.873,
+        "score": 201.56,
         "o2h_pct": 9.86,
         "o2c_gross_pct": -4.93,
         "o2c_net_pct": -5.28,
@@ -296,8 +296,8 @@
       "after_v19_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 16.89,
-        "score": 192.8,
+        "atr20_pct": 16.873,
+        "score": 192.63,
         "o2h_pct": 9.12,
         "o2c_gross_pct": 1.45,
         "o2c_net_pct": 1.1,
