@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-11-10 23:17:31",
+  "updated_at": "2026-11-11 20:10:32",
   "evaluated_days": 25,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 76.0,
-      "rank1_cum_return_pct": 97.39,
-      "top2_win_rate_pct": 67.3,
-      "top2_cum_return_pct": 68.99,
-      "top3_cum_return_pct": 62.84,
-      "top2_stop_losses": 7
+      "rank1_win_rate_pct": 24.0,
+      "rank1_cum_return_pct": -29.94,
+      "top2_win_rate_pct": 32.0,
+      "top2_cum_return_pct": -18.48,
+      "top3_cum_return_pct": -29.58,
+      "top2_stop_losses": 29
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 84.0,
-      "rank1_cum_return_pct": 102.15,
-      "top2_win_rate_pct": 69.4,
-      "top2_cum_return_pct": 67.6
+      "rank1_win_rate_pct": 32.0,
+      "rank1_cum_return_pct": -14.42,
+      "top2_win_rate_pct": 34.0,
+      "top2_cum_return_pct": -18.99
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 90.9,
-      "rank1_cum_return_pct": 89.12,
-      "top2_win_rate_pct": 82.5,
-      "top2_cum_return_pct": 67.97,
-      "top3_cum_return_pct": 64.95,
-      "top2_stop_losses": 4,
-      "expired_saved_stop_losses_count": 10,
-      "expired_saved_loss_pct": 15.28
+      "rank1_win_rate_pct": 25.0,
+      "rank1_cum_return_pct": -9.78,
+      "top2_win_rate_pct": 39.5,
+      "top2_cum_return_pct": 11.0,
+      "top3_cum_return_pct": 1.02,
+      "top2_stop_losses": 21,
+      "expired_saved_stop_losses_count": 17,
+      "expired_saved_loss_pct": 50.79
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 80.0,
-      "rank1_hit5_rate_pct": 80.0,
-      "rank1_cum_return_pct": 107.58,
-      "top2_win_rate_pct": 69.4,
-      "top2_cum_return_pct": 72.16,
-      "top3_cum_return_pct": 62.56,
-      "top2_stop_losses": 7
+      "rank1_win_rate_pct": 28.0,
+      "rank1_hit5_rate_pct": 64.0,
+      "rank1_cum_return_pct": -18.75,
+      "top2_win_rate_pct": 30.0,
+      "top2_cum_return_pct": -25.9,
+      "top3_cum_return_pct": -26.18,
+      "top2_stop_losses": 30
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
-      "rank1_win_rate_pct": 100.0,
-      "rank1_hit5_rate_pct": 95.2,
+      "rank1_win_rate_pct": 33.3,
+      "rank1_hit5_rate_pct": 76.2,
       "rank1_triggered_days": 21,
-      "rank1_cum_return_pct": 113.24,
-      "top2_win_rate_pct": 89.7,
-      "top2_cum_return_pct": 78.96,
-      "top3_cum_return_pct": 69.27,
-      "top2_stop_losses": 4,
-      "filtered_saved_stop_losses_count": 8,
-      "filtered_saved_loss_pct": 14.12
+      "rank1_cum_return_pct": 11.1,
+      "top2_win_rate_pct": 39.5,
+      "top2_cum_return_pct": 10.16,
+      "top3_cum_return_pct": 4.78,
+      "top2_stop_losses": 22,
+      "filtered_saved_stop_losses_count": 12,
+      "filtered_saved_loss_pct": 43.88
     }
   },
   "upcoming_target_date": "2026-11-11",
   "upcoming_v16_qfe_top5": [
-    "1위 JW신약(067290) | QFE점수 102.1점(v4:99.5점) | k-NN승률 51.4% | MC10K(+5%확률 45.7% / 손절 34.4%, EV +1.91%, Sharpe 0.47, Kelly 12.0%) | 노트: 기본우위",
-    "2위 대한항공(003490) | QFE점수 97.8점(v4:98.4점) | k-NN승률 47.5% | MC10K(+5%확률 46.7% / 손절 31.3%, EV +2.05%, Sharpe 0.52, Kelly 13.3%) | 노트: 🐂강세테마확산(100%,+4.5), ⚠️후발주누적피로(-6.0)",
-    "3위 에스피소프트(443670) | QFE점수 96.0점(v4:88.7점) | k-NN승률 84.0% | MC10K(+5%확률 53.2% / 손절 26.7%, EV +2.63%, Sharpe 0.65, Kelly 17.9%) | 노트: 🐂강세테마확산(80%,+4.5)",
-    "4위 디케이락(105740) | QFE점수 90.2점(v4:84.4점) | k-NN승률 66.6% | MC10K(+5%확률 43.7% / 손절 36.1%, EV +1.77%, Sharpe 0.43, Kelly 10.4%) | 노트: 🐂강세테마확산(94%,+4.5)",
-    "5위 케이씨텍(281820) | QFE점수 85.8점(v4:85.7점) | k-NN승률 67.4% | MC10K(+5%확률 44.2% / 손절 34.1%, EV +1.81%, Sharpe 0.46, Kelly 11.3%) | 노트: 🐂강세테마확산(96%,+4.5), ⚠️초강세섹터내거래대금열위(-5.5)"
+    "1위 JW신약(067290) | QFE점수 101.0점(v4:99.5점) | k-NN승률 25.1% | MC10K(+5%확률 43.8% / 손절 35.9%, EV +1.74%, Sharpe 0.43, Kelly 10.5%) | 노트: 기본우위",
+    "2위 대한항공(003490) | QFE점수 96.2점(v4:98.4점) | k-NN승률 9.7% | MC10K(+5%확률 42.9% / 손절 34.3%, EV +1.73%, Sharpe 0.44, Kelly 10.5%) | 노트: 🐂강세테마확산(100%,+4.5), ⚠️후발주누적피로(-6.0)",
+    "3위 에스피소프트(443670) | QFE점수 94.1점(v4:88.7점) | k-NN승률 42.3% | MC10K(+5%확률 48.4% / 손절 29.5%, EV +2.24%, Sharpe 0.56, Kelly 14.5%) | 노트: 🐂강세테마확산(80%,+4.5)",
+    "4위 케이씨텍(281820) | QFE점수 83.8점(v4:85.7점) | k-NN승률 14.3% | MC10K(+5%확률 40.6% / 손절 37.7%, EV +1.49%, Sharpe 0.38, Kelly 8.6%) | 노트: 🐂강세테마확산(96%,+4.5), ⚠️초강세섹터내거래대금열위(-5.5)",
+    "5위 대우건설(047040) | QFE점수 83.8점(v4:85.5점) | k-NN승률 41.8% | MC10K(+5%확률 37.1% / 손절 39.6%, EV +1.17%, Sharpe 0.31, Kelly 5.6%) | 노트: 🐂강세테마확산(94%,+4.5), ⚠️초강세섹터내거래대금열위(-5.5)"
   ],
   "daily_comparison": {
     "2026-10-06": {
@@ -67,42 +67,42 @@
         "p_target": 43.8,
         "ev_pct": 1.62,
         "knn_win_rate": 50.0,
-        "high_pct": 5.8,
-        "raw_realized_pct": 4.53,
+        "high_pct": 2.19,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 4.53
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
         "name": "우리로",
         "code": "046970",
         "qfe_score": 73.0,
-        "raw_realized_pct": 3.94,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
-        "exec_realized_pct": 3.69
+        "exec_realized_pct": 7.19
       }
     },
     "2026-10-07": {
       "qfe_rank1": {
         "name": "엑스게이트",
         "code": "356680",
-        "qfe_score": 67.3,
+        "qfe_score": 66.1,
         "v4_score": 66.3,
         "notes": [],
-        "p_target": 37.9,
-        "ev_pct": 1.24,
-        "knn_win_rate": 100.0,
-        "high_pct": 0.97,
-        "raw_realized_pct": -0.24,
-        "exec_state": "EXPIRED (ORB +1.05% 미돌파 진입보류)",
-        "exec_realized_pct": 0.0
+        "p_target": 35.5,
+        "ev_pct": 1.04,
+        "knn_win_rate": 63.4,
+        "high_pct": 3.23,
+        "raw_realized_pct": -2.85,
+        "exec_state": "TRIGGERED (ORB +1.05% 돌파체결)",
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
         "name": "빛과전자",
         "code": "069540",
-        "qfe_score": 65.9,
-        "raw_realized_pct": 0.0,
-        "exec_state": "EXPIRED (VAL_RECOVERY_ORB +3.00% 미돌파 진입보류)",
-        "exec_realized_pct": 0.0
+        "qfe_score": 64.9,
+        "raw_realized_pct": -2.85,
+        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
+        "exec_realized_pct": -2.5
       }
     },
     "2026-10-08": {
@@ -114,397 +114,395 @@
         "notes": [],
         "p_target": 66.2,
         "ev_pct": 3.89,
-        "knn_win_rate": 100.0,
-        "high_pct": 17.7,
-        "raw_realized_pct": 7.5,
-        "exec_state": "TRIGGERED (ORB +1.05% 돌파체결)",
-        "exec_realized_pct": 7.5
+        "knn_win_rate": 0.0,
+        "high_pct": 0.95,
+        "raw_realized_pct": -2.85,
+        "exec_state": "EXPIRED (ORB +1.05% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
       },
       "qfe_rank2": {
         "name": "비아트론",
         "code": "141000",
         "qfe_score": 63.9,
-        "raw_realized_pct": 7.5,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
-        "exec_realized_pct": 6.75
+        "exec_realized_pct": -2.5
       }
     },
     "2026-10-12": {
       "qfe_rank1": {
         "name": "알루코",
         "code": "001780",
-        "qfe_score": 64.4,
+        "qfe_score": 64.0,
         "v4_score": 63.3,
         "notes": [],
-        "p_target": 47.7,
-        "ev_pct": 2.25,
-        "knn_win_rate": 31.5,
-        "high_pct": 13.94,
-        "raw_realized_pct": 7.5,
+        "p_target": 49.0,
+        "ev_pct": 2.37,
+        "knn_win_rate": 34.0,
+        "high_pct": 8.62,
+        "raw_realized_pct": -0.63,
         "exec_state": "TRIGGERED (ORB +1.05% 돌파체결)",
-        "exec_realized_pct": 7.5
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
-        "name": "삼성전기",
-        "code": "009150",
-        "qfe_score": 60.8,
-        "raw_realized_pct": -0.71,
+        "name": "제이앤티씨",
+        "code": "204270",
+        "qfe_score": 59.3,
+        "raw_realized_pct": -2.85,
         "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
       }
     },
     "2026-10-13": {
       "qfe_rank1": {
-        "name": "라온시큐어",
-        "code": "042510",
-        "qfe_score": 58.5,
-        "v4_score": 59.5,
+        "name": "금호건설",
+        "code": "002990",
+        "qfe_score": 92.1,
+        "v4_score": 91.0,
         "notes": [],
-        "p_target": 34.2,
-        "ev_pct": 1.04,
-        "knn_win_rate": 16.7,
-        "high_pct": 21.78,
-        "raw_realized_pct": 7.5,
-        "exec_state": "TRIGGERED (ORB +1.05% 돌파체결)",
-        "exec_realized_pct": 7.5
+        "p_target": 51.5,
+        "ev_pct": 2.6,
+        "knn_win_rate": 33.3,
+        "high_pct": 11.93,
+        "raw_realized_pct": -2.85,
+        "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
-        "name": "흥아해운",
-        "code": "003280",
-        "qfe_score": 58.2,
-        "raw_realized_pct": 2.5,
+        "name": "엘앤씨바이오",
+        "code": "290650",
+        "qfe_score": 66.3,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
-        "exec_realized_pct": 2.5
+        "exec_realized_pct": 4.05
       }
     },
     "2026-10-14": {
       "qfe_rank1": {
         "name": "삼화전기",
         "code": "009470",
-        "qfe_score": 95.0,
+        "qfe_score": 93.7,
         "v4_score": 87.3,
         "notes": [
           "📊VAH매물공백대장(+4.5)"
         ],
-        "p_target": 57.1,
+        "p_target": 57.4,
         "ev_pct": 3.11,
-        "knn_win_rate": 68.9,
-        "high_pct": 7.25,
-        "raw_realized_pct": 2.5,
+        "knn_win_rate": 35.1,
+        "high_pct": 1.68,
+        "raw_realized_pct": -1.36,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 2.5
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
         "name": "야스",
         "code": "255440",
-        "qfe_score": 94.2,
-        "raw_realized_pct": -2.5,
+        "qfe_score": 92.9,
+        "raw_realized_pct": -0.54,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
         "exec_realized_pct": -2.5
       }
     },
     "2026-10-15": {
       "qfe_rank1": {
-        "name": "대양금속",
-        "code": "009190",
-        "qfe_score": 60.3,
-        "v4_score": 51.5,
+        "name": "HT로보틱스",
+        "code": "396300",
+        "qfe_score": 96.1,
+        "v4_score": 81.2,
         "notes": [
+          "📊VAH매물공백대장(+4.5)",
           "⚡AM_OFI신고가돌파(+6.0)"
         ],
-        "p_target": 57.5,
-        "ev_pct": 3.16,
-        "knn_win_rate": 50.0,
-        "high_pct": 9.98,
-        "raw_realized_pct": 0.0,
-        "exec_state": "TRIGGERED (ORB +1.05% 돌파체결)",
-        "exec_realized_pct": 2.5
+        "p_target": 73.4,
+        "ev_pct": 4.86,
+        "knn_win_rate": 23.8,
+        "high_pct": 14.47,
+        "raw_realized_pct": 4.65,
+        "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
+        "exec_realized_pct": 7.5
       },
       "qfe_rank2": {
-        "name": "-",
-        "code": "-",
-        "qfe_score": 0.0,
-        "raw_realized_pct": 0.0,
-        "exec_state": "-",
-        "exec_realized_pct": 0.0
+        "name": "대성산업",
+        "code": "128820",
+        "qfe_score": 86.1,
+        "raw_realized_pct": -9.15,
+        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
+        "exec_realized_pct": -2.5
       }
     },
     "2026-10-16": {
       "qfe_rank1": {
         "name": "에스원",
         "code": "012750",
-        "qfe_score": 78.9,
+        "qfe_score": 77.6,
         "v4_score": 72.5,
         "notes": [
           "📊VAH매물공백대장(+4.5)"
         ],
-        "p_target": 51.5,
-        "ev_pct": 2.55,
-        "knn_win_rate": 40.1,
-        "high_pct": 2.06,
-        "raw_realized_pct": 0.51,
+        "p_target": 50.9,
+        "ev_pct": 2.48,
+        "knn_win_rate": 40.9,
+        "high_pct": 1.43,
+        "raw_realized_pct": -0.45,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 0.26
+        "exec_realized_pct": -0.35
       },
       "qfe_rank2": {
         "name": "에스엠벡셀",
         "code": "010580",
-        "qfe_score": 71.6,
-        "raw_realized_pct": 2.5,
+        "qfe_score": 69.7,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
-        "exec_realized_pct": 2.5
+        "exec_realized_pct": -2.5
       }
     },
     "2026-10-19": {
       "qfe_rank1": {
         "name": "우리로",
         "code": "046970",
-        "qfe_score": 81.2,
+        "qfe_score": 80.6,
         "v4_score": 80.5,
         "notes": [],
-        "p_target": 44.8,
-        "ev_pct": 1.88,
-        "knn_win_rate": 46.7,
+        "p_target": 46.6,
+        "ev_pct": 2.03,
+        "knn_win_rate": 18.9,
         "high_pct": 5.86,
-        "raw_realized_pct": 2.5,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 2.5
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
-        "name": "씨싸이트",
-        "code": "109670",
-        "qfe_score": 79.9,
-        "raw_realized_pct": 2.54,
+        "name": "삼익제약",
+        "code": "014950",
+        "qfe_score": 78.0,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
-        "exec_realized_pct": 2.5
+        "exec_realized_pct": 4.05
       }
     },
     "2026-10-20": {
       "qfe_rank1": {
         "name": "쏘닉스",
         "code": "088280",
-        "qfe_score": 73.4,
+        "qfe_score": 72.3,
         "v4_score": 73.8,
         "notes": [],
-        "p_target": 31.1,
-        "ev_pct": 0.46,
-        "knn_win_rate": 91.9,
+        "p_target": 31.9,
+        "ev_pct": 0.53,
+        "knn_win_rate": 46.9,
         "high_pct": 21.18,
-        "raw_realized_pct": 7.5,
+        "raw_realized_pct": 1.55,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
         "exec_realized_pct": 7.5
       },
       "qfe_rank2": {
-        "name": "알멕",
-        "code": "354320",
-        "qfe_score": 62.3,
-        "raw_realized_pct": -2.5,
-        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
-        "exec_realized_pct": -2.5
+        "name": "LK삼양",
+        "code": "225190",
+        "qfe_score": 53.7,
+        "raw_realized_pct": -9.69,
+        "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
       }
     },
     "2026-10-21": {
       "qfe_rank1": {
         "name": "양지사",
         "code": "030960",
-        "qfe_score": 77.6,
+        "qfe_score": 76.0,
         "v4_score": 77.7,
         "notes": [],
-        "p_target": 33.2,
-        "ev_pct": 0.59,
-        "knn_win_rate": 86.8,
+        "p_target": 31.1,
+        "ev_pct": 0.44,
+        "knn_win_rate": 45.6,
         "high_pct": 9.94,
-        "raw_realized_pct": 3.9,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +2.50% 돌파체결)",
-        "exec_realized_pct": 3.9
+        "exec_realized_pct": 4.65
       },
       "qfe_rank2": {
         "name": "코리아써키트",
         "code": "007810",
-        "qfe_score": 66.4,
-        "raw_realized_pct": -2.5,
-        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
-        "exec_realized_pct": -2.5
+        "qfe_score": 64.5,
+        "raw_realized_pct": -2.85,
+        "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
       }
     },
     "2026-10-22": {
       "qfe_rank1": {
         "name": "앤로보틱스",
         "code": "138360",
-        "qfe_score": 97.3,
-        "v4_score": 94.8,
+        "qfe_score": 75.9,
+        "v4_score": 76.8,
         "notes": [],
-        "p_target": 53.0,
-        "ev_pct": 2.65,
-        "knn_win_rate": 74.6,
+        "p_target": 40.7,
+        "ev_pct": 1.43,
+        "knn_win_rate": 27.0,
         "high_pct": 6.71,
-        "raw_realized_pct": 2.5,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 2.5
+        "exec_realized_pct": 4.65
       },
       "qfe_rank2": {
-        "name": "세아메카닉스",
-        "code": "396300",
-        "qfe_score": 80.0,
-        "raw_realized_pct": -2.5,
-        "exec_state": "EXPIRED (VAL_RECOVERY_ORB +3.00% 미돌파 진입보류)",
+        "name": "에스팀",
+        "code": "458350",
+        "qfe_score": 74.8,
+        "raw_realized_pct": -4.69,
+        "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
       }
     },
     "2026-10-23": {
       "qfe_rank1": {
-        "name": "비나텍",
-        "code": "126340",
-        "qfe_score": 94.5,
-        "v4_score": 84.3,
-        "notes": [
-          "📊VAH매물공백대장(+4.5)",
-          "💎AM대량수급윗꼬리흡수(38억,+3.0)"
-        ],
-        "p_target": 56.8,
-        "ev_pct": 3.05,
-        "knn_win_rate": 57.4,
-        "high_pct": 16.59,
-        "raw_realized_pct": 7.5,
-        "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 7.5
-      },
-      "qfe_rank2": {
         "name": "유니퀘스트",
         "code": "077500",
-        "qfe_score": 84.4,
-        "raw_realized_pct": -2.5,
-        "exec_state": "EXPIRED (VAL_RECOVERY_ORB +3.00% 미돌파 진입보류)",
-        "exec_realized_pct": 0.0
+        "qfe_score": 82.4,
+        "v4_score": 83.6,
+        "notes": [],
+        "p_target": 36.5,
+        "ev_pct": 1.0,
+        "knn_win_rate": 40.4,
+        "high_pct": 2.66,
+        "raw_realized_pct": -5.06,
+        "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +2.50% 돌파체결)",
+        "exec_realized_pct": -2.5
+      },
+      "qfe_rank2": {
+        "name": "비나텍",
+        "code": "126340",
+        "qfe_score": 77.5,
+        "raw_realized_pct": -2.85,
+        "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
+        "exec_realized_pct": -2.5
       }
     },
     "2026-10-26": {
       "qfe_rank1": {
         "name": "앤로보틱스",
         "code": "138360",
-        "qfe_score": 86.3,
+        "qfe_score": 86.0,
         "v4_score": 86.1,
         "notes": [],
         "p_target": 39.0,
-        "ev_pct": 1.22,
-        "knn_win_rate": 58.8,
+        "ev_pct": 1.21,
+        "knn_win_rate": 58.6,
         "high_pct": 10.71,
-        "raw_realized_pct": 7.5,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 7.5
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
         "name": "와이바이오로직스",
         "code": "338840",
-        "qfe_score": 78.2,
-        "raw_realized_pct": 4.26,
+        "qfe_score": 77.5,
+        "raw_realized_pct": 1.16,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
-        "exec_realized_pct": 3.66
+        "exec_realized_pct": 2.5
       }
     },
     "2026-10-27": {
       "qfe_rank1": {
         "name": "쓰리빌리언",
         "code": "394800",
-        "qfe_score": 89.7,
+        "qfe_score": 89.5,
         "v4_score": 78.4,
         "notes": [
           "📊VAH매물공백대장(+4.5)",
           "🐂강세테마확산(52%,+4.5)"
         ],
-        "p_target": 54.5,
-        "ev_pct": 2.86,
-        "knn_win_rate": 57.5,
-        "high_pct": 6.69,
-        "raw_realized_pct": 5.85,
+        "p_target": 55.6,
+        "ev_pct": 2.97,
+        "knn_win_rate": 41.1,
+        "high_pct": 5.76,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 5.85
+        "exec_realized_pct": 4.65
       },
       "qfe_rank2": {
         "name": "로보티즈",
         "code": "108490",
-        "qfe_score": 88.2,
-        "raw_realized_pct": 2.64,
+        "qfe_score": 87.4,
+        "raw_realized_pct": 1.48,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
-        "exec_realized_pct": 2.39
+        "exec_realized_pct": 1.23
       }
     },
     "2026-10-28": {
       "qfe_rank1": {
-        "name": "마이크로컨텍솔",
-        "code": "098120",
-        "qfe_score": 107.9,
-        "v4_score": 96.2,
-        "notes": [
-          "📊VAH매물공백대장(+4.5)",
-          "🐂강세테마확산(97%,+4.5)"
-        ],
-        "p_target": 56.0,
-        "ev_pct": 2.96,
-        "knn_win_rate": 66.6,
-        "high_pct": 12.04,
-        "raw_realized_pct": 7.5,
-        "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 7.5
-      },
-      "qfe_rank2": {
         "name": "한양디지텍",
         "code": "078350",
-        "qfe_score": 99.6,
-        "raw_realized_pct": 3.12,
+        "qfe_score": 98.3,
+        "v4_score": 93.3,
+        "notes": [
+          "🐂강세테마확산(93%,+4.5)"
+        ],
+        "p_target": 49.3,
+        "ev_pct": 2.31,
+        "knn_win_rate": 25.6,
+        "high_pct": 5.04,
+        "raw_realized_pct": -2.85,
+        "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
+        "exec_realized_pct": -2.5
+      },
+      "qfe_rank2": {
+        "name": "마이크로컨텍솔",
+        "code": "098120",
+        "qfe_score": 98.2,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
-        "exec_realized_pct": 2.87
+        "exec_realized_pct": -2.5
       }
     },
     "2026-10-29": {
       "qfe_rank1": {
         "name": "빛샘전자",
         "code": "072950",
-        "qfe_score": 122.4,
+        "qfe_score": 114.0,
         "v4_score": 99.5,
         "notes": [
           "🔥대량거래POC매물소화대장(+6.0)",
-          "🐂강세테마확산(100%,+4.5)"
+          "🐂강세테마확산(100%,+4.5)",
+          "🧠과거손절이력(-6.5)"
         ],
-        "p_target": 58.8,
-        "ev_pct": 3.3,
-        "knn_win_rate": 74.4,
+        "p_target": 51.5,
+        "ev_pct": 2.55,
+        "knn_win_rate": 57.4,
         "high_pct": 17.06,
-        "raw_realized_pct": 7.5,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 7.5
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
-        "name": "원익홀딩스",
-        "code": "030530",
-        "qfe_score": 110.5,
-        "raw_realized_pct": 4.31,
-        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
-        "exec_realized_pct": 4.06
+        "name": "안랩",
+        "code": "053800",
+        "qfe_score": 109.8,
+        "raw_realized_pct": -2.85,
+        "exec_state": "EXPIRED (VAL_RECOVERY_ORB +3.00% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
       }
     },
     "2026-10-30": {
       "qfe_rank1": {
         "name": "한화비전",
         "code": "489790",
-        "qfe_score": 102.4,
+        "qfe_score": 100.9,
         "v4_score": 95.8,
         "notes": [
           "🐂강세테마확산(71%,+4.5)"
         ],
-        "p_target": 48.9,
-        "ev_pct": 2.27,
-        "knn_win_rate": 66.8,
+        "p_target": 47.2,
+        "ev_pct": 2.11,
+        "knn_win_rate": 43.5,
         "high_pct": 5.16,
-        "raw_realized_pct": 3.26,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 3.26
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
         "name": "RF머트리얼즈",
         "code": "327260",
-        "qfe_score": 88.3,
-        "raw_realized_pct": -2.5,
+        "qfe_score": 87.4,
+        "raw_realized_pct": -2.85,
         "exec_state": "EXPIRED (VAL_RECOVERY_ORB +3.00% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
       }
@@ -513,72 +511,72 @@
       "qfe_rank1": {
         "name": "라온로보틱스",
         "code": "232680",
-        "qfe_score": 67.9,
+        "qfe_score": 65.8,
         "v4_score": 67.5,
         "notes": [],
-        "p_target": 38.6,
-        "ev_pct": 1.18,
-        "knn_win_rate": 68.8,
+        "p_target": 36.4,
+        "ev_pct": 0.97,
+        "knn_win_rate": 34.8,
         "high_pct": 14.62,
-        "raw_realized_pct": 7.5,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (ORB +1.05% 돌파체결)",
         "exec_realized_pct": 7.5
       },
       "qfe_rank2": {
         "name": "이니텍",
         "code": "053350",
-        "qfe_score": 56.7,
-        "raw_realized_pct": 5.52,
+        "qfe_score": 56.6,
+        "raw_realized_pct": 5.19,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
-        "exec_realized_pct": 4.92
+        "exec_realized_pct": 4.59
       }
     },
     "2026-11-03": {
       "qfe_rank1": {
         "name": "한화오션",
         "code": "042660",
-        "qfe_score": 97.2,
+        "qfe_score": 95.8,
         "v4_score": 90.8,
         "notes": [
           "🐂강세테마확산(100%,+4.5)"
         ],
-        "p_target": 51.2,
-        "ev_pct": 2.53,
-        "knn_win_rate": 57.1,
+        "p_target": 48.3,
+        "ev_pct": 2.28,
+        "knn_win_rate": 33.4,
         "high_pct": 0.18,
-        "raw_realized_pct": -0.92,
+        "raw_realized_pct": -2.85,
         "exec_state": "EXPIRED (TICK_UP +0.25% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
       },
       "qfe_rank2": {
         "name": "OCI홀딩스",
         "code": "010060",
-        "qfe_score": 92.7,
-        "raw_realized_pct": 2.81,
-        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
-        "exec_realized_pct": 2.56
+        "qfe_score": 91.9,
+        "raw_realized_pct": -2.85,
+        "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
       }
     },
     "2026-11-04": {
       "qfe_rank1": {
         "name": "휴니드",
         "code": "005870",
-        "qfe_score": 52.2,
+        "qfe_score": 52.9,
         "v4_score": 54.1,
         "notes": [],
-        "p_target": 24.9,
-        "ev_pct": 0.13,
-        "knn_win_rate": 53.6,
+        "p_target": 29.7,
+        "ev_pct": 0.47,
+        "knn_win_rate": 45.6,
         "high_pct": 0.19,
-        "raw_realized_pct": -2.25,
+        "raw_realized_pct": -3.35,
         "exec_state": "EXPIRED (ORB +1.05% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
       },
       "qfe_rank2": {
         "name": "현대그린푸드",
         "code": "453340",
-        "qfe_score": 50.3,
-        "raw_realized_pct": -2.5,
+        "qfe_score": 50.1,
+        "raw_realized_pct": -5.85,
         "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
       }
@@ -587,103 +585,103 @@
       "qfe_rank1": {
         "name": "HD현대에너지솔루션",
         "code": "322000",
-        "qfe_score": 111.7,
+        "qfe_score": 110.7,
         "v4_score": 98.8,
         "notes": [
           "📊VAH매물공백대장(+4.5)",
           "🐂강세테마확산(93%,+4.5)"
         ],
-        "p_target": 66.6,
-        "ev_pct": 4.12,
-        "knn_win_rate": 45.6,
+        "p_target": 65.6,
+        "ev_pct": 4.0,
+        "knn_win_rate": 16.1,
         "high_pct": 7.67,
-        "raw_realized_pct": 2.94,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 2.94
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
         "name": "대동기어",
         "code": "008830",
-        "qfe_score": 104.9,
-        "raw_realized_pct": 7.5,
+        "qfe_score": 102.8,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
-        "exec_realized_pct": 7.19
+        "exec_realized_pct": -2.5
       }
     },
     "2026-11-06": {
       "qfe_rank1": {
         "name": "에스와이",
         "code": "109610",
-        "qfe_score": 103.6,
+        "qfe_score": 101.3,
         "v4_score": 92.8,
         "notes": [
           "⚡AM_OFI신고가돌파(+6.0)"
         ],
-        "p_target": 68.0,
-        "ev_pct": 4.25,
-        "knn_win_rate": 73.5,
+        "p_target": 64.1,
+        "ev_pct": 3.91,
+        "knn_win_rate": 11.1,
         "high_pct": 17.05,
-        "raw_realized_pct": 7.5,
+        "raw_realized_pct": -5.65,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
-        "exec_realized_pct": 7.5
+        "exec_realized_pct": -2.5
       },
       "qfe_rank2": {
         "name": "카카오",
         "code": "035720",
-        "qfe_score": 99.5,
-        "raw_realized_pct": 4.7,
+        "qfe_score": 97.8,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
-        "exec_realized_pct": 4.1
+        "exec_realized_pct": 4.05
       }
     },
     "2026-11-09": {
       "qfe_rank1": {
         "name": "롯데렌탈",
         "code": "089860",
-        "qfe_score": 88.6,
+        "qfe_score": 86.6,
         "v4_score": 83.5,
         "notes": [
           "🐂강세테마확산(100%,+4.5)"
         ],
-        "p_target": 42.2,
-        "ev_pct": 1.69,
-        "knn_win_rate": 55.6,
+        "p_target": 37.7,
+        "ev_pct": 1.3,
+        "knn_win_rate": 10.2,
         "high_pct": 0.17,
-        "raw_realized_pct": 0.0,
+        "raw_realized_pct": -0.35,
         "exec_state": "EXPIRED (TICK_UP +0.25% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
       },
       "qfe_rank2": {
         "name": "원익홀딩스",
         "code": "030530",
-        "qfe_score": 75.2,
-        "raw_realized_pct": 2.5,
+        "qfe_score": 67.2,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +3.00% 돌파체결)",
-        "exec_realized_pct": 2.5
+        "exec_realized_pct": 4.05
       }
     },
     "2026-11-10": {
       "qfe_rank1": {
         "name": "한진칼",
         "code": "180640",
-        "qfe_score": 88.3,
+        "qfe_score": 87.6,
         "v4_score": 80.7,
         "notes": [
           "🐂강세테마확산(78%,+4.5)"
         ],
-        "p_target": 61.8,
-        "ev_pct": 3.61,
-        "knn_win_rate": 33.1,
+        "p_target": 61.2,
+        "ev_pct": 3.56,
+        "knn_win_rate": 29.8,
         "high_pct": 14.49,
-        "raw_realized_pct": 7.5,
+        "raw_realized_pct": 4.65,
         "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
         "exec_realized_pct": 7.5
       },
       "qfe_rank2": {
         "name": "테크윙",
         "code": "089030",
-        "qfe_score": 66.8,
-        "raw_realized_pct": -1.39,
+        "qfe_score": 66.0,
+        "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
         "exec_realized_pct": -2.5
       }
