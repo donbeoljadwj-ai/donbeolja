@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 15:22:44",
+  "updated_at": "2026-11-11 16:58:25",
   "active_version": "v3.3-FROZEN (sha256:c096fb1f8c76aaaa)",
   "strategy_title": "GEMINI ENDGAME v3.3-FROZEN (시가매수 타겟 정합화: AM종가<VWAP 눌림우위 + 08:50 예상체결가 상한가 잔여폭 >=10% + Top 2 집중 · 30거래일 동결 전진검증)",
   "upcoming_target_date": "2026-11-11",
@@ -150,7 +150,6 @@
     "v3.2-DVTA-CHART_3c4b722752f31134",
     "v3.2-DVTA-CHART_5cff07868a4c3ca0",
     "v3.2-DVTA-CHART_bb848028a4ec97c1",
-    "v3.3-FROZEN_2a66a279a8ece903",
     "v3.3-FROZEN_c096fb1f8c76aaaa"
   ],
   "recommendations_by_selection_target_pair": {
