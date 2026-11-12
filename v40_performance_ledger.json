@@ -3,7 +3,7 @@
   "engine_version": "v4.2-FROZEN",
   "after_market_data_usage_pct": 0.0,
   "round_trip_cost_pct": 0.35,
-  "upcoming_target_date": "2026-11-12",
+  "upcoming_target_date": "2026-11-13",
   "audit_notice": "외부 리포트(dante/study/endgame_v40_backtest_report.json)에서 복사했던 기존 27일 원장(84%/96%)은 엔진 자체 필터와 불일치(25개 전수 탈락, 실가동 0일)하므로 data/quarantine/으로 격리 폐기함. 동결 엔진(v4.1-FROZEN) 개장 전 타임스탬프 로그 기준 30거래일 누적 전까지 실전 승률을 표시하지 않음.",
   "summary": {
     "total_trading_days": 0,
@@ -14,5 +14,5 @@
     "win_rate_display_allowed": false
   },
   "daily_ledger": [],
-  "last_updated": "2026-11-11 23:10:33"
+  "last_updated": "2026-11-12 23:10:25"
 }
