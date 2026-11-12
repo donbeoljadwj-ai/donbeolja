@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-11-11 23:16:06",
-  "evaluated_days": 25,
+  "updated_at": "2026-11-12 20:10:41",
+  "evaluated_days": 26,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 24.0,
-      "rank1_cum_return_pct": -29.94,
-      "top2_win_rate_pct": 32.0,
-      "top2_cum_return_pct": -18.48,
-      "top3_cum_return_pct": -29.58,
-      "top2_stop_losses": 29
+      "rank1_win_rate_pct": 23.1,
+      "rank1_cum_return_pct": -33.43,
+      "top2_win_rate_pct": 30.8,
+      "top2_cum_return_pct": -21.94,
+      "top3_cum_return_pct": -33.57,
+      "top2_stop_losses": 31
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 32.0,
-      "rank1_cum_return_pct": -14.42,
-      "top2_win_rate_pct": 34.0,
-      "top2_cum_return_pct": -18.99
+      "rank1_win_rate_pct": 30.8,
+      "rank1_cum_return_pct": -17.91,
+      "top2_win_rate_pct": 32.7,
+      "top2_cum_return_pct": -22.45
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
       "rank1_win_rate_pct": 25.0,
       "rank1_cum_return_pct": -9.78,
       "top2_win_rate_pct": 39.5,
       "top2_cum_return_pct": 11.0,
-      "top3_cum_return_pct": 1.02,
+      "top3_cum_return_pct": 0.19,
       "top2_stop_losses": 21,
-      "expired_saved_stop_losses_count": 17,
-      "expired_saved_loss_pct": 50.79
+      "expired_saved_stop_losses_count": 20,
+      "expired_saved_loss_pct": 61.2
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 28.0,
-      "rank1_hit5_rate_pct": 64.0,
-      "rank1_cum_return_pct": -18.75,
-      "top2_win_rate_pct": 30.0,
-      "top2_cum_return_pct": -25.9,
-      "top3_cum_return_pct": -26.18,
-      "top2_stop_losses": 30
+      "rank1_win_rate_pct": 26.9,
+      "rank1_hit5_rate_pct": 61.5,
+      "rank1_cum_return_pct": -22.24,
+      "top2_win_rate_pct": 28.8,
+      "top2_cum_return_pct": -29.36,
+      "top3_cum_return_pct": -30.18,
+      "top2_stop_losses": 32
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
       "rank1_win_rate_pct": 33.3,
@@ -42,19 +42,19 @@
       "rank1_cum_return_pct": 11.1,
       "top2_win_rate_pct": 39.5,
       "top2_cum_return_pct": 10.16,
-      "top3_cum_return_pct": 4.78,
+      "top3_cum_return_pct": 3.95,
       "top2_stop_losses": 22,
-      "filtered_saved_stop_losses_count": 12,
-      "filtered_saved_loss_pct": 43.88
+      "filtered_saved_stop_losses_count": 14,
+      "filtered_saved_loss_pct": 50.8
     }
   },
   "upcoming_target_date": "2026-11-12",
   "upcoming_v16_qfe_top5": [
     "1위 피에스케이홀딩스(031980) | QFE점수 109.9점(v4:99.5점) | k-NN승률 8.2% | MC10K(+5%확률 49.5% / 손절 30.6%, EV +2.38%, Sharpe 0.58, Kelly 15.3%) | 노트: 📊VAH매물공백대장(+4.5), 🐂강세테마확산(97%,+4.5)",
     "2위 뉴파워프라즈마(144960) | QFE점수 109.6점(v4:99.5점) | k-NN승률 8.2% | MC10K(+5%확률 48.8% / 손절 31.2%, EV +2.31%, Sharpe 0.56, Kelly 14.8%) | 노트: 📊VAH매물공백대장(+4.5), 🐂강세테마확산(93%,+4.5)",
-    "3위 오킨스전자(080580) | QFE점수 103.4점(v4:94.2점) | k-NN승률 8.3% | MC10K(+5%확률 49.6% / 손절 30.7%, EV +2.39%, Sharpe 0.58, Kelly 15.2%) | 노트: 📊VAH매물공백대장(+4.5), 🐂강세테마확산(93%,+4.5)",
-    "4위 케이씨텍(281820) | QFE점수 102.2점(v4:97.2점) | k-NN승률 14.9% | MC10K(+5%확률 50.2% / 손절 31.1%, EV +2.42%, Sharpe 0.58, Kelly 15.7%) | 노트: 🐂강세테마확산(97%,+4.5)",
-    "5위 네오셈(253590) | QFE점수 99.4점(v4:96.9점) | k-NN승률 8.4% | MC10K(+5%확률 42.4% / 손절 35.9%, EV +1.66%, Sharpe 0.42, Kelly 9.9%) | 노트: 📊VAH매물공백대장(+4.5), 🐂강세테마확산(97%,+4.5), ⚠️초강세섹터내거래대금열위(-5.5)"
+    "3위 오킨스전자(080580) | QFE점수 104.5점(v4:94.2점) | k-NN승률 17.1% | MC10K(+5%확률 51.7% / 손절 29.4%, EV +2.58%, Sharpe 0.62, Kelly 16.7%) | 노트: 📊VAH매물공백대장(+4.5), 🐂강세테마확산(93%,+4.5)",
+    "4위 네오셈(253590) | QFE점수 99.4점(v4:96.9점) | k-NN승률 8.4% | MC10K(+5%확률 42.4% / 손절 35.9%, EV +1.66%, Sharpe 0.42, Kelly 9.9%) | 노트: 📊VAH매물공백대장(+4.5), 🐂강세테마확산(97%,+4.5), ⚠️초강세섹터내거래대금열위(-5.5)",
+    "5위 인텍플러스(064290) | QFE점수 94.5점(v4:90.3점) | k-NN승률 17.5% | MC10K(+5%확률 47.0% / 손절 32.7%, EV +2.14%, Sharpe 0.52, Kelly 13.7%) | 노트: 📊VAH매물공백대장(+4.5), 🐂강세테마확산(100%,+4.5), ⚠️초강세섹터내거래대금열위(-5.5)"
   ],
   "daily_comparison": {
     "2026-10-06": {
@@ -684,6 +684,30 @@
         "raw_realized_pct": -2.85,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
         "exec_realized_pct": -2.5
+      }
+    },
+    "2026-11-11": {
+      "qfe_rank1": {
+        "name": "JW신약",
+        "code": "067290",
+        "qfe_score": 101.0,
+        "v4_score": 99.5,
+        "notes": [],
+        "p_target": 43.8,
+        "ev_pct": 1.74,
+        "knn_win_rate": 25.1,
+        "high_pct": 0.0,
+        "raw_realized_pct": -3.49,
+        "exec_state": "EXPIRED (TICK_UP +0.25% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
+      },
+      "qfe_rank2": {
+        "name": "대한항공",
+        "code": "003490",
+        "qfe_score": 96.2,
+        "raw_realized_pct": -3.43,
+        "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
       }
     }
   }
