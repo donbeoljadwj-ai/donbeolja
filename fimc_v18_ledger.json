@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-12 20:11:03",
+  "updated_at": "2026-11-12 23:12:05",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v1.9-FROZEN",
     "engine_sha256": "533c6508724d9d61",
-    "preopen_logged_days": 1,
+    "preopen_logged_days": 2,
     "settled_preopen_days": 0,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
@@ -42,7 +42,7 @@
     },
     "note": "과거 27일 소급 재채점 수치이며, 동결 전진검증 30거래일 누적 전까지 대시보드/메시지 승률 표시는 비활성화됨."
   },
-  "upcoming_target_date": "2026-11-12",
+  "upcoming_target_date": "2026-11-13",
   "daily_comparison": {
     "2026-10-01": {
       "before_orig_rank1": {
@@ -216,8 +216,8 @@
       "after_v19_rank1": {
         "name": "비나텍",
         "code": "126340",
-        "atr20_pct": 13.822,
-        "score": 166.95,
+        "atr20_pct": 13.597,
+        "score": 164.7,
         "o2h_pct": 3.4,
         "o2c_gross_pct": -4.92,
         "o2c_net_pct": -5.27,
