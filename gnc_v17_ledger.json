@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-13 20:11:09",
+  "updated_at": "2026-11-13 23:12:22",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v1.9-FROZEN",
     "engine_sha256": "533c6508724d9d61",
-    "preopen_logged_days": 2,
+    "preopen_logged_days": 3,
     "settled_preopen_days": 1,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
@@ -42,7 +42,7 @@
     },
     "note": "과거 27일 소급 재채점 수치이며, 동결 전진검증 30거래일 누적 전까지 대시보드/메시지 승률 표시는 비활성화됨."
   },
-  "upcoming_target_date": "2026-11-13",
+  "upcoming_target_date": "2026-11-16",
   "daily_comparison": {
     "2026-10-01": {
       "before_orig_rank1": {
