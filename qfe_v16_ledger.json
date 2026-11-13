@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-11-12 23:14:15",
-  "evaluated_days": 26,
+  "updated_at": "2026-11-13 20:10:40",
+  "evaluated_days": 27,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 23.1,
-      "rank1_cum_return_pct": -33.43,
-      "top2_win_rate_pct": 30.8,
-      "top2_cum_return_pct": -21.94,
-      "top3_cum_return_pct": -33.57,
+      "rank1_win_rate_pct": 22.2,
+      "rank1_cum_return_pct": -35.19,
+      "top2_win_rate_pct": 31.5,
+      "top2_cum_return_pct": -20.76,
+      "top3_cum_return_pct": -33.21,
       "top2_stop_losses": 31
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 30.8,
-      "rank1_cum_return_pct": -17.91,
-      "top2_win_rate_pct": 32.7,
-      "top2_cum_return_pct": -22.45
+      "rank1_win_rate_pct": 29.6,
+      "rank1_cum_return_pct": -19.67,
+      "top2_win_rate_pct": 33.3,
+      "top2_cum_return_pct": -21.27
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 25.0,
-      "rank1_cum_return_pct": -9.78,
-      "top2_win_rate_pct": 39.5,
-      "top2_cum_return_pct": 11.0,
-      "top3_cum_return_pct": 0.19,
-      "top2_stop_losses": 21,
+      "rank1_win_rate_pct": 23.8,
+      "rank1_cum_return_pct": -12.28,
+      "top2_win_rate_pct": 40.0,
+      "top2_cum_return_pct": 11.54,
+      "top3_cum_return_pct": -0.29,
+      "top2_stop_losses": 22,
       "expired_saved_stop_losses_count": 20,
       "expired_saved_loss_pct": 61.2
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 26.9,
-      "rank1_hit5_rate_pct": 61.5,
-      "rank1_cum_return_pct": -22.24,
-      "top2_win_rate_pct": 28.8,
-      "top2_cum_return_pct": -29.36,
-      "top3_cum_return_pct": -30.18,
+      "rank1_win_rate_pct": 25.9,
+      "rank1_hit5_rate_pct": 59.3,
+      "rank1_cum_return_pct": -24.0,
+      "top2_win_rate_pct": 27.8,
+      "top2_cum_return_pct": -30.87,
+      "top3_cum_return_pct": -29.81,
       "top2_stop_losses": 32
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
-      "rank1_win_rate_pct": 33.3,
-      "rank1_hit5_rate_pct": 76.2,
-      "rank1_triggered_days": 21,
-      "rank1_cum_return_pct": 11.1,
-      "top2_win_rate_pct": 39.5,
-      "top2_cum_return_pct": 10.16,
-      "top3_cum_return_pct": 3.95,
-      "top2_stop_losses": 22,
+      "rank1_win_rate_pct": 31.8,
+      "rank1_hit5_rate_pct": 72.7,
+      "rank1_triggered_days": 22,
+      "rank1_cum_return_pct": 8.6,
+      "top2_win_rate_pct": 37.5,
+      "top2_cum_return_pct": 7.66,
+      "top3_cum_return_pct": 3.57,
+      "top2_stop_losses": 24,
       "filtered_saved_stop_losses_count": 14,
       "filtered_saved_loss_pct": 50.8
     }
@@ -708,6 +708,33 @@
         "raw_realized_pct": -3.43,
         "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
+      }
+    },
+    "2026-11-12": {
+      "qfe_rank1": {
+        "name": "뉴파워프라즈마",
+        "code": "144960",
+        "qfe_score": 109.6,
+        "v4_score": 99.5,
+        "notes": [
+          "📊VAH매물공백대장(+4.5)",
+          "🐂강세테마확산(93%,+4.5)"
+        ],
+        "p_target": 48.8,
+        "ev_pct": 2.31,
+        "knn_win_rate": 8.2,
+        "high_pct": 4.1,
+        "raw_realized_pct": -1.76,
+        "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
+        "exec_realized_pct": -2.5
+      },
+      "qfe_rank2": {
+        "name": "오킨스전자",
+        "code": "080580",
+        "qfe_score": 104.5,
+        "raw_realized_pct": -1.26,
+        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
+        "exec_realized_pct": -2.5
       }
     }
   }
