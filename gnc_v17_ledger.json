@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 23:14:39",
+  "updated_at": "2026-11-13 15:15:56",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
@@ -11,34 +11,34 @@
     "win_rate_display_allowed": false,
     "status_badge": "엔진 동결 전진검증 누적 중 (0/30일 · 30거래일 미만 승률 미표시)"
   },
-  "evaluated_days": 28,
+  "evaluated_days": 29,
   "honest_regular_bar_comparison": {
-    "definition": "확정 KRX 정규장 일봉(09:00~15:30) · 왕복비용 0.35% 차감 · 분모=전 추천일(28일)",
+    "definition": "확정 KRX 정규장 일봉(09:00~15:30) · 왕복비용 0.35% 차감 · 분모=전 추천일(29일)",
     "v1_before_original_rank1": {
-      "all_recommended_days": 28,
+      "all_recommended_days": 29,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit5_daily_count": 14,
-      "rank1_hit5_daily_rate_pct": 50.0,
-      "rank1_o2c_gross_wins": 10,
-      "rank1_o2c_gross_win_rate_pct": 35.7,
-      "rank1_o2c_net_wins": 10,
-      "rank1_o2c_net_win_rate_pct": 35.7,
-      "rank1_mean_o2c_gross_pct": -0.52,
-      "rank1_mean_o2c_net_pct": -0.87,
-      "rank1_cum_o2c_net_pct": -24.36
+      "rank1_hit5_daily_count": 15,
+      "rank1_hit5_daily_rate_pct": 51.7,
+      "rank1_o2c_gross_wins": 11,
+      "rank1_o2c_gross_win_rate_pct": 37.9,
+      "rank1_o2c_net_wins": 11,
+      "rank1_o2c_net_win_rate_pct": 37.9,
+      "rank1_mean_o2c_gross_pct": -0.48,
+      "rank1_mean_o2c_net_pct": -0.83,
+      "rank1_cum_o2c_net_pct": -24.19
     },
     "v1_after_v19_atr_clean_rank1": {
-      "all_recommended_days": 28,
+      "all_recommended_days": 29,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit5_daily_count": 20,
-      "rank1_hit5_daily_rate_pct": 71.4,
-      "rank1_o2c_gross_wins": 17,
-      "rank1_o2c_gross_win_rate_pct": 60.7,
-      "rank1_o2c_net_wins": 17,
-      "rank1_o2c_net_win_rate_pct": 60.7,
-      "rank1_mean_o2c_gross_pct": 1.72,
-      "rank1_mean_o2c_net_pct": 1.37,
-      "rank1_cum_o2c_net_pct": 38.28
+      "rank1_hit5_daily_count": 22,
+      "rank1_hit5_daily_rate_pct": 75.9,
+      "rank1_o2c_gross_wins": 18,
+      "rank1_o2c_gross_win_rate_pct": 62.1,
+      "rank1_o2c_net_wins": 18,
+      "rank1_o2c_net_win_rate_pct": 62.1,
+      "rank1_mean_o2c_gross_pct": 1.84,
+      "rank1_mean_o2c_net_pct": 1.49,
+      "rank1_cum_o2c_net_pct": 43.32
     },
     "note": "과거 27일 소급 재채점 수치이며, 동결 전진검증 30거래일 누적 전까지 대시보드/메시지 승률 표시는 비활성화됨."
   },
@@ -56,7 +56,7 @@
       "after_v19_rank1": {
         "name": "성호전자",
         "code": "043260",
-        "atr20_pct": 10.125,
+        "atr20_pct": 10.179,
         "score": 0.0,
         "o2h_pct": 6.94,
         "o2c_gross_pct": 6.94,
@@ -76,7 +76,7 @@
       "after_v19_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.629,
+        "atr20_pct": 11.522,
         "score": 0.0,
         "o2h_pct": 6.55,
         "o2c_gross_pct": 3.88,
@@ -96,8 +96,8 @@
       "after_v19_rank1": {
         "name": "코리아써키트",
         "code": "007810",
-        "atr20_pct": 12.552,
-        "score": 153.67,
+        "atr20_pct": 12.809,
+        "score": 156.24,
         "o2h_pct": 6.51,
         "o2c_gross_pct": 4.97,
         "o2c_net_pct": 4.62,
@@ -116,8 +116,8 @@
       "after_v19_rank1": {
         "name": "빛과전자",
         "code": "069540",
-        "atr20_pct": 10.918,
-        "score": 137.85,
+        "atr20_pct": 10.855,
+        "score": 137.22,
         "o2h_pct": 16.99,
         "o2c_gross_pct": 1.76,
         "o2c_net_pct": 1.41,
@@ -136,8 +136,8 @@
       "after_v19_rank1": {
         "name": "주성엔지니어링",
         "code": "036930",
-        "atr20_pct": 9.292,
-        "score": 123.03,
+        "atr20_pct": 9.333,
+        "score": 123.44,
         "o2h_pct": 10.3,
         "o2c_gross_pct": 5.94,
         "o2c_net_pct": 5.59,
@@ -154,14 +154,14 @@
         "hit_5pct_daily": true
       },
       "after_v19_rank1": {
-        "name": "제이앤티씨",
-        "code": "204270",
-        "atr20_pct": 10.035,
-        "score": 128.66,
-        "o2h_pct": 1.09,
-        "o2c_gross_pct": -6.91,
-        "o2c_net_pct": -7.26,
-        "hit_5pct_daily": false
+        "name": "한빛레이저",
+        "code": "452190",
+        "atr20_pct": 9.252,
+        "score": 125.22,
+        "o2h_pct": 5.66,
+        "o2c_gross_pct": -2.04,
+        "o2c_net_pct": -2.39,
+        "hit_5pct_daily": true
       }
     },
     "2026-10-13": {
@@ -176,8 +176,8 @@
       "after_v19_rank1": {
         "name": "라온시큐어",
         "code": "042510",
-        "atr20_pct": 11.711,
-        "score": 146.2,
+        "atr20_pct": 11.793,
+        "score": 147.02,
         "o2h_pct": 26.22,
         "o2c_gross_pct": 9.82,
         "o2c_net_pct": 9.47,
@@ -196,8 +196,8 @@
       "after_v19_rank1": {
         "name": "안랩",
         "code": "053800",
-        "atr20_pct": 12.925,
-        "score": 158.26,
+        "atr20_pct": 12.834,
+        "score": 157.35,
         "o2h_pct": 8.9,
         "o2c_gross_pct": 4.92,
         "o2c_net_pct": 4.57,
@@ -216,8 +216,8 @@
       "after_v19_rank1": {
         "name": "비나텍",
         "code": "126340",
-        "atr20_pct": 13.597,
-        "score": 164.7,
+        "atr20_pct": 13.539,
+        "score": 164.12,
         "o2h_pct": 3.4,
         "o2c_gross_pct": -4.92,
         "o2c_net_pct": -5.27,
@@ -236,8 +236,8 @@
       "after_v19_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 16.073,
-        "score": 193.56,
+        "atr20_pct": 15.453,
+        "score": 187.36,
         "o2h_pct": 9.86,
         "o2c_gross_pct": -4.93,
         "o2c_net_pct": -5.28,
@@ -256,8 +256,8 @@
       "after_v19_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 17.137,
-        "score": 196.35,
+        "atr20_pct": 16.827,
+        "score": 193.25,
         "o2h_pct": 32.99,
         "o2c_gross_pct": 29.07,
         "o2c_net_pct": 28.72,
@@ -276,8 +276,8 @@
       "after_v19_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 17.137,
-        "score": 197.23,
+        "atr20_pct": 16.827,
+        "score": 194.13,
         "o2h_pct": 2.26,
         "o2c_gross_pct": -6.45,
         "o2c_net_pct": -6.8,
@@ -296,8 +296,8 @@
       "after_v19_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 16.073,
-        "score": 184.63,
+        "atr20_pct": 15.453,
+        "score": 178.43,
         "o2h_pct": 9.12,
         "o2c_gross_pct": 1.45,
         "o2c_net_pct": 1.1,
@@ -602,6 +602,26 @@
         "o2c_gross_pct": -4.72,
         "o2c_net_pct": -5.07,
         "hit_5pct_daily": false
+      }
+    },
+    "2026-11-12": {
+      "before_orig_rank1": {
+        "name": "엑시콘",
+        "code": "092870",
+        "o2h_pct": 5.88,
+        "o2c_gross_pct": 0.52,
+        "o2c_net_pct": 0.17,
+        "hit_5pct_daily": true
+      },
+      "after_v19_rank1": {
+        "name": "엑시콘",
+        "code": "092870",
+        "atr20_pct": 15.879,
+        "score": 195.19,
+        "o2h_pct": 5.88,
+        "o2c_gross_pct": 0.52,
+        "o2c_net_pct": 0.17,
+        "hit_5pct_daily": true
       }
     }
   }
