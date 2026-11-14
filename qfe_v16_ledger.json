@@ -1,48 +1,48 @@
 {
-  "updated_at": "2026-11-13 23:15:49",
-  "evaluated_days": 27,
+  "updated_at": "2026-11-14 20:10:40",
+  "evaluated_days": 28,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 22.2,
-      "rank1_cum_return_pct": -35.19,
-      "top2_win_rate_pct": 31.5,
-      "top2_cum_return_pct": -20.76,
-      "top3_cum_return_pct": -33.21,
+      "rank1_win_rate_pct": 25.0,
+      "rank1_cum_return_pct": -31.11,
+      "top2_win_rate_pct": 33.9,
+      "top2_cum_return_pct": -18.02,
+      "top3_cum_return_pct": -33.36,
       "top2_stop_losses": 31
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 29.6,
-      "rank1_cum_return_pct": -19.67,
-      "top2_win_rate_pct": 33.3,
-      "top2_cum_return_pct": -21.27
+      "rank1_win_rate_pct": 32.1,
+      "rank1_cum_return_pct": -15.59,
+      "top2_win_rate_pct": 35.7,
+      "top2_cum_return_pct": -18.53
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 23.8,
-      "rank1_cum_return_pct": -12.28,
-      "top2_win_rate_pct": 40.0,
-      "top2_cum_return_pct": 11.54,
-      "top3_cum_return_pct": -0.29,
+      "rank1_win_rate_pct": 27.3,
+      "rank1_cum_return_pct": -4.78,
+      "top2_win_rate_pct": 42.9,
+      "top2_cum_return_pct": 15.72,
+      "top3_cum_return_pct": 2.5,
       "top2_stop_losses": 22,
       "expired_saved_stop_losses_count": 20,
       "expired_saved_loss_pct": 61.2
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 25.9,
-      "rank1_hit5_rate_pct": 59.3,
-      "rank1_cum_return_pct": -24.0,
-      "top2_win_rate_pct": 27.8,
-      "top2_cum_return_pct": -30.87,
-      "top3_cum_return_pct": -29.81,
+      "rank1_win_rate_pct": 28.6,
+      "rank1_hit5_rate_pct": 60.7,
+      "rank1_cum_return_pct": -19.92,
+      "top2_win_rate_pct": 30.4,
+      "top2_cum_return_pct": -28.13,
+      "top3_cum_return_pct": -29.01,
       "top2_stop_losses": 32
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
-      "rank1_win_rate_pct": 31.8,
-      "rank1_hit5_rate_pct": 72.7,
-      "rank1_triggered_days": 22,
-      "rank1_cum_return_pct": 8.6,
-      "top2_win_rate_pct": 37.5,
-      "top2_cum_return_pct": 7.66,
-      "top3_cum_return_pct": 3.57,
+      "rank1_win_rate_pct": 34.8,
+      "rank1_hit5_rate_pct": 73.9,
+      "rank1_triggered_days": 23,
+      "rank1_cum_return_pct": 16.1,
+      "top2_win_rate_pct": 40.5,
+      "top2_cum_return_pct": 11.98,
+      "top3_cum_return_pct": 5.62,
       "top2_stop_losses": 24,
       "filtered_saved_stop_losses_count": 14,
       "filtered_saved_loss_pct": 50.8
@@ -52,7 +52,7 @@
   "upcoming_v16_qfe_top5": [
     "1위 오킨스전자(080580) | QFE점수 85.1점(v4:87.2점) | k-NN승률 42.6% | MC10K(+5%확률 36.3% / 손절 40.6%, EV +0.97%, Sharpe 0.27, Kelly 4.0%) | 노트: 🐂강세테마확산(70%,+4.5), 🧠과거손절이력(-6.5)",
     "2위 금호전기(001210) | QFE점수 75.7점(v4:76.0점) | k-NN승률 56.6% | MC10K(+5%확률 38.1% / 손절 41.2%, EV +1.12%, Sharpe 0.29, Kelly 5.4%) | 노트: 기본우위",
-    "3위 티엘비(356860) | QFE점수 66.4점(v4:68.3점) | k-NN승률 58.2% | MC10K(+5%확률 27.9% / 손절 49.5%, EV +0.13%, Sharpe 0.04, Kelly 0.0%) | 노트: 기본우위",
+    "3위 티엘비(356860) | QFE점수 66.4점(v4:68.3점) | k-NN승률 60.5% | MC10K(+5%확률 27.6% / 손절 50.0%, EV +0.11%, Sharpe 0.03, Kelly 0.0%) | 노트: 기본우위",
     "4위 인텍플러스(064290) | QFE점수 64.0점(v4:88.8점) | k-NN승률 48.7% | MC10K(+5%확률 15.0% / 손절 65.5%, EV -0.99%, Sharpe -0.40, Kelly 0.0%) | 노트: 🚨VPIN윗꼬리매물벽(usr:37%,동조:60%,-14.0), 🧠과거손절이력(-6.5)",
     "5위 티에프이(425420) | QFE점수 63.5점(v4:65.1점) | k-NN승률 55.2% | MC10K(+5%확률 30.1% / 손절 46.4%, EV +0.39%, Sharpe 0.11, Kelly 0.0%) | 노트: 기본우위"
   ],
@@ -735,6 +735,32 @@
         "raw_realized_pct": -1.26,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
         "exec_realized_pct": -2.5
+      }
+    },
+    "2026-11-13": {
+      "qfe_rank1": {
+        "name": "지니언스",
+        "code": "263860",
+        "qfe_score": 92.6,
+        "v4_score": 99.5,
+        "notes": [
+          "🧠과거손절이력(-6.5)"
+        ],
+        "p_target": 46.6,
+        "ev_pct": 2.05,
+        "knn_win_rate": 15.8,
+        "high_pct": 11.47,
+        "raw_realized_pct": 4.08,
+        "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
+        "exec_realized_pct": 7.5
+      },
+      "qfe_rank2": {
+        "name": "티엘비",
+        "code": "356860",
+        "qfe_score": 80.0,
+        "raw_realized_pct": 1.39,
+        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
+        "exec_realized_pct": 1.14
       }
     }
   }

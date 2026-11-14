@@ -1,44 +1,44 @@
 {
-  "updated_at": "2026-11-13 23:16:15",
+  "updated_at": "2026-11-14 20:11:06",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v1.9-FROZEN",
     "engine_sha256": "533c6508724d9d61",
     "preopen_logged_days": 3,
-    "settled_preopen_days": 1,
+    "settled_preopen_days": 2,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
-    "status_badge": "엔진 동결 전진검증 누적 중 (1/30일 · 30거래일 미만 승률 미표시)"
+    "status_badge": "엔진 동결 전진검증 누적 중 (2/30일 · 30거래일 미만 승률 미표시)"
   },
-  "evaluated_days": 29,
+  "evaluated_days": 30,
   "honest_regular_bar_comparison": {
-    "definition": "확정 KRX 정규장 일봉(09:00~15:30) · 왕복비용 0.35% 차감 · 분모=전 추천일(29일)",
+    "definition": "확정 KRX 정규장 일봉(09:00~15:30) · 왕복비용 0.35% 차감 · 분모=전 추천일(30일)",
     "v1_before_original_rank1": {
-      "all_recommended_days": 29,
+      "all_recommended_days": 30,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit5_daily_count": 15,
-      "rank1_hit5_daily_rate_pct": 51.7,
-      "rank1_o2c_gross_wins": 11,
-      "rank1_o2c_gross_win_rate_pct": 37.9,
-      "rank1_o2c_net_wins": 11,
-      "rank1_o2c_net_win_rate_pct": 37.9,
-      "rank1_mean_o2c_gross_pct": -0.48,
-      "rank1_mean_o2c_net_pct": -0.83,
-      "rank1_cum_o2c_net_pct": -24.19
+      "rank1_hit5_daily_count": 16,
+      "rank1_hit5_daily_rate_pct": 53.3,
+      "rank1_o2c_gross_wins": 12,
+      "rank1_o2c_gross_win_rate_pct": 40.0,
+      "rank1_o2c_net_wins": 12,
+      "rank1_o2c_net_win_rate_pct": 40.0,
+      "rank1_mean_o2c_gross_pct": -0.32,
+      "rank1_mean_o2c_net_pct": -0.67,
+      "rank1_cum_o2c_net_pct": -20.11
     },
     "v1_after_v19_atr_clean_rank1": {
-      "all_recommended_days": 29,
+      "all_recommended_days": 30,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit5_daily_count": 22,
-      "rank1_hit5_daily_rate_pct": 75.9,
-      "rank1_o2c_gross_wins": 18,
-      "rank1_o2c_gross_win_rate_pct": 62.1,
-      "rank1_o2c_net_wins": 18,
-      "rank1_o2c_net_win_rate_pct": 62.1,
-      "rank1_mean_o2c_gross_pct": 1.84,
-      "rank1_mean_o2c_net_pct": 1.49,
-      "rank1_cum_o2c_net_pct": 43.32
+      "rank1_hit5_daily_count": 23,
+      "rank1_hit5_daily_rate_pct": 76.7,
+      "rank1_o2c_gross_wins": 19,
+      "rank1_o2c_gross_win_rate_pct": 63.3,
+      "rank1_o2c_net_wins": 19,
+      "rank1_o2c_net_win_rate_pct": 63.3,
+      "rank1_mean_o2c_gross_pct": 1.93,
+      "rank1_mean_o2c_net_pct": 1.58,
+      "rank1_cum_o2c_net_pct": 47.4
     },
     "note": "과거 27일 소급 재채점 수치이며, 동결 전진검증 30거래일 누적 전까지 대시보드/메시지 승률 표시는 비활성화됨."
   },
@@ -96,8 +96,8 @@
       "after_v19_rank1": {
         "name": "코리아써키트",
         "code": "007810",
-        "atr20_pct": 12.809,
-        "score": 156.24,
+        "atr20_pct": 13.096,
+        "score": 159.11,
         "o2h_pct": 6.51,
         "o2c_gross_pct": 4.97,
         "o2c_net_pct": 4.62,
@@ -621,6 +621,26 @@
         "o2h_pct": 5.88,
         "o2c_gross_pct": 0.52,
         "o2c_net_pct": 0.17,
+        "hit_5pct_daily": true
+      }
+    },
+    "2026-11-13": {
+      "before_orig_rank1": {
+        "name": "지니언스",
+        "code": "263860",
+        "o2h_pct": 11.47,
+        "o2c_gross_pct": 4.43,
+        "o2c_net_pct": 4.08,
+        "hit_5pct_daily": true
+      },
+      "after_v19_rank1": {
+        "name": "지니언스",
+        "code": "263860",
+        "atr20_pct": 14.84,
+        "score": 186.52,
+        "o2h_pct": 11.47,
+        "o2c_gross_pct": 4.43,
+        "o2c_net_pct": 4.08,
         "hit_5pct_daily": true
       }
     }
