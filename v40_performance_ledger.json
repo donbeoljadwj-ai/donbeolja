@@ -1,18 +1,75 @@
 {
-  "engine_name": "GEMINI ENDGAME v4.2-FROZEN (Pure Regular-Session + KIS FHPTJ04160001 Flow + 09:00 Gap<=0% Gate)",
-  "engine_version": "v4.2-FROZEN",
+  "engine_name": "GEMINI ENDGAME v4.3-FROZEN (Pure Regular-Session + 20d O2H>=+5% Frequency + Smart Flow + usr<=0.35 + 78pt Gate)",
+  "engine_version": "v4.3-FROZEN",
   "after_market_data_usage_pct": 0.0,
   "round_trip_cost_pct": 0.35,
   "upcoming_target_date": "2026-11-16",
   "audit_notice": "외부 리포트(dante/study/endgame_v40_backtest_report.json)에서 복사했던 기존 27일 원장(84%/96%)은 엔진 자체 필터와 불일치(25개 전수 탈락, 실가동 0일)하므로 data/quarantine/으로 격리 폐기함. 동결 엔진(v4.1-FROZEN) 개장 전 타임스탬프 로그 기준 30거래일 누적 전까지 실전 승률을 표시하지 않음.",
   "summary": {
-    "total_trading_days": 0,
-    "active_entry_days": 0,
+    "total_trading_days": 3,
+    "active_entry_days": 3,
     "gap_skip_days": 0,
-    "o2c_net_wins": 0,
+    "o2c_net_wins": 1,
     "round_trip_cost_pct": 0.35,
-    "win_rate_display_allowed": false
+    "win_rate_display_allowed": false,
+    "hit_open_plus_5pct_wins": 1,
+    "two_stage_net_wins": 1
   },
-  "daily_ledger": [],
-  "last_updated": "2026-11-13 23:10:33"
+  "daily_ledger": [
+    {
+      "day_idx": 1,
+      "date": "2026-11-11 (v4.0)",
+      "target_date": "2026-11-11",
+      "engine_version": "v4.0",
+      "v40_pick": "대한항공 (003490)",
+      "v40_score": 83.5,
+      "stock_open_gap_pct": 0.15,
+      "gap_gate_passed": true,
+      "hit_stage1_35pct": false,
+      "hit_open_plus_5pct": false,
+      "v40_o2h_pct": 0.0,
+      "v40_o2c_gross_pct": -3.08,
+      "v40_o2c_pct": -3.43,
+      "v40_2stage_net_pct": -2.85,
+      "v40_result": "🔴 LOSS (2단세후 -2.85% · 종가세후 -3.43% · 고가+0.00%)",
+      "selection_note": "1분봉검증:STOP_LOSS_FIRST | 시초갭 +0.15% (GAP_FAVORABLE (+0.15%)) | 항공 주도주 거래대금 1,171억 집중 · 외인기관 동반 순매수 (아카이브 복원)"
+    },
+    {
+      "day_idx": 2,
+      "date": "2026-11-12 (v4.2-FROZEN)",
+      "target_date": "2026-11-12",
+      "engine_version": "v4.2-FROZEN",
+      "v40_pick": "라온시큐어 (042510)",
+      "v40_score": 86.44,
+      "stock_open_gap_pct": 0.32,
+      "gap_gate_passed": true,
+      "hit_stage1_35pct": false,
+      "hit_open_plus_5pct": false,
+      "v40_o2h_pct": 1.36,
+      "v40_o2c_gross_pct": -5.94,
+      "v40_o2c_pct": -6.29,
+      "v40_2stage_net_pct": -2.85,
+      "v40_result": "🔴 LOSS (2단세후 -2.85% · 종가세후 -6.29% · 고가+1.36%)",
+      "selection_note": "1분봉검증:STOP_LOSS_FIRST | 시초갭 +0.32% (GAP_FAVORABLE (+0.32%)) | 구 v4.2 선정 (신규 v4.3 usr<=0.35 기준 적용 시 usr=0.381로 사전 차단 대상)"
+    },
+    {
+      "day_idx": 3,
+      "date": "2026-11-13 (v4.2-FROZEN)",
+      "target_date": "2026-11-13",
+      "engine_version": "v4.2-FROZEN",
+      "v40_pick": "유니퀘스트 (077500)",
+      "v40_score": 78.0,
+      "stock_open_gap_pct": -0.08,
+      "gap_gate_passed": true,
+      "hit_stage1_35pct": true,
+      "hit_open_plus_5pct": true,
+      "v40_o2h_pct": 9.99,
+      "v40_o2c_gross_pct": 7.51,
+      "v40_o2c_pct": 7.16,
+      "v40_2stage_net_pct": 4.65,
+      "v40_result": "🏆 TARGET_HIT (고가+9.99% · 2단세후 +4.65% / 종가세후 +7.16%)",
+      "selection_note": "1분봉검증:DUAL_STAGE_TP_HIT | 시초갭 -0.08% (GAP_FAVORABLE (-0.08%)) | 구 v4.2 선정 (11/13 확정 정규장 상승 마감 복원)"
+    }
+  ],
+  "last_updated": "2026-11-14 22:34:53"
 }
