@@ -25,7 +25,8 @@
       "qualified": true,
       "disqualify_reason": "",
       "module_scores": {},
-      "rationale": "항공 주도주 거래대금 1,171억 집중 · 외인기관 동반 순매수 (아카이브 복원)"
+      "rationale": "항공 주도주 거래대금 1,171억 집중 · 외인기관 동반 순매수 (아카이브 복원)",
+      "flow_verified": false
     }
   ],
   "2026-11-12": [
@@ -54,7 +55,8 @@
       "qualified": true,
       "disqualify_reason": "",
       "module_scores": {},
-      "rationale": "구 v4.2 선정 (신규 v4.3 usr<=0.35 기준 적용 시 usr=0.381로 사전 차단 대상)"
+      "rationale": "구 v4.2 선정 (신규 v4.3 usr<=0.35 기준 적용 시 usr=0.381로 사전 차단 대상)",
+      "flow_verified": false
     }
   ],
   "2026-11-13": [
@@ -83,7 +85,8 @@
       "qualified": true,
       "disqualify_reason": "",
       "module_scores": {},
-      "rationale": "구 v4.2 선정 (11/13 확정 정규장 상승 마감 복원)"
+      "rationale": "구 v4.2 선정 (11/13 확정 정규장 상승 마감 복원)",
+      "flow_verified": false
     }
   ],
   "2026-11-16": [
@@ -121,7 +124,8 @@
         "M4_Healthy_Wick_And_RegRange": 10.0,
         "M5_Volume_Profile_224MA": 6.0
       },
-      "rationale": "★20일 시가+5%슈팅빈도 60%(12/20일) · ★20일평균O2H +7.56% · 5일ATR 13.59% · ★연기금·보험·사모 순매수(+6.4억) · ★외인·기관 순매수(+25.0억) · ★건전윗꼬리 매물소화(usr 0.117)"
+      "rationale": "★20일 시가+5%슈팅빈도 60%(12/20일) · ★20일평균O2H +7.56% · 5일ATR 13.59% · ★연기금·보험·사모 순매수(+6.4억) · ★외인·기관 순매수(+25.0억) · ★건전윗꼬리 매물소화(usr 0.117)",
+      "flow_verified": true
     },
     {
       "rank": 2,
@@ -157,7 +161,8 @@
         "M4_Healthy_Wick_And_RegRange": 10.0,
         "M5_Volume_Profile_224MA": 6.0
       },
-      "rationale": "★20일 시가+5%슈팅빈도 55%(11/20일) · ★20일평균O2H +8.43% · 5일ATR 13.15% · ★연기금·보험·사모 순매수(+7.8억) · ★외인·기관 순매수(+37.1억) · ★건전윗꼬리 매물소화(usr 0.264)"
+      "rationale": "★20일 시가+5%슈팅빈도 55%(11/20일) · ★20일평균O2H +8.43% · 5일ATR 13.15% · ★연기금·보험·사모 순매수(+7.8억) · ★외인·기관 순매수(+37.1억) · ★건전윗꼬리 매물소화(usr 0.264)",
+      "flow_verified": true
     },
     {
       "rank": 3,
@@ -193,7 +198,8 @@
         "M4_Healthy_Wick_And_RegRange": 10.0,
         "M5_Volume_Profile_224MA": 0.0
       },
-      "rationale": "★20일 시가+5%슈팅빈도 55%(11/20일) · ★20일평균O2H +6.02% · 5일ATR 13.25% · ★연기금·보험·사모 순매수(+17.7억) · ★외인·기관 순매수(+92.7억) · ★건전윗꼬리 매물소화(usr 0.237)"
+      "rationale": "★20일 시가+5%슈팅빈도 55%(11/20일) · ★20일평균O2H +6.02% · 5일ATR 13.25% · ★연기금·보험·사모 순매수(+17.7억) · ★외인·기관 순매수(+92.7억) · ★건전윗꼬리 매물소화(usr 0.237)",
+      "flow_verified": true
     },
     {
       "rank": 4,
@@ -229,7 +235,8 @@
         "M4_Healthy_Wick_And_RegRange": 10.0,
         "M5_Volume_Profile_224MA": 2.5
       },
-      "rationale": "★20일 시가+5%슈팅빈도 50%(10/20일) · ★20일평균O2H +7.57% · 5일ATR 13.87% · ★연기금·보험·사모 순매수(+30.7억) · ★외인·기관 순매수(+3.5억) · ★건전윗꼬리 매물소화(usr 0.180)"
+      "rationale": "★20일 시가+5%슈팅빈도 50%(10/20일) · ★20일평균O2H +7.57% · 5일ATR 13.87% · ★연기금·보험·사모 순매수(+30.7억) · ★외인·기관 순매수(+3.5억) · ★건전윗꼬리 매물소화(usr 0.180)",
+      "flow_verified": true
     },
     {
       "rank": 5,
@@ -265,7 +272,8 @@
         "M4_Healthy_Wick_And_RegRange": 10.0,
         "M5_Volume_Profile_224MA": 4.5
       },
-      "rationale": "SCORE_BELOW_CUTOFF (74.0점 < 78.0점 커트라인 미달)"
+      "rationale": "SCORE_BELOW_CUTOFF (74.0점 < 78.0점 커트라인 미달)",
+      "flow_verified": true
     },
     {
       "rank": 6,
@@ -301,7 +309,8 @@
         "M4_Healthy_Wick_And_RegRange": 7.66,
         "M5_Volume_Profile_224MA": 2.0
       },
-      "rationale": "SCORE_BELOW_CUTOFF (72.8점 < 78.0점 커트라인 미달)"
+      "rationale": "SCORE_BELOW_CUTOFF (72.8점 < 78.0점 커트라인 미달)",
+      "flow_verified": true
     },
     {
       "rank": 7,
@@ -337,7 +346,8 @@
         "M4_Healthy_Wick_And_RegRange": 10.0,
         "M5_Volume_Profile_224MA": 2.5
       },
-      "rationale": "SCORE_BELOW_CUTOFF (72.5점 < 78.0점 커트라인 미달)"
+      "rationale": "SCORE_BELOW_CUTOFF (72.5점 < 78.0점 커트라인 미달)",
+      "flow_verified": true
     },
     {
       "rank": 8,
@@ -373,7 +383,8 @@
         "M4_Healthy_Wick_And_RegRange": 7.02,
         "M5_Volume_Profile_224MA": 5.5
       },
-      "rationale": "SCORE_BELOW_CUTOFF (72.2점 < 78.0점 커트라인 미달)"
+      "rationale": "SCORE_BELOW_CUTOFF (72.2점 < 78.0점 커트라인 미달)",
+      "flow_verified": true
     },
     {
       "rank": 9,
@@ -409,7 +420,8 @@
         "M4_Healthy_Wick_And_RegRange": 3.49,
         "M5_Volume_Profile_224MA": 4.5
       },
-      "rationale": "SCORE_BELOW_CUTOFF (66.0점 < 78.0점 커트라인 미달)"
+      "rationale": "SCORE_BELOW_CUTOFF (66.0점 < 78.0점 커트라인 미달)",
+      "flow_verified": true
     },
     {
       "rank": 10,
@@ -445,7 +457,8 @@
         "M4_Healthy_Wick_And_RegRange": 10.0,
         "M5_Volume_Profile_224MA": 0.0
       },
-      "rationale": "SCORE_BELOW_CUTOFF (63.7점 < 78.0점 커트라인 미달)"
+      "rationale": "SCORE_BELOW_CUTOFF (63.7점 < 78.0점 커트라인 미달)",
+      "flow_verified": true
     }
   ]
 }
