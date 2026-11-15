@@ -1,17 +1,18 @@
 {
-  "updated_at": "2026-11-15 23:04:20",
-  "active_version": "v3.4-FROZEN (sha256:f5c008eb21d3dc06)",
+  "updated_at": "2026-11-16 01:26:54",
+  "active_version": "v3.4-FROZEN (sha256:a4ba391a9334b0ba)",
   "strategy_title": "GEMINI ENDGAME v3.4-FROZEN (전야 AM +1.5~+9.0% 과열차단 + AM종가<VWAP 눌림우위 + 08:50 AM지지게이트[-2.0%,+4.5%] + 2단계 분할청산[+3.5% 반익·+0.4% 본절락인/+6.5%] · Top 2 집중)",
   "upcoming_target_date": "2026-11-16",
   "upcoming_status": "엔진 동결 전진검증 누적 중 (0/30일 · 30거래일 미만 승률 미표시)",
+  "am_archive_missing_cash_skip": false,
   "scorecard": {
     "model_version": "v3.4-FROZEN",
     "model_freeze_date": "2026-11-14 (Upgraded v3.4-FROZEN: AM<=9.0% Cap + 08:50 AM Support Gate + 2-Stage +3.5%/BE/+6.5% Exit)",
-    "engine_sha256": "f5c008eb21d3dc06",
+    "engine_sha256": "a4ba391a9334b0ba",
     "frozen_winrate_gate": {
       "track": "v3",
       "engine_version": "v3.4-FROZEN",
-      "engine_sha256": "f5c008eb21d3dc06",
+      "engine_sha256": "a4ba391a9334b0ba",
       "preopen_logged_days": 1,
       "settled_preopen_days": 0,
       "min_required_days": 30,
@@ -151,6 +152,7 @@
     "v3.2-DVTA-CHART_5cff07868a4c3ca0",
     "v3.2-DVTA-CHART_bb848028a4ec97c1",
     "v3.3-FROZEN_c096fb1f8c76aaaa",
+    "v3.4-FROZEN_a4ba391a9334b0ba",
     "v3.4-FROZEN_f5c008eb21d3dc06"
   ],
   "recommendations_by_selection_target_pair": {

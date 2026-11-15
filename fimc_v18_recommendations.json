@@ -25,7 +25,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -54,7 +54,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -83,7 +83,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -112,7 +112,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -141,7 +141,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -151,7 +151,7 @@
       "name": "삼성전자우",
       "code": "005935",
       "close": 196400,
-      "atr20_pct": 4.0,
+      "atr20_pct": 0.0,
       "day_gain_pct": 5.0,
       "trade_value_krw": 0,
       "v4_score": 0.0,
@@ -166,11 +166,11 @@
         "fimc_score": 0.0,
         "fimc_bonus": 0.0,
         "v4_score": 0.0,
-        "atr20_pct": 4.0,
+        "atr20_pct": 0.0,
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -201,7 +201,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -230,7 +230,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -259,7 +259,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -288,7 +288,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -317,7 +317,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -346,7 +346,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -1338,7 +1338,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -1610,39 +1610,6 @@
     },
     {
       "rank": 9,
-      "v4_rank": 8,
-      "name": "삼성전자우",
-      "code": "005935",
-      "close": 194500,
-      "atr20_pct": 4.0,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 248031383200,
-      "v4_score": 56.19,
-      "gnc_score": 56.19,
-      "composite_score": 56.19,
-      "all_filters_passed": false,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_STANDBY",
-        "fimc_verdict": "FROZEN_STANDBY",
-        "gnc_score": 56.19,
-        "fimc_score": 56.19,
-        "fimc_bonus": 0.0,
-        "v4_score": 56.19,
-        "atr20_pct": 4.0,
-        "cbf_safe": false,
-        "cbf_veto": true,
-        "plant_elasticity_pct": 4.0,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 4.00%",
-          "🕯️AM눌림 0.0%(AM +0.26%)",
-          "🛡️09시갭[-2.5%,+3.0%] · +3.5%절반익절&본절락인"
-        ]
-      }
-    },
-    {
-      "rank": 10,
       "v4_rank": 9,
       "name": "대화제약",
       "code": "067080",
@@ -1666,7 +1633,36 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "v4_rank": 8,
+      "name": "삼성전자우",
+      "code": "005935",
+      "close": 194500,
+      "atr20_pct": 0.0,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 248031383200,
+      "v4_score": 0.0,
+      "gnc_score": 0.0,
+      "composite_score": 0.0,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 0.0,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -2990,7 +2986,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -3617,7 +3613,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -3627,7 +3623,7 @@
       "name": "한화갤러리아우",
       "code": "45226K",
       "close": 5770,
-      "atr20_pct": 4.0,
+      "atr20_pct": 0.0,
       "day_gain_pct": 17.3,
       "trade_value_krw": 7600000000,
       "v4_score": 0.0,
@@ -3642,11 +3638,11 @@
         "fimc_score": 0.0,
         "fimc_bonus": 0.0,
         "v4_score": 0.0,
-        "atr20_pct": 4.0,
+        "atr20_pct": 0.0,
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -4219,39 +4215,6 @@
     },
     {
       "rank": 8,
-      "v4_rank": 10,
-      "name": "DGI",
-      "code": "099520",
-      "close": 1229,
-      "atr20_pct": 2.57,
-      "day_gain_pct": 6.5,
-      "trade_value_krw": 12700000000,
-      "v4_score": 47.41,
-      "gnc_score": 47.41,
-      "composite_score": 47.41,
-      "all_filters_passed": false,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_STANDBY",
-        "fimc_verdict": "FROZEN_STANDBY",
-        "gnc_score": 47.41,
-        "fimc_score": 47.41,
-        "fimc_bonus": 0.0,
-        "v4_score": 47.41,
-        "atr20_pct": 2.57,
-        "cbf_safe": false,
-        "cbf_veto": true,
-        "plant_elasticity_pct": 2.57,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 2.57%",
-          "🕯️AM눌림 6.8%(AM +4.42%)",
-          "🛡️09시갭[-2.5%,+3.0%] · +3.5%절반익절&본절락인"
-        ]
-      }
-    },
-    {
-      "rank": 9,
       "v4_rank": 8,
       "name": "푸드나무",
       "code": "290720",
@@ -4275,12 +4238,12 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "v4_rank": 6,
       "name": "자이언트스텝",
       "code": "289220",
@@ -4304,7 +4267,36 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "v4_rank": 10,
+      "name": "DGI",
+      "code": "099520",
+      "close": 1229,
+      "atr20_pct": 2.57,
+      "day_gain_pct": 6.5,
+      "trade_value_krw": 12700000000,
+      "v4_score": 0.0,
+      "gnc_score": 0.0,
+      "composite_score": 0.0,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 2.57,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -4635,7 +4627,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -4931,7 +4923,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -4960,7 +4952,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -6390,7 +6382,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -6419,7 +6411,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -6948,7 +6940,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     },
@@ -6977,7 +6969,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }
@@ -8306,7 +8298,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
         ]
       }
     }

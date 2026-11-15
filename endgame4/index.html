@@ -303,7 +303,7 @@
 <body>
   <div class="container">
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <!-- Quad Strategy Navigation Bar -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <!-- Quad Strategy Navigation Bar -->
     <nav style="display:flex; gap:8px; margin-bottom:24px; border-bottom:1px solid #334155; padding-bottom:14px; flex-wrap:wrap; align-items:center;">
       <a href="https://donbeoljadwj-ai.github.io/donbeolja/" style="color:#CBD5E1; text-decoration:none; padding:8px 14px; border-radius:8px; background:#151D2F; border:1px solid #3B82F6; font-size:12.5px; font-weight:700; display:inline-flex; align-items:center; gap:6px;"><span>⚡</span> <span>ENDGAME v2.0-FROZEN · 시가 Top2 ➜</span></a>
       <a href="https://donbeoljadwj-ai.github.io/donbeolja/endgame2/" style="color:#CBD5E1; text-decoration:none; padding:8px 14px; border-radius:8px; background:#151D2F; border:1px solid #EF4444; font-size:12.5px; font-weight:700; display:inline-flex; align-items:center; gap:6px;"><span>🔥</span> <span>ENDGAME v2.9-ARGON · 종가 Top3 ➜</span></a>
@@ -330,7 +330,7 @@
       </div>
     </header>
 
-                                                                                                                                <!-- KPI Cards -->
+                                                                                                                                    <!-- KPI Cards -->
     <div class="kpi-grid">
       <div class="kpi-card">
         <div class="kpi-label">다음 거래일 공략일</div>
@@ -824,35 +824,30 @@
       <button class="mc-spec-close-btn" onclick="closeMinuteChart()">✕ 닫기 (ESC)</button>
     </div>
 
-    <!-- 추천 종목 빠른 전환 탭 -->
     <div class="mc-spec-picker" id="mcSpecPicker"></div>
 
-    <!-- 상단 범례 (1줄) -->
     <div class="mc-spec-legend">
       <span class="mc-leg-item"><i class="mc-leg-box-fan"></i> 시뮬 5~95% / 25~75% 구간</span>
       <span class="mc-leg-item"><i class="mc-leg-line-touch"></i> 예상선: +5% 터치한 과거 픽 평균</span>
       <span class="mc-leg-item"><i class="mc-leg-line-miss"></i> 예상선: 못 터치한 과거 픽 평균</span>
-      <span class="mc-leg-item"><i class="mc-leg-line-hist"></i> 자기 60세션 실제 경로</span>
-      <span class="mc-leg-item"><i class="mc-leg-line-actual"></i> 결과일 실제 (장 시작 후/과거 원장)</span>
+      <span class="mc-leg-item"><i class="mc-leg-line-hist"></i> 자기 60세션 배경 경로</span>
+      <span class="mc-leg-item"><i class="mc-leg-line-actual"></i> 결과일 경로 (실측1분봉 / 과거일봉보간 명시)</span>
       <span class="mc-leg-item"><i class="mc-leg-line-target"></i> +5% 목표</span>
     </div>
 
-    <!-- 2-패널 SVG 영역 (상단 팬 차트 + 하단 누적 터치 확률 곡선) -->
     <div class="mc-svg-wrap" id="mcSvgContainer">
       <div class="mc-hover-tip" id="mcHoverTooltip"></div>
       <svg id="mcTopFanSvg" viewBox="0 0 720 240" preserveAspectRatio="none"></svg>
       <svg id="mcBotTouchSvg" viewBox="0 0 720 86" preserveAspectRatio="none" style="margin-top:2px;"></svg>
     </div>
 
-    <!-- 하단 설명 문구 (명세서 섹션 7.6) -->
     <div class="mc-spec-explain">
       <strong>읽는 법.</strong>
       <strong>주황 실선</strong>은 과거 추천 픽 중 결과일에 장중 +5%를 달성한 종목들의 평균 장중 궤적(09:30에 평균 +2.9%까지 빠르게 올라 11시경 고점, 오후엔 되돌림)이고,
       <strong>주황 점선</strong>은 실패한 픽들의 평균 궤적(09:30에 이미 −2.3%, 종가 −5.0%)입니다. 초반 30분 방향이 두 경로를 가릅니다.
-      <strong>파란 띠</strong>는 이 종목의 과거 60세션 5분봉 변동성으로 시뮬레이션한 10,000개 경로의 분포(진한 띠 25~75%, 연한 띠 5~95%)이고,
-      뒤의 <strong>가는 회색 선 60개</strong>는 실제 과거 60세션 장중 경로입니다.
+      <strong>파란 띠</strong>는 이 종목의 과거 60세션 5분봉 변동성으로 시뮬레이션한 10,000개 경로의 분포(진한 띠 25~75%, 연한 띠 5~95%)입니다.
       아래 <strong>누적 터치 곡선</strong>은 그 시각까지 +5%를 한 번이라도 찍었을 누적 확률로, 기울기가 가파른 초반(09:00~10:30)에 터치의 대부분이 일어납니다.
-      <em>(아직 장이 열리지 않은 다음 거래일 추천 종목은 예측 팬 차트만 표시되며, 장 마감 정산 후 또는 하단 성과 기록부 클릭 시 흰색 실제 경로가 함께 표시됩니다.)</em>
+      <em>(1분봉 아카이브 보유 거래일은 '실제(1분봉)' 실측 경로로 그려지며, 과거 1분봉 미보유 거래일은 확정 일봉 시가·고가·종가 기반 '일봉보간'으로 투명하게 구분 표기됩니다.)</em>
     </div>
   </div>
 </div>
@@ -959,7 +954,6 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
       return T + (H - T - B) * (1 - (v - lo) / (hi - lo));
     }
 
-    // 레이어 1 — 그리드 & 축 라벨
     for (let p = -20; p <= 30; p += 5) {
       const v = 1.0 + p / 100.0;
       if (v < lo || v > hi) continue;
@@ -980,7 +974,6 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
       topSvg.appendChild(txt);
     }
 
-    // 레이어 2 — 자기 과거 60세션 실제 경로 (배경 스파게티)
     hist.forEach(sess => {
       if (!Array.isArray(sess) || sess.length < 78) return;
       const pts = sess.map((v, i) => `${xCoord(i).toFixed(1)},${yCoord(v).toFixed(1)}`).join(" ");
@@ -993,7 +986,6 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
       }));
     });
 
-    // 레이어 3 — 몬테카를로 팬 밴드 (5~95%, 25~75%) *p50 중앙선은 그리지 않음*
     function makeBandPath(upperArr, lowerArr) {
       let d = "";
       for (let i = 0; i < 78; i++) {
@@ -1019,7 +1011,6 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
       }));
     }
 
-    // 레이어 4 — 예상선 2종 (주황 실선 = 터치 성공 평균, 주황 점선 = 미달 평균)
     if (expMiss && Array.isArray(expMiss.mean)) {
       const ptsMiss = expMiss.mean.map((v, i) => `${xCoord(i).toFixed(1)},${yCoord(v).toFixed(1)}`).join(" ");
       topSvg.appendChild(createSvgEl("polyline", {
@@ -1066,7 +1057,6 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
       topSvg.appendChild(cap2);
     }
 
-    // 레이어 5 — +5% 목표선
     const yTarget = yCoord(1.05);
     topSvg.appendChild(createSvgEl("line", {
       x1: L, x2: W - R, y1: yTarget, y2: yTarget,
@@ -1084,7 +1074,6 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
     lblTarget.textContent = "+5% 목표";
     topSvg.appendChild(lblTarget);
 
-    // 레이어 6 — 결과일 실제 경로 & +5% 터치 마커 (actual != null 일 때만)
     if (act && Array.isArray(act.c)) {
       const validPts = [];
       let lastIdx = -1;
@@ -1094,12 +1083,15 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
           lastIdx = i;
         }
       }
+      const isInterp = act.actual_source === "OHLC_INTERPOLATED";
+      const srcLbl = act.live ? "실시간" : (isInterp ? "일봉보간" : "실제(1분봉)");
       if (validPts.length > 0) {
         topSvg.appendChild(createSvgEl("polyline", {
           points: validPts.join(" "),
           fill: "none",
           stroke: "var(--ink)",
-          "stroke-width": "2.2"
+          "stroke-width": "2.2",
+          ...(isInterp ? { "stroke-dasharray": "4 2", opacity: "0.88" } : {})
         }));
         const lx = xCoord(lastIdx);
         const ly = yCoord(act.c[lastIdx]);
@@ -1111,12 +1103,12 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
         const actLbl = createSvgEl("text", {
           x: Math.min(W - R - 4, lx + 6),
           y: ly - 7,
-          "text-anchor": lx > W - 130 ? "end" : "start",
+          "text-anchor": lx > W - 150 ? "end" : "start",
           "font-size": "10.5",
           "font-weight": "700",
           fill: "var(--ink)"
         });
-        actLbl.textContent = `${act.live ? "실시간" : "실제"} ${mmdd} ${pct(act.c[lastIdx])}`;
+        actLbl.textContent = `${srcLbl} ${mmdd} ${pct(act.c[lastIdx])}`;
         topSvg.appendChild(actLbl);
       }
       if (act.touch_slot != null) {
@@ -1134,12 +1126,11 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
           "font-weight": "700",
           fill: "var(--good)"
         });
-        tLbl.textContent = `실제 +5% 터치 ${act.touch_hhmm || hhmm(act.touch_slot)}`;
+        tLbl.textContent = `${isInterp ? "+5% 고가도달(보간)" : "실제 +5% 터치"} ${act.touch_hhmm || hhmm(act.touch_slot)}`;
         topSvg.appendChild(tLbl);
       }
     }
 
-    // ==================== 7.3 하단 패널 (누적 +5% 터치 확률 곡선 SVG) ====================
     function ycCoord(v) {
       return 8 + (H2 - 8 - 20) * (1 - v);
     }
@@ -1234,7 +1225,6 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
       botSvg.appendChild(tTxt);
     });
 
-    // ==================== 7.5 호버 툴팁 & 크로스헤어 ====================
     const crossTop = createSvgEl("line", {
       x1: 0, x2: 0, y1: T, y2: H - B,
       stroke: "var(--ink2)", "stroke-width": "1", opacity: "0", "pointer-events": "none"
@@ -1289,7 +1279,8 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
         html += `<div style="color:var(--ink2);">25~75% 구간: ${pct(s.p25[i], 1)} ~ ${pct(s.p75[i], 1)}</div>`;
         html += `<div style="color:var(--s1);font-weight:600;">이 시각까지 +5% 터치: ${(tc[i] * 100).toFixed(1)}%</div>`;
         if (act && act.c && act.c[i] != null) {
-          html += `<div style="color:#fff;font-weight:700;">실제(${act.ymd}): ${pct(act.c[i], 2)}</div>`;
+          const tipSrc = act.actual_source === "OHLC_INTERPOLATED" ? "일봉보간" : "실제(1분봉)";
+          html += `<div style="color:#fff;font-weight:700;">${tipSrc}(${act.ymd}): ${pct(act.c[i], 2)}</div>`;
         }
         tipEl.innerHTML = html;
         tipEl.style.display = "block";
@@ -1322,7 +1313,7 @@ window.__MC_SPEC_BUNDLE__ = {"latest_date":"2026-11-16","latest_has_started":fal
       btn.className = "mc-spec-pill" + (item.code === activeCode ? " active" : "") + (isDrop ? " dropped" : "");
       const prob = Math.round(((item.sim && item.sim.target) || 0) * 100);
       btn.textContent = isDrop
-        ? `#${item.rank} ${item.name} (탈락)`
+        ? `#${item.rank} ${item.name} (관망)`
         : `#${item.rank} ${item.name} (${prob}%)`;
       btn.onclick = () => window.openMinuteChart(item.code, item.name);
       pickerEl.appendChild(btn);

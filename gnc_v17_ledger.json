@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-15 23:03:52",
+  "updated_at": "2026-11-16 01:26:50",
   "active_version": "v2.0-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v2.0-FROZEN",
-    "engine_sha256": "65938c041ab026cc",
+    "engine_sha256": "00e64a96776dadf6",
     "preopen_logged_days": 1,
     "settled_preopen_days": 0,
     "min_required_days": 30,
