@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-11-16 20:10:45",
-  "evaluated_days": 28,
+  "updated_at": "2026-11-16 23:12:37",
+  "evaluated_days": 29,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 25.0,
-      "rank1_cum_return_pct": -31.11,
-      "top2_win_rate_pct": 33.9,
-      "top2_cum_return_pct": -18.02,
-      "top3_cum_return_pct": -33.36,
-      "top2_stop_losses": 31
+      "rank1_win_rate_pct": 24.1,
+      "rank1_cum_return_pct": -33.96,
+      "top2_win_rate_pct": 32.8,
+      "top2_cum_return_pct": -20.87,
+      "top3_cum_return_pct": -36.21,
+      "top2_stop_losses": 33
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 32.1,
-      "rank1_cum_return_pct": -15.59,
-      "top2_win_rate_pct": 35.7,
-      "top2_cum_return_pct": -18.53
+      "rank1_win_rate_pct": 31.0,
+      "rank1_cum_return_pct": -18.44,
+      "top2_win_rate_pct": 34.5,
+      "top2_cum_return_pct": -21.38
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
       "rank1_win_rate_pct": 27.3,
       "rank1_cum_return_pct": -4.78,
-      "top2_win_rate_pct": 42.9,
-      "top2_cum_return_pct": 15.72,
-      "top3_cum_return_pct": 2.5,
-      "top2_stop_losses": 22,
-      "expired_saved_stop_losses_count": 20,
-      "expired_saved_loss_pct": 61.2
+      "top2_win_rate_pct": 41.9,
+      "top2_cum_return_pct": 14.47,
+      "top3_cum_return_pct": 1.66,
+      "top2_stop_losses": 23,
+      "expired_saved_stop_losses_count": 22,
+      "expired_saved_loss_pct": 66.9
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 28.6,
-      "rank1_hit5_rate_pct": 60.7,
-      "rank1_cum_return_pct": -19.92,
-      "top2_win_rate_pct": 30.4,
-      "top2_cum_return_pct": -28.13,
-      "top3_cum_return_pct": -29.01,
-      "top2_stop_losses": 32
+      "rank1_win_rate_pct": 27.6,
+      "rank1_hit5_rate_pct": 58.6,
+      "rank1_cum_return_pct": -22.77,
+      "top2_win_rate_pct": 29.3,
+      "top2_cum_return_pct": -30.98,
+      "top3_cum_return_pct": -31.86,
+      "top2_stop_losses": 34
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
-      "rank1_win_rate_pct": 34.8,
-      "rank1_hit5_rate_pct": 73.9,
-      "rank1_triggered_days": 23,
-      "rank1_cum_return_pct": 16.1,
-      "top2_win_rate_pct": 40.5,
-      "top2_cum_return_pct": 11.98,
-      "top3_cum_return_pct": 5.62,
-      "top2_stop_losses": 24,
-      "filtered_saved_stop_losses_count": 14,
-      "filtered_saved_loss_pct": 50.8
+      "rank1_win_rate_pct": 33.3,
+      "rank1_hit5_rate_pct": 70.8,
+      "rank1_triggered_days": 24,
+      "rank1_cum_return_pct": 13.6,
+      "top2_win_rate_pct": 39.5,
+      "top2_cum_return_pct": 10.73,
+      "top3_cum_return_pct": 4.78,
+      "top2_stop_losses": 25,
+      "filtered_saved_stop_losses_count": 15,
+      "filtered_saved_loss_pct": 53.65
     }
   },
-  "upcoming_target_date": "2026-11-16",
+  "upcoming_target_date": "2026-11-17",
   "upcoming_v16_qfe_top5": [
-    "1위 오킨스전자(080580) | QFE점수 85.0점(v4:87.1점) | k-NN승률 42.6% | MC10K(+5%확률 36.1% / 손절 40.9%, EV +0.95%, Sharpe 0.26, Kelly 3.9%) | 노트: 🐂강세테마확산(70%,+4.5), 🧠과거손절이력(-6.5)",
-    "2위 이수페타시스(007660) | QFE점수 78.3점(v4:68.3점) | k-NN승률 32.1% | MC10K(+5%확률 63.4% / 손절 19.1%, EV +3.68%, Sharpe 0.94, Kelly 26.2%) | 노트: 💎AM대량수급윗꼬리흡수(65억,+3.0), 🐂강세테마확산(62%,+4.5)",
-    "3위 금호전기(001210) | QFE점수 75.5점(v4:75.8점) | k-NN승률 56.6% | MC10K(+5%확률 38.0% / 손절 41.4%, EV +1.13%, Sharpe 0.29, Kelly 5.3%) | 노트: 기본우위",
-    "4위 티엘비(356860) | QFE점수 66.3점(v4:68.2점) | k-NN승률 60.5% | MC10K(+5%확률 27.5% / 손절 50.0%, EV +0.11%, Sharpe 0.03, Kelly 0.0%) | 노트: 기본우위",
-    "5위 인텍플러스(064290) | QFE점수 64.0점(v4:88.8점) | k-NN승률 48.7% | MC10K(+5%확률 15.3% / 손절 65.6%, EV -0.99%, Sharpe -0.40, Kelly 0.0%) | 노트: 🚨VPIN윗꼬리매물벽(usr:37%,동조:60%,-14.0), 🧠과거손절이력(-6.5)"
+    "1위 한진칼(180640) | QFE점수 54.3점(v4:56.1점) | k-NN승률 40.5% | MC10K(+5%확률 30.1% / 손절 44.7%, EV +0.45%, Sharpe 0.13, Kelly 0.0%) | 노트: 기본우위",
+    "2위 사피엔반도체(452430) | QFE점수 53.9점(v4:69.1점) | k-NN승률 59.4% | MC10K(+5%확률 26.8% / 손절 52.2%, EV +0.00%, Sharpe 0.00, Kelly 0.0%) | 노트: 🚨VPIN윗꼬리매물벽(usr:46%,동조:25%,-14.0)",
+    "3위 피노(033790) | QFE점수 39.1점(v4:56.6점) | k-NN승률 72.7% | MC10K(+5%확률 16.7% / 손절 63.1%, EV -0.86%, Sharpe -0.33, Kelly 0.0%) | 노트: 🚨VPIN윗꼬리매물벽(usr:39%,동조:33%,-14.0)",
+    "4위 MDS테크(086960) | QFE점수 34.0점(v4:50.3점) | k-NN승률 69.9% | MC10K(+5%확률 15.9% / 손절 66.7%, EV -0.99%, Sharpe -0.39, Kelly 0.0%) | 노트: 🚨VPIN윗꼬리매물벽(usr:42%,동조:8%,-14.0)",
+    "5위 HD현대마린솔루션(443060) | QFE점수 29.5점(v4:47.4점) | k-NN승률 64.7% | MC10K(+5%확률 14.7% / 손절 65.3%, EV -1.00%, Sharpe -0.41, Kelly 0.0%) | 노트: 🚨VPIN윗꼬리매물벽(usr:40%,동조:38%,-14.0)"
   ],
   "daily_comparison": {
     "2026-10-06": {
@@ -761,6 +761,30 @@
         "raw_realized_pct": 1.39,
         "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
         "exec_realized_pct": 1.14
+      }
+    },
+    "2026-11-16": {
+      "qfe_rank1": {
+        "name": "금호전기",
+        "code": "001210",
+        "qfe_score": 75.5,
+        "v4_score": 75.8,
+        "notes": [],
+        "p_target": 38.0,
+        "ev_pct": 1.13,
+        "knn_win_rate": 56.6,
+        "high_pct": 3.69,
+        "raw_realized_pct": -2.85,
+        "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
+        "exec_realized_pct": -2.5
+      },
+      "qfe_rank2": {
+        "name": "티엘비",
+        "code": "356860",
+        "qfe_score": 66.3,
+        "raw_realized_pct": -2.85,
+        "exec_state": "EXPIRED (VAL_RECOVERY_ORB +3.00% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
       }
     }
   }

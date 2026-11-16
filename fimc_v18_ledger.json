@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-16 20:27:42",
+  "updated_at": "2026-11-16 23:23:31",
   "active_version": "v2.0-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v2.0-FROZEN",
     "engine_sha256": "00e64a96776dadf6",
-    "preopen_logged_days": 1,
+    "preopen_logged_days": 2,
     "settled_preopen_days": 1,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
@@ -55,7 +55,7 @@
     },
     "note": "과거 소급 재채점 비교치이며, 동결 전진검증 30거래일 누적 전까지 실전 승률 배지는 비활성화됨."
   },
-  "upcoming_target_date": "2026-11-16",
+  "upcoming_target_date": "2026-11-17",
   "daily_comparison": {
     "2026-10-01": {
       "before_orig_rank1": {
