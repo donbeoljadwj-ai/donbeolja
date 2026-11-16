@@ -2,7 +2,7 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-16 20:24:00",
+    "last_updated": "2026-11-16 20:26:07",
     "engine_version": "v2.9-ARGON"
   },
   "summary": {
@@ -2227,7 +2227,7 @@
           "catalyst": "[ARGON v4 76.0점], 👑 '기판' 독자대장주(동조율 57%), 고가유지 98.3% 밀착마감, 정규장 대금 215억 집중, 정규장 +15.34% 돌파",
           "am_hold_passed": false,
           "next_low_price": 18010,
-          "settlement_tier": "UNVERIFIED_1M_FALLBACK_OPEN"
+          "settlement_tier": "VERIFIED_1M_CHRONO"
         }
       ]
     }

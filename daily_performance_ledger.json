@@ -22,8 +22,8 @@
     "hit_stoploss_rate": 69.0,
     "avg_open_to_high_gain_pct": 6.14,
     "avg_open_to_close_gain_pct": -0.26,
-    "avg_realized_profit_pct": -0.41,
-    "last_updated": "2026-11-16 20:23:56"
+    "avg_realized_profit_pct": -0.25,
+    "last_updated": "2026-11-16 20:27:36"
   },
   "days": {
     "2026-10-01": {
@@ -7266,7 +7266,7 @@
     },
     "2026-11-16": {
       "date": "2026-11-16",
-      "recorded_at": "2026-11-16 20:23:56",
+      "recorded_at": "2026-11-16 20:27:36",
       "note": "2026-11-16 확정 정규장 일봉(09:00~15:30) + 1분봉 2단계 분할청산(+3.5%/+6.5%) + 비용 0.35% 정산",
       "data_integrity_tier": "CONFIRMED_REGULAR_BAR",
       "stock_count": 6,
@@ -7289,12 +7289,12 @@
           "hit_5pct": false,
           "hit_10pct": false,
           "hit_stoploss": true,
-          "hit_5pct_before_stop_1m": null,
-          "trade_result": "일봉 시가→종가 음봉 (-10.51% 세후)",
-          "realized_return_pct": -10.51,
+          "hit_5pct_before_stop_1m": false,
+          "trade_result": "[1분봉2단계검증] STOP_LOSS_FIRST (-2.85% 세후)",
+          "realized_return_pct": -2.85,
           "round_trip_cost_pct": 0.35,
           "data_integrity_tier": "CONFIRMED_REGULAR_BAR",
-          "bar_source": "CONFIRMED_KRX_REGULAR",
+          "bar_source": "0_KIS_DAILY_ARCHIVE",
           "catalyst": "엑시콘 확정 정규장 일봉 검증"
         },
         {
@@ -7315,12 +7315,12 @@
           "hit_5pct": false,
           "hit_10pct": false,
           "hit_stoploss": true,
-          "hit_5pct_before_stop_1m": null,
-          "trade_result": "일봉 시가→종가 음봉 (-7.96% 세후)",
-          "realized_return_pct": -7.96,
+          "hit_5pct_before_stop_1m": false,
+          "trade_result": "[1분봉2단계검증] STOP_LOSS_FIRST (-2.85% 세후)",
+          "realized_return_pct": -2.85,
           "round_trip_cost_pct": 0.35,
           "data_integrity_tier": "CONFIRMED_REGULAR_BAR",
-          "bar_source": "CONFIRMED_KRX_REGULAR",
+          "bar_source": "0_KIS_DAILY_ARCHIVE",
           "catalyst": "서산 확정 정규장 일봉 검증"
         },
         {
@@ -7341,12 +7341,12 @@
           "hit_5pct": false,
           "hit_10pct": false,
           "hit_stoploss": true,
-          "hit_5pct_before_stop_1m": null,
-          "trade_result": "일봉 시가→종가 음봉 (-11.16% 세후)",
-          "realized_return_pct": -11.16,
+          "hit_5pct_before_stop_1m": false,
+          "trade_result": "[1분봉2단계검증] STOP_LOSS_FIRST (-2.85% 세후)",
+          "realized_return_pct": -2.85,
           "round_trip_cost_pct": 0.35,
           "data_integrity_tier": "CONFIRMED_REGULAR_BAR",
-          "bar_source": "CONFIRMED_KRX_REGULAR",
+          "bar_source": "0_KIS_DAILY_ARCHIVE",
           "catalyst": "금호전기 확정 정규장 일봉 검증"
         },
         {
@@ -7367,12 +7367,12 @@
           "hit_5pct": false,
           "hit_10pct": false,
           "hit_stoploss": true,
-          "hit_5pct_before_stop_1m": null,
-          "trade_result": "일봉 시가→종가 음봉 (-10.84% 세후)",
-          "realized_return_pct": -10.84,
+          "hit_5pct_before_stop_1m": false,
+          "trade_result": "[1분봉2단계검증] STOP_LOSS_FIRST (-2.85% 세후)",
+          "realized_return_pct": -2.85,
           "round_trip_cost_pct": 0.35,
           "data_integrity_tier": "CONFIRMED_REGULAR_BAR",
-          "bar_source": "CONFIRMED_KRX_REGULAR",
+          "bar_source": "0_KIS_DAILY_ARCHIVE",
           "catalyst": "티엘비 확정 정규장 일봉 검증"
         },
         {
@@ -7393,12 +7393,12 @@
           "hit_5pct": false,
           "hit_10pct": false,
           "hit_stoploss": true,
-          "hit_5pct_before_stop_1m": null,
-          "trade_result": "일봉 시가→종가 음봉 (-11.56% 세후)",
-          "realized_return_pct": -11.56,
+          "hit_5pct_before_stop_1m": false,
+          "trade_result": "[1분봉2단계검증] STOP_LOSS_FIRST (-2.85% 세후)",
+          "realized_return_pct": -2.85,
           "round_trip_cost_pct": 0.35,
           "data_integrity_tier": "CONFIRMED_REGULAR_BAR",
-          "bar_source": "CONFIRMED_KRX_REGULAR",
+          "bar_source": "0_KIS_DAILY_ARCHIVE",
           "catalyst": "인텍플러스 확정 정규장 일봉 검증"
         },
         {
@@ -7419,12 +7419,12 @@
           "hit_5pct": false,
           "hit_10pct": false,
           "hit_stoploss": true,
-          "hit_5pct_before_stop_1m": null,
-          "trade_result": "일봉 시가→종가 음봉 (-8.27% 세후)",
-          "realized_return_pct": -8.27,
+          "hit_5pct_before_stop_1m": false,
+          "trade_result": "[1분봉2단계검증] STOP_LOSS_FIRST (-2.85% 세후)",
+          "realized_return_pct": -2.85,
           "round_trip_cost_pct": 0.35,
           "data_integrity_tier": "CONFIRMED_REGULAR_BAR",
-          "bar_source": "CONFIRMED_KRX_REGULAR",
+          "bar_source": "0_KIS_DAILY_ARCHIVE",
           "catalyst": "티에프이 확정 정규장 일봉 검증"
         }
       ]
