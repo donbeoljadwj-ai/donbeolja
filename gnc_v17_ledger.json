@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16 15:13:24",
+  "updated_at": "2026-11-16 20:11:12",
   "active_version": "v2.0-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
@@ -37,21 +37,21 @@
       "rank1_hit5_daily_rate_pct": 80.0,
       "rank1_net_wins": 19,
       "rank1_net_win_rate_pct": 63.3,
-      "rank1_mean_net_pct": 2.63,
-      "rank1_cum_net_pct": 78.89
+      "rank1_mean_net_pct": 2.57,
+      "rank1_cum_net_pct": 77.08
     },
     "v1_after_v20_gap_and_2stage_rank1": {
       "all_recommended_days": 30,
-      "active_traded_days": 13,
+      "active_traded_days": 14,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit35_count": 10,
-      "rank1_hit35_rate_pct": 76.9,
-      "rank1_hit5_daily_count": 9,
-      "rank1_hit5_daily_rate_pct": 69.2,
-      "rank1_net_wins": 5,
-      "rank1_net_win_rate_pct": 38.5,
-      "rank1_mean_net_pct": 0.02,
-      "rank1_cum_net_pct": 0.45
+      "rank1_hit35_count": 11,
+      "rank1_hit35_rate_pct": 78.6,
+      "rank1_hit5_daily_count": 10,
+      "rank1_hit5_daily_rate_pct": 71.4,
+      "rank1_net_wins": 6,
+      "rank1_net_win_rate_pct": 42.9,
+      "rank1_mean_net_pct": 0.17,
+      "rank1_cum_net_pct": 5.1
     },
     "note": "과거 소급 재채점 비교치이며, 동결 전진검증 30거래일 누적 전까지 실전 승률 배지는 비활성화됨."
   },
@@ -68,7 +68,7 @@
       "after_v20_rank1": {
         "name": "성호전자",
         "code": "043260",
-        "atr20_pct": 10.412,
+        "atr20_pct": 10.444,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -2.56,
@@ -90,7 +90,7 @@
       "after_v20_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.606,
+        "atr20_pct": 11.655,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -3.06,
@@ -112,8 +112,8 @@
       "after_v20_rank1": {
         "name": "코리아써키트",
         "code": "007810",
-        "atr20_pct": 12.755,
-        "score": 98.72,
+        "atr20_pct": 12.766,
+        "score": 98.77,
         "gap_band_ok": true,
         "open_gap_pct": 1.93,
         "o2h_pct": 6.51,
@@ -134,8 +134,8 @@
       "after_v20_rank1": {
         "name": "빛과전자",
         "code": "069540",
-        "atr20_pct": 10.944,
-        "score": 89.9,
+        "atr20_pct": 10.965,
+        "score": 90.01,
         "gap_band_ok": true,
         "open_gap_pct": -0.39,
         "o2h_pct": 16.99,
@@ -156,8 +156,8 @@
       "after_v20_rank1": {
         "name": "주성엔지니어링",
         "code": "036930",
-        "atr20_pct": 9.742,
-        "score": 84.9,
+        "atr20_pct": 9.768,
+        "score": 85.03,
         "gap_band_ok": true,
         "open_gap_pct": 0.4,
         "o2h_pct": 10.3,
@@ -178,8 +178,8 @@
       "after_v20_rank1": {
         "name": "한빛레이저",
         "code": "452190",
-        "atr20_pct": 9.315,
-        "score": 86.4,
+        "atr20_pct": 9.326,
+        "score": 86.45,
         "gap_band_ok": true,
         "open_gap_pct": 1.11,
         "o2h_pct": 5.66,
@@ -266,8 +266,8 @@
       "after_v20_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 15.533,
-        "score": 116.14,
+        "atr20_pct": 15.615,
+        "score": 116.55,
         "gap_band_ok": false,
         "open_gap_pct": 4.86,
         "o2h_pct": 9.86,
@@ -288,8 +288,8 @@
       "after_v20_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 15.866,
-        "score": 112.93,
+        "atr20_pct": 15.88,
+        "score": 113.0,
         "gap_band_ok": false,
         "open_gap_pct": -6.19,
         "o2h_pct": 32.99,
@@ -310,8 +310,8 @@
       "after_v20_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 15.866,
-        "score": 111.02,
+        "atr20_pct": 15.88,
+        "score": 111.09,
         "gap_band_ok": true,
         "open_gap_pct": -0.8,
         "o2h_pct": 2.26,
@@ -330,16 +330,16 @@
         "hit_5pct_daily": true
       },
       "after_v20_rank1": {
-        "name": "양지사",
-        "code": "030960",
-        "atr20_pct": 13.22,
-        "score": 108.18,
-        "gap_band_ok": false,
-        "open_gap_pct": -4.59,
-        "o2h_pct": 9.94,
-        "o2c_net_pct": 2.91,
-        "two_stage_net_pct": 0.0,
-        "hit_35pct_daily": false,
+        "name": "토마토시스템",
+        "code": "393210",
+        "atr20_pct": 15.615,
+        "score": 108.33,
+        "gap_band_ok": true,
+        "open_gap_pct": 1.77,
+        "o2h_pct": 9.12,
+        "o2c_net_pct": 1.1,
+        "two_stage_net_pct": 4.65,
+        "hit_35pct_daily": true,
         "hit_5pct_daily": true
       }
     },
