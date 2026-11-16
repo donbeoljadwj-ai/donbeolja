@@ -2,18 +2,18 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-16 01:39:01",
+    "last_updated": "2026-11-16 15:11:13",
     "engine_version": "v2.9-ARGON"
   },
   "summary": {
-    "total_trades": 89,
-    "win_trades": 51,
-    "win_rate_pct": 57.3,
+    "total_trades": 91,
+    "win_trades": 52,
+    "win_rate_pct": 57.1,
     "hit_am_3pct_count": 24,
-    "hit_am_3pct_rate": 27.0,
-    "hit_next_5pct_rate": 36.0,
-    "avg_realized_profit_pct": 1.02,
-    "stop_loss_rate": 43.8
+    "hit_am_3pct_rate": 26.4,
+    "hit_next_5pct_rate": 35.2,
+    "avg_realized_profit_pct": 1.01,
+    "stop_loss_rate": 42.9
   },
   "days": {
     "2026-10-02": {
@@ -1758,8 +1758,8 @@
           "am_high_gain_pct": 1.77,
           "next_open_price": 25150,
           "next_open_gap_pct": -11.13,
-          "next_high_price": 27450,
-          "next_max_gain_pct": -3.0,
+          "next_high_price": 27250,
+          "next_max_gain_pct": -3.71,
           "next_close_price": 26450,
           "next_close_gain_pct": -6.54,
           "hit_am_3pct": false,
@@ -1781,8 +1781,8 @@
           "am_high_gain_pct": 2.05,
           "next_open_price": 66300,
           "next_open_gap_pct": -14.89,
-          "next_high_price": 81000,
-          "next_max_gain_pct": 3.98,
+          "next_high_price": 79700,
+          "next_max_gain_pct": 2.31,
           "next_close_price": 76600,
           "next_close_gain_pct": -1.67,
           "hit_am_3pct": false,
@@ -2104,7 +2104,7 @@
           "is_win": false,
           "catalyst": "[ARGON v4 83.7점], 👑 '반도체 장비' 독자대장주(동조율 97%), 고가유지 99.0% 밀착마감, 정규장 대금 121억 집중, 정규장 +16.60% 돌파",
           "am_hold_passed": false,
-          "next_low_price": 7200
+          "next_low_price": 7350
         },
         {
           "rank": 4,
@@ -2150,7 +2150,7 @@
           "is_win": false,
           "catalyst": "[ARGON v4 77.0점], 테마 '반도체 장비'(동조율 97%), 고가유지 99.8% 밀착마감, 정규장 대금 512억 집중, 정규장 +11.03% 돌파",
           "am_hold_passed": false,
-          "next_low_price": 26550
+          "next_low_price": 28700
         },
         {
           "rank": 6,
@@ -2189,20 +2189,21 @@
           "entry_price": 43500,
           "am_high_price": 44450,
           "am_high_gain_pct": 2.18,
-          "next_open_price": 0,
-          "next_open_gap_pct": 0.0,
-          "next_high_price": 0,
-          "next_max_gain_pct": 0.0,
-          "next_close_price": 0,
-          "next_close_gain_pct": 0.0,
+          "next_open_price": 43650,
+          "next_open_gap_pct": 0.34,
+          "next_high_price": 45850,
+          "next_max_gain_pct": 5.4,
+          "next_close_price": 44100,
+          "next_close_gain_pct": 1.38,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
           "hit_stoploss": false,
-          "realized_return_pct": 0.0,
-          "trade_result": "⏳ 당일 AM 최고 +2.18% (AM지지 통과 ➜ 익일 +5.5% 감시)",
+          "realized_return_pct": 1.08,
+          "trade_result": "⏳ 익일 종가 청산 (세후 +1.08%)",
           "is_win": true,
           "catalyst": "[ARGON v4 80.3점], 👑 'K-팝 엔터테인먼트' 독자대장주(동조율 71%), 고가유지 98.0% 밀착마감, 정규장 대금 282억 집중, 정규장 +16.54% 돌파",
-          "am_hold_passed": true
+          "am_hold_passed": true,
+          "next_low_price": 43400
         },
         {
           "rank": 2,
@@ -2211,20 +2212,22 @@
           "entry_price": 19340,
           "am_high_price": 19670,
           "am_high_gain_pct": 1.71,
-          "next_open_price": 0,
-          "next_open_gap_pct": 0.0,
-          "next_high_price": 0,
-          "next_max_gain_pct": 0.0,
-          "next_close_price": 0,
-          "next_close_gain_pct": 0.0,
+          "next_open_price": 19280,
+          "next_open_gap_pct": -0.31,
+          "next_high_price": 19490,
+          "next_max_gain_pct": 0.78,
+          "next_close_price": 18450,
+          "next_close_gain_pct": -4.6,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
           "hit_stoploss": false,
-          "realized_return_pct": 0.0,
-          "trade_result": "⚠️ 당일 AM +1.71% (+2% 미달 ➜ 익일 09:15 타임스탑 대상)",
-          "is_win": true,
+          "realized_return_pct": -0.61,
+          "trade_result": "⚠️ 09:15 1분봉미수신·시가보수추정 (-0.61%)",
+          "is_win": false,
           "catalyst": "[ARGON v4 76.0점], 👑 '기판' 독자대장주(동조율 57%), 고가유지 98.3% 밀착마감, 정규장 대금 215억 집중, 정규장 +15.34% 돌파",
-          "am_hold_passed": false
+          "am_hold_passed": false,
+          "next_low_price": 18010,
+          "settlement_tier": "UNVERIFIED_1M_FALLBACK_OPEN"
         }
       ]
     }
