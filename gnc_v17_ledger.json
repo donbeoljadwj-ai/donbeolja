@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-17 20:11:11",
-  "active_version": "v2.0-FROZEN",
+  "updated_at": "2026-11-17 22:55:29",
+  "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
-    "engine_version": "v2.0-FROZEN",
-    "engine_sha256": "00e64a96776dadf6",
-    "preopen_logged_days": 2,
-    "settled_preopen_days": 2,
+    "engine_version": "v1.9-FROZEN",
+    "engine_sha256": "a42c86dcaae6e937",
+    "preopen_logged_days": 0,
+    "settled_preopen_days": 0,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
-    "status_badge": "엔진 동결 전진검증 누적 중 (2/30일 · 30거래일 미만 승률 미표시)"
+    "status_badge": "엔진 동결 전진검증 누적 중 (0/30일 · 30거래일 미만 승률 미표시)"
   },
   "evaluated_days": 32,
   "honest_regular_bar_comparison": {
@@ -37,8 +37,8 @@
       "rank1_hit5_daily_rate_pct": 75.0,
       "rank1_net_wins": 19,
       "rank1_net_win_rate_pct": 59.4,
-      "rank1_mean_net_pct": 1.34,
-      "rank1_cum_net_pct": 42.85
+      "rank1_mean_net_pct": 1.92,
+      "rank1_cum_net_pct": 61.39
     },
     "v1_after_v20_gap_and_2stage_rank1": {
       "all_recommended_days": 32,
@@ -50,10 +50,19 @@
       "rank1_hit5_daily_rate_pct": 66.7,
       "rank1_net_wins": 6,
       "rank1_net_win_rate_pct": 40.0,
-      "rank1_mean_net_pct": 0.05,
-      "rank1_cum_net_pct": 1.67
+      "rank1_mean_net_pct": 0.07,
+      "rank1_cum_net_pct": 2.25
     },
-    "note": "과거 소급 재채점 비교치이며, 동결 전진검증 30거래일 누적 전까지 실전 승률 배지는 비활성화됨."
+    "v19_last10_summary": {
+      "days": 10,
+      "wins": 7,
+      "win_rate_pct": 70.0,
+      "hit5_count": 8,
+      "hit5_rate_pct": 80.0,
+      "cum_net_pct": 30.46,
+      "mean_net_pct": 3.05
+    },
+    "note": "v1.9-FROZEN (ATR20 클린 엔진) 기준으로 즉시 복원 완료."
   },
   "upcoming_target_date": "2026-11-17",
   "daily_comparison": {
@@ -65,10 +74,20 @@
         "o2c_net_pct": 6.59,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "성호전자",
+        "code": "043260",
+        "atr20_pct": 13.496,
+        "score": 0.0,
+        "open_gap_pct": -2.56,
+        "o2h_pct": 6.94,
+        "o2c_net_pct": 6.59,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "성호전자",
         "code": "043260",
-        "atr20_pct": 10.689,
+        "atr20_pct": 13.496,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -2.56,
@@ -87,10 +106,20 @@
         "o2c_net_pct": -5.42,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "디아이",
+        "code": "003160",
+        "atr20_pct": 14.766,
+        "score": 0.0,
+        "open_gap_pct": -3.06,
+        "o2h_pct": 6.55,
+        "o2c_net_pct": 3.53,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.411,
+        "atr20_pct": 14.766,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -3.06,
@@ -109,16 +138,26 @@
         "o2c_net_pct": 2.62,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "코리아써키트",
+        "code": "007810",
+        "atr20_pct": 15.386,
+        "score": 111.87,
+        "open_gap_pct": 1.93,
+        "o2h_pct": 6.51,
+        "o2c_net_pct": 4.62,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
-        "name": "아이비젼웍스",
-        "code": "469750",
-        "atr20_pct": 12.299,
-        "score": 96.68,
+        "name": "코리아써키트",
+        "code": "007810",
+        "atr20_pct": 15.386,
+        "score": 111.87,
         "gap_band_ok": true,
         "open_gap_pct": 1.93,
-        "o2h_pct": 5.86,
-        "o2c_net_pct": 4.99,
-        "two_stage_net_pct": 4.07,
+        "o2h_pct": 6.51,
+        "o2c_net_pct": 4.62,
+        "two_stage_net_pct": 4.65,
         "hit_35pct_daily": true,
         "hit_5pct_daily": true
       }
@@ -131,11 +170,21 @@
         "o2c_net_pct": -6.12,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "빛과전자",
+        "code": "069540",
+        "atr20_pct": 14.926,
+        "score": 109.81,
+        "open_gap_pct": -0.39,
+        "o2h_pct": 16.99,
+        "o2c_net_pct": 1.41,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "빛과전자",
         "code": "069540",
-        "atr20_pct": 10.867,
-        "score": 89.52,
+        "atr20_pct": 14.926,
+        "score": 109.81,
         "gap_band_ok": true,
         "open_gap_pct": -0.39,
         "o2h_pct": 16.99,
@@ -153,11 +202,21 @@
         "o2c_net_pct": 5.59,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "주성엔지니어링",
+        "code": "036930",
+        "atr20_pct": 13.183,
+        "score": 102.1,
+        "open_gap_pct": 0.4,
+        "o2h_pct": 10.3,
+        "o2c_net_pct": 5.59,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "주성엔지니어링",
         "code": "036930",
-        "atr20_pct": 9.817,
-        "score": 85.27,
+        "atr20_pct": 13.183,
+        "score": 102.1,
         "gap_band_ok": true,
         "open_gap_pct": 0.4,
         "o2h_pct": 10.3,
@@ -175,11 +234,21 @@
         "o2c_net_pct": -0.63,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "한빛레이저",
+        "code": "452190",
+        "atr20_pct": 13.95,
+        "score": 109.57,
+        "open_gap_pct": 1.11,
+        "o2h_pct": 5.66,
+        "o2c_net_pct": -2.39,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "한빛레이저",
         "code": "452190",
-        "atr20_pct": 9.318,
-        "score": 86.41,
+        "atr20_pct": 13.95,
+        "score": 109.57,
         "gap_band_ok": true,
         "open_gap_pct": 1.11,
         "o2h_pct": 5.66,
@@ -197,11 +266,21 @@
         "o2c_net_pct": 9.47,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "라온시큐어",
+        "code": "042510",
+        "atr20_pct": 16.686,
+        "score": 118.93,
+        "open_gap_pct": -4.42,
+        "o2h_pct": 26.22,
+        "o2c_net_pct": 9.47,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "라온시큐어",
         "code": "042510",
-        "atr20_pct": 11.877,
-        "score": 94.88,
+        "atr20_pct": 16.686,
+        "score": 118.93,
         "gap_band_ok": false,
         "open_gap_pct": -4.42,
         "o2h_pct": 26.22,
@@ -219,11 +298,21 @@
         "o2c_net_pct": -1.36,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "안랩",
+        "code": "053800",
+        "atr20_pct": 16.056,
+        "score": 115.57,
+        "open_gap_pct": -2.51,
+        "o2h_pct": 8.9,
+        "o2c_net_pct": 4.57,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "안랩",
         "code": "053800",
-        "atr20_pct": 13.348,
-        "score": 102.03,
+        "atr20_pct": 16.056,
+        "score": 115.57,
         "gap_band_ok": false,
         "open_gap_pct": -2.51,
         "o2h_pct": 8.9,
@@ -241,11 +330,21 @@
         "o2c_net_pct": -5.63,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "비나텍",
+        "code": "126340",
+        "atr20_pct": 16.877,
+        "score": 119.52,
+        "open_gap_pct": -9.27,
+        "o2h_pct": 3.4,
+        "o2c_net_pct": -5.27,
+        "hit_5pct_daily": false
+      },
       "after_v20_rank1": {
         "name": "비나텍",
         "code": "126340",
-        "atr20_pct": 12.721,
-        "score": 98.74,
+        "atr20_pct": 16.877,
+        "score": 119.52,
         "gap_band_ok": false,
         "open_gap_pct": -9.27,
         "o2h_pct": 3.4,
@@ -263,11 +362,21 @@
         "o2c_net_pct": -0.45,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "토마토시스템",
+        "code": "393210",
+        "atr20_pct": 19.046,
+        "score": 133.71,
+        "open_gap_pct": 4.86,
+        "o2h_pct": 9.86,
+        "o2c_net_pct": -5.28,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 15.128,
-        "score": 114.12,
+        "atr20_pct": 19.046,
+        "score": 133.71,
         "gap_band_ok": false,
         "open_gap_pct": 4.86,
         "o2h_pct": 9.86,
@@ -285,15 +394,25 @@
         "o2c_net_pct": -4.03,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "알멕",
+        "code": "354320",
+        "atr20_pct": 21.516,
+        "score": 141.18,
+        "open_gap_pct": -6.19,
+        "o2h_pct": 32.99,
+        "o2c_net_pct": 28.72,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
-        "name": "엑시콘",
-        "code": "092870",
-        "atr20_pct": 14.161,
-        "score": 113.28,
+        "name": "알멕",
+        "code": "354320",
+        "atr20_pct": 21.516,
+        "score": 141.18,
         "gap_band_ok": false,
-        "open_gap_pct": -9.06,
-        "o2h_pct": 16.87,
-        "o2c_net_pct": 9.81,
+        "open_gap_pct": -6.19,
+        "o2h_pct": 32.99,
+        "o2c_net_pct": 28.72,
         "two_stage_net_pct": 0.0,
         "hit_35pct_daily": false,
         "hit_5pct_daily": true
@@ -307,11 +426,21 @@
         "o2c_net_pct": -6.8,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "알멕",
+        "code": "354320",
+        "atr20_pct": 21.516,
+        "score": 139.27,
+        "open_gap_pct": -0.8,
+        "o2h_pct": 2.26,
+        "o2c_net_pct": -6.8,
+        "hit_5pct_daily": false
+      },
       "after_v20_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 15.681,
-        "score": 110.09,
+        "atr20_pct": 21.516,
+        "score": 139.27,
         "gap_band_ok": true,
         "open_gap_pct": -0.8,
         "o2h_pct": 2.26,
@@ -329,11 +458,21 @@
         "o2c_net_pct": 7.6,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "토마토시스템",
+        "code": "393210",
+        "atr20_pct": 19.046,
+        "score": 125.49,
+        "open_gap_pct": 1.77,
+        "o2h_pct": 9.12,
+        "o2c_net_pct": 1.1,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 15.128,
-        "score": 105.9,
+        "atr20_pct": 19.046,
+        "score": 125.49,
         "gap_band_ok": true,
         "open_gap_pct": 1.77,
         "o2h_pct": 9.12,
@@ -349,6 +488,16 @@
         "code": "052460",
         "o2h_pct": 1.36,
         "o2c_net_pct": -13.57,
+        "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
+        "name": "세아메카닉스",
+        "code": "396300",
+        "atr20_pct": 15.034,
+        "score": 121.82,
+        "open_gap_pct": -5.08,
+        "o2h_pct": 0.46,
+        "o2c_net_pct": -7.18,
         "hit_5pct_daily": false
       },
       "after_v20_rank1": {
@@ -373,6 +522,16 @@
         "o2c_net_pct": -5.06,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "토마토시스템",
+        "code": "393210",
+        "atr20_pct": 20.258,
+        "score": 140.56,
+        "open_gap_pct": -2.28,
+        "o2h_pct": 8.29,
+        "o2c_net_pct": -4.37,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "토마토시스템",
         "code": "393210",
@@ -394,6 +553,16 @@
         "o2h_pct": 1.24,
         "o2c_net_pct": -10.57,
         "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
+        "name": "지투지바이오",
+        "code": "456160",
+        "atr20_pct": 12.619,
+        "score": 109.41,
+        "open_gap_pct": -1.81,
+        "o2h_pct": 7.19,
+        "o2c_net_pct": -7.54,
+        "hit_5pct_daily": true
       },
       "after_v20_rank1": {
         "name": "지투지바이오",
@@ -417,6 +586,16 @@
         "o2c_net_pct": -0.95,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "토마토시스템",
+        "code": "393210",
+        "atr20_pct": 18.827,
+        "score": 125.57,
+        "open_gap_pct": -3.34,
+        "o2h_pct": 18.8,
+        "o2c_net_pct": 4.89,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "토마토시스템",
         "code": "393210",
@@ -438,6 +617,16 @@
         "o2h_pct": 2.5,
         "o2c_net_pct": 0.03,
         "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
+        "name": "한양디지텍",
+        "code": "078350",
+        "atr20_pct": 14.479,
+        "score": 118.39,
+        "open_gap_pct": 6.41,
+        "o2h_pct": 5.04,
+        "o2c_net_pct": 0.51,
+        "hit_5pct_daily": true
       },
       "after_v20_rank1": {
         "name": "한양디지텍",
@@ -461,6 +650,16 @@
         "o2c_net_pct": 2.21,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "엑시콘",
+        "code": "092870",
+        "atr20_pct": 15.787,
+        "score": 121.03,
+        "open_gap_pct": -1.47,
+        "o2h_pct": 1.19,
+        "o2c_net_pct": -2.89,
+        "hit_5pct_daily": false
+      },
       "after_v20_rank1": {
         "name": "엑시콘",
         "code": "092870",
@@ -483,6 +682,16 @@
         "o2c_net_pct": -8.6,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "서산",
+        "code": "079650",
+        "atr20_pct": 17.826,
+        "score": 127.35,
+        "open_gap_pct": -2.38,
+        "o2h_pct": 4.36,
+        "o2c_net_pct": -7.67,
+        "hit_5pct_daily": false
+      },
       "after_v20_rank1": {
         "name": "서산",
         "code": "079650",
@@ -501,6 +710,16 @@
       "before_orig_rank1": {
         "name": "라온로보틱스",
         "code": "232680",
+        "o2h_pct": 14.62,
+        "o2c_net_pct": 11.78,
+        "hit_5pct_daily": true
+      },
+      "after_v19_rank1": {
+        "name": "라온로보틱스",
+        "code": "232680",
+        "atr20_pct": 8.757,
+        "score": 90.62,
+        "open_gap_pct": 3.17,
         "o2h_pct": 14.62,
         "o2c_net_pct": 11.78,
         "hit_5pct_daily": true
@@ -527,6 +746,16 @@
         "o2c_net_pct": 2.02,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "OCI홀딩스",
+        "code": "010060",
+        "atr20_pct": 10.805,
+        "score": 98.99,
+        "open_gap_pct": -0.43,
+        "o2h_pct": 0.86,
+        "o2c_net_pct": -2.46,
+        "hit_5pct_daily": false
+      },
       "after_v20_rank1": {
         "name": "OCI홀딩스",
         "code": "010060",
@@ -549,6 +778,16 @@
         "o2c_net_pct": -3.35,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "진양화학",
+        "code": "051630",
+        "atr20_pct": 17.566,
+        "score": 123.53,
+        "open_gap_pct": 3.35,
+        "o2h_pct": 5.27,
+        "o2c_net_pct": 1.0,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "진양화학",
         "code": "051630",
@@ -567,6 +806,16 @@
       "before_orig_rank1": {
         "name": "HD현대에너지솔루션",
         "code": "322000",
+        "o2h_pct": 7.67,
+        "o2c_net_pct": -0.46,
+        "hit_5pct_daily": true
+      },
+      "after_v19_rank1": {
+        "name": "HD현대에너지솔루션",
+        "code": "322000",
+        "atr20_pct": 13.8,
+        "score": 119.7,
+        "open_gap_pct": -1.1,
         "o2h_pct": 7.67,
         "o2c_net_pct": -0.46,
         "hit_5pct_daily": true
@@ -593,6 +842,16 @@
         "o2c_net_pct": -5.65,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "씨에스윈드",
+        "code": "112610",
+        "atr20_pct": 10.469,
+        "score": 90.69,
+        "open_gap_pct": -6.84,
+        "o2h_pct": 14.35,
+        "o2c_net_pct": 9.93,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "씨에스윈드",
         "code": "112610",
@@ -615,6 +874,16 @@
         "o2c_net_pct": -0.35,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "혜인",
+        "code": "003010",
+        "atr20_pct": 16.555,
+        "score": 119.13,
+        "open_gap_pct": 5.79,
+        "o2h_pct": 10.59,
+        "o2c_net_pct": 1.63,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "혜인",
         "code": "003010",
@@ -635,6 +904,16 @@
         "code": "180640",
         "o2h_pct": 14.49,
         "o2c_net_pct": 11.33,
+        "hit_5pct_daily": true
+      },
+      "after_v19_rank1": {
+        "name": "RFHIC",
+        "code": "218410",
+        "atr20_pct": 14.209,
+        "score": 120.67,
+        "open_gap_pct": 8.97,
+        "o2h_pct": 11.16,
+        "o2c_net_pct": 9.29,
         "hit_5pct_daily": true
       },
       "after_v20_rank1": {
@@ -659,6 +938,16 @@
         "o2c_net_pct": -3.43,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "케이씨텍",
+        "code": "281820",
+        "atr20_pct": 15.992,
+        "score": 125.16,
+        "open_gap_pct": -0.79,
+        "o2h_pct": 17.83,
+        "o2c_net_pct": 16.53,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "케이씨텍",
         "code": "281820",
@@ -677,6 +966,16 @@
       "before_orig_rank1": {
         "name": "엑시콘",
         "code": "092870",
+        "o2h_pct": 5.88,
+        "o2c_net_pct": 0.17,
+        "hit_5pct_daily": true
+      },
+      "after_v19_rank1": {
+        "name": "엑시콘",
+        "code": "092870",
+        "atr20_pct": 15.879,
+        "score": 119.66,
+        "open_gap_pct": -3.83,
         "o2h_pct": 5.88,
         "o2c_net_pct": 0.17,
         "hit_5pct_daily": true
@@ -703,6 +1002,16 @@
         "o2c_net_pct": 8.06,
         "hit_5pct_daily": true
       },
+      "after_v19_rank1": {
+        "name": "지니언스",
+        "code": "263860",
+        "atr20_pct": 14.84,
+        "score": 114.65,
+        "open_gap_pct": -1.8,
+        "o2h_pct": 11.47,
+        "o2c_net_pct": 8.06,
+        "hit_5pct_daily": true
+      },
       "after_v20_rank1": {
         "name": "지니언스",
         "code": "263860",
@@ -725,6 +1034,16 @@
         "o2c_net_pct": -10.51,
         "hit_5pct_daily": false
       },
+      "after_v19_rank1": {
+        "name": "엑시콘",
+        "code": "092870",
+        "atr20_pct": 17.606,
+        "score": 99.8,
+        "open_gap_pct": -0.8,
+        "o2h_pct": 0.0,
+        "o2c_net_pct": -10.51,
+        "hit_5pct_daily": false
+      },
       "after_v20_rank1": {
         "name": "엑시콘",
         "code": "092870",
@@ -743,6 +1062,16 @@
       "before_orig_rank1": {
         "name": "피앤에스로보틱스",
         "code": "460940",
+        "o2h_pct": 2.7,
+        "o2c_net_pct": -5.18,
+        "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
+        "name": "피앤에스로보틱스",
+        "code": "460940",
+        "atr20_pct": 13.479,
+        "score": 99.8,
+        "open_gap_pct": -2.63,
         "o2h_pct": 2.7,
         "o2c_net_pct": -5.18,
         "hit_5pct_daily": false
