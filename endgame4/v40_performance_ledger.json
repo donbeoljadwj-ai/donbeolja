@@ -3,11 +3,11 @@
   "engine_version": "v4.3-FROZEN",
   "after_market_data_usage_pct": 0.0,
   "round_trip_cost_pct": 0.35,
-  "upcoming_target_date": "2026-11-17",
+  "upcoming_target_date": "2026-11-18",
   "audit_notice": "외부 리포트(dante/study/endgame_v40_backtest_report.json)에서 복사했던 기존 27일 원장(84%/96%)은 엔진 자체 필터와 불일치(25개 전수 탈락, 실가동 0일)하므로 data/quarantine/으로 격리 폐기함. 동결 엔진(v4.1-FROZEN) 개장 전 타임스탬프 로그 기준 30거래일 누적 전까지 실전 승률을 표시하지 않음.",
   "summary": {
-    "total_trading_days": 4,
-    "active_entry_days": 4,
+    "total_trading_days": 5,
+    "active_entry_days": 5,
     "gap_skip_days": 0,
     "o2c_net_wins": 1,
     "round_trip_cost_pct": 0.35,
@@ -87,7 +87,25 @@
       "v40_2stage_net_pct": -2.85,
       "v40_result": "🔴 LOSS (2단세후 -2.85% · 종가세후 -17.51% · 고가+0.00%)",
       "selection_note": "1분봉검증:STOP_LOSS_FIRST | 시초갭 -0.90% (GAP_FAVORABLE (-0.90%)) | ★20일 시가+5%슈팅빈도 60%(12/20일) · ★20일평균O2H +7.56% · 5일ATR 13.59% · ★연기금·보험·사모 순매수(+6.4억) · ★외인·기관 순매수(+25.0억) · ★건전윗꼬리 매물소화(usr 0.117)"
+    },
+    {
+      "day_idx": 5,
+      "date": "2026-11-17 (v4.3-FROZEN)",
+      "target_date": "2026-11-17",
+      "engine_version": "v4.3-FROZEN",
+      "v40_pick": "한진칼 (180640)",
+      "v40_score": 79.5,
+      "stock_open_gap_pct": -0.46,
+      "gap_gate_passed": true,
+      "hit_stage1_35pct": false,
+      "hit_open_plus_5pct": false,
+      "v40_o2h_pct": 1.61,
+      "v40_o2c_gross_pct": -0.92,
+      "v40_o2c_pct": -1.27,
+      "v40_2stage_net_pct": -2.85,
+      "v40_result": "🔴 LOSS (2단세후 -2.85% · 종가세후 -1.27% · 고가+1.61%)",
+      "selection_note": "1분봉검증:STOP_LOSS_FIRST | 시초갭 -0.46% (GAP_FAVORABLE (-0.46%)) | ★20일 시가+5%슈팅빈도 45%(9/20일) · ★20일평균O2H +6.65% · 5일ATR 14.00% · ★연기금·보험·사모 순매수(+54.4억) · ★외인·기관 순매수(+193.4억) · ★건전윗꼬리 매물소화(usr 0.150)"
     }
   ],
-  "last_updated": "2026-11-16 23:10:22"
+  "last_updated": "2026-11-17 23:00:21"
 }
