@@ -1,51 +1,51 @@
 {
-  "updated_at": "2026-11-16 23:12:37",
-  "evaluated_days": 29,
+  "updated_at": "2026-11-17 20:10:51",
+  "evaluated_days": 30,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 24.1,
-      "rank1_cum_return_pct": -33.96,
-      "top2_win_rate_pct": 32.8,
-      "top2_cum_return_pct": -20.87,
-      "top3_cum_return_pct": -36.21,
-      "top2_stop_losses": 33
+      "rank1_win_rate_pct": 23.3,
+      "rank1_cum_return_pct": -36.81,
+      "top2_win_rate_pct": 33.3,
+      "top2_cum_return_pct": -19.97,
+      "top3_cum_return_pct": -36.56,
+      "top2_stop_losses": 34
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 31.0,
-      "rank1_cum_return_pct": -18.44,
-      "top2_win_rate_pct": 34.5,
-      "top2_cum_return_pct": -21.38
+      "rank1_win_rate_pct": 30.0,
+      "rank1_cum_return_pct": -21.29,
+      "top2_win_rate_pct": 33.3,
+      "top2_cum_return_pct": -24.23
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
       "rank1_win_rate_pct": 27.3,
       "rank1_cum_return_pct": -4.78,
-      "top2_win_rate_pct": 41.9,
-      "top2_cum_return_pct": 14.47,
-      "top3_cum_return_pct": 1.66,
-      "top2_stop_losses": 23,
-      "expired_saved_stop_losses_count": 22,
-      "expired_saved_loss_pct": 66.9
+      "top2_win_rate_pct": 40.9,
+      "top2_cum_return_pct": 13.22,
+      "top3_cum_return_pct": 3.11,
+      "top2_stop_losses": 24,
+      "expired_saved_stop_losses_count": 24,
+      "expired_saved_loss_pct": 72.6
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 27.6,
-      "rank1_hit5_rate_pct": 58.6,
-      "rank1_cum_return_pct": -22.77,
-      "top2_win_rate_pct": 29.3,
-      "top2_cum_return_pct": -30.98,
-      "top3_cum_return_pct": -31.86,
-      "top2_stop_losses": 34
+      "rank1_win_rate_pct": 26.7,
+      "rank1_hit5_rate_pct": 56.7,
+      "rank1_cum_return_pct": -25.62,
+      "top2_win_rate_pct": 28.3,
+      "top2_cum_return_pct": -33.83,
+      "top3_cum_return_pct": -32.21,
+      "top2_stop_losses": 36
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
-      "rank1_win_rate_pct": 33.3,
-      "rank1_hit5_rate_pct": 70.8,
-      "rank1_triggered_days": 24,
-      "rank1_cum_return_pct": 13.6,
-      "top2_win_rate_pct": 39.5,
-      "top2_cum_return_pct": 10.73,
-      "top3_cum_return_pct": 4.78,
-      "top2_stop_losses": 25,
-      "filtered_saved_stop_losses_count": 15,
-      "filtered_saved_loss_pct": 53.65
+      "rank1_win_rate_pct": 32.0,
+      "rank1_hit5_rate_pct": 68.0,
+      "rank1_triggered_days": 25,
+      "rank1_cum_return_pct": 11.1,
+      "top2_win_rate_pct": 38.6,
+      "top2_cum_return_pct": 9.48,
+      "top3_cum_return_pct": 6.35,
+      "top2_stop_losses": 26,
+      "filtered_saved_stop_losses_count": 16,
+      "filtered_saved_loss_pct": 56.5
     }
   },
   "upcoming_target_date": "2026-11-17",
@@ -782,6 +782,30 @@
         "name": "티엘비",
         "code": "356860",
         "qfe_score": 66.3,
+        "raw_realized_pct": -2.85,
+        "exec_state": "EXPIRED (VAL_RECOVERY_ORB +3.00% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
+      }
+    },
+    "2026-11-17": {
+      "qfe_rank1": {
+        "name": "한진칼",
+        "code": "180640",
+        "qfe_score": 54.3,
+        "v4_score": 56.1,
+        "notes": [],
+        "p_target": 30.1,
+        "ev_pct": 0.45,
+        "knn_win_rate": 40.5,
+        "high_pct": 1.61,
+        "raw_realized_pct": -2.85,
+        "exec_state": "TRIGGERED (ORB +1.05% 돌파체결)",
+        "exec_realized_pct": -2.5
+      },
+      "qfe_rank2": {
+        "name": "사피엔반도체",
+        "code": "452430",
+        "qfe_score": 53.9,
         "raw_realized_pct": -2.85,
         "exec_state": "EXPIRED (VAL_RECOVERY_ORB +3.00% 미돌파 진입보류)",
         "exec_realized_pct": 0.0

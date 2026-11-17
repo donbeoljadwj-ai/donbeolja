@@ -1,47 +1,47 @@
 {
-  "updated_at": "2026-11-17 15:11:40",
+  "updated_at": "2026-11-17 20:11:11",
   "active_version": "v2.0-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v2.0-FROZEN",
     "engine_sha256": "00e64a96776dadf6",
     "preopen_logged_days": 2,
-    "settled_preopen_days": 1,
+    "settled_preopen_days": 2,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
-    "status_badge": "엔진 동결 전진검증 누적 중 (1/30일 · 30거래일 미만 승률 미표시)"
+    "status_badge": "엔진 동결 전진검증 누적 중 (2/30일 · 30거래일 미만 승률 미표시)"
   },
-  "evaluated_days": 31,
+  "evaluated_days": 32,
   "honest_regular_bar_comparison": {
     "definition": "확정 KRX 정규장 일봉(09:00~15:30) · 왕복비용 0.35% 차감",
     "v1_before_original_rank1": {
-      "all_recommended_days": 31,
-      "active_traded_days": 31,
+      "all_recommended_days": 32,
+      "active_traded_days": 32,
       "round_trip_cost_pct": 0.35,
       "rank1_hit35_count": 16,
-      "rank1_hit35_rate_pct": 51.6,
+      "rank1_hit35_rate_pct": 50.0,
       "rank1_hit5_daily_count": 16,
-      "rank1_hit5_daily_rate_pct": 51.6,
+      "rank1_hit5_daily_rate_pct": 50.0,
       "rank1_net_wins": 12,
-      "rank1_net_win_rate_pct": 38.7,
-      "rank1_mean_net_pct": -0.82,
-      "rank1_cum_net_pct": -25.47
+      "rank1_net_win_rate_pct": 37.5,
+      "rank1_mean_net_pct": -0.96,
+      "rank1_cum_net_pct": -30.65
     },
     "v1_after_v19_atr_clean_rank1": {
-      "all_recommended_days": 31,
-      "active_traded_days": 31,
+      "all_recommended_days": 32,
+      "active_traded_days": 32,
       "round_trip_cost_pct": 0.35,
       "rank1_hit35_count": 25,
-      "rank1_hit35_rate_pct": 80.6,
+      "rank1_hit35_rate_pct": 78.1,
       "rank1_hit5_daily_count": 24,
-      "rank1_hit5_daily_rate_pct": 77.4,
+      "rank1_hit5_daily_rate_pct": 75.0,
       "rank1_net_wins": 19,
-      "rank1_net_win_rate_pct": 61.3,
-      "rank1_mean_net_pct": 1.55,
-      "rank1_cum_net_pct": 48.03
+      "rank1_net_win_rate_pct": 59.4,
+      "rank1_mean_net_pct": 1.34,
+      "rank1_cum_net_pct": 42.85
     },
     "v1_after_v20_gap_and_2stage_rank1": {
-      "all_recommended_days": 31,
+      "all_recommended_days": 32,
       "active_traded_days": 15,
       "round_trip_cost_pct": 0.35,
       "rank1_hit35_count": 11,
@@ -68,7 +68,7 @@
       "after_v20_rank1": {
         "name": "성호전자",
         "code": "043260",
-        "atr20_pct": 10.666,
+        "atr20_pct": 10.689,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -2.56,
@@ -90,7 +90,7 @@
       "after_v20_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.385,
+        "atr20_pct": 11.411,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -3.06,
@@ -112,8 +112,8 @@
       "after_v20_rank1": {
         "name": "아이비젼웍스",
         "code": "469750",
-        "atr20_pct": 12.292,
-        "score": 96.64,
+        "atr20_pct": 12.299,
+        "score": 96.68,
         "gap_band_ok": true,
         "open_gap_pct": 1.93,
         "o2h_pct": 5.86,
@@ -156,8 +156,8 @@
       "after_v20_rank1": {
         "name": "주성엔지니어링",
         "code": "036930",
-        "atr20_pct": 9.8,
-        "score": 85.19,
+        "atr20_pct": 9.817,
+        "score": 85.27,
         "gap_band_ok": true,
         "open_gap_pct": 0.4,
         "o2h_pct": 10.3,
@@ -178,8 +178,8 @@
       "after_v20_rank1": {
         "name": "한빛레이저",
         "code": "452190",
-        "atr20_pct": 9.268,
-        "score": 86.16,
+        "atr20_pct": 9.318,
+        "score": 86.41,
         "gap_band_ok": true,
         "open_gap_pct": 1.11,
         "o2h_pct": 5.66,
@@ -200,8 +200,8 @@
       "after_v20_rank1": {
         "name": "라온시큐어",
         "code": "042510",
-        "atr20_pct": 11.852,
-        "score": 94.76,
+        "atr20_pct": 11.877,
+        "score": 94.88,
         "gap_band_ok": false,
         "open_gap_pct": -4.42,
         "o2h_pct": 26.22,
@@ -310,8 +310,8 @@
       "after_v20_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 15.665,
-        "score": 110.01,
+        "atr20_pct": 15.681,
+        "score": 110.09,
         "gap_band_ok": true,
         "open_gap_pct": -0.8,
         "o2h_pct": 2.26,
@@ -735,6 +735,28 @@
         "o2h_pct": 0.0,
         "o2c_net_pct": -10.51,
         "two_stage_net_pct": -2.85,
+        "hit_35pct_daily": false,
+        "hit_5pct_daily": false
+      }
+    },
+    "2026-11-17": {
+      "before_orig_rank1": {
+        "name": "피앤에스로보틱스",
+        "code": "460940",
+        "o2h_pct": 2.7,
+        "o2c_net_pct": -5.18,
+        "hit_5pct_daily": false
+      },
+      "after_v20_rank1": {
+        "name": "피앤에스로보틱스",
+        "code": "460940",
+        "atr20_pct": 13.479,
+        "score": 99.8,
+        "gap_band_ok": false,
+        "open_gap_pct": -2.63,
+        "o2h_pct": 2.7,
+        "o2c_net_pct": -5.18,
+        "two_stage_net_pct": 0.0,
         "hit_35pct_daily": false,
         "hit_5pct_daily": false
       }
