@@ -2,6 +2,35 @@
   "2026-10-01": [
     {
       "rank": 1,
+      "v4_rank": 1,
+      "name": "성호전자",
+      "code": "043260",
+      "close": 27350,
+      "atr20_pct": 14.237,
+      "day_gain_pct": 11.8,
+      "trade_value_krw": 0,
+      "v4_score": 0.0,
+      "gnc_score": 0.0,
+      "composite_score": 0.0,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 14.237,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
+        ]
+      }
+    },
+    {
+      "rank": 2,
       "v4_rank": 2,
       "name": "주성엔지니어링",
       "code": "036930",
@@ -22,35 +51,6 @@
         "fimc_bonus": 0.0,
         "v4_score": 0.0,
         "atr20_pct": 13.86,
-        "cbf_safe": false,
-        "cbf_veto": true,
-        "notes": [
-          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
-        ]
-      }
-    },
-    {
-      "rank": 2,
-      "v4_rank": 1,
-      "name": "성호전자",
-      "code": "043260",
-      "close": 27350,
-      "atr20_pct": 11.128,
-      "day_gain_pct": 11.8,
-      "trade_value_krw": 0,
-      "v4_score": 0.0,
-      "gnc_score": 0.0,
-      "composite_score": 0.0,
-      "all_filters_passed": false,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "REJECTED",
-        "fimc_verdict": "REJECTED",
-        "gnc_score": 0.0,
-        "fimc_score": 0.0,
-        "fimc_bonus": 0.0,
-        "v4_score": 0.0,
-        "atr20_pct": 11.128,
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
@@ -122,7 +122,7 @@
       "name": "삼성전자우",
       "code": "005935",
       "close": 196400,
-      "atr20_pct": 6.587,
+      "atr20_pct": 6.711,
       "day_gain_pct": 5.0,
       "trade_value_krw": 0,
       "v4_score": 0.0,
@@ -137,7 +137,7 @@
         "fimc_score": 0.0,
         "fimc_bonus": 0.0,
         "v4_score": 0.0,
-        "atr20_pct": 6.587,
+        "atr20_pct": 6.711,
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
@@ -151,7 +151,7 @@
       "name": "현대모비스",
       "code": "012330",
       "close": 384500,
-      "atr20_pct": 6.326,
+      "atr20_pct": 5.23,
       "day_gain_pct": 5.0,
       "trade_value_krw": 0,
       "v4_score": 0.0,
@@ -166,7 +166,7 @@
         "fimc_score": 0.0,
         "fimc_bonus": 0.0,
         "v4_score": 0.0,
-        "atr20_pct": 6.326,
+        "atr20_pct": 5.23,
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
@@ -265,6 +265,35 @@
     },
     {
       "rank": 4,
+      "v4_rank": 1,
+      "name": "HPSP",
+      "code": "403870",
+      "close": 69600,
+      "atr20_pct": 11.53,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 0,
+      "v4_score": 0.0,
+      "gnc_score": 0.0,
+      "composite_score": 0.0,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 11.53,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
+        ]
+      }
+    },
+    {
+      "rank": 5,
       "v4_rank": 3,
       "name": "제주반도체",
       "code": "080220",
@@ -293,7 +322,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "v4_rank": 6,
       "name": "SK하이닉스",
       "code": "000660",
@@ -320,40 +349,110 @@
           "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
-    },
-    {
-      "rank": 6,
-      "v4_rank": 1,
-      "name": "HPSP",
-      "code": "403870",
-      "close": 69600,
-      "atr20_pct": 7.706,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 0,
-      "v4_score": 0.0,
-      "gnc_score": 0.0,
-      "composite_score": 0.0,
-      "all_filters_passed": false,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "REJECTED",
-        "fimc_verdict": "REJECTED",
-        "gnc_score": 0.0,
-        "fimc_score": 0.0,
-        "fimc_bonus": 0.0,
-        "v4_score": 0.0,
-        "atr20_pct": 7.706,
-        "cbf_safe": false,
-        "cbf_veto": true,
-        "notes": [
-          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
-        ]
-      }
     }
   ],
   "2026-10-06": [
     {
       "rank": 1,
+      "v4_rank": 9,
+      "name": "심텍",
+      "code": "222800",
+      "close": 170200,
+      "atr20_pct": 15.216,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 75264764000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": true,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 15.216,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 15.22,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 15.22%",
+          "🕯️AM눌림 0.0%(AM +1.79%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "v4_rank": 4,
+      "name": "코리아써키트",
+      "code": "007810",
+      "close": 82900,
+      "atr20_pct": 15.132,
+      "day_gain_pct": 4.3,
+      "trade_value_krw": 75100000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": true,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 15.132,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 15.13,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 15.13%",
+          "🕯️AM눌림 0.0%(AM +0.61%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "v4_rank": 2,
+      "name": "성호전자",
+      "code": "043260",
+      "close": 31400,
+      "atr20_pct": 14.237,
+      "day_gain_pct": 9.5,
+      "trade_value_krw": 276500000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 14.237,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 14.24,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 14.24%",
+          "🕯️AM눌림 0.0%(AM +0.64%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 4,
       "v4_rank": 7,
       "name": "주성엔지니어링",
       "code": "036930",
@@ -365,7 +464,7 @@
       "gnc_score": 99.8,
       "composite_score": 99.8,
       "all_filters_passed": true,
-      "recommended_live_buy": true,
+      "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_LOCK",
         "fimc_verdict": "FROZEN_LOCK",
@@ -386,7 +485,7 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 5,
       "v4_rank": 5,
       "name": "아이비젼웍스",
       "code": "469750",
@@ -398,7 +497,7 @@
       "gnc_score": 99.8,
       "composite_score": 99.8,
       "all_filters_passed": true,
-      "recommended_live_buy": true,
+      "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_LOCK",
         "fimc_verdict": "FROZEN_LOCK",
@@ -419,40 +518,7 @@
       }
     },
     {
-      "rank": 3,
-      "v4_rank": 4,
-      "name": "코리아써키트",
-      "code": "007810",
-      "close": 82900,
-      "atr20_pct": 12.558,
-      "day_gain_pct": 4.3,
-      "trade_value_krw": 75100000000,
-      "v4_score": 97.73,
-      "gnc_score": 97.73,
-      "composite_score": 97.73,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 97.73,
-        "fimc_score": 97.73,
-        "fimc_bonus": 0.0,
-        "v4_score": 97.73,
-        "atr20_pct": 12.558,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 12.56,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 12.56%",
-          "🕯️AM눌림 0.0%(AM +0.61%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 4,
+      "rank": 6,
       "v4_rank": 3,
       "name": "빛샘전자",
       "code": "072950",
@@ -485,73 +551,40 @@
       }
     },
     {
-      "rank": 5,
-      "v4_rank": 2,
-      "name": "성호전자",
-      "code": "043260",
-      "close": 31400,
-      "atr20_pct": 11.128,
-      "day_gain_pct": 9.5,
-      "trade_value_krw": 276500000000,
-      "v4_score": 92.44,
-      "gnc_score": 92.44,
-      "composite_score": 92.44,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 92.44,
-        "fimc_score": 92.44,
-        "fimc_bonus": 0.0,
-        "v4_score": 92.44,
-        "atr20_pct": 11.128,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 11.13,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 11.13%",
-          "🕯️AM눌림 0.0%(AM +0.64%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 6,
-      "v4_rank": 9,
-      "name": "심텍",
-      "code": "222800",
-      "close": 170200,
-      "atr20_pct": 11.287,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 75264764000,
-      "v4_score": 91.48,
-      "gnc_score": 91.48,
-      "composite_score": 91.48,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 91.48,
-        "fimc_score": 91.48,
-        "fimc_bonus": 0.0,
-        "v4_score": 91.48,
-        "atr20_pct": 11.287,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 11.29,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 11.29%",
-          "🕯️AM눌림 0.0%(AM +1.79%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
       "rank": 7,
+      "v4_rank": 10,
+      "name": "HPSP",
+      "code": "403870",
+      "close": 66200,
+      "atr20_pct": 11.53,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 121487799200,
+      "v4_score": 93.25,
+      "gnc_score": 93.25,
+      "composite_score": 93.25,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 93.25,
+        "fimc_score": 93.25,
+        "fimc_bonus": 0.0,
+        "v4_score": 93.25,
+        "atr20_pct": 11.53,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 11.53,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 11.53%",
+          "🕯️AM눌림 0.0%(AM +1.07%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 8,
       "v4_rank": 6,
       "name": "디케이락",
       "code": "105740",
@@ -584,7 +617,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "v4_rank": 1,
       "name": "우리로",
       "code": "046970",
@@ -617,7 +650,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "v4_rank": 8,
       "name": "원익IPS",
       "code": "240810",
@@ -645,39 +678,6 @@
         "notes": [
           "📊20일ATR 8.85%",
           "🕯️AM눌림 0.0%(AM +0.87%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 10,
-      "v4_rank": 10,
-      "name": "HPSP",
-      "code": "403870",
-      "close": 66200,
-      "atr20_pct": 7.706,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 121487799200,
-      "v4_score": 74.13,
-      "gnc_score": 74.13,
-      "composite_score": 74.13,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 74.13,
-        "fimc_score": 74.13,
-        "fimc_bonus": 0.0,
-        "v4_score": 74.13,
-        "atr20_pct": 7.706,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 7.71,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 7.71%",
-          "🕯️AM눌림 0.0%(AM +1.07%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -752,6 +752,39 @@
     },
     {
       "rank": 3,
+      "v4_rank": 7,
+      "name": "HPSP",
+      "code": "403870",
+      "close": 69600,
+      "atr20_pct": 11.53,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 123555221600,
+      "v4_score": 93.27,
+      "gnc_score": 93.27,
+      "composite_score": 93.27,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 93.27,
+        "fimc_score": 93.27,
+        "fimc_bonus": 0.0,
+        "v4_score": 93.27,
+        "atr20_pct": 11.53,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 11.53,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 11.53%",
+          "🕯️AM눌림 0.0%(AM +1.16%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 4,
       "v4_rank": 3,
       "name": "빛과전자",
       "code": "069540",
@@ -784,7 +817,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "v4_rank": 1,
       "name": "엑스게이트",
       "code": "356680",
@@ -817,7 +850,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "v4_rank": 9,
       "name": "제주반도체",
       "code": "080220",
@@ -850,7 +883,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "v4_rank": 10,
       "name": "삼성SDI",
       "code": "006400",
@@ -883,7 +916,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "v4_rank": 5,
       "name": "원익IPS",
       "code": "240810",
@@ -916,7 +949,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "v4_rank": 6,
       "name": "아톤",
       "code": "158430",
@@ -949,66 +982,33 @@
       }
     },
     {
-      "rank": 9,
-      "v4_rank": 7,
-      "name": "HPSP",
-      "code": "403870",
-      "close": 69600,
-      "atr20_pct": 7.706,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 123555221600,
-      "v4_score": 74.15,
-      "gnc_score": 74.15,
-      "composite_score": 74.15,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 74.15,
-        "fimc_score": 74.15,
-        "fimc_bonus": 0.0,
-        "v4_score": 74.15,
-        "atr20_pct": 7.706,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 7.71,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 7.71%",
-          "🕯️AM눌림 0.0%(AM +1.16%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
       "rank": 10,
       "v4_rank": 2,
       "name": "성호전자",
       "code": "043260",
       "close": 32550,
-      "atr20_pct": 11.128,
+      "atr20_pct": 14.237,
       "day_gain_pct": 3.7,
       "trade_value_krw": 118800000000,
-      "v4_score": 91.04,
-      "gnc_score": 91.04,
-      "composite_score": 91.04,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
       "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_STANDBY",
         "fimc_verdict": "FROZEN_STANDBY",
-        "gnc_score": 91.04,
-        "fimc_score": 91.04,
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
         "fimc_bonus": 0.0,
-        "v4_score": 91.04,
-        "atr20_pct": 11.128,
+        "v4_score": 99.8,
+        "atr20_pct": 14.237,
         "cbf_safe": false,
         "cbf_veto": true,
-        "plant_elasticity_pct": 11.13,
+        "plant_elasticity_pct": 14.24,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 11.13%",
+          "📊20일ATR 14.24%",
           "🕯️AM눌림 0.0%(AM +0.62%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
@@ -1051,6 +1051,39 @@
     },
     {
       "rank": 2,
+      "v4_rank": 2,
+      "name": "한미약품",
+      "code": "128940",
+      "close": 534000,
+      "atr20_pct": 9.618,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 224130096000,
+      "v4_score": 84.28,
+      "gnc_score": 84.28,
+      "composite_score": 84.28,
+      "all_filters_passed": true,
+      "recommended_live_buy": true,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 84.28,
+        "fimc_score": 84.28,
+        "fimc_bonus": 0.0,
+        "v4_score": 84.28,
+        "atr20_pct": 9.618,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 9.62,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 9.62%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 3,
       "v4_rank": 5,
       "name": "삼성전기",
       "code": "009150",
@@ -1062,7 +1095,7 @@
       "gnc_score": 82.58,
       "composite_score": 82.58,
       "all_filters_passed": true,
-      "recommended_live_buy": true,
+      "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_LOCK",
         "fimc_verdict": "FROZEN_LOCK",
@@ -1083,7 +1116,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "v4_rank": 4,
       "name": "효성중공업",
       "code": "298040",
@@ -1111,39 +1144,6 @@
         "notes": [
           "📊20일ATR 8.48%",
           "🕯️AM눌림 0.0%(AM +1.20%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 4,
-      "v4_rank": 9,
-      "name": "녹십자엠에스",
-      "code": "142280",
-      "close": 4300,
-      "atr20_pct": 8.436,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 57018922920,
-      "v4_score": 76.9,
-      "gnc_score": 76.9,
-      "composite_score": 76.9,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 76.9,
-        "fimc_score": 76.9,
-        "fimc_bonus": 0.0,
-        "v4_score": 76.9,
-        "atr20_pct": 8.436,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 8.44,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 8.44%",
-          "🕯️AM눌림 0.0%(AM +2.38%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -1183,39 +1183,6 @@
     },
     {
       "rank": 6,
-      "v4_rank": 2,
-      "name": "한미약품",
-      "code": "128940",
-      "close": 534000,
-      "atr20_pct": 6.938,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 224130096000,
-      "v4_score": 70.88,
-      "gnc_score": 70.88,
-      "composite_score": 70.88,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 70.88,
-        "fimc_score": 70.88,
-        "fimc_bonus": 0.0,
-        "v4_score": 70.88,
-        "atr20_pct": 6.938,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 6.94,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 6.94%",
-          "🕯️AM눌림 0.0%(AM +0.00%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 7,
       "v4_rank": 3,
       "name": "한미사이언스",
       "code": "008930",
@@ -1243,6 +1210,39 @@
         "notes": [
           "📊20일ATR 7.36%",
           "🕯️AM눌림 0.0%(AM +13.94%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "v4_rank": 9,
+      "name": "녹십자엠에스",
+      "code": "142280",
+      "close": 4300,
+      "atr20_pct": 5.839,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 57018922920,
+      "v4_score": 63.91,
+      "gnc_score": 63.91,
+      "composite_score": 63.91,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
+        "gnc_score": 63.91,
+        "fimc_score": 63.91,
+        "fimc_bonus": 0.0,
+        "v4_score": 63.91,
+        "atr20_pct": 5.839,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "plant_elasticity_pct": 5.84,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 5.84%",
+          "🕯️AM눌림 0.0%(AM +2.38%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -1383,28 +1383,28 @@
       "name": "제이앤티씨",
       "code": "204270",
       "close": 27000,
-      "atr20_pct": 12.77,
+      "atr20_pct": 9.906,
       "day_gain_pct": 5.0,
       "trade_value_krw": 74280042800,
-      "v4_score": 98.88,
-      "gnc_score": 98.88,
-      "composite_score": 98.88,
+      "v4_score": 84.56,
+      "gnc_score": 84.56,
+      "composite_score": 84.56,
       "all_filters_passed": true,
       "recommended_live_buy": true,
       "gnc_metrics": {
         "verdict": "FROZEN_LOCK",
         "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 98.88,
-        "fimc_score": 98.88,
+        "gnc_score": 84.56,
+        "fimc_score": 84.56,
         "fimc_bonus": 0.0,
-        "v4_score": 98.88,
-        "atr20_pct": 12.77,
+        "v4_score": 84.56,
+        "atr20_pct": 9.906,
         "cbf_safe": true,
         "cbf_veto": false,
-        "plant_elasticity_pct": 12.77,
+        "plant_elasticity_pct": 9.91,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 12.77%",
+          "📊20일ATR 9.91%",
           "🕯️AM눌림 0.0%(AM +2.86%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
@@ -1478,39 +1478,6 @@
     },
     {
       "rank": 5,
-      "v4_rank": 1,
-      "name": "알루코",
-      "code": "001780",
-      "close": 1790,
-      "atr20_pct": 8.474,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 143304072848,
-      "v4_score": 78.17,
-      "gnc_score": 78.17,
-      "composite_score": 78.17,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 78.17,
-        "fimc_score": 78.17,
-        "fimc_bonus": 0.0,
-        "v4_score": 78.17,
-        "atr20_pct": 8.474,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 8.47,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 8.47%",
-          "🕯️AM눌림 0.0%(AM +4.92%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 6,
       "v4_rank": 4,
       "name": "SK하이닉스",
       "code": "000660",
@@ -1543,40 +1510,40 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "v4_rank": 8,
       "name": "삼성전자우",
       "code": "005935",
       "close": 194500,
-      "atr20_pct": 6.587,
+      "atr20_pct": 6.711,
       "day_gain_pct": 5.0,
       "trade_value_krw": 248031383200,
-      "v4_score": 69.12,
-      "gnc_score": 69.12,
-      "composite_score": 69.12,
+      "v4_score": 69.74,
+      "gnc_score": 69.74,
+      "composite_score": 69.74,
       "all_filters_passed": true,
       "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_LOCK",
         "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 69.12,
-        "fimc_score": 69.12,
+        "gnc_score": 69.74,
+        "fimc_score": 69.74,
         "fimc_bonus": 0.0,
-        "v4_score": 69.12,
-        "atr20_pct": 6.587,
+        "v4_score": 69.74,
+        "atr20_pct": 6.711,
         "cbf_safe": true,
         "cbf_veto": false,
-        "plant_elasticity_pct": 6.59,
+        "plant_elasticity_pct": 6.71,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 6.59%",
+          "📊20일ATR 6.71%",
           "🕯️AM눌림 0.0%(AM +0.26%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "v4_rank": 6,
       "name": "삼성전자",
       "code": "005930",
@@ -1604,6 +1571,39 @@
         "notes": [
           "📊20일ATR 6.32%",
           "🕯️AM눌림 0.0%(AM +0.38%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "v4_rank": 1,
+      "name": "알루코",
+      "code": "001780",
+      "close": 1790,
+      "atr20_pct": 6.378,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 143304072848,
+      "v4_score": 67.69,
+      "gnc_score": 67.69,
+      "composite_score": 67.69,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 67.69,
+        "fimc_score": 67.69,
+        "fimc_bonus": 0.0,
+        "v4_score": 67.69,
+        "atr20_pct": 6.378,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 6.38,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 6.38%",
+          "🕯️AM눌림 0.0%(AM +4.92%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -1674,6 +1674,39 @@
   "2026-10-13": [
     {
       "rank": 1,
+      "v4_rank": 10,
+      "name": "금호건설",
+      "code": "002990",
+      "close": 13760,
+      "atr20_pct": 14.399,
+      "day_gain_pct": 20.3,
+      "trade_value_krw": 189900000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": true,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 14.399,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 14.4,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 14.40%",
+          "🕯️AM눌림 0.0%(AM +2.69%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 2,
       "v4_rank": 1,
       "name": "라온시큐어",
       "code": "042510",
@@ -1701,39 +1734,6 @@
         "notes": [
           "📊20일ATR 12.53%",
           "🕯️AM눌림 0.0%(AM +1.04%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 2,
-      "v4_rank": 10,
-      "name": "금호건설",
-      "code": "002990",
-      "close": 13760,
-      "atr20_pct": 10.26,
-      "day_gain_pct": 20.3,
-      "trade_value_krw": 189900000000,
-      "v4_score": 90.69,
-      "gnc_score": 90.69,
-      "composite_score": 90.69,
-      "all_filters_passed": true,
-      "recommended_live_buy": true,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 90.69,
-        "fimc_score": 90.69,
-        "fimc_bonus": 0.0,
-        "v4_score": 90.69,
-        "atr20_pct": 10.26,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 10.26,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 10.26%",
-          "🕯️AM눌림 0.0%(AM +2.69%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -1942,28 +1942,28 @@
       "name": "엘앤씨바이오",
       "code": "290650",
       "close": 64700,
-      "atr20_pct": 9.499,
+      "atr20_pct": 12.17,
       "day_gain_pct": 5.0,
       "trade_value_krw": 217262396800,
-      "v4_score": 83.68,
-      "gnc_score": 83.68,
-      "composite_score": 83.68,
+      "v4_score": 97.04,
+      "gnc_score": 97.04,
+      "composite_score": 97.04,
       "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_STANDBY",
         "fimc_verdict": "FROZEN_STANDBY",
-        "gnc_score": 83.68,
-        "fimc_score": 83.68,
+        "gnc_score": 97.04,
+        "fimc_score": 97.04,
         "fimc_bonus": 0.0,
-        "v4_score": 83.68,
-        "atr20_pct": 9.499,
+        "v4_score": 97.04,
+        "atr20_pct": 12.17,
         "cbf_safe": false,
         "cbf_veto": true,
-        "plant_elasticity_pct": 9.5,
+        "plant_elasticity_pct": 12.17,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 9.50%",
+          "📊20일ATR 12.17%",
           "🕯️AM눌림 0.0%(AM +13.71%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
@@ -1975,28 +1975,28 @@
       "name": "흥아해운",
       "code": "003280",
       "close": 1907,
-      "atr20_pct": 3.2,
+      "atr20_pct": 4.464,
       "day_gain_pct": 5.0,
       "trade_value_krw": 109725110736,
-      "v4_score": 51.48,
-      "gnc_score": 51.48,
-      "composite_score": 51.48,
+      "v4_score": 57.8,
+      "gnc_score": 57.8,
+      "composite_score": 57.8,
       "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_STANDBY",
         "fimc_verdict": "FROZEN_STANDBY",
-        "gnc_score": 51.48,
-        "fimc_score": 51.48,
+        "gnc_score": 57.8,
+        "fimc_score": 57.8,
         "fimc_bonus": 0.0,
-        "v4_score": 51.48,
-        "atr20_pct": 3.2,
+        "v4_score": 57.8,
+        "atr20_pct": 4.464,
         "cbf_safe": false,
         "cbf_veto": true,
-        "plant_elasticity_pct": 3.2,
+        "plant_elasticity_pct": 4.46,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 3.20%",
+          "📊20일ATR 4.46%",
           "🕯️AM눌림 0.0%(AM +1.76%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
@@ -2204,6 +2204,39 @@
     },
     {
       "rank": 7,
+      "v4_rank": 7,
+      "name": "서산",
+      "code": "079650",
+      "close": 8780,
+      "atr20_pct": 17.171,
+      "day_gain_pct": 29.88,
+      "trade_value_krw": 40000000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 17.171,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "plant_elasticity_pct": 17.17,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 17.17%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 8,
       "v4_rank": 8,
       "name": "뉴인텍",
       "code": "012340",
@@ -2230,39 +2263,6 @@
         "plant_episodes": 0,
         "notes": [
           "📊20일ATR 14.08%",
-          "🕯️AM눌림 0.0%(AM +0.00%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 8,
-      "v4_rank": 7,
-      "name": "서산",
-      "code": "079650",
-      "close": 8780,
-      "atr20_pct": 13.235,
-      "day_gain_pct": 29.88,
-      "trade_value_krw": 40000000000,
-      "v4_score": 99.8,
-      "gnc_score": 99.8,
-      "composite_score": 99.8,
-      "all_filters_passed": false,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_STANDBY",
-        "fimc_verdict": "FROZEN_STANDBY",
-        "gnc_score": 99.8,
-        "fimc_score": 99.8,
-        "fimc_bonus": 0.0,
-        "v4_score": 99.8,
-        "atr20_pct": 13.235,
-        "cbf_safe": false,
-        "cbf_veto": true,
-        "plant_elasticity_pct": 13.23,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 13.23%",
           "🕯️AM눌림 0.0%(AM +0.00%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
@@ -2307,28 +2307,28 @@
       "name": "롯데손해보험",
       "code": "000400",
       "close": 2555,
-      "atr20_pct": 3.767,
+      "atr20_pct": 5.369,
       "day_gain_pct": 9.66,
       "trade_value_krw": 40000000000,
-      "v4_score": 53.76,
-      "gnc_score": 53.76,
-      "composite_score": 53.76,
+      "v4_score": 61.77,
+      "gnc_score": 61.77,
+      "composite_score": 61.77,
       "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_STANDBY",
         "fimc_verdict": "FROZEN_STANDBY",
-        "gnc_score": 53.76,
-        "fimc_score": 53.76,
+        "gnc_score": 61.77,
+        "fimc_score": 61.77,
         "fimc_bonus": 0.0,
-        "v4_score": 53.76,
-        "atr20_pct": 3.767,
+        "v4_score": 61.77,
+        "atr20_pct": 5.369,
         "cbf_safe": false,
         "cbf_veto": true,
-        "plant_elasticity_pct": 3.77,
+        "plant_elasticity_pct": 5.37,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 3.77%",
+          "📊20일ATR 5.37%",
           "🕯️AM눌림 0.0%(AM +1.59%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
@@ -2338,6 +2338,39 @@
   "2026-10-15": [
     {
       "rank": 1,
+      "v4_rank": 7,
+      "name": "한선엔지니어링",
+      "code": "452280",
+      "close": 16020,
+      "atr20_pct": 13.449,
+      "day_gain_pct": 27.65,
+      "trade_value_krw": 40000000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": true,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 13.449,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 13.45,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 13.45%",
+          "🕯️AM눌림 0.0%(AM +0.56%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 2,
       "v4_rank": 9,
       "name": "비나텍",
       "code": "126340",
@@ -2365,39 +2398,6 @@
         "notes": [
           "📊20일ATR 12.92%",
           "🕯️AM눌림 0.0%(AM +1.63%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 2,
-      "v4_rank": 7,
-      "name": "한선엔지니어링",
-      "code": "452280",
-      "close": 16020,
-      "atr20_pct": 10.733,
-      "day_gain_pct": 27.65,
-      "trade_value_krw": 40000000000,
-      "v4_score": 92.09,
-      "gnc_score": 92.09,
-      "composite_score": 92.09,
-      "all_filters_passed": true,
-      "recommended_live_buy": true,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 92.09,
-        "fimc_score": 92.09,
-        "fimc_bonus": 0.0,
-        "v4_score": 92.09,
-        "atr20_pct": 10.733,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 10.73,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 10.73%",
-          "🕯️AM눌림 0.0%(AM +0.56%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -2569,6 +2569,39 @@
     },
     {
       "rank": 8,
+      "v4_rank": 3,
+      "name": "대성산업",
+      "code": "128820",
+      "close": 5020,
+      "atr20_pct": 6.631,
+      "day_gain_pct": 19.52,
+      "trade_value_krw": 40000000000,
+      "v4_score": 70.62,
+      "gnc_score": 70.62,
+      "composite_score": 70.62,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 70.62,
+        "fimc_score": 70.62,
+        "fimc_bonus": 0.0,
+        "v4_score": 70.62,
+        "atr20_pct": 6.631,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 6.63,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 6.63%",
+          "🕯️AM눌림 0.0%(AM +1.93%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 9,
       "v4_rank": 4,
       "name": "대한제강",
       "code": "084010",
@@ -2596,39 +2629,6 @@
         "notes": [
           "📊20일ATR 5.73%",
           "🕯️AM눌림 0.0%(AM +0.80%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 9,
-      "v4_rank": 3,
-      "name": "대성산업",
-      "code": "128820",
-      "close": 5020,
-      "atr20_pct": 4.663,
-      "day_gain_pct": 19.52,
-      "trade_value_krw": 40000000000,
-      "v4_score": 60.78,
-      "gnc_score": 60.78,
-      "composite_score": 60.78,
-      "all_filters_passed": false,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_STANDBY",
-        "fimc_verdict": "FROZEN_STANDBY",
-        "gnc_score": 60.78,
-        "fimc_score": 60.78,
-        "fimc_bonus": 0.0,
-        "v4_score": 60.78,
-        "atr20_pct": 4.663,
-        "cbf_safe": false,
-        "cbf_veto": true,
-        "plant_elasticity_pct": 4.66,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 4.66%",
-          "🕯️AM눌림 0.0%(AM +1.93%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -2674,7 +2674,7 @@
       "name": "토마토시스템",
       "code": "393210",
       "close": 3290,
-      "atr20_pct": 18.835,
+      "atr20_pct": 15.16,
       "day_gain_pct": 10.6,
       "trade_value_krw": 15300000000,
       "v4_score": 99.8,
@@ -2689,13 +2689,13 @@
         "fimc_score": 99.8,
         "fimc_bonus": 0.0,
         "v4_score": 99.8,
-        "atr20_pct": 18.835,
+        "atr20_pct": 15.16,
         "cbf_safe": true,
         "cbf_veto": false,
-        "plant_elasticity_pct": 18.84,
+        "plant_elasticity_pct": 15.16,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 18.84%",
+          "📊20일ATR 15.16%",
           "🕯️AM눌림 0.0%(AM +2.97%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
@@ -2994,6 +2994,39 @@
   "2026-10-19": [
     {
       "rank": 1,
+      "v4_rank": 8,
+      "name": "HLB바이오스텝",
+      "code": "278650",
+      "close": 5290,
+      "atr20_pct": 19.399,
+      "day_gain_pct": 8.4,
+      "trade_value_krw": 11300000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": true,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 19.399,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 19.4,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 19.40%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 2,
       "v4_rank": 5,
       "name": "엑시콘",
       "code": "092870",
@@ -3026,7 +3059,40 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "v4_rank": 4,
+      "name": "서산",
+      "code": "079650",
+      "close": 8030,
+      "atr20_pct": 17.171,
+      "day_gain_pct": 22.2,
+      "trade_value_krw": 86300000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 17.171,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 17.17,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 17.17%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 4,
       "v4_rank": 7,
       "name": "알멕",
       "code": "354320",
@@ -3038,7 +3104,7 @@
       "gnc_score": 99.8,
       "composite_score": 99.8,
       "all_filters_passed": true,
-      "recommended_live_buy": true,
+      "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_LOCK",
         "fimc_verdict": "FROZEN_LOCK",
@@ -3054,72 +3120,6 @@
         "notes": [
           "📊20일ATR 15.78%",
           "🕯️AM눌림 0.0%(AM -0.19%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 3,
-      "v4_rank": 6,
-      "name": "삼익제약",
-      "code": "014950",
-      "close": 8020,
-      "atr20_pct": 14.941,
-      "day_gain_pct": 18.6,
-      "trade_value_krw": 37900000000,
-      "v4_score": 99.8,
-      "gnc_score": 99.8,
-      "composite_score": 99.8,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 99.8,
-        "fimc_score": 99.8,
-        "fimc_bonus": 0.0,
-        "v4_score": 99.8,
-        "atr20_pct": 14.941,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 14.94,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 14.94%",
-          "🕯️AM눌림 0.0%(AM +0.50%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 4,
-      "v4_rank": 8,
-      "name": "HLB바이오스텝",
-      "code": "278650",
-      "close": 5290,
-      "atr20_pct": 14.193,
-      "day_gain_pct": 8.4,
-      "trade_value_krw": 11300000000,
-      "v4_score": 99.8,
-      "gnc_score": 99.8,
-      "composite_score": 99.8,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 99.8,
-        "fimc_score": 99.8,
-        "fimc_bonus": 0.0,
-        "v4_score": 99.8,
-        "atr20_pct": 14.193,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 14.19,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 14.19%",
-          "🕯️AM눌림 0.0%(AM +0.00%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -3159,13 +3159,13 @@
     },
     {
       "rank": 6,
-      "v4_rank": 4,
-      "name": "서산",
-      "code": "079650",
-      "close": 8030,
-      "atr20_pct": 13.235,
-      "day_gain_pct": 22.2,
-      "trade_value_krw": 86300000000,
+      "v4_rank": 6,
+      "name": "삼익제약",
+      "code": "014950",
+      "close": 8020,
+      "atr20_pct": 12.919,
+      "day_gain_pct": 18.6,
+      "trade_value_krw": 37900000000,
       "v4_score": 99.8,
       "gnc_score": 99.8,
       "composite_score": 99.8,
@@ -3178,14 +3178,14 @@
         "fimc_score": 99.8,
         "fimc_bonus": 0.0,
         "v4_score": 99.8,
-        "atr20_pct": 13.235,
+        "atr20_pct": 12.919,
         "cbf_safe": true,
         "cbf_veto": false,
-        "plant_elasticity_pct": 13.23,
+        "plant_elasticity_pct": 12.92,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 13.23%",
-          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "📊20일ATR 12.92%",
+          "🕯️AM눌림 0.0%(AM +0.50%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -3295,28 +3295,28 @@
       "name": "엘앤씨바이오",
       "code": "290650",
       "close": 68500,
-      "atr20_pct": 9.499,
+      "atr20_pct": 12.17,
       "day_gain_pct": 23.6,
       "trade_value_krw": 57000000000,
-      "v4_score": 90.47,
-      "gnc_score": 90.47,
-      "composite_score": 90.47,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
       "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_STANDBY",
         "fimc_verdict": "FROZEN_STANDBY",
-        "gnc_score": 90.47,
-        "fimc_score": 90.47,
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
         "fimc_bonus": 0.0,
-        "v4_score": 90.47,
-        "atr20_pct": 9.499,
+        "v4_score": 99.8,
+        "atr20_pct": 12.17,
         "cbf_safe": false,
         "cbf_veto": true,
-        "plant_elasticity_pct": 9.5,
+        "plant_elasticity_pct": 12.17,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 9.50%",
+          "📊20일ATR 12.17%",
           "🕯️AM눌림 0.0%(AM -2.28%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
@@ -3326,6 +3326,39 @@
   "2026-10-20": [
     {
       "rank": 1,
+      "v4_rank": 5,
+      "name": "HLB바이오스텝",
+      "code": "278650",
+      "close": 6000,
+      "atr20_pct": 19.399,
+      "day_gain_pct": 13.4,
+      "trade_value_krw": 8600000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": true,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 19.399,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 19.4,
+        "plant_episodes": 1,
+        "notes": [
+          "📊20일ATR 19.40%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 2,
       "v4_rank": 1,
       "name": "알멕",
       "code": "354320",
@@ -3358,19 +3391,19 @@
       }
     },
     {
-      "rank": 2,
-      "v4_rank": 5,
-      "name": "HLB바이오스텝",
-      "code": "278650",
-      "close": 6000,
-      "atr20_pct": 14.193,
-      "day_gain_pct": 13.4,
-      "trade_value_krw": 8600000000,
+      "rank": 3,
+      "v4_rank": 7,
+      "name": "알파칩스",
+      "code": "117670",
+      "close": 14440,
+      "atr20_pct": 14.569,
+      "day_gain_pct": 7.1,
+      "trade_value_krw": 12600000000,
       "v4_score": 99.8,
       "gnc_score": 99.8,
       "composite_score": 99.8,
       "all_filters_passed": true,
-      "recommended_live_buy": true,
+      "recommended_live_buy": false,
       "gnc_metrics": {
         "verdict": "FROZEN_LOCK",
         "fimc_verdict": "FROZEN_LOCK",
@@ -3378,20 +3411,20 @@
         "fimc_score": 99.8,
         "fimc_bonus": 0.0,
         "v4_score": 99.8,
-        "atr20_pct": 14.193,
+        "atr20_pct": 14.569,
         "cbf_safe": true,
         "cbf_veto": false,
-        "plant_elasticity_pct": 14.19,
-        "plant_episodes": 1,
+        "plant_elasticity_pct": 14.57,
+        "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 14.19%",
-          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "📊20일ATR 14.57%",
+          "🕯️AM눌림 0.0%(AM +0.63%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "v4_rank": 3,
       "name": "LK삼양",
       "code": "225190",
@@ -3424,7 +3457,40 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "v4_rank": 6,
+      "name": "동국산업",
+      "code": "005160",
+      "close": 4675,
+      "atr20_pct": 11.244,
+      "day_gain_pct": 10.1,
+      "trade_value_krw": 36200000000,
+      "v4_score": 92.49,
+      "gnc_score": 92.49,
+      "composite_score": 92.49,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 92.49,
+        "fimc_score": 92.49,
+        "fimc_bonus": 0.0,
+        "v4_score": 92.49,
+        "atr20_pct": 11.244,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 11.24,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 11.24%",
+          "🕯️AM눌림 0.0%(AM -0.53%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 6,
       "v4_rank": 2,
       "name": "쏘닉스",
       "code": "088280",
@@ -3457,40 +3523,7 @@
       }
     },
     {
-      "rank": 5,
-      "v4_rank": 7,
-      "name": "알파칩스",
-      "code": "117670",
-      "close": 14440,
-      "atr20_pct": 11.319,
-      "day_gain_pct": 7.1,
-      "trade_value_krw": 12600000000,
-      "v4_score": 91.22,
-      "gnc_score": 91.22,
-      "composite_score": 91.22,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 91.22,
-        "fimc_score": 91.22,
-        "fimc_bonus": 0.0,
-        "v4_score": 91.22,
-        "atr20_pct": 11.319,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 11.32,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 11.32%",
-          "🕯️AM눌림 0.0%(AM +0.63%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "v4_rank": 8,
       "name": "켄코아에어로스페이스",
       "code": "274090",
@@ -3523,7 +3556,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "v4_rank": 4,
       "name": "화성밸브",
       "code": "039610",
@@ -3551,39 +3584,6 @@
         "notes": [
           "📊20일ATR 8.43%",
           "🕯️AM눌림 0.0%(AM -0.86%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 8,
-      "v4_rank": 6,
-      "name": "동국산업",
-      "code": "005160",
-      "close": 4675,
-      "atr20_pct": 8.197,
-      "day_gain_pct": 10.1,
-      "trade_value_krw": 36200000000,
-      "v4_score": 77.26,
-      "gnc_score": 77.26,
-      "composite_score": 77.26,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 77.26,
-        "fimc_score": 77.26,
-        "fimc_bonus": 0.0,
-        "v4_score": 77.26,
-        "atr20_pct": 8.197,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 8.2,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 8.20%",
-          "🕯️AM눌림 0.0%(AM -0.53%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -3650,11 +3650,44 @@
   "2026-10-21": [
     {
       "rank": 1,
+      "v4_rank": 9,
+      "name": "앤로보틱스",
+      "code": "138360",
+      "close": 1391,
+      "atr20_pct": 16.534,
+      "day_gain_pct": 6.6,
+      "trade_value_krw": 27200000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": true,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 16.534,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 16.53,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 16.53%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 2,
       "v4_rank": 6,
       "name": "토마토시스템",
       "code": "393210",
       "close": 3395,
-      "atr20_pct": 18.835,
+      "atr20_pct": 15.16,
       "day_gain_pct": 4.2,
       "trade_value_krw": 12800000000,
       "v4_score": 99.8,
@@ -3669,46 +3702,13 @@
         "fimc_score": 99.8,
         "fimc_bonus": 0.0,
         "v4_score": 99.8,
-        "atr20_pct": 18.835,
+        "atr20_pct": 15.16,
         "cbf_safe": true,
         "cbf_veto": false,
-        "plant_elasticity_pct": 18.84,
+        "plant_elasticity_pct": 15.16,
         "plant_episodes": 1,
         "notes": [
-          "📊20일ATR 18.84%",
-          "🕯️AM눌림 0.0%(AM +0.00%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 2,
-      "v4_rank": 3,
-      "name": "양지사",
-      "code": "030960",
-      "close": 6750,
-      "atr20_pct": 13.896,
-      "day_gain_pct": 16.9,
-      "trade_value_krw": 57500000000,
-      "v4_score": 99.8,
-      "gnc_score": 99.8,
-      "composite_score": 99.8,
-      "all_filters_passed": true,
-      "recommended_live_buy": true,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 99.8,
-        "fimc_score": 99.8,
-        "fimc_bonus": 0.0,
-        "v4_score": 99.8,
-        "atr20_pct": 13.896,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 13.9,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 13.90%",
+          "📊20일ATR 15.16%",
           "🕯️AM눌림 0.0%(AM +0.00%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
@@ -3716,6 +3716,72 @@
     },
     {
       "rank": 3,
+      "v4_rank": 2,
+      "name": "코리아써키트",
+      "code": "007810",
+      "close": 70600,
+      "atr20_pct": 15.132,
+      "day_gain_pct": 12.4,
+      "trade_value_krw": 152600000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 15.132,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 15.13,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 15.13%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "v4_rank": 4,
+      "name": "TS트릴리온",
+      "code": "317240",
+      "close": 1309,
+      "atr20_pct": 14.116,
+      "day_gain_pct": 9.2,
+      "trade_value_krw": 33700000000,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 14.116,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 14.12,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 14.12%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 5,
       "v4_rank": 5,
       "name": "비나텍",
       "code": "126340",
@@ -3748,14 +3814,14 @@
       }
     },
     {
-      "rank": 4,
-      "v4_rank": 2,
-      "name": "코리아써키트",
-      "code": "007810",
-      "close": 70600,
-      "atr20_pct": 12.558,
-      "day_gain_pct": 12.4,
-      "trade_value_krw": 152600000000,
+      "rank": 6,
+      "v4_rank": 3,
+      "name": "양지사",
+      "code": "030960",
+      "close": 6750,
+      "atr20_pct": 12.305,
+      "day_gain_pct": 16.9,
+      "trade_value_krw": 57500000000,
       "v4_score": 99.8,
       "gnc_score": 99.8,
       "composite_score": 99.8,
@@ -3768,53 +3834,20 @@
         "fimc_score": 99.8,
         "fimc_bonus": 0.0,
         "v4_score": 99.8,
-        "atr20_pct": 12.558,
+        "atr20_pct": 12.305,
         "cbf_safe": true,
         "cbf_veto": false,
-        "plant_elasticity_pct": 12.56,
+        "plant_elasticity_pct": 12.3,
         "plant_episodes": 0,
         "notes": [
-          "📊20일ATR 12.56%",
+          "📊20일ATR 12.30%",
           "🕯️AM눌림 0.0%(AM +0.00%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
     },
     {
-      "rank": 5,
-      "v4_rank": 9,
-      "name": "앤로보틱스",
-      "code": "138360",
-      "close": 1391,
-      "atr20_pct": 12.711,
-      "day_gain_pct": 6.6,
-      "trade_value_krw": 27200000000,
-      "v4_score": 99.02,
-      "gnc_score": 99.02,
-      "composite_score": 99.02,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 99.02,
-        "fimc_score": 99.02,
-        "fimc_bonus": 0.0,
-        "v4_score": 99.02,
-        "atr20_pct": 12.711,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 12.71,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 12.71%",
-          "🕯️AM눌림 0.0%(AM +0.00%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "v4_rank": 8,
       "name": "THE E&M",
       "code": "089230",
@@ -3847,7 +3880,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "v4_rank": 10,
       "name": "유니켐",
       "code": "011330",
@@ -3880,7 +3913,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "v4_rank": 7,
       "name": "쏘닉스",
       "code": "088280",
@@ -3913,7 +3946,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "v4_rank": 1,
       "name": "세아메카닉스",
       "code": "396300",
@@ -3940,39 +3973,6 @@
         "plant_episodes": 1,
         "notes": [
           "📊20일ATR 8.87%",
-          "🕯️AM눌림 0.0%(AM +0.00%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 10,
-      "v4_rank": 4,
-      "name": "TS트릴리온",
-      "code": "317240",
-      "close": 1309,
-      "atr20_pct": 8.216,
-      "day_gain_pct": 9.2,
-      "trade_value_krw": 33700000000,
-      "v4_score": 77.15,
-      "gnc_score": 77.15,
-      "composite_score": 77.15,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 77.15,
-        "fimc_score": 77.15,
-        "fimc_bonus": 0.0,
-        "v4_score": 77.15,
-        "atr20_pct": 8.216,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 8.22,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 8.22%",
           "🕯️AM눌림 0.0%(AM +0.00%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
