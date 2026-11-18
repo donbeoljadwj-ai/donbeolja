@@ -25,7 +25,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -54,7 +54,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -83,7 +83,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -112,7 +112,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -141,7 +141,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -170,7 +170,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -201,7 +201,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -230,7 +230,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -259,7 +259,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -288,7 +288,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -317,7 +317,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -346,7 +346,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -1117,39 +1117,6 @@
     },
     {
       "rank": 4,
-      "v4_rank": 3,
-      "name": "한미사이언스",
-      "code": "008930",
-      "close": 66200,
-      "atr20_pct": 11.243,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 296497799200,
-      "v4_score": 92.4,
-      "gnc_score": 92.4,
-      "composite_score": 92.4,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 92.4,
-        "fimc_score": 92.4,
-        "fimc_bonus": 0.0,
-        "v4_score": 92.4,
-        "atr20_pct": 11.243,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 11.24,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 11.24%",
-          "🕯️AM눌림 0.0%(AM +13.94%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 5,
       "v4_rank": 7,
       "name": "지앤비에스 에코",
       "code": "382800",
@@ -1182,7 +1149,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "v4_rank": 2,
       "name": "한미약품",
       "code": "128940",
@@ -1215,7 +1182,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "v4_rank": 9,
       "name": "녹십자엠에스",
       "code": "142280",
@@ -1248,7 +1215,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "v4_rank": 10,
       "name": "LG전자",
       "code": "066570",
@@ -1281,6 +1248,39 @@
       }
     },
     {
+      "rank": 8,
+      "v4_rank": 3,
+      "name": "한미사이언스",
+      "code": "008930",
+      "close": 66200,
+      "atr20_pct": 11.243,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 296497799200,
+      "v4_score": 92.4,
+      "gnc_score": 92.4,
+      "composite_score": 92.4,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
+        "gnc_score": 92.4,
+        "fimc_score": 92.4,
+        "fimc_bonus": 0.0,
+        "v4_score": 92.4,
+        "atr20_pct": 11.243,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "plant_elasticity_pct": 11.24,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 11.24%",
+          "🕯️AM눌림 0.0%(AM +13.94%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
       "rank": 9,
       "v4_rank": 8,
       "name": "BGF에코머티리얼즈",
@@ -1292,18 +1292,18 @@
       "v4_score": 66.2,
       "gnc_score": 66.2,
       "composite_score": 66.2,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 66.2,
         "fimc_score": 66.2,
         "fimc_bonus": 0.0,
         "v4_score": 66.2,
         "atr20_pct": 6.187,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 6.19,
         "plant_episodes": 0,
         "notes": [
@@ -1338,7 +1338,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -1633,7 +1633,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -1662,7 +1662,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -1835,39 +1835,6 @@
     },
     {
       "rank": 6,
-      "v4_rank": 5,
-      "name": "엘앤씨바이오",
-      "code": "290650",
-      "close": 64700,
-      "atr20_pct": 11.998,
-      "day_gain_pct": 5.0,
-      "trade_value_krw": 217262396800,
-      "v4_score": 96.18,
-      "gnc_score": 96.18,
-      "composite_score": 96.18,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 96.18,
-        "fimc_score": 96.18,
-        "fimc_bonus": 0.0,
-        "v4_score": 96.18,
-        "atr20_pct": 11.998,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 12.0,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 12.00%",
-          "🕯️AM눌림 0.0%(AM +13.71%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 7,
       "v4_rank": 8,
       "name": "SK하이닉스",
       "code": "000660",
@@ -1900,7 +1867,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "v4_rank": 3,
       "name": "삼성SDI",
       "code": "006400",
@@ -1933,7 +1900,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "v4_rank": 9,
       "name": "삼성전자",
       "code": "005930",
@@ -1961,6 +1928,39 @@
         "notes": [
           "📊20일ATR 8.53%",
           "🕯️AM눌림 0.0%(AM +0.20%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "v4_rank": 5,
+      "name": "엘앤씨바이오",
+      "code": "290650",
+      "close": 64700,
+      "atr20_pct": 11.998,
+      "day_gain_pct": 5.0,
+      "trade_value_krw": 217262396800,
+      "v4_score": 96.18,
+      "gnc_score": 96.18,
+      "composite_score": 96.18,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
+        "gnc_score": 96.18,
+        "fimc_score": 96.18,
+        "fimc_bonus": 0.0,
+        "v4_score": 96.18,
+        "atr20_pct": 11.998,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "plant_elasticity_pct": 12.0,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 12.00%",
+          "🕯️AM눌림 0.0%(AM +13.71%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -2233,39 +2233,6 @@
     },
     {
       "rank": 8,
-      "v4_rank": 2,
-      "name": "롯데손해보험",
-      "code": "000400",
-      "close": 2555,
-      "atr20_pct": 5.587,
-      "day_gain_pct": 9.66,
-      "trade_value_krw": 40000000000,
-      "v4_score": 62.86,
-      "gnc_score": 62.86,
-      "composite_score": 62.86,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 62.86,
-        "fimc_score": 62.86,
-        "fimc_bonus": 0.0,
-        "v4_score": 62.86,
-        "atr20_pct": 5.587,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 5.59,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 5.59%",
-          "🕯️AM눌림 0.0%(AM +1.59%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 9,
       "v4_rank": 7,
       "name": "서산",
       "code": "079650",
@@ -2298,7 +2265,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "v4_rank": 8,
       "name": "뉴인텍",
       "code": "012340",
@@ -2326,6 +2293,39 @@
         "notes": [
           "📊20일ATR 14.08%",
           "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "v4_rank": 2,
+      "name": "롯데손해보험",
+      "code": "000400",
+      "close": 2555,
+      "atr20_pct": 5.587,
+      "day_gain_pct": 9.66,
+      "trade_value_krw": 40000000000,
+      "v4_score": 62.86,
+      "gnc_score": 62.86,
+      "composite_score": 62.86,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
+        "gnc_score": 62.86,
+        "fimc_score": 62.86,
+        "fimc_bonus": 0.0,
+        "v4_score": 62.86,
+        "atr20_pct": 5.587,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "plant_elasticity_pct": 5.59,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 5.59%",
+          "🕯️AM눌림 0.0%(AM +1.59%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -2864,39 +2864,6 @@
     },
     {
       "rank": 7,
-      "v4_rank": 3,
-      "name": "BGF리테일",
-      "code": "282330",
-      "close": 135000,
-      "atr20_pct": 5.603,
-      "day_gain_pct": 5.6,
-      "trade_value_krw": 11300000000,
-      "v4_score": 65.46,
-      "gnc_score": 65.46,
-      "composite_score": 65.46,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 65.46,
-        "fimc_score": 65.46,
-        "fimc_bonus": 0.0,
-        "v4_score": 65.46,
-        "atr20_pct": 5.603,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 5.6,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 5.60%",
-          "🕯️AM눌림 0.0%(AM +0.07%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 8,
       "v4_rank": 10,
       "name": "CJ ENM",
       "code": "035760",
@@ -2924,6 +2891,39 @@
         "notes": [
           "📊20일ATR 7.37%",
           "🕯️AM눌림 0.0%(AM -1.73%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "v4_rank": 3,
+      "name": "BGF리테일",
+      "code": "282330",
+      "close": 135000,
+      "atr20_pct": 5.603,
+      "day_gain_pct": 5.6,
+      "trade_value_krw": 11300000000,
+      "v4_score": 65.46,
+      "gnc_score": 65.46,
+      "composite_score": 65.46,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
+        "gnc_score": 65.46,
+        "fimc_score": 65.46,
+        "fimc_bonus": 0.0,
+        "v4_score": 65.46,
+        "atr20_pct": 5.603,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "plant_elasticity_pct": 5.6,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 5.60%",
+          "🕯️AM눌림 0.0%(AM +0.07%)",
           "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
         ]
       }
@@ -2986,7 +2986,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -3613,7 +3613,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -3642,7 +3642,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -4236,7 +4236,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -4265,7 +4265,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -4294,7 +4294,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -4622,7 +4622,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -4871,18 +4871,18 @@
       "v4_score": 69.32,
       "gnc_score": 69.32,
       "composite_score": 69.32,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 69.32,
         "fimc_score": 69.32,
         "fimc_bonus": 0.0,
         "v4_score": 69.32,
         "atr20_pct": 5.297,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 5.3,
         "plant_episodes": 0,
         "notes": [
@@ -4917,7 +4917,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -4946,7 +4946,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -6325,18 +6325,18 @@
       "v4_score": 62.16,
       "gnc_score": 62.16,
       "composite_score": 62.16,
-      "all_filters_passed": true,
-      "recommended_live_buy": true,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 62.16,
         "fimc_score": 62.16,
         "fimc_bonus": 0.0,
         "v4_score": 62.16,
         "atr20_pct": 4.478,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 4.48,
         "plant_episodes": 0,
         "notes": [
@@ -6371,7 +6371,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -6400,7 +6400,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -6606,39 +6606,6 @@
     },
     {
       "rank": 7,
-      "v4_rank": 10,
-      "name": "삼성중공업",
-      "code": "010140",
-      "close": 17180,
-      "atr20_pct": 5.992,
-      "day_gain_pct": 7.81,
-      "trade_value_krw": 105690542560,
-      "v4_score": 74.78,
-      "gnc_score": 74.78,
-      "composite_score": 74.78,
-      "all_filters_passed": true,
-      "recommended_live_buy": false,
-      "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
-        "gnc_score": 74.78,
-        "fimc_score": 74.78,
-        "fimc_bonus": 0.0,
-        "v4_score": 74.78,
-        "atr20_pct": 5.992,
-        "cbf_safe": true,
-        "cbf_veto": false,
-        "plant_elasticity_pct": 5.99,
-        "plant_episodes": 0,
-        "notes": [
-          "📊20일ATR 5.99%",
-          "🕯️AM눌림 0.1%(AM +0.35%)",
-          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
-        ]
-      }
-    },
-    {
-      "rank": 8,
       "v4_rank": 7,
       "name": "LG씨엔에스",
       "code": "064400",
@@ -6671,6 +6638,39 @@
       }
     },
     {
+      "rank": 8,
+      "v4_rank": 10,
+      "name": "삼성중공업",
+      "code": "010140",
+      "close": 17180,
+      "atr20_pct": 5.992,
+      "day_gain_pct": 7.81,
+      "trade_value_krw": 105690542560,
+      "v4_score": 74.78,
+      "gnc_score": 74.78,
+      "composite_score": 74.78,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
+        "gnc_score": 74.78,
+        "fimc_score": 74.78,
+        "fimc_bonus": 0.0,
+        "v4_score": 74.78,
+        "atr20_pct": 5.992,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "plant_elasticity_pct": 5.99,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 5.99%",
+          "🕯️AM눌림 0.1%(AM +0.35%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      }
+    },
+    {
       "rank": 9,
       "v4_rank": 6,
       "name": "현대제철",
@@ -6682,18 +6682,18 @@
       "v4_score": 73.34,
       "gnc_score": 73.34,
       "composite_score": 73.34,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 73.34,
         "fimc_score": 73.34,
         "fimc_bonus": 0.0,
         "v4_score": 73.34,
         "atr20_pct": 5.581,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 5.58,
         "plant_episodes": 0,
         "notes": [
@@ -6715,18 +6715,18 @@
       "v4_score": 73.0,
       "gnc_score": 73.0,
       "composite_score": 73.0,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 73.0,
         "fimc_score": 73.0,
         "fimc_bonus": 0.0,
         "v4_score": 73.0,
         "atr20_pct": 5.464,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 5.46,
         "plant_episodes": 0,
         "notes": [
@@ -6928,7 +6928,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     },
@@ -6957,7 +6957,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
@@ -7472,18 +7472,18 @@
       "v4_score": 72.73,
       "gnc_score": 72.73,
       "composite_score": 72.73,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 72.73,
         "fimc_score": 72.73,
         "fimc_bonus": 0.0,
         "v4_score": 72.73,
         "atr20_pct": 5.934,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 5.93,
         "plant_episodes": 0,
         "notes": [
@@ -7505,18 +7505,18 @@
       "v4_score": 70.66,
       "gnc_score": 70.66,
       "composite_score": 70.66,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 70.66,
         "fimc_score": 70.66,
         "fimc_bonus": 0.0,
         "v4_score": 70.66,
         "atr20_pct": 5.482,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 5.48,
         "plant_episodes": 0,
         "notes": [
@@ -7538,18 +7538,18 @@
       "v4_score": 69.53,
       "gnc_score": 69.53,
       "composite_score": 69.53,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 69.53,
         "fimc_score": 69.53,
         "fimc_bonus": 0.0,
         "v4_score": 69.53,
         "atr20_pct": 5.369,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 5.37,
         "plant_episodes": 0,
         "notes": [
@@ -7571,18 +7571,18 @@
       "v4_score": 68.69,
       "gnc_score": 68.69,
       "composite_score": 68.69,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 68.69,
         "fimc_score": 68.69,
         "fimc_bonus": 0.0,
         "v4_score": 68.69,
         "atr20_pct": 4.528,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 4.53,
         "plant_episodes": 0,
         "notes": [
@@ -7604,18 +7604,18 @@
       "v4_score": 65.83,
       "gnc_score": 65.83,
       "composite_score": 65.83,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 65.83,
         "fimc_score": 65.83,
         "fimc_bonus": 0.0,
         "v4_score": 65.83,
         "atr20_pct": 4.469,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 4.47,
         "plant_episodes": 0,
         "notes": [
@@ -7936,18 +7936,18 @@
       "v4_score": 62.78,
       "gnc_score": 62.78,
       "composite_score": 62.78,
-      "all_filters_passed": true,
+      "all_filters_passed": false,
       "recommended_live_buy": false,
       "gnc_metrics": {
-        "verdict": "FROZEN_LOCK",
-        "fimc_verdict": "FROZEN_LOCK",
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
         "gnc_score": 62.78,
         "fimc_score": 62.78,
         "fimc_bonus": 0.0,
         "v4_score": 62.78,
         "atr20_pct": 4.653,
-        "cbf_safe": true,
-        "cbf_veto": false,
+        "cbf_safe": false,
+        "cbf_veto": true,
         "plant_elasticity_pct": 4.65,
         "plant_episodes": 0,
         "notes": [
@@ -8281,7 +8281,7 @@
         "cbf_safe": false,
         "cbf_veto": true,
         "notes": [
-          "기본유동성·ATR20·AM과열(>15%)/붕괴필터탈락"
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
         ]
       }
     }
