@@ -1,48 +1,48 @@
 {
-  "updated_at": "2026-11-17 23:15:15",
-  "evaluated_days": 30,
+  "updated_at": "2026-11-18 20:10:42",
+  "evaluated_days": 31,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 36.7,
-      "rank1_cum_return_pct": -50.5,
-      "top2_win_rate_pct": 40.0,
-      "top2_cum_return_pct": -36.81,
-      "top3_cum_return_pct": -34.3,
+      "rank1_win_rate_pct": 38.7,
+      "rank1_cum_return_pct": -45.85,
+      "top2_win_rate_pct": 41.9,
+      "top2_cum_return_pct": -33.68,
+      "top3_cum_return_pct": -30.67,
       "top2_stop_losses": 23
     },
     "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 33.3,
-      "rank1_cum_return_pct": -53.81,
-      "top2_win_rate_pct": 36.7,
-      "top2_cum_return_pct": -44.06
+      "rank1_win_rate_pct": 35.5,
+      "rank1_cum_return_pct": -52.21,
+      "top2_win_rate_pct": 38.7,
+      "top2_cum_return_pct": -40.94
     },
     "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 54.2,
-      "rank1_cum_return_pct": 31.99,
-      "top2_win_rate_pct": 47.8,
-      "top2_cum_return_pct": 22.95,
-      "top3_cum_return_pct": 25.86,
+      "rank1_win_rate_pct": 56.0,
+      "rank1_cum_return_pct": 38.82,
+      "top2_win_rate_pct": 50.0,
+      "top2_cum_return_pct": 27.61,
+      "top3_cum_return_pct": 31.25,
       "top2_stop_losses": 23,
       "expired_saved_stop_losses_count": 20,
       "expired_saved_loss_pct": 167.87
     },
     "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 33.3,
-      "rank1_hit5_rate_pct": 56.7,
-      "rank1_cum_return_pct": -32.55,
-      "top2_win_rate_pct": 35.0,
-      "top2_cum_return_pct": -61.09,
-      "top3_cum_return_pct": -27.27,
+      "rank1_win_rate_pct": 35.5,
+      "rank1_hit5_rate_pct": 58.1,
+      "rank1_cum_return_pct": -30.95,
+      "top2_win_rate_pct": 37.1,
+      "top2_cum_return_pct": -57.97,
+      "top3_cum_return_pct": -23.64,
       "top2_stop_losses": 25
     },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
-      "rank1_win_rate_pct": 40.7,
-      "rank1_hit5_rate_pct": 63.0,
-      "rank1_triggered_days": 27,
-      "rank1_cum_return_pct": 23.78,
-      "top2_win_rate_pct": 46.7,
-      "top2_cum_return_pct": 21.62,
-      "top3_cum_return_pct": 38.07,
+      "rank1_win_rate_pct": 42.9,
+      "rank1_hit5_rate_pct": 64.3,
+      "rank1_triggered_days": 28,
+      "rank1_cum_return_pct": 26.28,
+      "top2_win_rate_pct": 48.9,
+      "top2_cum_return_pct": 25.07,
+      "top3_cum_return_pct": 42.76,
       "top2_stop_losses": 23,
       "filtered_saved_stop_losses_count": 15,
       "filtered_saved_loss_pct": 108.89
@@ -816,6 +816,30 @@
         "raw_realized_pct": -20.17,
         "exec_state": "EXPIRED (VAL_RECOVERY_ORB +3.00% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
+      }
+    },
+    "2026-11-18": {
+      "qfe_rank1": {
+        "name": "루닛",
+        "code": "328130",
+        "qfe_score": 67.4,
+        "v4_score": 68.6,
+        "notes": [],
+        "p_target": 31.2,
+        "ev_pct": 0.59,
+        "knn_win_rate": 60.1,
+        "high_pct": 5.16,
+        "raw_realized_pct": 1.6,
+        "exec_state": "TRIGGERED (VAL_RECOVERY_ORB +2.50% 돌파체결)",
+        "exec_realized_pct": 2.5
+      },
+      "qfe_rank2": {
+        "name": "성호전자",
+        "code": "043260",
+        "qfe_score": 62.4,
+        "raw_realized_pct": 4.65,
+        "exec_state": "TRIGGERED (ORB +1.25% 돌파체결)",
+        "exec_realized_pct": 4.4
       }
     }
   }
