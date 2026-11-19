@@ -2,7 +2,7 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-18 20:10:09",
+    "last_updated": "2026-11-19 15:11:02",
     "engine_version": "v2.9-ARGON"
   },
   "summary": {
@@ -1758,8 +1758,8 @@
           "am_high_gain_pct": 1.77,
           "next_open_price": 25150,
           "next_open_gap_pct": -11.13,
-          "next_high_price": 27450,
-          "next_max_gain_pct": -3.0,
+          "next_high_price": 27250,
+          "next_max_gain_pct": -3.71,
           "next_close_price": 26450,
           "next_close_gain_pct": -6.54,
           "hit_am_3pct": false,
@@ -2104,7 +2104,7 @@
           "is_win": false,
           "catalyst": "[ARGON v4 83.7점], 👑 '반도체 장비' 독자대장주(동조율 97%), 고가유지 99.0% 밀착마감, 정규장 대금 121억 집중, 정규장 +16.60% 돌파",
           "am_hold_passed": false,
-          "next_low_price": 7200
+          "next_low_price": 7350
         },
         {
           "rank": 4,
@@ -2228,6 +2228,82 @@
           "am_hold_passed": false,
           "next_low_price": 18010,
           "settlement_tier": "VERIFIED_1M_CHRONO"
+        }
+      ]
+    },
+    "2026-11-19": {
+      "date": "2026-11-19",
+      "recorded_at": "2026-11-19 15:10:54",
+      "trades_count": 3,
+      "trades": [
+        {
+          "rank": 1,
+          "name": "달바글로벌",
+          "code": "483650",
+          "entry_price": 130600,
+          "am_high_price": 130600,
+          "am_high_gain_pct": 0.0,
+          "am_hold_passed": false,
+          "next_open_price": 0,
+          "next_open_gap_pct": 0.0,
+          "next_high_price": 0,
+          "next_max_gain_pct": 0.0,
+          "next_low_price": 0,
+          "next_close_price": 0,
+          "next_close_gain_pct": 0.0,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": 0.0,
+          "trade_result": "⚠️ 당일 AM +0.00% (+2% 미달 ➜ 익일 09:15 타임스탑 대상)",
+          "is_win": true,
+          "catalyst": "[v2.9-ARGON 83.0점], 👑 '화장품' 대장주(동조율 100%), 고가유지 99.2%(usr 0.08), 정규대금 260억 · +12.10%, 외+기 +36.2억"
+        },
+        {
+          "rank": 2,
+          "name": "전진건설로봇",
+          "code": "079900",
+          "entry_price": 44900,
+          "am_high_price": 44900,
+          "am_high_gain_pct": 0.0,
+          "am_hold_passed": false,
+          "next_open_price": 0,
+          "next_open_gap_pct": 0.0,
+          "next_high_price": 0,
+          "next_max_gain_pct": 0.0,
+          "next_low_price": 0,
+          "next_close_price": 0,
+          "next_close_gain_pct": 0.0,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": 0.0,
+          "trade_result": "⚠️ 당일 AM +0.00% (+2% 미달 ➜ 익일 09:15 타임스탑 대상)",
+          "is_win": true,
+          "catalyst": "[v2.9-ARGON 82.7점], 👑 '전후 재건(우크라/중동 전쟁 등)' 대장주(동조율 100%), 고가유지 97.6%(usr 0.15), 정규대금 231억 · +14.83%, 외+기 +10.0억"
+        },
+        {
+          "rank": 3,
+          "name": "페니트리움바이오",
+          "code": "187660",
+          "entry_price": 6760,
+          "am_high_price": 6760,
+          "am_high_gain_pct": 0.0,
+          "am_hold_passed": false,
+          "next_open_price": 0,
+          "next_open_gap_pct": 0.0,
+          "next_high_price": 0,
+          "next_max_gain_pct": 0.0,
+          "next_low_price": 0,
+          "next_close_price": 0,
+          "next_close_gain_pct": 0.0,
+          "hit_am_3pct": false,
+          "hit_next_5pct": false,
+          "hit_stoploss": false,
+          "realized_return_pct": 0.0,
+          "trade_result": "⚠️ 당일 AM +0.00% (+2% 미달 ➜ 익일 09:15 타임스탑 대상)",
+          "is_win": true,
+          "catalyst": "[v2.9-ARGON 79.6점], 테마 '수급주도'(동조율 55%), 고가유지 98.7%(usr 0.07), 정규대금 129억 · +17.36%, 외+기 +4.5억"
         }
       ]
     }
