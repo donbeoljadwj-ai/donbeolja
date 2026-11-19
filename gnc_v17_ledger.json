@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-11-19 15:12:04",
+  "updated_at": "2026-11-19 20:11:12",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v1.9-FROZEN",
     "engine_sha256": "a42c86dcaae6e937",
     "preopen_logged_days": 2,
-    "settled_preopen_days": 1,
+    "settled_preopen_days": 2,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
-    "status_badge": "엔진 동결 전진검증 누적 중 (1/30일 · 30거래일 미만 승률 미표시)"
+    "status_badge": "엔진 동결 전진검증 누적 중 (2/30일 · 30거래일 미만 승률 미표시)"
   },
-  "evaluated_days": 33,
+  "evaluated_days": 34,
   "honest_regular_bar_comparison": {
     "definition": "확정 KRX 정규장 일봉(09:00~15:30) · 왕복비용 0.35% 차감",
     "v1_before_original_rank1": {
-      "all_recommended_days": 33,
-      "active_traded_days": 33,
+      "all_recommended_days": 34,
+      "active_traded_days": 34,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit35_count": 17,
-      "rank1_hit35_rate_pct": 51.5,
-      "rank1_hit5_daily_count": 17,
-      "rank1_hit5_daily_rate_pct": 51.5,
+      "rank1_hit35_count": 18,
+      "rank1_hit35_rate_pct": 52.9,
+      "rank1_hit5_daily_count": 18,
+      "rank1_hit5_daily_rate_pct": 52.9,
       "rank1_net_wins": 13,
-      "rank1_net_win_rate_pct": 39.4,
+      "rank1_net_win_rate_pct": 38.2,
       "rank1_mean_net_pct": -0.83,
-      "rank1_cum_net_pct": -27.23
+      "rank1_cum_net_pct": -28.26
     },
     "v1_after_v19_atr_clean_rank1": {
-      "all_recommended_days": 33,
-      "active_traded_days": 33,
+      "all_recommended_days": 34,
+      "active_traded_days": 34,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit35_count": 27,
-      "rank1_hit35_rate_pct": 81.8,
-      "rank1_hit5_daily_count": 25,
-      "rank1_hit5_daily_rate_pct": 75.8,
+      "rank1_hit35_count": 28,
+      "rank1_hit35_rate_pct": 82.4,
+      "rank1_hit5_daily_count": 26,
+      "rank1_hit5_daily_rate_pct": 76.5,
       "rank1_net_wins": 20,
-      "rank1_net_win_rate_pct": 60.6,
-      "rank1_mean_net_pct": 1.69,
-      "rank1_cum_net_pct": 55.66
+      "rank1_net_win_rate_pct": 58.8,
+      "rank1_mean_net_pct": 1.61,
+      "rank1_cum_net_pct": 54.63
     },
     "v1_after_v20_gap_and_2stage_rank1": {
-      "all_recommended_days": 33,
-      "active_traded_days": 16,
+      "all_recommended_days": 34,
+      "active_traded_days": 17,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit35_count": 12,
-      "rank1_hit35_rate_pct": 75.0,
-      "rank1_hit5_daily_count": 11,
-      "rank1_hit5_daily_rate_pct": 68.8,
+      "rank1_hit35_count": 13,
+      "rank1_hit35_rate_pct": 76.5,
+      "rank1_hit5_daily_count": 12,
+      "rank1_hit5_daily_rate_pct": 70.6,
       "rank1_net_wins": 7,
-      "rank1_net_win_rate_pct": 43.8,
-      "rank1_mean_net_pct": 0.19,
-      "rank1_cum_net_pct": 6.32
+      "rank1_net_win_rate_pct": 41.2,
+      "rank1_mean_net_pct": 0.1,
+      "rank1_cum_net_pct": 3.47
     },
     "v19_last10_summary": {
       "days": 10,
@@ -59,8 +59,8 @@
       "win_rate_pct": 70.0,
       "hit5_count": 8,
       "hit5_rate_pct": 80.0,
-      "cum_net_pct": 24.19,
-      "mean_net_pct": 2.42
+      "cum_net_pct": 23.62,
+      "mean_net_pct": 2.36
     },
     "note": "v1.9-FROZEN (ATR20 클린 엔진) 기준으로 즉시 복원 완료."
   },
@@ -109,7 +109,7 @@
       "after_v19_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.287,
+        "atr20_pct": 11.403,
         "score": 0.0,
         "open_gap_pct": -3.06,
         "o2h_pct": 6.55,
@@ -119,7 +119,7 @@
       "after_v20_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.287,
+        "atr20_pct": 11.403,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -3.06,
@@ -141,8 +141,8 @@
       "after_v19_rank1": {
         "name": "아이비젼웍스",
         "code": "469750",
-        "atr20_pct": 12.346,
-        "score": 96.91,
+        "atr20_pct": 12.524,
+        "score": 97.8,
         "open_gap_pct": 1.93,
         "o2h_pct": 5.86,
         "o2c_net_pct": 4.99,
@@ -151,8 +151,8 @@
       "after_v20_rank1": {
         "name": "아이비젼웍스",
         "code": "469750",
-        "atr20_pct": 12.346,
-        "score": 96.91,
+        "atr20_pct": 12.524,
+        "score": 97.8,
         "gap_band_ok": true,
         "open_gap_pct": 1.93,
         "o2h_pct": 5.86,
@@ -205,8 +205,8 @@
       "after_v19_rank1": {
         "name": "주성엔지니어링",
         "code": "036930",
-        "atr20_pct": 9.818,
-        "score": 85.28,
+        "atr20_pct": 10.047,
+        "score": 86.42,
         "open_gap_pct": 0.4,
         "o2h_pct": 10.3,
         "o2c_net_pct": 5.59,
@@ -215,8 +215,8 @@
       "after_v20_rank1": {
         "name": "주성엔지니어링",
         "code": "036930",
-        "atr20_pct": 9.818,
-        "score": 85.28,
+        "atr20_pct": 10.047,
+        "score": 86.42,
         "gap_band_ok": true,
         "open_gap_pct": 0.4,
         "o2h_pct": 10.3,
@@ -237,8 +237,8 @@
       "after_v19_rank1": {
         "name": "한빛레이저",
         "code": "452190",
-        "atr20_pct": 9.197,
-        "score": 85.81,
+        "atr20_pct": 9.286,
+        "score": 86.25,
         "open_gap_pct": 1.11,
         "o2h_pct": 5.66,
         "o2c_net_pct": -2.39,
@@ -247,8 +247,8 @@
       "after_v20_rank1": {
         "name": "한빛레이저",
         "code": "452190",
-        "atr20_pct": 9.197,
-        "score": 85.81,
+        "atr20_pct": 9.286,
+        "score": 86.25,
         "gap_band_ok": true,
         "open_gap_pct": 1.11,
         "o2h_pct": 5.66,
@@ -301,7 +301,7 @@
       "after_v19_rank1": {
         "name": "안랩",
         "code": "053800",
-        "atr20_pct": 14.025,
+        "atr20_pct": 14.154,
         "score": 99.8,
         "open_gap_pct": -2.51,
         "o2h_pct": 8.9,
@@ -311,7 +311,7 @@
       "after_v20_rank1": {
         "name": "안랩",
         "code": "053800",
-        "atr20_pct": 14.025,
+        "atr20_pct": 14.154,
         "score": 99.8,
         "gap_band_ok": false,
         "open_gap_pct": -2.51,
@@ -333,8 +333,8 @@
       "after_v19_rank1": {
         "name": "비나텍",
         "code": "126340",
-        "atr20_pct": 11.96,
-        "score": 94.94,
+        "atr20_pct": 12.053,
+        "score": 95.4,
         "open_gap_pct": -9.27,
         "o2h_pct": 3.4,
         "o2c_net_pct": -5.27,
@@ -343,8 +343,8 @@
       "after_v20_rank1": {
         "name": "비나텍",
         "code": "126340",
-        "atr20_pct": 11.96,
-        "score": 94.94,
+        "atr20_pct": 12.053,
+        "score": 95.4,
         "gap_band_ok": false,
         "open_gap_pct": -9.27,
         "o2h_pct": 3.4,
@@ -1118,6 +1118,38 @@
         "o2h_pct": 21.13,
         "o2c_net_pct": 3.42,
         "two_stage_net_pct": 4.65,
+        "hit_35pct_daily": true,
+        "hit_5pct_daily": true
+      }
+    },
+    "2026-11-19": {
+      "before_orig_rank1": {
+        "name": "라온시큐어",
+        "code": "042510",
+        "o2h_pct": 5.73,
+        "o2c_net_pct": -1.03,
+        "hit_5pct_daily": true
+      },
+      "after_v19_rank1": {
+        "name": "라온시큐어",
+        "code": "042510",
+        "atr20_pct": 17.465,
+        "score": 99.8,
+        "open_gap_pct": 2.66,
+        "o2h_pct": 5.73,
+        "o2c_net_pct": -1.03,
+        "hit_5pct_daily": true
+      },
+      "after_v20_rank1": {
+        "name": "라온시큐어",
+        "code": "042510",
+        "atr20_pct": 17.465,
+        "score": 99.8,
+        "gap_band_ok": true,
+        "open_gap_pct": 2.66,
+        "o2h_pct": 5.73,
+        "o2c_net_pct": -1.03,
+        "two_stage_net_pct": -2.85,
         "hit_35pct_daily": true,
         "hit_5pct_daily": true
       }
