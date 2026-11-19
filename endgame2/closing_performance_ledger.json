@@ -2,7 +2,7 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-19 15:11:02",
+    "last_updated": "2026-11-19 20:10:12",
     "engine_version": "v2.9-ARGON"
   },
   "summary": {
@@ -1781,8 +1781,8 @@
           "am_high_gain_pct": 2.05,
           "next_open_price": 66300,
           "next_open_gap_pct": -14.89,
-          "next_high_price": 79700,
-          "next_max_gain_pct": 2.31,
+          "next_high_price": 81000,
+          "next_max_gain_pct": 3.98,
           "next_close_price": 76600,
           "next_close_gain_pct": -1.67,
           "hit_am_3pct": false,
@@ -2150,7 +2150,7 @@
           "is_win": false,
           "catalyst": "[ARGON v4 77.0점], 테마 '반도체 장비'(동조율 97%), 고가유지 99.8% 밀착마감, 정규장 대금 512억 집중, 정규장 +11.03% 돌파",
           "am_hold_passed": false,
-          "next_low_price": 28700
+          "next_low_price": 26550
         },
         {
           "rank": 6,
