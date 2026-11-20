@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19 23:14:31",
+  "updated_at": "2026-11-20 15:12:20",
   "active_version": "v3.4-FROZEN (sha256:a4ba391a9334b0ba)",
   "strategy_title": "GEMINI ENDGAME v3.4-FROZEN (전야 AM +1.5~+9.0% 과열차단 + AM종가<VWAP 눌림우위 + 08:50 AM지지게이트[-2.0%,+4.5%] + 2단계 분할청산[+3.5% 반익·+0.4% 본절락인/+6.5%] · Top 2 집중)",
   "upcoming_target_date": "2026-11-20",
@@ -10625,8 +10625,8 @@
       "recommended_top_k": 2,
       "allow_entry_passers_count": 10,
       "hold_wait_passers_count": 74,
-      "same_day_passers_avg_surge_pct": 2.56,
-      "same_day_passers_avg_am_net_pct": -0.49,
+      "same_day_passers_avg_surge_pct": 2.55,
+      "same_day_passers_avg_am_net_pct": -0.5,
       "rank1_name": "모두투어",
       "rank1_code": "080160",
       "rank1_order_decision": "ALLOW_ENTRY",
