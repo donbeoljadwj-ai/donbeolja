@@ -3,11 +3,11 @@
   "engine_version": "v4.3-FROZEN",
   "after_market_data_usage_pct": 0.0,
   "round_trip_cost_pct": 0.35,
-  "upcoming_target_date": "2026-11-20",
+  "upcoming_target_date": "2026-11-23",
   "audit_notice": "외부 리포트(dante/study/endgame_v40_backtest_report.json)에서 복사했던 기존 27일 원장(84%/96%)은 엔진 자체 필터와 불일치(25개 전수 탈락, 실가동 0일)하므로 data/quarantine/으로 격리 폐기함. 동결 엔진(v4.1-FROZEN) 개장 전 타임스탬프 로그 기준 30거래일 누적 전까지 실전 승률을 표시하지 않음.",
   "summary": {
-    "total_trading_days": 7,
-    "active_entry_days": 7,
+    "total_trading_days": 8,
+    "active_entry_days": 8,
     "gap_skip_days": 0,
     "o2c_net_wins": 3,
     "round_trip_cost_pct": 0.35,
@@ -141,7 +141,25 @@
       "v40_2stage_net_pct": -2.85,
       "v40_result": "🏆 TARGET_HIT (고가+6.90% · 2단세후 -2.85% / 종가세후 +5.21%)",
       "selection_note": "1분봉검증:STOP_LOSS_FIRST | 시초갭 -0.17% (GAP_FAVORABLE (-0.17%)) | ★20일 시가+5%슈팅빈도 60%(12/20일) · ★20일평균O2H +6.82% · 5일ATR 10.92% · ★연기금·보험·사모 순매수(+4.5억) · ★외인·기관 순매수(+33.3억) · ★건전윗꼬리 매물소화(usr 0.064)"
+    },
+    {
+      "day_idx": 8,
+      "date": "2026-11-20 (v4.3-FROZEN)",
+      "target_date": "2026-11-20",
+      "engine_version": "v4.3-FROZEN",
+      "v40_pick": "코리아써키트 (007810)",
+      "v40_score": 86.0,
+      "stock_open_gap_pct": -5.58,
+      "gap_gate_passed": false,
+      "hit_stage1_35pct": false,
+      "hit_open_plus_5pct": false,
+      "v40_o2h_pct": 2.43,
+      "v40_o2c_gross_pct": -3.8,
+      "v40_o2c_pct": -4.15,
+      "v40_2stage_net_pct": -2.85,
+      "v40_result": "🔴 LOSS (2단세후 -2.85% · 종가세후 -4.15% · 고가+2.43%)",
+      "selection_note": "1분봉검증:STOP_LOSS_FIRST | 시초갭 -5.58% (GAP_BREAKDOWN_REF (-5.58% <= -2.5%)) | ★20일 시가+5%슈팅빈도 50%(10/20일) · ★20일평균O2H +6.71% · 5일ATR 10.60% · ★연기금·보험·사모 순매수(+5.8억) · ★외인·기관 순매수(+85.7억) · ★건전윗꼬리 매물소화(usr 0.051)"
     }
   ],
-  "last_updated": "2026-11-19 23:10:28"
+  "last_updated": "2026-11-20 23:00:19"
 }
