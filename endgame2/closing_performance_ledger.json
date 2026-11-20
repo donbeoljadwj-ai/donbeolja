@@ -2,18 +2,18 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-19 20:10:12",
+    "last_updated": "2026-11-20 15:10:53",
     "engine_version": "v2.9-ARGON"
   },
   "summary": {
-    "total_trades": 91,
+    "total_trades": 94,
     "win_trades": 52,
-    "win_rate_pct": 57.1,
+    "win_rate_pct": 55.3,
     "hit_am_3pct_count": 24,
-    "hit_am_3pct_rate": 26.4,
-    "hit_next_5pct_rate": 35.2,
-    "avg_realized_profit_pct": 0.99,
-    "stop_loss_rate": 44.0
+    "hit_am_3pct_rate": 25.5,
+    "hit_next_5pct_rate": 35.1,
+    "avg_realized_profit_pct": 0.86,
+    "stop_loss_rate": 43.6
   },
   "days": {
     "2026-10-02": {
@@ -1781,8 +1781,8 @@
           "am_high_gain_pct": 2.05,
           "next_open_price": 66300,
           "next_open_gap_pct": -14.89,
-          "next_high_price": 81000,
-          "next_max_gain_pct": 3.98,
+          "next_high_price": 79700,
+          "next_max_gain_pct": 2.31,
           "next_close_price": 76600,
           "next_close_gain_pct": -1.67,
           "hit_am_3pct": false,
@@ -2150,7 +2150,7 @@
           "is_win": false,
           "catalyst": "[ARGON v4 77.0점], 테마 '반도체 장비'(동조율 97%), 고가유지 99.8% 밀착마감, 정규장 대금 512억 집중, 정규장 +11.03% 돌파",
           "am_hold_passed": false,
-          "next_low_price": 26550
+          "next_low_price": 28700
         },
         {
           "rank": 6,
@@ -2244,20 +2244,21 @@
           "am_high_price": 130600,
           "am_high_gain_pct": 0.0,
           "am_hold_passed": false,
-          "next_open_price": 0,
-          "next_open_gap_pct": 0.0,
-          "next_high_price": 0,
+          "next_open_price": 129500,
+          "next_open_gap_pct": -0.84,
+          "next_high_price": 130600,
           "next_max_gain_pct": 0.0,
-          "next_low_price": 0,
-          "next_close_price": 0,
-          "next_close_gain_pct": 0.0,
+          "next_low_price": 123900,
+          "next_close_price": 125300,
+          "next_close_gain_pct": -4.06,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
           "hit_stoploss": false,
-          "realized_return_pct": 0.0,
-          "trade_result": "⚠️ 당일 AM +0.00% (+2% 미달 ➜ 익일 09:15 타임스탑 대상)",
-          "is_win": true,
-          "catalyst": "[v2.9-ARGON 83.0점], 👑 '화장품' 대장주(동조율 100%), 고가유지 99.2%(usr 0.08), 정규대금 260억 · +12.10%, 외+기 +36.2억"
+          "realized_return_pct": -1.14,
+          "trade_result": "⚠️ 09:15 1분봉미수신·시가보수추정 (-1.14%)",
+          "is_win": false,
+          "catalyst": "[v2.9-ARGON 83.0점], 👑 '화장품' 대장주(동조율 100%), 고가유지 99.2%(usr 0.08), 정규대금 260억 · +12.10%, 외+기 +36.2억",
+          "settlement_tier": "UNVERIFIED_1M_FALLBACK_OPEN"
         },
         {
           "rank": 2,
@@ -2267,20 +2268,21 @@
           "am_high_price": 44900,
           "am_high_gain_pct": 0.0,
           "am_hold_passed": false,
-          "next_open_price": 0,
-          "next_open_gap_pct": 0.0,
-          "next_high_price": 0,
-          "next_max_gain_pct": 0.0,
-          "next_low_price": 0,
-          "next_close_price": 0,
-          "next_close_gain_pct": 0.0,
+          "next_open_price": 41500,
+          "next_open_gap_pct": -7.57,
+          "next_high_price": 41500,
+          "next_max_gain_pct": -7.57,
+          "next_low_price": 38450,
+          "next_close_price": 39000,
+          "next_close_gain_pct": -13.14,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
-          "hit_stoploss": false,
-          "realized_return_pct": 0.0,
-          "trade_result": "⚠️ 당일 AM +0.00% (+2% 미달 ➜ 익일 09:15 타임스탑 대상)",
-          "is_win": true,
-          "catalyst": "[v2.9-ARGON 82.7점], 👑 '전후 재건(우크라/중동 전쟁 등)' 대장주(동조율 100%), 고가유지 97.6%(usr 0.15), 정규대금 231억 · +14.83%, 외+기 +10.0억"
+          "hit_stoploss": true,
+          "realized_return_pct": -7.87,
+          "trade_result": "🛡️ 시초 갭하락(-7.57%) 즉시 손절",
+          "is_win": false,
+          "catalyst": "[v2.9-ARGON 82.7점], 👑 '전후 재건(우크라/중동 전쟁 등)' 대장주(동조율 100%), 고가유지 97.6%(usr 0.15), 정규대금 231억 · +14.83%, 외+기 +10.0억",
+          "settlement_tier": "OPEN_GAP_STOPLOSS_VERIFIED"
         },
         {
           "rank": 3,
@@ -2288,6 +2290,37 @@
           "code": "187660",
           "entry_price": 6760,
           "am_high_price": 6760,
+          "am_high_gain_pct": 0.0,
+          "am_hold_passed": false,
+          "next_open_price": 6730,
+          "next_open_gap_pct": -0.44,
+          "next_high_price": 7320,
+          "next_max_gain_pct": 8.28,
+          "next_low_price": 6630,
+          "next_close_price": 6860,
+          "next_close_gain_pct": 1.48,
+          "hit_am_3pct": false,
+          "hit_next_5pct": true,
+          "hit_stoploss": false,
+          "realized_return_pct": -0.74,
+          "trade_result": "⚠️ 09:15 1분봉미수신·시가보수추정 (-0.74%)",
+          "is_win": false,
+          "catalyst": "[v2.9-ARGON 79.6점], 테마 '수급주도'(동조율 55%), 고가유지 98.7%(usr 0.07), 정규대금 129억 · +17.36%, 외+기 +4.5억",
+          "settlement_tier": "UNVERIFIED_1M_FALLBACK_OPEN"
+        }
+      ]
+    },
+    "2026-11-20": {
+      "date": "2026-11-20",
+      "recorded_at": "2026-11-20 15:10:46",
+      "trades_count": 1,
+      "trades": [
+        {
+          "rank": 1,
+          "name": "글로벌텍스프리",
+          "code": "204620",
+          "entry_price": 6250,
+          "am_high_price": 6250,
           "am_high_gain_pct": 0.0,
           "am_hold_passed": false,
           "next_open_price": 0,
@@ -2303,7 +2336,7 @@
           "realized_return_pct": 0.0,
           "trade_result": "⚠️ 당일 AM +0.00% (+2% 미달 ➜ 익일 09:15 타임스탑 대상)",
           "is_win": true,
-          "catalyst": "[v2.9-ARGON 79.6점], 테마 '수급주도'(동조율 55%), 고가유지 98.7%(usr 0.07), 정규대금 129억 · +17.36%, 외+기 +4.5억"
+          "catalyst": "[v2.9-ARGON 81.1점], 👑 'AI 챗봇(챗GPT 등)' 대장주(동조율 100%), 고가유지 98.3%(usr 0.12), 정규대금 292억 · +13.43%, 외+기 +10.1억"
         }
       ]
     }
