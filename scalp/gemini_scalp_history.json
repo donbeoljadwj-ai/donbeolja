@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-20 09:05:14",
+  "updated_at": "2026-11-20 09:10:21",
   "cumulative_start_date": "2026-11-18",
   "latest_date": "2026-11-20",
   "cumulative": {
     "start_date": "2026-11-18",
     "trading_days": 2,
-    "total_count": 21,
-    "success_count": 10,
-    "hit_5pct_count": 6,
+    "total_count": 22,
+    "success_count": 11,
+    "hit_5pct_count": 7,
     "hit_3pct_count": 4,
     "fail_count": 11,
-    "win_rate_pct": 47.6,
-    "hit_5pct_rate": 28.6,
+    "win_rate_pct": 50.0,
+    "hit_5pct_rate": 31.8,
     "algo5_count": 6,
     "algo5_hit5_count": 6,
     "algo10_count": 3,
@@ -59141,19 +59141,158 @@
     },
     "2026-11-20": {
       "date": "2026-11-20",
-      "total_count": 2,
-      "success_count": 0,
-      "hit_5pct_count": 0,
+      "total_count": 3,
+      "success_count": 1,
+      "hit_5pct_count": 1,
       "hit_3pct_count": 0,
       "fail_count": 2,
-      "win_rate_pct": 0.0,
-      "hit_5pct_rate": 0.0,
-      "avg_peak_ret_pct": 0.0,
+      "win_rate_pct": 33.3,
+      "hit_5pct_rate": 33.3,
+      "avg_peak_ret_pct": 2.17,
       "algo5_count": 0,
       "algo5_hit5_count": 0,
       "algo10_count": 0,
       "algo10_hit10_count": 0,
       "items": [
+        {
+          "date": "2026-11-20",
+          "code": "340810",
+          "name": "시선AI",
+          "entry_hm": "09:10",
+          "entry_time_full": "2026-11-20 09:10:21",
+          "entry_px": 3155,
+          "prev_close": 3250,
+          "tp3_px": 3250,
+          "tp5_px": 3313,
+          "day_open": 3235,
+          "day_high": 3360,
+          "day_low": 3140,
+          "close_px": 3155,
+          "post_high": 3360,
+          "peak_hm": "09:00",
+          "post_low": 3140,
+          "low_hm": "09:09",
+          "max_ret_pct": 6.5,
+          "min_ret_pct": -0.48,
+          "close_ret_pct": 0.0,
+          "hit_3pct_hm": "09:00",
+          "hit_5pct_hm": "09:00",
+          "status": "HIT_5PCT",
+          "status_label": "🏆 +5% 달성",
+          "is_success": true,
+          "pass_5pct_filter": false,
+          "pass_10pct_filter": false,
+          "filter_tier": "FILTERED_OUT",
+          "filter_tier_label": "✂️ 5%미만 제거대상",
+          "drop_reasons_5pct": [
+            "R1 추세·과열 이탈 (전일대비 -2.92%, 시가대비 -2.47%)",
+            "R2 5분EMA5 이격 불량 (-0.73%)",
+            "R3 고점장악 미달 (고점대비 -6.10%, 위치 6.8%)"
+          ],
+          "drop_reasons_10pct": [
+            "R1 추세·과열 이탈 (전일대비 -2.92%, 시가대비 -2.47%)",
+            "R2 5분EMA5 이격 불량 (-0.73%)",
+            "R3 고점장악 미달 (고점대비 -6.10%, 위치 6.8%)"
+          ],
+          "features_at_entry": {
+            "open_gap": -0.46,
+            "e_chg": -2.92,
+            "e_vs_open": -2.47,
+            "dd_hi": -6.1,
+            "rng": 7.01,
+            "pos_rng": 6.8,
+            "cum_val_b": 5.44,
+            "val_pm": 0.54,
+            "d_vwap": -3.09,
+            "d_kijun": -2.92,
+            "d_ema5": -0.73,
+            "v_pwr": 50.6,
+            "est_strength": 102.5
+          },
+          "bar_count": 10,
+          "bars_1m": [
+            {
+              "hm": "09:00",
+              "o": 3235,
+              "h": 3360,
+              "l": 3200,
+              "c": 3315,
+              "v": 33007
+            },
+            {
+              "hm": "09:01",
+              "o": 3300,
+              "h": 3350,
+              "l": 3235,
+              "c": 3330,
+              "v": 22169
+            },
+            {
+              "hm": "09:02",
+              "o": 3280,
+              "h": 3310,
+              "l": 3265,
+              "c": 3280,
+              "v": 17120
+            },
+            {
+              "hm": "09:03",
+              "o": 3275,
+              "h": 3290,
+              "l": 3215,
+              "c": 3215,
+              "v": 20502
+            },
+            {
+              "hm": "09:04",
+              "o": 3225,
+              "h": 3225,
+              "l": 3170,
+              "c": 3190,
+              "v": 18303
+            },
+            {
+              "hm": "09:05",
+              "o": 3215,
+              "h": 3235,
+              "l": 3195,
+              "c": 3210,
+              "v": 8139
+            },
+            {
+              "hm": "09:06",
+              "o": 3205,
+              "h": 3315,
+              "l": 3185,
+              "c": 3285,
+              "v": 12213
+            },
+            {
+              "hm": "09:07",
+              "o": 3260,
+              "h": 3295,
+              "l": 3225,
+              "c": 3240,
+              "v": 12567
+            },
+            {
+              "hm": "09:08",
+              "o": 3230,
+              "h": 3230,
+              "l": 3180,
+              "c": 3190,
+              "v": 14218
+            },
+            {
+              "hm": "09:09",
+              "o": 3185,
+              "h": 3190,
+              "l": 3140,
+              "c": 3155,
+              "v": 8735
+            }
+          ]
+        },
         {
           "date": "2026-11-20",
           "code": "030530",
