@@ -10983,5 +10983,323 @@
       },
       "order_decision": "ALLOW_ENTRY"
     }
+  ],
+  "2026-11-23": [
+    {
+      "rank": 1,
+      "v4_rank": 1,
+      "name": "카티스",
+      "code": "140430",
+      "close": 2740,
+      "atr20_pct": 12.531,
+      "day_gain_pct": 13.93,
+      "trade_value_krw": 7608407333,
+      "v4_score": 99.8,
+      "gnc_score": 99.8,
+      "composite_score": 99.8,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 99.8,
+        "fimc_score": 99.8,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.8,
+        "atr20_pct": 12.531,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 12.53,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 12.53%",
+          "🕯️AM눌림 1.1%(AM +0.92%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    },
+    {
+      "rank": 2,
+      "v4_rank": 2,
+      "name": "HLB생명과학",
+      "code": "067630",
+      "close": 2650,
+      "atr20_pct": 7.982,
+      "day_gain_pct": 15.97,
+      "trade_value_krw": 18377401565,
+      "v4_score": 77.38,
+      "gnc_score": 76.18,
+      "composite_score": 76.18,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_LOCK",
+        "fimc_verdict": "FROZEN_LOCK",
+        "gnc_score": 77.38,
+        "fimc_score": 77.38,
+        "fimc_bonus": 0.0,
+        "v4_score": 77.38,
+        "atr20_pct": 7.982,
+        "cbf_safe": true,
+        "cbf_veto": false,
+        "plant_elasticity_pct": 7.98,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 7.98%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    },
+    {
+      "rank": 3,
+      "v4_rank": 3,
+      "name": "마녀공장",
+      "code": "439090",
+      "close": 17100,
+      "atr20_pct": 5.394,
+      "day_gain_pct": 18.18,
+      "trade_value_krw": 63635857745,
+      "v4_score": 66.19,
+      "gnc_score": 64.99,
+      "composite_score": 64.99,
+      "all_filters_passed": true,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
+        "gnc_score": 66.19,
+        "fimc_score": 66.19,
+        "fimc_bonus": 0.0,
+        "v4_score": 66.19,
+        "atr20_pct": 5.394,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "plant_elasticity_pct": 5.39,
+        "plant_episodes": 0,
+        "notes": [
+          "📊20일ATR 5.39%",
+          "🕯️AM눌림 0.0%(AM +0.00%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    },
+    {
+      "rank": 4,
+      "v4_rank": 4,
+      "name": "노랑풍선",
+      "code": "104620",
+      "close": 4475,
+      "atr20_pct": 12.477,
+      "day_gain_pct": 8.09,
+      "trade_value_krw": 113051780212,
+      "v4_score": 99.72,
+      "gnc_score": 99.72,
+      "composite_score": 99.72,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "FROZEN_STANDBY",
+        "fimc_verdict": "FROZEN_STANDBY",
+        "gnc_score": 99.72,
+        "fimc_score": 99.72,
+        "fimc_bonus": 0.0,
+        "v4_score": 99.72,
+        "atr20_pct": 12.477,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "plant_elasticity_pct": 12.48,
+        "plant_episodes": 1,
+        "notes": [
+          "📊20일ATR 12.48%",
+          "🕯️AM눌림 4.4%(AM -2.29%)",
+          "🚀v1.9-FROZEN 09:00 시가진입 · +5% 1차 / +10% 2차 / -2.5% 손절"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    },
+    {
+      "rank": 5,
+      "v4_rank": 5,
+      "name": "우듬지팜",
+      "code": "403490",
+      "close": 2230,
+      "atr20_pct": 10.333,
+      "day_gain_pct": 8.78,
+      "trade_value_krw": 152881818,
+      "v4_score": 0.0,
+      "gnc_score": 69.0,
+      "composite_score": 69.0,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 10.333,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    },
+    {
+      "rank": 6,
+      "v4_rank": 6,
+      "name": "인스웨이브",
+      "code": "450520",
+      "close": 2130,
+      "atr20_pct": 10.879,
+      "day_gain_pct": 8.67,
+      "trade_value_krw": 439007430,
+      "v4_score": 0.0,
+      "gnc_score": 68.57,
+      "composite_score": 68.57,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 10.879,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    },
+    {
+      "rank": 7,
+      "v4_rank": 7,
+      "name": "드림인사이트",
+      "code": "362990",
+      "close": 1625,
+      "atr20_pct": 8.074,
+      "day_gain_pct": 28.97,
+      "trade_value_krw": 378679236,
+      "v4_score": 0.0,
+      "gnc_score": 56.97,
+      "composite_score": 56.97,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 8.074,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    },
+    {
+      "rank": 8,
+      "v4_rank": 8,
+      "name": "큐로셀",
+      "code": "372320",
+      "close": 25350,
+      "atr20_pct": 7.646,
+      "day_gain_pct": 17.09,
+      "trade_value_krw": 4197598550,
+      "v4_score": 0.0,
+      "gnc_score": 56.69,
+      "composite_score": 56.69,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 7.646,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    },
+    {
+      "rank": 9,
+      "v4_rank": 9,
+      "name": "엠에프씨",
+      "code": "432980",
+      "close": 2510,
+      "atr20_pct": 8.52,
+      "day_gain_pct": 6.81,
+      "trade_value_krw": 63522165,
+      "v4_score": 0.0,
+      "gnc_score": 56.52,
+      "composite_score": 56.52,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 8.52,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    },
+    {
+      "rank": 10,
+      "v4_rank": 10,
+      "name": "HEM파마",
+      "code": "376270",
+      "close": 25800,
+      "atr20_pct": 6.998,
+      "day_gain_pct": 5.74,
+      "trade_value_krw": 280230400,
+      "v4_score": 0.0,
+      "gnc_score": 51.91,
+      "composite_score": 51.91,
+      "all_filters_passed": false,
+      "recommended_live_buy": false,
+      "gnc_metrics": {
+        "verdict": "REJECTED",
+        "fimc_verdict": "REJECTED",
+        "gnc_score": 0.0,
+        "fimc_score": 0.0,
+        "fimc_bonus": 0.0,
+        "v4_score": 0.0,
+        "atr20_pct": 6.998,
+        "cbf_safe": false,
+        "cbf_veto": true,
+        "notes": [
+          "기본유동성·ATR20·AM과열(>8%)/붕괴필터탈락"
+        ]
+      },
+      "order_decision": "REGIME_CASH_SKIP"
+    }
   ]
 }
