@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-19 15:49:07",
+  "updated_at": "2026-11-20 09:05:14",
   "cumulative_start_date": "2026-11-18",
-  "latest_date": "2026-11-18",
+  "latest_date": "2026-11-20",
   "cumulative": {
     "start_date": "2026-11-18",
-    "trading_days": 1,
-    "total_count": 19,
+    "trading_days": 2,
+    "total_count": 21,
     "success_count": 10,
     "hit_5pct_count": 6,
     "hit_3pct_count": 4,
-    "fail_count": 9,
-    "win_rate_pct": 52.6,
-    "hit_5pct_rate": 31.6,
+    "fail_count": 11,
+    "win_rate_pct": 47.6,
+    "hit_5pct_rate": 28.6,
     "algo5_count": 6,
     "algo5_hit5_count": 6,
     "algo10_count": 3,
@@ -9418,6 +9418,7 @@
           "filter_tier_label": "🛡️ 5%+ 정밀 타점",
           "drop_reasons_5pct": [],
           "drop_reasons_10pct": [
+            "R5 09:10 이후 2차파동 진입 (09:20)",
             "R6 초입 변동폭 기소진 (시가대비 +4.12%, 변동폭 6.83%)",
             "R7 신고가 직결돌파 아님 (고점대비 -0.73%)"
           ],
@@ -12600,6 +12601,7 @@
           "filter_tier_label": "🛡️ 5%+ 정밀 타점",
           "drop_reasons_5pct": [],
           "drop_reasons_10pct": [
+            "R5 09:10 이후 2차파동 진입 (09:28)",
             "R6 초입 변동폭 기소진 (시가대비 +3.73%, 변동폭 7.97%)",
             "R7 신고가 직결돌파 아님 (고점대비 -3.73%)"
           ],
@@ -59134,6 +59136,135 @@
               "v": 0
             }
           ]
+        }
+      ]
+    },
+    "2026-11-20": {
+      "date": "2026-11-20",
+      "total_count": 2,
+      "success_count": 0,
+      "hit_5pct_count": 0,
+      "hit_3pct_count": 0,
+      "fail_count": 2,
+      "win_rate_pct": 0.0,
+      "hit_5pct_rate": 0.0,
+      "avg_peak_ret_pct": 0.0,
+      "algo5_count": 0,
+      "algo5_hit5_count": 0,
+      "algo10_count": 0,
+      "algo10_hit10_count": 0,
+      "items": [
+        {
+          "date": "2026-11-20",
+          "code": "030530",
+          "name": "원익홀딩스",
+          "entry_hm": "09:05",
+          "entry_time_full": "2026-11-20 09:05:14",
+          "entry_px": 34000,
+          "prev_close": 34750,
+          "tp3_px": 35020,
+          "tp5_px": 35700,
+          "day_open": 34000,
+          "day_high": 34000,
+          "day_low": 34000,
+          "close_px": 34000,
+          "post_high": 34000,
+          "peak_hm": "09:05",
+          "post_low": 34000,
+          "low_hm": "09:05",
+          "max_ret_pct": 0.0,
+          "min_ret_pct": 0.0,
+          "close_ret_pct": 0.0,
+          "hit_3pct_hm": null,
+          "hit_5pct_hm": null,
+          "status": "FAIL",
+          "status_label": "❌ 미달성(실패)",
+          "is_success": false,
+          "pass_5pct_filter": false,
+          "pass_10pct_filter": false,
+          "filter_tier": "FILTERED_OUT",
+          "filter_tier_label": "✂️ 5%미만 제거대상",
+          "drop_reasons_5pct": [
+            "R1 추세·과열 이탈 (전일대비 -2.16%, 시가대비 +0.00%)",
+            "R3 고점장악 미달 (고점대비 +0.00%, 위치 0.0%)"
+          ],
+          "drop_reasons_10pct": [
+            "R1 추세·과열 이탈 (전일대비 -2.16%, 시가대비 +0.00%)",
+            "R3 고점장악 미달 (고점대비 +0.00%, 위치 0.0%)"
+          ],
+          "features_at_entry": {
+            "open_gap": -2.16,
+            "e_chg": -2.16,
+            "e_vs_open": 0.0,
+            "dd_hi": 0.0,
+            "rng": 0.0,
+            "pos_rng": 0.0,
+            "cum_val_b": 0.0,
+            "val_pm": 0.0,
+            "d_vwap": 0.0,
+            "d_kijun": 0.0,
+            "d_ema5": 0.0,
+            "v_pwr": 100.0,
+            "est_strength": 150.0
+          },
+          "bar_count": 0,
+          "bars_1m": []
+        },
+        {
+          "date": "2026-11-20",
+          "code": "002320",
+          "name": "한진",
+          "entry_hm": "09:05",
+          "entry_time_full": "2026-11-20 09:05:14",
+          "entry_px": 17780,
+          "prev_close": 18040,
+          "tp3_px": 18313,
+          "tp5_px": 18669,
+          "day_open": 17780,
+          "day_high": 17780,
+          "day_low": 17780,
+          "close_px": 17780,
+          "post_high": 17780,
+          "peak_hm": "09:05",
+          "post_low": 17780,
+          "low_hm": "09:05",
+          "max_ret_pct": 0.0,
+          "min_ret_pct": 0.0,
+          "close_ret_pct": 0.0,
+          "hit_3pct_hm": null,
+          "hit_5pct_hm": null,
+          "status": "FAIL",
+          "status_label": "❌ 미달성(실패)",
+          "is_success": false,
+          "pass_5pct_filter": false,
+          "pass_10pct_filter": false,
+          "filter_tier": "FILTERED_OUT",
+          "filter_tier_label": "✂️ 5%미만 제거대상",
+          "drop_reasons_5pct": [
+            "R1 추세·과열 이탈 (전일대비 -1.44%, 시가대비 +0.00%)",
+            "R3 고점장악 미달 (고점대비 +0.00%, 위치 0.0%)"
+          ],
+          "drop_reasons_10pct": [
+            "R1 추세·과열 이탈 (전일대비 -1.44%, 시가대비 +0.00%)",
+            "R3 고점장악 미달 (고점대비 +0.00%, 위치 0.0%)"
+          ],
+          "features_at_entry": {
+            "open_gap": -1.44,
+            "e_chg": -1.44,
+            "e_vs_open": 0.0,
+            "dd_hi": 0.0,
+            "rng": 0.0,
+            "pos_rng": 0.0,
+            "cum_val_b": 0.0,
+            "val_pm": 0.0,
+            "d_vwap": 0.0,
+            "d_kijun": 0.0,
+            "d_ema5": 0.0,
+            "v_pwr": 100.0,
+            "est_strength": 150.0
+          },
+          "bar_count": 0,
+          "bars_1m": []
         }
       ]
     }
