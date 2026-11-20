@@ -1,51 +1,51 @@
 {
-  "updated_at": "2026-11-19 23:13:45",
-  "evaluated_days": 32,
+  "updated_at": "2026-11-20 20:10:46",
+  "evaluated_days": 33,
   "four_version_scorecard": {
     "v1.2_Main (ARGON v4)": {
-      "rank1_win_rate_pct": 37.5,
-      "rank1_cum_return_pct": -48.7,
-      "top2_win_rate_pct": 42.2,
-      "top2_cum_return_pct": -34.31,
-      "top3_cum_return_pct": -32.03,
-      "top2_stop_losses": 24
-    },
-    "v1.4_TA (TradingAgents Edition)": {
-      "rank1_win_rate_pct": 37.5,
-      "rank1_cum_return_pct": -50.61,
-      "top2_win_rate_pct": 39.1,
-      "top2_cum_return_pct": -41.56
-    },
-    "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
-      "rank1_win_rate_pct": 53.8,
-      "rank1_cum_return_pct": 36.32,
-      "top2_win_rate_pct": 50.0,
-      "top2_cum_return_pct": 27.61,
-      "top3_cum_return_pct": 31.25,
-      "top2_stop_losses": 24,
-      "expired_saved_stop_losses_count": 20,
-      "expired_saved_loss_pct": 167.87
-    },
-    "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
-      "rank1_win_rate_pct": 37.5,
-      "rank1_hit5_rate_pct": 59.4,
-      "rank1_cum_return_pct": -29.35,
-      "top2_win_rate_pct": 37.5,
-      "top2_cum_return_pct": -58.59,
-      "top3_cum_return_pct": -25.01,
+      "rank1_win_rate_pct": 36.4,
+      "rank1_cum_return_pct": -51.55,
+      "top2_win_rate_pct": 40.9,
+      "top2_cum_return_pct": -37.16,
+      "top3_cum_return_pct": -34.88,
       "top2_stop_losses": 26
     },
+    "v1.4_TA (TradingAgents Edition)": {
+      "rank1_win_rate_pct": 36.4,
+      "rank1_cum_return_pct": -53.46,
+      "top2_win_rate_pct": 37.9,
+      "top2_cum_return_pct": -44.41
+    },
+    "v1.5_DT_MCv2 (TimeMachine + MC10K + ORB)": {
+      "rank1_win_rate_pct": 51.9,
+      "rank1_cum_return_pct": 33.82,
+      "top2_win_rate_pct": 49.0,
+      "top2_cum_return_pct": 26.36,
+      "top3_cum_return_pct": 29.58,
+      "top2_stop_losses": 25,
+      "expired_saved_stop_losses_count": 21,
+      "expired_saved_loss_pct": 170.72
+    },
+    "v1.6_QFE_SelectionOnly (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC)": {
+      "rank1_win_rate_pct": 36.4,
+      "rank1_hit5_rate_pct": 57.6,
+      "rank1_cum_return_pct": -32.2,
+      "top2_win_rate_pct": 36.4,
+      "top2_cum_return_pct": -61.44,
+      "top3_cum_return_pct": -27.86,
+      "top2_stop_losses": 28
+    },
     "v1.6_QFE_Full (VolumeProfile VAH/VPIN + k-NN + Heston-Merton MC + VAL/ORB Filter)": {
-      "rank1_win_rate_pct": 44.8,
-      "rank1_hit5_rate_pct": 65.5,
-      "rank1_triggered_days": 29,
-      "rank1_cum_return_pct": 28.78,
-      "top2_win_rate_pct": 50.0,
-      "top2_cum_return_pct": 26.32,
-      "top3_cum_return_pct": 43.6,
-      "top2_stop_losses": 23,
-      "filtered_saved_stop_losses_count": 16,
-      "filtered_saved_loss_pct": 111.74
+      "rank1_win_rate_pct": 43.3,
+      "rank1_hit5_rate_pct": 63.3,
+      "rank1_triggered_days": 30,
+      "rank1_cum_return_pct": 26.28,
+      "top2_win_rate_pct": 49.0,
+      "top2_cum_return_pct": 25.07,
+      "top3_cum_return_pct": 42.76,
+      "top2_stop_losses": 24,
+      "filtered_saved_stop_losses_count": 17,
+      "filtered_saved_loss_pct": 114.59
     }
   },
   "upcoming_target_date": "2026-11-20",
@@ -861,6 +861,32 @@
         "name": "아모텍",
         "code": "052710",
         "qfe_score": 59.6,
+        "raw_realized_pct": -2.85,
+        "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
+        "exec_realized_pct": 0.0
+      }
+    },
+    "2026-11-20": {
+      "qfe_rank1": {
+        "name": "SFA반도체",
+        "code": "036540",
+        "qfe_score": 72.1,
+        "v4_score": 67.2,
+        "notes": [
+          "🐂강세테마확산(81%,+4.5)"
+        ],
+        "p_target": 46.2,
+        "ev_pct": 2.05,
+        "knn_win_rate": 49.2,
+        "high_pct": 3.36,
+        "raw_realized_pct": -2.85,
+        "exec_state": "TRIGGERED (TICK_UP +0.25% 돌파체결)",
+        "exec_realized_pct": -2.5
+      },
+      "qfe_rank2": {
+        "name": "안랩",
+        "code": "053800",
+        "qfe_score": 68.7,
         "raw_realized_pct": -2.85,
         "exec_state": "EXPIRED (ORB +1.25% 미돌파 진입보류)",
         "exec_realized_pct": 0.0
