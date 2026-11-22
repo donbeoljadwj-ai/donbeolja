@@ -1,0 +1,56 @@
+{
+  "data_source_type": "SYNTHETIC_STRESS_SIMULATION_NOT_LIVE_LEDGER",
+  "discipline_guard": "CONSERVATIVE_STOP_FIRST + 15PCT_SLOT + 30M_KRW_LIQ_CAP + MAX_LOSS_20PCT",
+  "entry_mode": "09:00 AM 장 시작 시가 매수 (보수적 손절우선·유동성캡 적용)",
+  "total_trading_days": 750,
+  "skipped_bear_regime_days": 89,
+  "total_trades_rank_1": 660,
+  "wins_rank_1": 343,
+  "overall_win_rate_rank_1": 52.0,
+  "overall_avg_return_rank_1": 0.99,
+  "profit_factor": 1.71,
+  "max_drawdown_pct": 3.6,
+  "max_loss_limit_pct": 20.0,
+  "max_underwater_days": 97,
+  "current_underwater_days": 1,
+  "circuit_breaker_halts": 0,
+  "initial_capital_krw": 10000000,
+  "final_capital_krw": 26470158,
+  "total_return_pct": 164.7,
+  "simple_non_compounded_sum_pct": 656.35,
+  "discarded_uncapped_fantasy_pct_note": "무한복리 환상치(43,485.9%) 폐기 -> 유동성·포지션캡 현실화 수익률 +164.70%만 채택",
+  "yearly_summary": {
+    "2023": {
+      "trades": 72,
+      "wins": 39,
+      "losses": 33,
+      "win_rate": 54.2,
+      "avg_return": 1.16,
+      "profit_factor": 1.87
+    },
+    "2024": {
+      "trades": 217,
+      "wins": 105,
+      "losses": 112,
+      "win_rate": 48.4,
+      "avg_return": 0.73,
+      "profit_factor": 1.49
+    },
+    "2025": {
+      "trades": 217,
+      "wins": 113,
+      "losses": 104,
+      "win_rate": 52.1,
+      "avg_return": 1.0,
+      "profit_factor": 1.72
+    },
+    "2026": {
+      "trades": 154,
+      "wins": 86,
+      "losses": 68,
+      "win_rate": 55.8,
+      "avg_return": 1.28,
+      "profit_factor": 2.0
+    }
+  }
+}

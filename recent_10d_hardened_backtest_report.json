@@ -1,0 +1,609 @@
+{
+  "period": "2026-11-09(월) ~ 2026-11-20(금) (최근 10 KRX 정규 거래일)",
+  "data_basis": "100% 실제 KRX 일봉 + 애프터마켓 아카이브 + 1분봉(intraday_1m) 선후검증 · 왕복비용 차감 완료",
+  "moondev_rules_applied": [
+    "#5 봉내 손절우선(STOP_FIRST) + 09:00 시초 갭하락 실체결가 반영(허공 -1.8% 손절 착시 제거)",
+    "#4 STAGE_3_INCUBATE 소액 파일럿 비중(V1 1.5%, V2~V4 2.4%, 현금 91.3%+ 보존)",
+    "#3 고정 도메인 규칙(78점·윗꼬리·시초갭·08:50 AM지지)만 사용, AI 강제승격/가중치변조 0%",
+    "#2 트랙별 MDD 및 수중 일수(Underwater Days) 전수 산출 (MAX_LOSS_DEFAULT=20%)",
+    "#1 조건 미달 거래일 즉시 CASH_SKIP 현금 관망"
+  ],
+  "tracks": {
+    "v1": {
+      "title": "V1 (v1.9-FROZEN · 시초갭밴드[-2.5%,+3%] + 2단 손절우선)",
+      "total_sessions": 10,
+      "entered_days": 6,
+      "cash_skip_days": 4,
+      "win_days": 3,
+      "loss_days": 3,
+      "entered_win_rate_pct": 50.0,
+      "old_10d_cum_net_pct": 15.85,
+      "new_10d_cum_net_pct": 2.35,
+      "new_avg_per_entered_day_pct": 0.39,
+      "old_1x_mdd_pct": 18.82,
+      "new_1x_mdd_pct": 5.62,
+      "new_underwater_days_end": 1,
+      "new_max_underwater_days": 4,
+      "old_35pct_account_return_pct": 5.31,
+      "old_35pct_account_mdd_pct": 6.82,
+      "new_incubate_account_return_pct": 0.06,
+      "new_incubate_account_mdd_pct": 0.14,
+      "cum_curve_new_pct": [
+        0.0,
+        0.0,
+        4.65,
+        4.65,
+        1.8,
+        -1.05,
+        -1.05,
+        3.6,
+        5.2,
+        2.35
+      ],
+      "daily_rows": [
+        {
+          "date": "2026-11-09",
+          "pick": "혜인(003010)",
+          "open_gap_pct": 5.79,
+          "o2h_pct": 10.59,
+          "action": "CASH_SKIP (09:00 시초갭 +5.79% 밴드이탈)",
+          "old_o2c_net_pct": 1.63,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "PREOPEN_GAP_FILTER"
+        },
+        {
+          "date": "2026-11-10",
+          "pick": "RFHIC(218410)",
+          "open_gap_pct": 8.97,
+          "o2h_pct": 11.16,
+          "action": "CASH_SKIP (09:00 시초갭 +8.97% 밴드이탈)",
+          "old_o2c_net_pct": 9.29,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "PREOPEN_GAP_FILTER"
+        },
+        {
+          "date": "2026-11-11",
+          "pick": "케이씨텍(281820)",
+          "open_gap_pct": -0.79,
+          "o2h_pct": 17.83,
+          "action": "ENTERED",
+          "old_o2c_net_pct": 16.53,
+          "new_hardened_net_pct": 4.65,
+          "exit_source": "1M_DUAL_STAGE_TP_HIT"
+        },
+        {
+          "date": "2026-11-12",
+          "pick": "엑시콘(092870)",
+          "open_gap_pct": -3.83,
+          "o2h_pct": 5.88,
+          "action": "CASH_SKIP (09:00 시초갭 -3.83% 밴드이탈)",
+          "old_o2c_net_pct": 0.17,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "PREOPEN_GAP_FILTER"
+        },
+        {
+          "date": "2026-11-13",
+          "pick": "지니언스(263860)",
+          "open_gap_pct": -1.8,
+          "o2h_pct": 11.47,
+          "action": "ENTERED",
+          "old_o2c_net_pct": 8.06,
+          "new_hardened_net_pct": -2.85,
+          "exit_source": "1M_STOP_LOSS_FIRST"
+        },
+        {
+          "date": "2026-11-16",
+          "pick": "엑시콘(092870)",
+          "open_gap_pct": -0.8,
+          "o2h_pct": 0.0,
+          "action": "ENTERED",
+          "old_o2c_net_pct": -10.51,
+          "new_hardened_net_pct": -2.85,
+          "exit_source": "1M_STOP_LOSS_FIRST"
+        },
+        {
+          "date": "2026-11-17",
+          "pick": "피앤에스로보틱스(460940)",
+          "open_gap_pct": -2.63,
+          "o2h_pct": 2.7,
+          "action": "CASH_SKIP (09:00 시초갭 -2.63% 밴드이탈)",
+          "old_o2c_net_pct": -5.18,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "PREOPEN_GAP_FILTER"
+        },
+        {
+          "date": "2026-11-18",
+          "pick": "지니언스(263860)",
+          "open_gap_pct": 1.5,
+          "o2h_pct": 21.13,
+          "action": "ENTERED",
+          "old_o2c_net_pct": 3.42,
+          "new_hardened_net_pct": 4.65,
+          "exit_source": "1M_DUAL_STAGE_TP_HIT"
+        },
+        {
+          "date": "2026-11-19",
+          "pick": "라온시큐어(042510)",
+          "open_gap_pct": 2.66,
+          "o2h_pct": 5.73,
+          "action": "ENTERED",
+          "old_o2c_net_pct": -1.03,
+          "new_hardened_net_pct": 1.6,
+          "exit_source": "1M_STAGE1_TP_AND_BE_LOCK"
+        },
+        {
+          "date": "2026-11-20",
+          "pick": "안랩(053800)",
+          "open_gap_pct": 1.2,
+          "o2h_pct": 0.59,
+          "action": "ENTERED",
+          "old_o2c_net_pct": -6.53,
+          "new_hardened_net_pct": -2.85,
+          "exit_source": "1M_STOP_LOSS_FIRST"
+        }
+      ]
+    },
+    "v2": {
+      "title": "V2 (v2.9-ARGON · 78점Top3 + 09:15스탑 + 갭하락실체결)",
+      "total_sessions": 10,
+      "entered_days": 4,
+      "cash_skip_days": 6,
+      "win_days": 1,
+      "loss_days": 3,
+      "entered_win_rate_pct": 25.0,
+      "old_10d_cum_net_pct": 6.04,
+      "new_10d_cum_net_pct": -5.5,
+      "new_avg_per_entered_day_pct": -1.38,
+      "old_1x_mdd_pct": 2.16,
+      "new_1x_mdd_pct": 5.5,
+      "new_underwater_days_end": 10,
+      "new_max_underwater_days": 10,
+      "old_35pct_account_return_pct": 2.11,
+      "old_35pct_account_mdd_pct": 0.76,
+      "new_incubate_account_return_pct": -0.13,
+      "new_incubate_account_mdd_pct": 0.13,
+      "cum_curve_new_pct": [
+        -2.1,
+        -2.1,
+        -2.1,
+        -4.38,
+        -1.68,
+        -1.68,
+        -1.68,
+        -1.68,
+        -1.68,
+        -5.5
+      ],
+      "daily_rows": [
+        {
+          "date": "2026-11-06➜11-09",
+          "pick": "삼성에피스홀딩스(-2.10%·09:15보수추정)",
+          "action": "ENTERED (1종목)",
+          "old_ledger_net_pct": 0.33,
+          "new_hardened_net_pct": -2.1,
+          "detail": "구원장 +0.33% vs 현실화(갭하락실체결·손절우선·Top3) -2.10%"
+        },
+        {
+          "date": "2026-11-09➜11-10",
+          "pick": "CASH_SKIP (78점·윗꼬리0.16 컷오프 제외)",
+          "action": "CASH_SKIP",
+          "old_ledger_net_pct": 5.2,
+          "new_hardened_net_pct": 0.0,
+          "detail": "구버전 1종목 평균 +5.20% ➜ 신버전 78점/윗꼬리 하드게이트로 전수 회피"
+        },
+        {
+          "date": "2026-11-10➜11-11",
+          "pick": "CASH_SKIP (78점·윗꼬리0.16 컷오프 제외)",
+          "action": "CASH_SKIP",
+          "old_ledger_net_pct": 2.31,
+          "new_hardened_net_pct": 0.0,
+          "detail": "구버전 2종목 평균 +2.31% ➜ 신버전 78점/윗꼬리 하드게이트로 전수 회피"
+        },
+        {
+          "date": "2026-11-11➜11-12",
+          "pick": "한진칼(-2.36%·시초갭하락실체결), 전진건설로봇(-5.12%·시초갭하락실체결), 대한항공(+0.65%·1분봉09:15스탑)",
+          "action": "ENTERED (3종목)",
+          "old_ledger_net_pct": -1.34,
+          "new_hardened_net_pct": -2.28,
+          "detail": "구원장 -1.34% vs 현실화(갭하락실체결·손절우선·Top3) -2.28%"
+        },
+        {
+          "date": "2026-11-12➜11-13",
+          "pick": "피에스케이홀딩스(+2.70%·1분봉09:15스탑), 에스앤에스텍(+2.70%·1분봉09:15스탑), 에이팩트(+2.70%·1분봉09:15스탑)",
+          "action": "ENTERED (3종목)",
+          "old_ledger_net_pct": 1.71,
+          "new_hardened_net_pct": 2.7,
+          "detail": "구원장 +1.71% vs 현실화(갭하락실체결·손절우선·Top3) +2.70%"
+        },
+        {
+          "date": "2026-11-13➜11-16",
+          "pick": "CASH_SKIP (78점·윗꼬리0.16 컷오프 제외)",
+          "action": "CASH_SKIP",
+          "old_ledger_net_pct": -0.48,
+          "new_hardened_net_pct": 0.0,
+          "detail": "구버전 2종목 평균 -0.48% ➜ 신버전 78점/윗꼬리 하드게이트로 전수 회피"
+        },
+        {
+          "date": "2026-11-16➜11-17",
+          "pick": "CASH_SKIP (조건통과 0종목)",
+          "action": "CASH_SKIP",
+          "old_ledger_net_pct": 0.0,
+          "new_hardened_net_pct": 0.0,
+          "detail": "15:15 실시간 수급·고가밀착 컷오프 미달로 현금 100% 관망"
+        },
+        {
+          "date": "2026-11-17➜11-18",
+          "pick": "CASH_SKIP (조건통과 0종목)",
+          "action": "CASH_SKIP",
+          "old_ledger_net_pct": 0.0,
+          "new_hardened_net_pct": 0.0,
+          "detail": "15:15 실시간 수급·고가밀착 컷오프 미달로 현금 100% 관망"
+        },
+        {
+          "date": "2026-11-18➜11-19",
+          "pick": "CASH_SKIP (조건통과 0종목)",
+          "action": "CASH_SKIP",
+          "old_ledger_net_pct": 0.0,
+          "new_hardened_net_pct": 0.0,
+          "detail": "15:15 실시간 수급·고가밀착 컷오프 미달로 현금 100% 관망"
+        },
+        {
+          "date": "2026-11-19➜11-20",
+          "pick": "달바글로벌(-2.10%·1분봉09:15스탑), 전진건설로봇(-7.87%·시초갭하락실체결), 페니트리움바이오(-1.48%·1분봉09:15스탑)",
+          "action": "ENTERED (3종목)",
+          "old_ledger_net_pct": -1.69,
+          "new_hardened_net_pct": -3.82,
+          "detail": "구원장 -1.69% vs 현실화(갭하락실체결·손절우선·Top3) -3.82%"
+        }
+      ]
+    },
+    "v3": {
+      "title": "V3 (v3.4-FROZEN · ALLOW_ENTRY + 08:50 AM지지[-2%,+4.5%] + 2단 손절우선)",
+      "total_sessions": 10,
+      "entered_days": 5,
+      "cash_skip_days": 5,
+      "win_days": 4,
+      "loss_days": 1,
+      "entered_win_rate_pct": 80.0,
+      "old_10d_cum_net_pct": 50.27,
+      "new_10d_cum_net_pct": 9.65,
+      "new_avg_per_entered_day_pct": 1.93,
+      "old_1x_mdd_pct": 10.71,
+      "new_1x_mdd_pct": 2.85,
+      "new_underwater_days_end": 0,
+      "new_max_underwater_days": 5,
+      "old_35pct_account_return_pct": 18.51,
+      "old_35pct_account_mdd_pct": 3.75,
+      "new_incubate_account_return_pct": 0.23,
+      "new_incubate_account_mdd_pct": 0.07,
+      "cum_curve_new_pct": [
+        0.0,
+        4.65,
+        9.3,
+        9.3,
+        6.45,
+        8.05,
+        8.05,
+        8.05,
+        8.05,
+        9.65
+      ],
+      "daily_rows": [
+        {
+          "date": "2026-11-09",
+          "pick": "메타바이오메드(059210)",
+          "gap_vs_am_pct": -3.63,
+          "o2h_pct": 4.52,
+          "action": "CASH_SKIP (HOLD_WAIT 등급 대기)",
+          "old_o2c_net_pct": 3.57,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "HOLD_WAIT_SKIP"
+        },
+        {
+          "date": "2026-11-10",
+          "pick": "한진칼(180640)",
+          "gap_vs_am_pct": -0.93,
+          "o2h_pct": 14.49,
+          "action": "ENTERED",
+          "old_o2c_net_pct": 11.33,
+          "new_hardened_net_pct": 4.65,
+          "exit_source": "DAILY_DUAL_TP"
+        },
+        {
+          "date": "2026-11-11",
+          "pick": "안랩(053800)",
+          "gap_vs_am_pct": 0.7,
+          "o2h_pct": 11.99,
+          "action": "ENTERED",
+          "old_o2c_net_pct": 1.91,
+          "new_hardened_net_pct": 4.65,
+          "exit_source": "1M_DUAL_STAGE_TP_HIT"
+        },
+        {
+          "date": "2026-11-12",
+          "pick": "후성(093370)",
+          "gap_vs_am_pct": -3.49,
+          "o2h_pct": 1.08,
+          "action": "CASH_SKIP (08:50 AM지지이탈 -3.49%)",
+          "old_o2c_net_pct": -10.71,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "0850_AM_SUPPORT_GATE"
+        },
+        {
+          "date": "2026-11-13",
+          "pick": "지니언스(263860)",
+          "gap_vs_am_pct": -1.8,
+          "o2h_pct": 11.47,
+          "action": "ENTERED",
+          "old_o2c_net_pct": 8.06,
+          "new_hardened_net_pct": -2.85,
+          "exit_source": "1M_STOP_LOSS_FIRST"
+        },
+        {
+          "date": "2026-11-16",
+          "pick": "아리바이오랩(261780)",
+          "gap_vs_am_pct": 2.68,
+          "o2h_pct": 19.08,
+          "action": "ENTERED",
+          "old_o2c_net_pct": 14.31,
+          "new_hardened_net_pct": 1.6,
+          "exit_source": "1M_STAGE1_TP_AND_BE_LOCK"
+        },
+        {
+          "date": "2026-11-17",
+          "pick": "시선AI(340810)",
+          "gap_vs_am_pct": 6.22,
+          "o2h_pct": 12.86,
+          "action": "CASH_SKIP (HOLD_WAIT 등급 대기)",
+          "old_o2c_net_pct": -2.92,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "HOLD_WAIT_SKIP"
+        },
+        {
+          "date": "2026-11-18",
+          "pick": "아리바이오홀딩스(290690)",
+          "gap_vs_am_pct": -8.24,
+          "o2h_pct": 27.93,
+          "action": "CASH_SKIP (08:50 AM지지이탈 -8.24%)",
+          "old_o2c_net_pct": 21.72,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "0850_AM_SUPPORT_GATE"
+        },
+        {
+          "date": "2026-11-19",
+          "pick": "모두투어(080160)",
+          "gap_vs_am_pct": -7.93,
+          "o2h_pct": 20.06,
+          "action": "CASH_SKIP (08:50 AM지지이탈 -7.93%)",
+          "old_o2c_net_pct": 4.82,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "0850_AM_SUPPORT_GATE"
+        },
+        {
+          "date": "2026-11-20",
+          "pick": "HLB제약(047920)",
+          "gap_vs_am_pct": -1.87,
+          "o2h_pct": 4.26,
+          "action": "ENTERED",
+          "old_o2c_net_pct": -1.82,
+          "new_hardened_net_pct": 1.6,
+          "exit_source": "1M_STAGE1_TP_AND_BE_LOCK"
+        }
+      ]
+    },
+    "v4": {
+      "title": "V4 (v4.3-FROZEN · usr<=0.35 + 78점컷 + 시초갭게이트 + 1분봉 손절우선)",
+      "total_sessions": 10,
+      "entered_days": 5,
+      "cash_skip_days": 5,
+      "win_days": 1,
+      "loss_days": 4,
+      "entered_win_rate_pct": 20.0,
+      "old_10d_cum_net_pct": -16.86,
+      "new_10d_cum_net_pct": -6.75,
+      "new_avg_per_entered_day_pct": -1.35,
+      "old_1x_mdd_pct": 21.02,
+      "new_1x_mdd_pct": 8.31,
+      "new_underwater_days_end": 8,
+      "new_max_underwater_days": 8,
+      "old_35pct_account_return_pct": -6.01,
+      "old_35pct_account_mdd_pct": 7.44,
+      "new_incubate_account_return_pct": -0.16,
+      "new_incubate_account_mdd_pct": 0.21,
+      "cum_curve_new_pct": [
+        0.0,
+        0.0,
+        -2.85,
+        -2.85,
+        -2.85,
+        -5.7,
+        -8.55,
+        -3.9,
+        -6.75,
+        -6.75
+      ],
+      "daily_rows": [
+        {
+          "date": "2026-11-09",
+          "pick": "엔진 출시 전 (v4 미가동)",
+          "action": "PRE_LAUNCH_SKIP",
+          "old_o2c_net_pct": 0.0,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "N/A"
+        },
+        {
+          "date": "2026-11-10",
+          "pick": "엔진 출시 전 (v4 미가동)",
+          "action": "PRE_LAUNCH_SKIP",
+          "old_o2c_net_pct": 0.0,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "N/A"
+        },
+        {
+          "date": "2026-11-11",
+          "pick": "대한항공 (003490)",
+          "open_gap_pct": 0.15,
+          "o2h_pct": 0.0,
+          "action": "ENTERED",
+          "old_o2c_net_pct": -3.43,
+          "new_hardened_net_pct": -2.85,
+          "exit_source": "1M_2STAGE_STOP_FIRST"
+        },
+        {
+          "date": "2026-11-12",
+          "pick": "라온시큐어 (042510)",
+          "open_gap_pct": 0.32,
+          "o2h_pct": 1.36,
+          "action": "CASH_SKIP (v4.3 윗꼬리 usr=0.381 > 0.35 차단)",
+          "old_o2c_net_pct": -6.29,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "WICK_HARD_GATE"
+        },
+        {
+          "date": "2026-11-13",
+          "pick": "유니퀘스트 (077500)",
+          "open_gap_pct": -0.08,
+          "o2h_pct": 9.99,
+          "action": "CASH_SKIP (v4.3 윗꼬리 usr=0.441 > 0.35 차단)",
+          "old_o2c_net_pct": 7.16,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "WICK_HARD_GATE"
+        },
+        {
+          "date": "2026-11-16",
+          "pick": "아스플로 (159010)",
+          "open_gap_pct": -0.9,
+          "o2h_pct": 0.0,
+          "action": "ENTERED",
+          "old_o2c_net_pct": -17.51,
+          "new_hardened_net_pct": -2.85,
+          "exit_source": "1M_2STAGE_STOP_FIRST"
+        },
+        {
+          "date": "2026-11-17",
+          "pick": "한진칼 (180640)",
+          "open_gap_pct": -0.46,
+          "o2h_pct": 1.61,
+          "action": "ENTERED",
+          "old_o2c_net_pct": -1.27,
+          "new_hardened_net_pct": -2.85,
+          "exit_source": "1M_2STAGE_STOP_FIRST"
+        },
+        {
+          "date": "2026-11-18",
+          "pick": "지니언스 (263860)",
+          "open_gap_pct": 1.5,
+          "o2h_pct": 21.13,
+          "action": "ENTERED",
+          "old_o2c_net_pct": 3.42,
+          "new_hardened_net_pct": 4.65,
+          "exit_source": "1M_2STAGE_STOP_FIRST"
+        },
+        {
+          "date": "2026-11-19",
+          "pick": "디케이티 (290550)",
+          "open_gap_pct": -0.17,
+          "o2h_pct": 6.9,
+          "action": "ENTERED",
+          "old_o2c_net_pct": 5.21,
+          "new_hardened_net_pct": -2.85,
+          "exit_source": "1M_2STAGE_STOP_FIRST"
+        },
+        {
+          "date": "2026-11-20",
+          "pick": "코리아써키트 (007810)",
+          "open_gap_pct": -5.58,
+          "o2h_pct": 2.43,
+          "action": "CASH_SKIP (09:00 시초갭 -5.58% 붕괴 진입차단)",
+          "old_o2c_net_pct": -4.15,
+          "new_hardened_net_pct": 0.0,
+          "exit_source": "0900_GAP_GATE"
+        }
+      ]
+    }
+  },
+  "combined_10m_krw_account": {
+    "initial_capital_krw": 10000000,
+    "legacy_35pct_unhardened": {
+      "final_capital_krw": 11898820,
+      "net_pnl_krw": 1898820,
+      "return_pct": 18.99,
+      "account_mdd_pct": 6.56
+    },
+    "new_hardened_incubate_micro_seed": {
+      "weights_pct": {
+        "V1": 1.5,
+        "V2": 2.4,
+        "V3": 2.4,
+        "V4": 2.4,
+        "cash_reserve_min_pct": 91.3
+      },
+      "final_capital_krw": 9997242,
+      "net_pnl_krw": -2758,
+      "return_pct": -0.03,
+      "account_mdd_pct": 0.24
+    },
+    "daily_equity": [
+      {
+        "date": "2026-11-09",
+        "old_account_krw": 10184333,
+        "new_incubate_account_krw": 9994960,
+        "day_new_account_pct": -0.05
+      },
+      {
+        "date": "2026-11-10",
+        "old_account_krw": 11060865,
+        "new_incubate_account_krw": 10006114,
+        "day_new_account_pct": 0.112
+      },
+      {
+        "date": "2026-11-11",
+        "old_account_krw": 11539800,
+        "new_incubate_account_krw": 10017416,
+        "day_new_account_pct": 0.113
+      },
+      {
+        "date": "2026-11-12",
+        "old_account_krw": 11015605,
+        "new_incubate_account_krw": 10011935,
+        "day_new_account_pct": -0.055
+      },
+      {
+        "date": "2026-11-13",
+        "old_account_krw": 11703805,
+        "new_incubate_account_krw": 10007294,
+        "day_new_account_pct": -0.046
+      },
+      {
+        "date": "2026-11-16",
+        "old_account_krw": 11288612,
+        "new_incubate_account_krw": 10000014,
+        "day_new_account_pct": -0.073
+      },
+      {
+        "date": "2026-11-17",
+        "old_account_krw": 10936031,
+        "new_incubate_account_krw": 9993174,
+        "day_new_account_pct": -0.068
+      },
+      {
+        "date": "2026-11-18",
+        "old_account_krw": 11977142,
+        "new_incubate_account_krw": 10011297,
+        "day_new_account_pct": 0.181
+      },
+      {
+        "date": "2026-11-19",
+        "old_account_krw": 12336456,
+        "new_incubate_account_krw": 10006852,
+        "day_new_account_pct": -0.044
+      },
+      {
+        "date": "2026-11-20",
+        "old_account_krw": 11898820,
+        "new_incubate_account_krw": 9997242,
+        "day_new_account_pct": -0.096
+      }
+    ]
+  }
+}
