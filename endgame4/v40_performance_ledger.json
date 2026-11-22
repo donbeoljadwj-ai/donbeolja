@@ -161,5 +161,36 @@
       "selection_note": "1분봉검증:STOP_LOSS_FIRST | 시초갭 -5.58% (GAP_BREAKDOWN_REF (-5.58% <= -2.5%)) | ★20일 시가+5%슈팅빈도 50%(10/20일) · ★20일평균O2H +6.71% · 5일ATR 10.60% · ★연기금·보험·사모 순매수(+5.8억) · ★외인·기관 순매수(+85.7억) · ★건전윗꼬리 매물소화(usr 0.051)"
     }
   ],
-  "last_updated": "2026-11-20 23:10:18"
+  "last_updated": "2026-11-20 23:10:18",
+  "backtest_discipline_guard": {
+    "track": "V4",
+    "engine_version": "v4.3-FROZEN",
+    "hypothesis_id": "KRX-V43-DANTE-224MA-SMARTFLOW",
+    "hypothesis_owner": "HUMAN_DOMAIN_HYPOTHESIS",
+    "stage": "STAGE_3_INCUBATE",
+    "stage_badge": "🐣 STAGE 3: INCUBATE 소액검증 (5/30일 · 최대 5% 시드)",
+    "live_trading_allowed": true,
+    "max_position_alloc_pct": 5.0,
+    "settled_forward_days": 5,
+    "min_incubation_days": 30,
+    "empirical_win_rate": 0.25,
+    "empirical_payoff_ratio": 1.632,
+    "empirical_mean_ev_pct": -0.975,
+    "drawdown_state": {
+      "evaluated_sessions": 8,
+      "simple_cum_return_pct": -7.8,
+      "sized_cum_return_pct": -1.57,
+      "raw_100pct_mdd_pct": 7.93,
+      "raw_100pct_current_dd_pct": 7.93,
+      "account_mdd_pct": 1.57,
+      "account_current_dd_pct": 1.57,
+      "current_underwater_days": 8,
+      "max_underwater_days": 8,
+      "max_loss_limit_pct": 20.0,
+      "max_underwater_limit_days": 60,
+      "circuit_breaker_tripped": false,
+      "underwater_warning": false,
+      "circuit_status": "OK (DD -7.93% · 수중 8일)"
+    }
+  }
 }
