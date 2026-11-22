@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 23:11:26",
+  "updated_at": "2026-11-22 20:11:32",
   "active_version": "v3.4-FROZEN (sha256:a4ba391a9334b0ba)",
   "strategy_title": "GEMINI ENDGAME v3.4-FROZEN (전야 AM +1.5~+9.0% 과열차단 + AM종가<VWAP 눌림우위 + 08:50 AM지지게이트[-2.0%,+4.5%] + 2단계 분할청산[+3.5% 반익·+0.4% 본절락인/+6.5%] · Top 2 집중)",
   "upcoming_target_date": "2026-11-23",
@@ -18,6 +18,37 @@
       "min_required_days": 30,
       "win_rate_display_allowed": false,
       "status_badge": "엔진 동결 전진검증 누적 중 (0/30일 · 30거래일 미만 승률 미표시)"
+    },
+    "backtest_discipline_guard": {
+      "track": "V3",
+      "engine_version": "v3.4-FROZEN",
+      "hypothesis_id": "KRX-V34-AM-VWAP-PULLBACK-0850-SUPPORT",
+      "hypothesis_owner": "HUMAN_DOMAIN_HYPOTHESIS",
+      "stage": "STAGE_3_INCUBATE",
+      "stage_badge": "🐣 STAGE 3: INCUBATE 소액검증 (0/30일 · 최대 5% 시드)",
+      "live_trading_allowed": true,
+      "max_position_alloc_pct": 5.0,
+      "settled_forward_days": 0,
+      "min_incubation_days": 30,
+      "empirical_win_rate": 0.6667,
+      "empirical_payoff_ratio": 1.937,
+      "empirical_mean_ev_pct": 4.873,
+      "drawdown_state": {
+        "evaluated_sessions": 21,
+        "simple_cum_return_pct": 102.34,
+        "sized_cum_return_pct": 22.14,
+        "raw_100pct_mdd_pct": 14.95,
+        "raw_100pct_current_dd_pct": 1.82,
+        "account_mdd_pct": 2.99,
+        "account_current_dd_pct": 0.36,
+        "current_underwater_days": 1,
+        "max_underwater_days": 5,
+        "max_loss_limit_pct": 20.0,
+        "max_underwater_limit_days": 60,
+        "circuit_breaker_tripped": false,
+        "underwater_warning": false,
+        "circuit_status": "OK (DD -1.82% · 수중 1일)"
+      }
     },
     "recommended_top_k": 2,
     "round_trip_cost_pct": 0.35,
@@ -11338,37 +11369,6 @@
           }
         }
       ]
-    }
-  },
-  "backtest_discipline_guard": {
-    "track": "V3",
-    "engine_version": "v3.4-FROZEN",
-    "hypothesis_id": "KRX-V34-AM-VWAP-PULLBACK-0850-SUPPORT",
-    "hypothesis_owner": "HUMAN_DOMAIN_HYPOTHESIS",
-    "stage": "STAGE_3_INCUBATE",
-    "stage_badge": "🐣 STAGE 3: INCUBATE 소액검증 (0/30일 · 최대 5% 시드)",
-    "live_trading_allowed": true,
-    "max_position_alloc_pct": 5.0,
-    "settled_forward_days": 0,
-    "min_incubation_days": 30,
-    "empirical_win_rate": 0.7619,
-    "empirical_payoff_ratio": 1.473,
-    "empirical_mean_ev_pct": 2.52,
-    "drawdown_state": {
-      "evaluated_sessions": 21,
-      "simple_cum_return_pct": 52.93,
-      "sized_cum_return_pct": 11.09,
-      "raw_100pct_mdd_pct": 2.85,
-      "raw_100pct_current_dd_pct": 2.85,
-      "account_mdd_pct": 0.57,
-      "account_current_dd_pct": 0.57,
-      "current_underwater_days": 1,
-      "max_underwater_days": 1,
-      "max_loss_limit_pct": 20.0,
-      "max_underwater_limit_days": 60,
-      "circuit_breaker_tripped": false,
-      "underwater_warning": false,
-      "circuit_status": "OK (DD -2.85% · 수중 1일)"
     }
   }
 }

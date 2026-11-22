@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21 23:10:57",
+  "updated_at": "2026-11-22 20:11:01",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
@@ -10,6 +10,37 @@
     "min_required_days": 30,
     "win_rate_display_allowed": false,
     "status_badge": "엔진 동결 전진검증 누적 중 (3/30일 · 30거래일 미만 승률 미표시)"
+  },
+  "backtest_discipline_guard": {
+    "track": "V1",
+    "engine_version": "v1.9-FROZEN",
+    "hypothesis_id": "KRX-V19-ATR20-AM-PULLBACK",
+    "hypothesis_owner": "HUMAN_DOMAIN_HYPOTHESIS",
+    "stage": "STAGE_3_INCUBATE",
+    "stage_badge": "🐣 STAGE 3: INCUBATE 소액검증 (3/30일 · 최대 5% 시드)",
+    "live_trading_allowed": true,
+    "max_position_alloc_pct": 5.0,
+    "settled_forward_days": 3,
+    "min_incubation_days": 30,
+    "empirical_win_rate": 0.5714,
+    "empirical_payoff_ratio": 1.222,
+    "empirical_mean_ev_pct": 1.374,
+    "drawdown_state": {
+      "evaluated_sessions": 35,
+      "simple_cum_return_pct": 48.1,
+      "sized_cum_return_pct": 9.63,
+      "raw_100pct_mdd_pct": 27.56,
+      "raw_100pct_current_dd_pct": 18.82,
+      "account_mdd_pct": 6.02,
+      "account_current_dd_pct": 3.93,
+      "current_underwater_days": 5,
+      "max_underwater_days": 16,
+      "max_loss_limit_pct": 20.0,
+      "max_underwater_limit_days": 60,
+      "circuit_breaker_tripped": false,
+      "underwater_warning": true,
+      "circuit_status": "THROTTLE_CAUTION (DD -18.82% · 수중 5일)"
+    }
   },
   "evaluated_days": 35,
   "honest_regular_bar_comparison": {
