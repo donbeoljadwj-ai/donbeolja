@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22 23:10:56",
+  "updated_at": "2026-11-23 15:11:03",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
@@ -108,7 +108,7 @@
       "after_v19_rank1": {
         "name": "성호전자",
         "code": "043260",
-        "atr20_pct": 11.217,
+        "atr20_pct": 11.174,
         "score": 0.0,
         "open_gap_pct": -2.56,
         "o2h_pct": 6.94,
@@ -118,7 +118,7 @@
       "after_v20_rank1": {
         "name": "성호전자",
         "code": "043260",
-        "atr20_pct": 11.217,
+        "atr20_pct": 11.174,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -2.56,
@@ -140,7 +140,7 @@
       "after_v19_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.532,
+        "atr20_pct": 11.637,
         "score": 0.0,
         "open_gap_pct": -3.06,
         "o2h_pct": 6.55,
@@ -150,7 +150,7 @@
       "after_v20_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.532,
+        "atr20_pct": 11.637,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -3.06,
@@ -172,8 +172,8 @@
       "after_v19_rank1": {
         "name": "아이비젼웍스",
         "code": "469750",
-        "atr20_pct": 12.853,
-        "score": 99.45,
+        "atr20_pct": 12.289,
+        "score": 96.63,
         "open_gap_pct": 1.93,
         "o2h_pct": 5.86,
         "o2c_net_pct": 4.99,
@@ -182,8 +182,8 @@
       "after_v20_rank1": {
         "name": "아이비젼웍스",
         "code": "469750",
-        "atr20_pct": 12.853,
-        "score": 99.45,
+        "atr20_pct": 12.289,
+        "score": 96.63,
         "gap_band_ok": true,
         "open_gap_pct": 1.93,
         "o2h_pct": 5.86,
@@ -204,8 +204,8 @@
       "after_v19_rank1": {
         "name": "빛과전자",
         "code": "069540",
-        "atr20_pct": 10.565,
-        "score": 88.01,
+        "atr20_pct": 10.592,
+        "score": 88.14,
         "open_gap_pct": -0.39,
         "o2h_pct": 16.99,
         "o2c_net_pct": 1.41,
@@ -214,8 +214,8 @@
       "after_v20_rank1": {
         "name": "빛과전자",
         "code": "069540",
-        "atr20_pct": 10.565,
-        "score": 88.01,
+        "atr20_pct": 10.592,
+        "score": 88.14,
         "gap_band_ok": true,
         "open_gap_pct": -0.39,
         "o2h_pct": 16.99,
@@ -268,8 +268,8 @@
       "after_v19_rank1": {
         "name": "한빛레이저",
         "code": "452190",
-        "atr20_pct": 9.336,
-        "score": 86.5,
+        "atr20_pct": 9.332,
+        "score": 86.48,
         "open_gap_pct": 1.11,
         "o2h_pct": 5.66,
         "o2c_net_pct": -2.39,
@@ -278,8 +278,8 @@
       "after_v20_rank1": {
         "name": "한빛레이저",
         "code": "452190",
-        "atr20_pct": 9.336,
-        "score": 86.5,
+        "atr20_pct": 9.332,
+        "score": 86.48,
         "gap_band_ok": true,
         "open_gap_pct": 1.11,
         "o2h_pct": 5.66,
@@ -300,8 +300,8 @@
       "after_v19_rank1": {
         "name": "라온시큐어",
         "code": "042510",
-        "atr20_pct": 11.994,
-        "score": 95.47,
+        "atr20_pct": 11.894,
+        "score": 94.97,
         "open_gap_pct": -4.42,
         "o2h_pct": 26.22,
         "o2c_net_pct": 9.47,
@@ -310,8 +310,8 @@
       "after_v20_rank1": {
         "name": "라온시큐어",
         "code": "042510",
-        "atr20_pct": 11.994,
-        "score": 95.47,
+        "atr20_pct": 11.894,
+        "score": 94.97,
         "gap_band_ok": false,
         "open_gap_pct": -4.42,
         "o2h_pct": 26.22,
@@ -332,7 +332,7 @@
       "after_v19_rank1": {
         "name": "안랩",
         "code": "053800",
-        "atr20_pct": 13.639,
+        "atr20_pct": 13.764,
         "score": 99.8,
         "open_gap_pct": -2.51,
         "o2h_pct": 8.9,
@@ -342,7 +342,7 @@
       "after_v20_rank1": {
         "name": "안랩",
         "code": "053800",
-        "atr20_pct": 13.639,
+        "atr20_pct": 13.764,
         "score": 99.8,
         "gap_band_ok": false,
         "open_gap_pct": -2.51,
@@ -364,8 +364,8 @@
       "after_v19_rank1": {
         "name": "비나텍",
         "code": "126340",
-        "atr20_pct": 11.465,
-        "score": 92.46,
+        "atr20_pct": 11.387,
+        "score": 92.07,
         "open_gap_pct": -9.27,
         "o2h_pct": 3.4,
         "o2c_net_pct": -5.27,
@@ -374,8 +374,8 @@
       "after_v20_rank1": {
         "name": "비나텍",
         "code": "126340",
-        "atr20_pct": 11.465,
-        "score": 92.46,
+        "atr20_pct": 11.387,
+        "score": 92.07,
         "gap_band_ok": false,
         "open_gap_pct": -9.27,
         "o2h_pct": 3.4,
@@ -396,7 +396,7 @@
       "after_v19_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 14.326,
+        "atr20_pct": 13.798,
         "score": 99.8,
         "open_gap_pct": 4.86,
         "o2h_pct": 9.86,
@@ -406,7 +406,7 @@
       "after_v20_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 14.326,
+        "atr20_pct": 13.798,
         "score": 99.8,
         "gap_band_ok": false,
         "open_gap_pct": 4.86,
@@ -428,7 +428,7 @@
       "after_v19_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 14.856,
+        "atr20_pct": 13.802,
         "score": 99.8,
         "open_gap_pct": -6.19,
         "o2h_pct": 32.99,
@@ -438,7 +438,7 @@
       "after_v20_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 14.856,
+        "atr20_pct": 13.802,
         "score": 99.8,
         "gap_band_ok": false,
         "open_gap_pct": -6.19,
@@ -460,7 +460,7 @@
       "after_v19_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 14.856,
+        "atr20_pct": 13.802,
         "score": 99.8,
         "open_gap_pct": -0.8,
         "o2h_pct": 2.26,
@@ -470,7 +470,7 @@
       "after_v20_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 14.856,
+        "atr20_pct": 13.802,
         "score": 99.8,
         "gap_band_ok": true,
         "open_gap_pct": -0.8,
@@ -492,7 +492,7 @@
       "after_v19_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 14.326,
+        "atr20_pct": 13.798,
         "score": 99.8,
         "open_gap_pct": 1.77,
         "o2h_pct": 9.12,
@@ -502,7 +502,7 @@
       "after_v20_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 14.326,
+        "atr20_pct": 13.798,
         "score": 99.8,
         "gap_band_ok": true,
         "open_gap_pct": 1.77,
