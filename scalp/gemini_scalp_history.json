@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-20 15:47:13",
+  "updated_at": "2026-11-23 09:17:51",
   "cumulative_start_date": "2026-11-18",
-  "latest_date": "2026-11-20",
+  "latest_date": "2026-11-23",
   "cumulative": {
     "start_date": "2026-11-18",
-    "trading_days": 2,
-    "total_count": 22,
+    "trading_days": 3,
+    "total_count": 23,
     "success_count": 12,
     "hit_5pct_count": 8,
     "hit_3pct_count": 4,
-    "fail_count": 10,
-    "win_rate_pct": 54.5,
-    "hit_5pct_rate": 36.4,
-    "algo5_count": 6,
+    "fail_count": 11,
+    "win_rate_pct": 52.2,
+    "hit_5pct_rate": 34.8,
+    "algo5_count": 7,
     "algo5_hit5_count": 6,
-    "algo10_count": 3,
+    "algo10_count": 4,
     "algo10_hit10_count": 3
   },
   "days": {
@@ -59149,9 +59149,9 @@
       "win_rate_pct": 66.7,
       "hit_5pct_rate": 66.7,
       "avg_peak_ret_pct": 7.08,
-      "algo5_count": 0,
+      "algo5_count": 1,
       "algo5_hit5_count": 0,
-      "algo10_count": 0,
+      "algo10_count": 1,
       "algo10_hit10_count": 0,
       "items": [
         {
@@ -59161,7 +59161,7 @@
           "entry_hm": "09:05",
           "entry_time_full": "2026-11-20 09:05:14",
           "entry_px": 17780,
-          "prev_close": 18040,
+          "prev_close": 17510,
           "tp3_px": 18313,
           "tp5_px": 18669,
           "day_open": 17510,
@@ -59185,18 +59185,16 @@
           "filter_tier": "FILTERED_OUT",
           "filter_tier_label": "✂️ 5%미만 제거대상",
           "drop_reasons_5pct": [
-            "R1 추세·과열 이탈 (전일대비 -1.44%, 시가대비 +1.54%)",
             "R2 5분EMA5 이격 불량 (-1.06%)",
             "R3 고점장악 미달 (고점대비 -1.60%, 위치 49.1%)"
           ],
           "drop_reasons_10pct": [
-            "R1 추세·과열 이탈 (전일대비 -1.44%, 시가대비 +1.54%)",
             "R2 5분EMA5 이격 불량 (-1.06%)",
             "R3 고점장악 미달 (고점대비 -1.60%, 위치 49.1%)"
           ],
           "features_at_entry": {
-            "open_gap": -2.94,
-            "e_chg": -1.44,
+            "open_gap": 0.0,
+            "e_chg": 1.54,
             "e_vs_open": 1.54,
             "dd_hi": -1.6,
             "rng": 3.26,
@@ -62348,7 +62346,7 @@
           "entry_hm": "09:10",
           "entry_time_full": "2026-11-20 09:10:21",
           "entry_px": 3155,
-          "prev_close": 3250,
+          "prev_close": 3235,
           "tp3_px": 3250,
           "tp5_px": 3313,
           "day_open": 3235,
@@ -62372,18 +62370,18 @@
           "filter_tier": "FILTERED_OUT",
           "filter_tier_label": "✂️ 5%미만 제거대상",
           "drop_reasons_5pct": [
-            "R1 추세·과열 이탈 (전일대비 -2.92%, 시가대비 -2.47%)",
+            "R1 추세·과열 이탈 (전일대비 -2.47%, 시가대비 -2.47%)",
             "R3 고점장악 미달 (고점대비 -6.10%, 위치 33.9%)",
             "R4 매수체결 열위 (양봉비중 44.1%)"
           ],
           "drop_reasons_10pct": [
-            "R1 추세·과열 이탈 (전일대비 -2.92%, 시가대비 -2.47%)",
+            "R1 추세·과열 이탈 (전일대비 -2.47%, 시가대비 -2.47%)",
             "R3 고점장악 미달 (고점대비 -6.10%, 위치 33.9%)",
             "R4 매수체결 열위 (양봉비중 44.1%)"
           ],
           "features_at_entry": {
-            "open_gap": -0.46,
-            "e_chg": -2.92,
+            "open_gap": 0.0,
+            "e_chg": -2.47,
             "e_vs_open": -2.47,
             "dd_hi": -6.1,
             "rng": 10.16,
@@ -65535,7 +65533,7 @@
           "entry_hm": "09:05",
           "entry_time_full": "2026-11-20 09:05:14",
           "entry_px": 34000,
-          "prev_close": 34750,
+          "prev_close": 33400,
           "tp3_px": 35020,
           "tp5_px": 35700,
           "day_open": 33400,
@@ -65554,19 +65552,15 @@
           "status": "FAIL",
           "status_label": "❌ 미달성(실패)",
           "is_success": false,
-          "pass_5pct_filter": false,
-          "pass_10pct_filter": false,
-          "filter_tier": "FILTERED_OUT",
-          "filter_tier_label": "✂️ 5%미만 제거대상",
-          "drop_reasons_5pct": [
-            "R1 추세·과열 이탈 (전일대비 -2.16%, 시가대비 +1.80%)"
-          ],
-          "drop_reasons_10pct": [
-            "R1 추세·과열 이탈 (전일대비 -2.16%, 시가대비 +1.80%)"
-          ],
+          "pass_5pct_filter": true,
+          "pass_10pct_filter": true,
+          "filter_tier": "TIER_10PCT",
+          "filter_tier_label": "🚀 10%+ 대시세 타점",
+          "drop_reasons_5pct": [],
+          "drop_reasons_10pct": [],
           "features_at_entry": {
-            "open_gap": -3.88,
-            "e_chg": -2.16,
+            "open_gap": 0.0,
+            "e_chg": 1.8,
             "e_vs_open": 1.8,
             "dd_hi": 0.0,
             "rng": 2.87,
@@ -68710,6 +68704,79 @@
               "v": 0
             }
           ]
+        }
+      ]
+    },
+    "2026-11-23": {
+      "date": "2026-11-23",
+      "total_count": 1,
+      "success_count": 0,
+      "hit_5pct_count": 0,
+      "hit_3pct_count": 0,
+      "fail_count": 1,
+      "win_rate_pct": 0.0,
+      "hit_5pct_rate": 0.0,
+      "avg_peak_ret_pct": 0.0,
+      "algo5_count": 0,
+      "algo5_hit5_count": 0,
+      "algo10_count": 0,
+      "algo10_hit10_count": 0,
+      "items": [
+        {
+          "date": "2026-11-23",
+          "code": "491000",
+          "name": "리브스메드",
+          "entry_hm": "09:17",
+          "entry_time_full": "2026-11-23 09:17:51",
+          "entry_px": 37000,
+          "prev_close": 37800,
+          "tp3_px": 38110,
+          "tp5_px": 38850,
+          "day_open": 37000,
+          "day_high": 37000,
+          "day_low": 37000,
+          "close_px": 37000,
+          "post_high": 37000,
+          "peak_hm": "09:17",
+          "post_low": 37000,
+          "low_hm": "09:17",
+          "max_ret_pct": 0.0,
+          "min_ret_pct": 0.0,
+          "close_ret_pct": 0.0,
+          "hit_3pct_hm": null,
+          "hit_5pct_hm": null,
+          "status": "FAIL",
+          "status_label": "❌ 미달성(실패)",
+          "is_success": false,
+          "pass_5pct_filter": false,
+          "pass_10pct_filter": false,
+          "filter_tier": "FILTERED_OUT",
+          "filter_tier_label": "✂️ 5%미만 제거대상",
+          "drop_reasons_5pct": [
+            "R1 추세·과열 이탈 (전일대비 -2.12%, 시가대비 +0.00%)",
+            "R3 고점장악 미달 (고점대비 +0.00%, 위치 0.0%)"
+          ],
+          "drop_reasons_10pct": [
+            "R1 추세·과열 이탈 (전일대비 -2.12%, 시가대비 +0.00%)",
+            "R3 고점장악 미달 (고점대비 +0.00%, 위치 0.0%)"
+          ],
+          "features_at_entry": {
+            "open_gap": -2.12,
+            "e_chg": -2.12,
+            "e_vs_open": 0.0,
+            "dd_hi": 0.0,
+            "rng": 0.0,
+            "pos_rng": 0.0,
+            "cum_val_b": 0.0,
+            "val_pm": 0.0,
+            "d_vwap": 0.0,
+            "d_kijun": 0.0,
+            "d_ema5": 0.0,
+            "v_pwr": 100.0,
+            "est_strength": 150.0
+          },
+          "bar_count": 0,
+          "bars_1m": []
         }
       ]
     }
