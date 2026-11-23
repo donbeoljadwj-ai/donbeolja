@@ -2,7 +2,7 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-23 15:10:52",
+    "last_updated": "2026-11-23 20:10:11",
     "engine_version": "v2.9-ARGON"
   },
   "summary": {
@@ -2328,16 +2328,16 @@
           "next_high_price": 6280,
           "next_max_gain_pct": 0.16,
           "next_low_price": 5810,
-          "next_close_price": 5860,
-          "next_close_gain_pct": -6.54,
+          "next_close_price": 5930,
+          "next_close_gain_pct": -5.42,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
           "hit_stoploss": true,
           "realized_return_pct": -2.37,
-          "trade_result": "🛡️ 시초 갭하락(-2.07%) 즉시 손절",
+          "trade_result": "🛡️ 익일 09:00 시초갭하락 실체결 손절 (-2.37%)",
           "is_win": false,
           "catalyst": "[v2.9-ARGON 81.1점], 👑 'AI 챗봇(챗GPT 등)' 대장주(동조율 100%), 고가유지 98.3%(usr 0.12), 정규대금 292억 · +13.43%, 외+기 +10.1억",
-          "settlement_tier": "OPEN_GAP_STOPLOSS_VERIFIED"
+          "settlement_tier": "VERIFIED_1M_CHRONO"
         }
       ]
     }
