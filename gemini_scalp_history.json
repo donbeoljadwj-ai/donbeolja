@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-23 15:43:20",
+  "updated_at": "2026-11-24 09:05:20",
   "cumulative_start_date": "2026-11-18",
-  "latest_date": "2026-11-23",
+  "latest_date": "2026-11-24",
   "cumulative": {
     "start_date": "2026-11-18",
-    "trading_days": 3,
-    "total_count": 23,
+    "trading_days": 4,
+    "total_count": 24,
     "success_count": 13,
     "hit_5pct_count": 9,
     "hit_3pct_count": 4,
-    "fail_count": 10,
-    "win_rate_pct": 56.5,
-    "hit_5pct_rate": 39.1,
+    "fail_count": 11,
+    "win_rate_pct": 54.2,
+    "hit_5pct_rate": 37.5,
     "algo5_count": 7,
     "algo5_hit5_count": 6,
     "algo10_count": 4,
@@ -68729,7 +68729,7 @@
           "entry_hm": "09:17",
           "entry_time_full": "2026-11-23 09:17:51",
           "entry_px": 37000,
-          "prev_close": 37800,
+          "prev_close": 37650,
           "tp3_px": 38110,
           "tp5_px": 38850,
           "day_open": 37650,
@@ -68753,20 +68753,20 @@
           "filter_tier": "FILTERED_OUT",
           "filter_tier_label": "✂️ 5%미만 제거대상",
           "drop_reasons_5pct": [
-            "R1 추세·과열 이탈 (전일대비 -2.12%, 시가대비 -1.73%)",
+            "R1 추세·과열 이탈 (전일대비 -1.73%, 시가대비 -1.73%)",
             "R2 5분EMA5 이격 불량 (-1.82%)",
             "R3 고점장악 미달 (고점대비 -5.01%, 위치 0.0%)",
             "R4 매수체결 열위 (양봉비중 37.0%)"
           ],
           "drop_reasons_10pct": [
-            "R1 추세·과열 이탈 (전일대비 -2.12%, 시가대비 -1.73%)",
+            "R1 추세·과열 이탈 (전일대비 -1.73%, 시가대비 -1.73%)",
             "R2 5분EMA5 이격 불량 (-1.82%)",
             "R3 고점장악 미달 (고점대비 -5.01%, 위치 0.0%)",
             "R4 매수체결 열위 (양봉비중 37.0%)"
           ],
           "features_at_entry": {
-            "open_gap": -0.4,
-            "e_chg": -2.12,
+            "open_gap": 0.0,
+            "e_chg": -1.73,
             "e_vs_open": -1.73,
             "dd_hi": -5.01,
             "rng": 5.27,
@@ -71910,6 +71910,79 @@
               "v": 0
             }
           ]
+        }
+      ]
+    },
+    "2026-11-24": {
+      "date": "2026-11-24",
+      "total_count": 1,
+      "success_count": 0,
+      "hit_5pct_count": 0,
+      "hit_3pct_count": 0,
+      "fail_count": 1,
+      "win_rate_pct": 0.0,
+      "hit_5pct_rate": 0.0,
+      "avg_peak_ret_pct": 0.0,
+      "algo5_count": 0,
+      "algo5_hit5_count": 0,
+      "algo10_count": 0,
+      "algo10_hit10_count": 0,
+      "items": [
+        {
+          "date": "2026-11-24",
+          "code": "950260",
+          "name": "인제니아테라퓨틱스(Reg.S)",
+          "entry_hm": "09:05",
+          "entry_time_full": "2026-11-24 09:05:19",
+          "entry_px": 24200,
+          "prev_close": 25050,
+          "tp3_px": 24926,
+          "tp5_px": 25410,
+          "day_open": 24200,
+          "day_high": 24200,
+          "day_low": 24200,
+          "close_px": 24200,
+          "post_high": 24200,
+          "peak_hm": "09:05",
+          "post_low": 24200,
+          "low_hm": "09:05",
+          "max_ret_pct": 0.0,
+          "min_ret_pct": 0.0,
+          "close_ret_pct": 0.0,
+          "hit_3pct_hm": null,
+          "hit_5pct_hm": null,
+          "status": "FAIL",
+          "status_label": "❌ 미달성(실패)",
+          "is_success": false,
+          "pass_5pct_filter": false,
+          "pass_10pct_filter": false,
+          "filter_tier": "FILTERED_OUT",
+          "filter_tier_label": "✂️ 5%미만 제거대상",
+          "drop_reasons_5pct": [
+            "R1 추세·과열 이탈 (전일대비 -3.39%, 시가대비 +0.00%)",
+            "R3 고점장악 미달 (고점대비 +0.00%, 위치 0.0%)"
+          ],
+          "drop_reasons_10pct": [
+            "R1 추세·과열 이탈 (전일대비 -3.39%, 시가대비 +0.00%)",
+            "R3 고점장악 미달 (고점대비 +0.00%, 위치 0.0%)"
+          ],
+          "features_at_entry": {
+            "open_gap": -3.39,
+            "e_chg": -3.39,
+            "e_vs_open": 0.0,
+            "dd_hi": 0.0,
+            "rng": 0.0,
+            "pos_rng": 0.0,
+            "cum_val_b": 0.0,
+            "val_pm": 0.0,
+            "d_vwap": 0.0,
+            "d_kijun": 0.0,
+            "d_ema5": 0.0,
+            "v_pwr": 100.0,
+            "est_strength": 150.0
+          },
+          "bar_count": 0,
+          "bars_1m": []
         }
       ]
     }
