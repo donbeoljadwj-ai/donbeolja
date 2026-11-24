@@ -2,7 +2,7 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-23 20:10:11",
+    "last_updated": "2026-11-24 15:11:05",
     "engine_version": "v2.9-ARGON"
   },
   "summary": {
@@ -2328,8 +2328,8 @@
           "next_high_price": 6280,
           "next_max_gain_pct": 0.16,
           "next_low_price": 5810,
-          "next_close_price": 5930,
-          "next_close_gain_pct": -5.42,
+          "next_close_price": 5820,
+          "next_close_gain_pct": -7.18,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
           "hit_stoploss": true,
