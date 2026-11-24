@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-24 15:11:24",
+  "updated_at": "2026-11-24 23:11:44",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v1.9-FROZEN",
     "engine_sha256": "a42c86dcaae6e937",
-    "preopen_logged_days": 5,
+    "preopen_logged_days": 6,
     "settled_preopen_days": 4,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
@@ -17,62 +17,62 @@
     "hypothesis_id": "KRX-V19-ATR20-AM-PULLBACK",
     "hypothesis_owner": "HUMAN_DOMAIN_HYPOTHESIS",
     "stage": "CIRCUIT_BREAKER_HALT",
-    "stage_badge": "🛑 CIRCUIT HALT (HALT_MAX_LOSS_EXCEEDED (27.05% >= 20.0%))",
+    "stage_badge": "🛑 CIRCUIT HALT (HALT_MAX_LOSS_EXCEEDED (32.77% >= 20.0%))",
     "live_trading_allowed": false,
     "max_position_alloc_pct": 0.0,
     "settled_forward_days": 4,
     "min_incubation_days": 30,
-    "empirical_win_rate": 0.5,
-    "empirical_payoff_ratio": 1.007,
-    "empirical_mean_ev_pct": 0.018,
+    "empirical_win_rate": 0.4865,
+    "empirical_payoff_ratio": 0.981,
+    "empirical_mean_ev_pct": -0.195,
     "drawdown_state": {
-      "evaluated_sessions": 36,
-      "simple_cum_return_pct": 0.64,
-      "sized_cum_return_pct": -0.17,
+      "evaluated_sessions": 37,
+      "simple_cum_return_pct": -7.2,
+      "sized_cum_return_pct": -1.73,
       "raw_100pct_mdd_pct": 35.28,
-      "raw_100pct_current_dd_pct": 27.05,
+      "raw_100pct_current_dd_pct": 32.77,
       "account_mdd_pct": 8.07,
-      "account_current_dd_pct": 5.87,
-      "current_underwater_days": 6,
+      "account_current_dd_pct": 7.35,
+      "current_underwater_days": 7,
       "max_underwater_days": 21,
       "max_loss_limit_pct": 20.0,
       "max_underwater_limit_days": 60,
       "circuit_breaker_tripped": true,
       "underwater_warning": true,
-      "circuit_status": "HALT_MAX_LOSS_EXCEEDED (27.05% >= 20.0%)"
+      "circuit_status": "HALT_MAX_LOSS_EXCEEDED (32.77% >= 20.0%)"
     }
   },
-  "evaluated_days": 36,
+  "evaluated_days": 37,
   "honest_regular_bar_comparison": {
     "definition": "확정 KRX 정규장 일봉(09:00~15:30) · 왕복비용 0.35% 차감",
     "v1_before_original_rank1": {
-      "all_recommended_days": 36,
-      "active_traded_days": 36,
+      "all_recommended_days": 37,
+      "active_traded_days": 37,
       "round_trip_cost_pct": 0.35,
       "rank1_hit35_count": 18,
-      "rank1_hit35_rate_pct": 50.0,
+      "rank1_hit35_rate_pct": 48.6,
       "rank1_hit5_daily_count": 18,
-      "rank1_hit5_daily_rate_pct": 50.0,
+      "rank1_hit5_daily_rate_pct": 48.6,
       "rank1_net_wins": 13,
-      "rank1_net_win_rate_pct": 36.1,
-      "rank1_mean_net_pct": -1.25,
-      "rank1_cum_net_pct": -44.93
+      "rank1_net_win_rate_pct": 35.1,
+      "rank1_mean_net_pct": -1.43,
+      "rank1_cum_net_pct": -52.77
     },
     "v1_after_v19_atr_clean_rank1": {
-      "all_recommended_days": 36,
-      "active_traded_days": 36,
+      "all_recommended_days": 37,
+      "active_traded_days": 37,
       "round_trip_cost_pct": 0.35,
       "rank1_hit35_count": 27,
-      "rank1_hit35_rate_pct": 75.0,
+      "rank1_hit35_rate_pct": 73.0,
       "rank1_hit5_daily_count": 25,
-      "rank1_hit5_daily_rate_pct": 69.4,
+      "rank1_hit5_daily_rate_pct": 67.6,
       "rank1_net_wins": 18,
-      "rank1_net_win_rate_pct": 50.0,
-      "rank1_mean_net_pct": 0.02,
-      "rank1_cum_net_pct": 0.64
+      "rank1_net_win_rate_pct": 48.6,
+      "rank1_mean_net_pct": -0.19,
+      "rank1_cum_net_pct": -7.2
     },
     "v1_after_v20_gap_and_2stage_rank1": {
-      "all_recommended_days": 36,
+      "all_recommended_days": 37,
       "active_traded_days": 18,
       "round_trip_cost_pct": 0.35,
       "rank1_hit35_count": 12,
@@ -86,16 +86,16 @@
     },
     "v19_last10_summary": {
       "days": 10,
-      "wins": 5,
-      "win_rate_pct": 50.0,
-      "hit5_count": 6,
-      "hit5_rate_pct": 60.0,
-      "cum_net_pct": 4.08,
-      "mean_net_pct": 0.41
+      "wins": 4,
+      "win_rate_pct": 40.0,
+      "hit5_count": 5,
+      "hit5_rate_pct": 50.0,
+      "cum_net_pct": -13.05,
+      "mean_net_pct": -1.31
     },
     "note": "v1.9-FROZEN (ATR20 클린 엔진) 기준으로 즉시 복원 완료."
   },
-  "upcoming_target_date": "2026-11-24",
+  "upcoming_target_date": "2026-11-25",
   "daily_comparison": {
     "2026-10-01": {
       "before_orig_rank1": {
@@ -140,7 +140,7 @@
       "after_v19_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.724,
+        "atr20_pct": 11.853,
         "score": 0.0,
         "open_gap_pct": -3.06,
         "o2h_pct": 6.55,
@@ -150,7 +150,7 @@
       "after_v20_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.724,
+        "atr20_pct": 11.853,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -3.06,
@@ -172,8 +172,8 @@
       "after_v19_rank1": {
         "name": "아이비젼웍스",
         "code": "469750",
-        "atr20_pct": 12.471,
-        "score": 97.54,
+        "atr20_pct": 12.73,
+        "score": 98.83,
         "open_gap_pct": 1.93,
         "o2h_pct": 5.86,
         "o2c_net_pct": 4.99,
@@ -182,8 +182,8 @@
       "after_v20_rank1": {
         "name": "아이비젼웍스",
         "code": "469750",
-        "atr20_pct": 12.471,
-        "score": 97.54,
+        "atr20_pct": 12.73,
+        "score": 98.83,
         "gap_band_ok": true,
         "open_gap_pct": 1.93,
         "o2h_pct": 5.86,
@@ -300,8 +300,8 @@
       "after_v19_rank1": {
         "name": "라온시큐어",
         "code": "042510",
-        "atr20_pct": 11.894,
-        "score": 94.97,
+        "atr20_pct": 11.924,
+        "score": 95.12,
         "open_gap_pct": -4.42,
         "o2h_pct": 26.22,
         "o2c_net_pct": 9.47,
@@ -310,8 +310,8 @@
       "after_v20_rank1": {
         "name": "라온시큐어",
         "code": "042510",
-        "atr20_pct": 11.894,
-        "score": 94.97,
+        "atr20_pct": 11.924,
+        "score": 95.12,
         "gap_band_ok": false,
         "open_gap_pct": -4.42,
         "o2h_pct": 26.22,
@@ -332,7 +332,7 @@
       "after_v19_rank1": {
         "name": "안랩",
         "code": "053800",
-        "atr20_pct": 13.241,
+        "atr20_pct": 13.362,
         "score": 99.8,
         "open_gap_pct": -2.51,
         "o2h_pct": 8.9,
@@ -342,7 +342,7 @@
       "after_v20_rank1": {
         "name": "안랩",
         "code": "053800",
-        "atr20_pct": 13.241,
+        "atr20_pct": 13.362,
         "score": 99.8,
         "gap_band_ok": false,
         "open_gap_pct": -2.51,
@@ -1245,6 +1245,38 @@
         "o2h_pct": 2.85,
         "o2c_net_pct": -10.14,
         "two_stage_net_pct": -2.85,
+        "hit_35pct_daily": false,
+        "hit_5pct_daily": false
+      }
+    },
+    "2026-11-24": {
+      "before_orig_rank1": {
+        "name": "아스플로",
+        "code": "159010",
+        "o2h_pct": 2.16,
+        "o2c_net_pct": -7.84,
+        "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
+        "name": "아스플로",
+        "code": "159010",
+        "atr20_pct": 13.41,
+        "score": 99.8,
+        "open_gap_pct": 5.25,
+        "o2h_pct": 2.16,
+        "o2c_net_pct": -7.84,
+        "hit_5pct_daily": false
+      },
+      "after_v20_rank1": {
+        "name": "아스플로",
+        "code": "159010",
+        "atr20_pct": 13.41,
+        "score": 99.8,
+        "gap_band_ok": false,
+        "open_gap_pct": 5.25,
+        "o2h_pct": 2.16,
+        "o2c_net_pct": -7.84,
+        "two_stage_net_pct": 0.0,
         "hit_35pct_daily": false,
         "hit_5pct_daily": false
       }
