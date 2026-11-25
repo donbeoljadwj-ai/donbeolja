@@ -5532,7 +5532,39 @@
           "🛡️08:50 예상체결 AM지지[-2%,+4.5%] 검증대기 · 2단익절(+3.5%절반/본절+0.40%/+6.5%)"
         ]
       },
-      "day_t_execution": null
+      "day_t_execution": {
+        "labeled": true,
+        "order_decision": "ALLOW_ENTRY",
+        "fill_status": "DAILY_2STAGE_PROXY",
+        "triggered": true,
+        "execution_mode": "DAILY_2STAGE_PROXY",
+        "state": "[ALLOW_ENTRY | DAILY_2STAGE_PROXY] 2단세후 +2.72% / 시가→종가세후 +2.29% (고가+4.36%, AM갭 +0.00%)",
+        "day_t_reg_surge_pct": 4.79,
+        "day_t_open": 15140.0,
+        "day_t_high": 15800.0,
+        "day_t_low": 14620.0,
+        "open_gap_vs_d1_reg_pct": 2.09,
+        "open_to_high_pct": 4.36,
+        "open_to_low_pct": -3.43,
+        "hit_open_plus_5pct": false,
+        "hit_5pct_from_open": false,
+        "hit_krx_upper_limit": false,
+        "open_to_close_gross_pct": 2.64,
+        "open_to_close_net_pct": 2.29,
+        "two_stage_net_pct": 2.72,
+        "res_1m": null,
+        "gap_vs_am_close_pct": 0.0,
+        "gross_am_to_close_pct": 2.64,
+        "net_am_to_close_pct": 2.29,
+        "accounting_am_close_to_day_t_close_net_pct": 2.29,
+        "peak_surge_pct": 6.54,
+        "realized_pct": 2.72,
+        "round_trip_cost_pct": 0.35,
+        "saved_loss_pct": 0.0,
+        "hit_5pct": false,
+        "hit_8pct": false,
+        "hit_10pct": false
+      }
     },
     {
       "rank": 2,
@@ -5620,7 +5652,39 @@
           "🛡️08:50 예상체결 AM지지[-2%,+4.5%] 검증대기 · 2단익절(+3.5%절반/본절+0.40%/+6.5%)"
         ]
       },
-      "day_t_execution": null
+      "day_t_execution": {
+        "labeled": true,
+        "order_decision": "HOLD_WAIT",
+        "fill_status": "DAILY_2STAGE_PROXY",
+        "triggered": true,
+        "execution_mode": "DAILY_2STAGE_PROXY",
+        "state": "[HOLD_WAIT | DAILY_2STAGE_PROXY] 2단세후 -2.85% / 시가→종가세후 -4.38% (고가+8.36%, AM갭 +0.87%)",
+        "day_t_reg_surge_pct": 0.73,
+        "day_t_open": 17350.0,
+        "day_t_high": 18800.0,
+        "day_t_low": 16250.0,
+        "open_gap_vs_d1_reg_pct": 4.96,
+        "open_to_high_pct": 8.36,
+        "open_to_low_pct": -6.34,
+        "hit_open_plus_5pct": true,
+        "hit_5pct_from_open": true,
+        "hit_krx_upper_limit": false,
+        "open_to_close_gross_pct": -4.03,
+        "open_to_close_net_pct": -4.38,
+        "two_stage_net_pct": -2.85,
+        "res_1m": null,
+        "gap_vs_am_close_pct": 0.87,
+        "gross_am_to_close_pct": -3.2,
+        "net_am_to_close_pct": -3.55,
+        "accounting_am_close_to_day_t_close_net_pct": -3.55,
+        "peak_surge_pct": 13.73,
+        "realized_pct": -2.85,
+        "round_trip_cost_pct": 0.35,
+        "saved_loss_pct": 0.0,
+        "hit_5pct": false,
+        "hit_8pct": false,
+        "hit_10pct": false
+      }
     }
   ]
 }
