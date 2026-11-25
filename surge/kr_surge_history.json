@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 12:09:18",
+  "updated_at": "2026-11-25 12:11:36",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-25",
   "cumulative": {
@@ -13,7 +13,7 @@
     "fail_count": 1,
     "win_rate_pct": 97.2,
     "hit_5pct_rate": 33.3,
-    "strategy_net_sum_pct": 63.87,
+    "strategy_net_sum_pct": 62.42,
     "algo5_count": 21,
     "algo5_hit5_count": 20,
     "algo10_count": 32,
@@ -135107,8 +135107,8 @@
       "fail_count": 0,
       "win_rate_pct": 100.0,
       "hit_5pct_rate": 100.0,
-      "avg_peak_ret_pct": 5.79,
-      "strategy_net_sum_pct": 3.95,
+      "avg_peak_ret_pct": 6.82,
+      "strategy_net_sum_pct": 2.5,
       "algo5_count": 1,
       "algo5_hit5_count": 1,
       "algo10_count": 1,
@@ -135134,17 +135134,17 @@
           "day_open": 7110,
           "day_high": 8500,
           "day_low": 7000,
-          "close_px": 8190,
-          "post_high": 8220,
-          "peak_hm": "11:54",
+          "close_px": 8260,
+          "post_high": 8300,
+          "peak_hm": "12:09",
           "post_low": 7610,
           "low_hm": "11:11",
-          "max_ret_pct": 5.79,
+          "max_ret_pct": 6.82,
           "min_ret_pct": -2.06,
-          "close_ret_pct": 5.41,
-          "strategy_net_pct": 3.95,
-          "exit_time": "",
-          "exit_label": "",
+          "close_ret_pct": 6.31,
+          "strategy_net_pct": 2.5,
+          "exit_time": "12:10",
+          "exit_label": "래칫·본절보호",
           "hit_3pct_hm": "11:39",
           "hit_5pct_hm": "11:49",
           "status": "HIT_5PCT",
@@ -135154,8 +135154,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 7,537원 · 1차목표 8,003원",
-          "bar_count": 189,
+          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 12:10 래칫·본절보호 확정 (전략 세후 +2.50%)",
+          "bar_count": 191,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -137040,12 +137040,32 @@
             {
               "hm": "12:08",
               "o": 8180,
-              "h": 8210,
+              "h": 8280,
               "l": 8180,
-              "c": 8190,
-              "v": 13688,
-              "kj": 7915,
-              "e5": 8141
+              "c": 8270,
+              "v": 92740,
+              "kj": 7945,
+              "e5": 8167
+            },
+            {
+              "hm": "12:09",
+              "o": 8260,
+              "h": 8300,
+              "l": 8230,
+              "c": 8260,
+              "v": 76468,
+              "kj": 7955,
+              "e5": 8164
+            },
+            {
+              "hm": "12:10",
+              "o": 8260,
+              "h": 8260,
+              "l": 7950,
+              "c": 8260,
+              "v": 33606,
+              "kj": 7955,
+              "e5": 8196
             }
           ]
         }
