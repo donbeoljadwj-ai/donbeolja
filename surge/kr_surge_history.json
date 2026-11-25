@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 10:13:41",
+  "updated_at": "2026-11-25 10:15:49",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-25",
   "cumulative": {
@@ -135097,7 +135097,7 @@
     },
     "2026-11-25": {
       "date": "2026-11-25",
-      "regime": "전체 하락장",
+      "regime": "혼조 보합장",
       "card_count": 1,
       "wait_count": 1,
       "total_count": 0,
@@ -135118,7 +135118,7 @@
           "date": "2026-11-25",
           "code": "123690",
           "name": "한국화장품",
-          "regime": "전체 하락장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대 분할대기",
           "upper_score": 5,
           "scout_used": true,
@@ -135134,14 +135134,14 @@
           "day_open": 7110,
           "day_high": 8500,
           "day_low": 7000,
-          "close_px": 7900,
+          "close_px": 7920,
           "post_high": 8410,
           "peak_hm": "09:26",
           "post_low": 7810,
           "low_hm": "10:10",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": -1.99,
+          "close_ret_pct": -1.74,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -135154,8 +135154,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★5점",
-          "reason_line": "📡 [전체 하락장] S2선발대 분할대기 · 지정가 8,060원 매수 대기 (통합손절 7,537원)",
-          "bar_count": 73,
+          "reason_line": "📡 [혼조 보합장] S2선발대 분할대기 · 지정가 8,060원 매수 대기 (통합손절 7,537원)",
+          "bar_count": 75,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -135882,10 +135882,30 @@
               "o": 7890,
               "h": 7940,
               "l": 7890,
-              "c": 7900,
-              "v": 16973,
+              "c": 7930,
+              "v": 22521,
               "kj": 7750,
-              "e5": 7931
+              "e5": 7941
+            },
+            {
+              "hm": "10:13",
+              "o": 7930,
+              "h": 7930,
+              "l": 7900,
+              "c": 7920,
+              "v": 10209,
+              "kj": 7750,
+              "e5": 7938
+            },
+            {
+              "hm": "10:14",
+              "o": 7920,
+              "h": 7920,
+              "l": 7920,
+              "c": 7920,
+              "v": 0,
+              "kj": 7750,
+              "e5": 7938
             }
           ]
         }
