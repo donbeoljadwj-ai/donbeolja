@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 12:32:20",
+  "updated_at": "2026-11-25 12:34:25",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-25",
   "cumulative": {
@@ -135097,7 +135097,7 @@
     },
     "2026-11-25": {
       "date": "2026-11-25",
-      "regime": "혼조 보합장",
+      "regime": "전체 하락장",
       "card_count": 1,
       "wait_count": 0,
       "total_count": 1,
@@ -135118,7 +135118,7 @@
           "date": "2026-11-25",
           "code": "123690",
           "name": "한국화장품",
-          "regime": "혼조 보합장",
+          "regime": "전체 하락장",
           "setup": "5분기준선26절벽 첫터치(100%)",
           "upper_score": 5,
           "scout_used": false,
@@ -135134,14 +135134,14 @@
           "day_open": 7110,
           "day_high": 8500,
           "day_low": 7000,
-          "close_px": 7560,
+          "close_px": 7580,
           "post_high": 8300,
           "peak_hm": "12:09",
           "post_low": 7500,
           "low_hm": "12:28",
           "max_ret_pct": 6.82,
           "min_ret_pct": -3.47,
-          "close_ret_pct": -2.7,
+          "close_ret_pct": -2.45,
           "strategy_net_pct": 2.5,
           "exit_time": "12:10",
           "exit_label": "래칫·본절보호",
@@ -135154,7 +135154,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 12:10 래칫·본절보호 확정 (전략 세후 +2.50%)",
+          "reason_line": "⚡ [전체 하락장] 5분기준선26절벽 첫터치(100%) · 12:10 래칫·본절보호 확정 (전략 세후 +2.50%)",
           "bar_count": 212,
           "bars_1m": [
             {
@@ -137272,10 +137272,10 @@
               "o": 7560,
               "h": 7590,
               "l": 7530,
-              "c": 7560,
+              "c": 7580,
               "v": 13050,
               "kj": 7900,
-              "e5": 7696
+              "e5": 7703
             }
           ]
         }
