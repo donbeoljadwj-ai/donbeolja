@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 11:42:19",
+  "updated_at": "2026-11-25 11:44:25",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-25",
   "cumulative": {
@@ -13,7 +13,7 @@
     "fail_count": 1,
     "win_rate_pct": 97.2,
     "hit_5pct_rate": 30.6,
-    "strategy_net_sum_pct": 62.65,
+    "strategy_net_sum_pct": 62.84,
     "algo5_count": 21,
     "algo5_hit5_count": 20,
     "algo10_count": 32,
@@ -135097,7 +135097,7 @@
     },
     "2026-11-25": {
       "date": "2026-11-25",
-      "regime": "전체 하락장",
+      "regime": "혼조 보합장",
       "card_count": 1,
       "wait_count": 0,
       "total_count": 1,
@@ -135107,8 +135107,8 @@
       "fail_count": 0,
       "win_rate_pct": 100.0,
       "hit_5pct_rate": 0.0,
-      "avg_peak_ret_pct": 3.6,
-      "strategy_net_sum_pct": 2.73,
+      "avg_peak_ret_pct": 4.12,
+      "strategy_net_sum_pct": 2.92,
       "algo5_count": 1,
       "algo5_hit5_count": 1,
       "algo10_count": 1,
@@ -135118,7 +135118,7 @@
           "date": "2026-11-25",
           "code": "123690",
           "name": "한국화장품",
-          "regime": "전체 하락장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 첫터치(100%)",
           "upper_score": 5,
           "scout_used": false,
@@ -135134,15 +135134,15 @@
           "day_open": 7110,
           "day_high": 8500,
           "day_low": 7000,
-          "close_px": 8000,
-          "post_high": 8050,
-          "peak_hm": "11:40",
+          "close_px": 8030,
+          "post_high": 8090,
+          "peak_hm": "11:41",
           "post_low": 7610,
           "low_hm": "11:11",
-          "max_ret_pct": 3.6,
+          "max_ret_pct": 4.12,
           "min_ret_pct": -2.06,
-          "close_ret_pct": 2.96,
-          "strategy_net_pct": 2.73,
+          "close_ret_pct": 3.35,
+          "strategy_net_pct": 2.92,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": "11:39",
@@ -135154,8 +135154,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "⚡ [전체 하락장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 7,537원 · 1차목표 8,003원",
-          "bar_count": 161,
+          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 7,537원 · 1차목표 8,003원",
+          "bar_count": 165,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -136762,10 +136762,50 @@
               "o": 8000,
               "h": 8050,
               "l": 7990,
-              "c": 8000,
-              "v": 50361,
+              "c": 8050,
+              "v": 54290,
               "kj": 7920,
-              "e5": 7888
+              "e5": 7905
+            },
+            {
+              "hm": "11:41",
+              "o": 8050,
+              "h": 8090,
+              "l": 8020,
+              "c": 8060,
+              "v": 65679,
+              "kj": 7920,
+              "e5": 7908
+            },
+            {
+              "hm": "11:42",
+              "o": 8080,
+              "h": 8090,
+              "l": 8030,
+              "c": 8040,
+              "v": 38950,
+              "kj": 7920,
+              "e5": 7902
+            },
+            {
+              "hm": "11:43",
+              "o": 8040,
+              "h": 8050,
+              "l": 8000,
+              "c": 8050,
+              "v": 27345,
+              "kj": 7920,
+              "e5": 7905
+            },
+            {
+              "hm": "11:44",
+              "o": 8050,
+              "h": 8060,
+              "l": 8030,
+              "c": 8030,
+              "v": 3914,
+              "kj": 7920,
+              "e5": 7898
             }
           ]
         }
