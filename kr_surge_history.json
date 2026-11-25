@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 11:07:32",
+  "updated_at": "2026-11-25 11:09:37",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-25",
   "cumulative": {
@@ -13,7 +13,7 @@
     "fail_count": 2,
     "win_rate_pct": 94.4,
     "hit_5pct_rate": 30.6,
-    "strategy_net_sum_pct": 59.16,
+    "strategy_net_sum_pct": 58.77,
     "algo5_count": 21,
     "algo5_hit5_count": 19,
     "algo10_count": 32,
@@ -135108,7 +135108,7 @@
       "win_rate_pct": 0.0,
       "hit_5pct_rate": 0.0,
       "avg_peak_ret_pct": 1.03,
-      "strategy_net_sum_pct": -0.76,
+      "strategy_net_sum_pct": -1.15,
       "algo5_count": 1,
       "algo5_hit5_count": 0,
       "algo10_count": 1,
@@ -135134,15 +135134,15 @@
           "day_open": 7110,
           "day_high": 8500,
           "day_low": 7000,
-          "close_px": 7730,
+          "close_px": 7700,
           "post_high": 7850,
           "peak_hm": "10:40",
           "post_low": 7680,
           "low_hm": "11:06",
           "max_ret_pct": 1.03,
           "min_ret_pct": -1.16,
-          "close_ret_pct": -0.51,
-          "strategy_net_pct": -0.76,
+          "close_ret_pct": -0.9,
+          "strategy_net_pct": -1.15,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": null,
@@ -135155,7 +135155,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
           "reason_line": "⚡ [전체 하락장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 7,537원 · 1차목표 8,003원",
-          "bar_count": 128,
+          "bar_count": 129,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -136430,12 +136430,22 @@
             {
               "hm": "11:07",
               "o": 7680,
-              "h": 7730,
+              "h": 7710,
               "l": 7680,
-              "c": 7730,
-              "v": 1718,
+              "c": 7700,
+              "v": 7659,
               "kj": 7750,
-              "e5": 7764
+              "e5": 7754
+            },
+            {
+              "hm": "11:08",
+              "o": 7700,
+              "h": 7710,
+              "l": 7680,
+              "c": 7700,
+              "v": 5338,
+              "kj": 7750,
+              "e5": 7754
             }
           ]
         }
