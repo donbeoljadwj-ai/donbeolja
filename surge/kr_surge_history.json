@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 09:24:11",
+  "updated_at": "2026-11-25 09:26:14",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-25",
   "cumulative": {
@@ -135134,14 +135134,14 @@
           "day_open": 7110,
           "day_high": 8500,
           "day_low": 7000,
-          "close_px": 8195,
-          "post_high": 8320,
-          "peak_hm": "09:17",
+          "close_px": 8320,
+          "post_high": 8330,
+          "peak_hm": "09:24",
           "post_low": 8020,
           "low_hm": "09:19",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 1.67,
+          "close_ret_pct": 3.23,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -135155,7 +135155,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★5점",
           "reason_line": "📡 [전체 하락장] S2선발대 분할대기 · 지정가 8,060원 매수 대기 (통합손절 7,537원)",
-          "bar_count": 24,
+          "bar_count": 25,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -135392,10 +135392,20 @@
               "o": 8195,
               "h": 8230,
               "l": 8130,
-              "c": 8195,
-              "v": 25373,
+              "c": 8230,
+              "v": 39068,
               "kj": 7750,
-              "e5": 8026
+              "e5": 8037
+            },
+            {
+              "hm": "09:24",
+              "o": 8220,
+              "h": 8330,
+              "l": 8210,
+              "c": 8320,
+              "v": 132891,
+              "kj": 7750,
+              "e5": 8067
             }
           ]
         }
