@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 10:57:11",
+  "updated_at": "2026-11-25 10:59:14",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-25",
   "cumulative": {
@@ -13,7 +13,7 @@
     "fail_count": 1,
     "win_rate_pct": 97.2,
     "hit_5pct_rate": 30.6,
-    "strategy_net_sum_pct": 60.06,
+    "strategy_net_sum_pct": 60.18,
     "algo5_count": 21,
     "algo5_hit5_count": 20,
     "algo10_count": 32,
@@ -135097,7 +135097,7 @@
     },
     "2026-11-25": {
       "date": "2026-11-25",
-      "regime": "전체 하락장",
+      "regime": "혼조 보합장",
       "card_count": 1,
       "wait_count": 0,
       "total_count": 1,
@@ -135108,7 +135108,7 @@
       "win_rate_pct": 100.0,
       "hit_5pct_rate": 0.0,
       "avg_peak_ret_pct": 1.03,
-      "strategy_net_sum_pct": 0.14,
+      "strategy_net_sum_pct": 0.26,
       "algo5_count": 1,
       "algo5_hit5_count": 1,
       "algo10_count": 1,
@@ -135118,7 +135118,7 @@
           "date": "2026-11-25",
           "code": "123690",
           "name": "한국화장품",
-          "regime": "전체 하락장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 첫터치(100%)",
           "upper_score": 5,
           "scout_used": false,
@@ -135134,15 +135134,15 @@
           "day_open": 7110,
           "day_high": 8500,
           "day_low": 7000,
-          "close_px": 7800,
+          "close_px": 7810,
           "post_high": 7850,
           "peak_hm": "10:40",
           "post_low": 7730,
           "low_hm": "10:50",
           "max_ret_pct": 1.03,
           "min_ret_pct": -0.51,
-          "close_ret_pct": 0.39,
-          "strategy_net_pct": 0.14,
+          "close_ret_pct": 0.51,
+          "strategy_net_pct": 0.26,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": null,
@@ -135154,8 +135154,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "⚡ [전체 하락장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 7,537원 · 1차목표 8,003원",
-          "bar_count": 115,
+          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 7,537원 · 1차목표 8,003원",
+          "bar_count": 119,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -136300,12 +136300,52 @@
             {
               "hm": "10:54",
               "o": 7780,
-              "h": 7800,
+              "h": 7810,
               "l": 7770,
+              "c": 7810,
+              "v": 4992,
+              "kj": 7750,
+              "e5": 7811
+            },
+            {
+              "hm": "10:55",
+              "o": 7800,
+              "h": 7820,
+              "l": 7780,
+              "c": 7790,
+              "v": 4608,
+              "kj": 7750,
+              "e5": 7804
+            },
+            {
+              "hm": "10:56",
+              "o": 7790,
+              "h": 7800,
+              "l": 7780,
+              "c": 7790,
+              "v": 1701,
+              "kj": 7750,
+              "e5": 7804
+            },
+            {
+              "hm": "10:57",
+              "o": 7790,
+              "h": 7810,
+              "l": 7780,
               "c": 7800,
-              "v": 3935,
+              "v": 3457,
               "kj": 7750,
               "e5": 7807
+            },
+            {
+              "hm": "10:58",
+              "o": 7810,
+              "h": 7810,
+              "l": 7790,
+              "c": 7810,
+              "v": 606,
+              "kj": 7750,
+              "e5": 7810
             }
           ]
         }
