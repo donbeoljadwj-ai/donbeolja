@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 11:52:40",
+  "updated_at": "2026-11-25 11:54:45",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-25",
   "cumulative": {
@@ -13,7 +13,7 @@
     "fail_count": 1,
     "win_rate_pct": 97.2,
     "hit_5pct_rate": 33.3,
-    "strategy_net_sum_pct": 63.42,
+    "strategy_net_sum_pct": 63.29,
     "algo5_count": 21,
     "algo5_hit5_count": 20,
     "algo10_count": 32,
@@ -135108,7 +135108,7 @@
       "win_rate_pct": 100.0,
       "hit_5pct_rate": 100.0,
       "avg_peak_ret_pct": 5.15,
-      "strategy_net_sum_pct": 3.5,
+      "strategy_net_sum_pct": 3.37,
       "algo5_count": 1,
       "algo5_hit5_count": 1,
       "algo10_count": 1,
@@ -135134,15 +135134,15 @@
           "day_open": 7110,
           "day_high": 8500,
           "day_low": 7000,
-          "close_px": 8120,
+          "close_px": 8100,
           "post_high": 8170,
           "peak_hm": "11:50",
           "post_low": 7610,
           "low_hm": "11:11",
           "max_ret_pct": 5.15,
           "min_ret_pct": -2.06,
-          "close_ret_pct": 4.5,
-          "strategy_net_pct": 3.5,
+          "close_ret_pct": 4.25,
+          "strategy_net_pct": 3.37,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": "11:39",
@@ -135155,7 +135155,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
           "reason_line": "⚡ [전체 하락장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 7,537원 · 1차목표 8,003원",
-          "bar_count": 171,
+          "bar_count": 173,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -136861,11 +136861,31 @@
               "hm": "11:50",
               "o": 8160,
               "h": 8170,
-              "l": 8070,
+              "l": 8040,
               "c": 8120,
-              "v": 36063,
+              "v": 57377,
               "kj": 7900,
               "e5": 8031
+            },
+            {
+              "hm": "11:51",
+              "o": 8120,
+              "h": 8130,
+              "l": 8080,
+              "c": 8080,
+              "v": 24635,
+              "kj": 7900,
+              "e5": 8018
+            },
+            {
+              "hm": "11:52",
+              "o": 8090,
+              "h": 8100,
+              "l": 8060,
+              "c": 8100,
+              "v": 23171,
+              "kj": 7900,
+              "e5": 8024
             }
           ]
         }
