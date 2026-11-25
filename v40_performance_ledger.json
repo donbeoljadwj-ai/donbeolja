@@ -215,7 +215,7 @@
       "selection_note": "하드게이트 미통과 전액 현금 관망"
     }
   ],
-  "last_updated": "2026-11-25 23:00:16",
+  "last_updated": "2026-11-25 23:10:20",
   "backtest_discipline_guard": {
     "track": "V4",
     "engine_version": "v4.3-FROZEN",
