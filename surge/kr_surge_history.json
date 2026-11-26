@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 09:12:14",
+  "updated_at": "2026-11-26 09:14:34",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-26",
   "cumulative": {
@@ -137336,7 +137336,7 @@
           "name": "에이치브이엠",
           "regime": "강세 상승장",
           "setup": "S2선발대 분할대기",
-          "upper_score": 2,
+          "upper_score": 3,
           "scout_used": true,
           "split_completed": false,
           "is_armed_only": true,
@@ -137348,16 +137348,16 @@
           "tp3_px": 58401,
           "tp5_px": 59535,
           "day_open": 53600,
-          "day_high": 58500,
+          "day_high": 58700,
           "day_low": 53600,
-          "close_px": 58400,
-          "post_high": 58500,
-          "peak_hm": "09:13",
-          "post_low": 58100,
+          "close_px": 58500,
+          "post_high": 58700,
+          "peak_hm": "09:14",
+          "post_low": 57800,
           "low_hm": "09:13",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 3.0,
+          "close_ret_pct": 3.17,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -137369,9 +137369,9 @@
           "pass_5pct_filter": false,
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
-          "filter_tier_label": "🚀 S2 분할 · ★2점",
+          "filter_tier_label": "🚀 S2 분할 · ★3점",
           "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 56,700원 매수 대기 (통합손절 54,514원)",
-          "bar_count": 14,
+          "bar_count": 16,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -137507,11 +137507,31 @@
               "hm": "09:13",
               "o": 58500,
               "h": 58500,
-              "l": 58100,
-              "c": 58400,
-              "v": 816,
+              "l": 57800,
+              "c": 58300,
+              "v": 5489,
               "kj": 56050,
-              "e5": 56385
+              "e5": 56352
+            },
+            {
+              "hm": "09:14",
+              "o": 58200,
+              "h": 58700,
+              "l": 58000,
+              "c": 58500,
+              "v": 8540,
+              "kj": 56150,
+              "e5": 56419
+            },
+            {
+              "hm": "09:15",
+              "o": 58600,
+              "h": 58700,
+              "l": 58500,
+              "c": 58500,
+              "v": 1900,
+              "kj": 56150,
+              "e5": 57112
             }
           ]
         }
