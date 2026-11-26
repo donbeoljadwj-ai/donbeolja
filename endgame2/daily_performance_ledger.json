@@ -2,17 +2,17 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-26 15:11:03",
+    "last_updated": "2026-11-26 20:11:35",
     "engine_version": "v2.9-ARGON"
   },
   "summary": {
     "total_trades": 96,
-    "win_trades": 52,
-    "win_rate_pct": 54.2,
+    "win_trades": 53,
+    "win_rate_pct": 55.2,
     "hit_am_3pct_count": 24,
     "hit_am_3pct_rate": 25.0,
-    "hit_next_5pct_rate": 34.4,
-    "avg_realized_profit_pct": 0.78,
+    "hit_next_5pct_rate": 35.4,
+    "avg_realized_profit_pct": 0.82,
     "stop_loss_rate": 44.8
   },
   "days": {
@@ -2244,19 +2244,19 @@
           "am_high_price": 130600,
           "am_high_gain_pct": 0.0,
           "am_hold_passed": false,
-          "next_open_price": 129500,
-          "next_open_gap_pct": -0.84,
-          "next_high_price": 130600,
-          "next_max_gain_pct": 0.0,
-          "next_low_price": 123900,
-          "next_close_price": 124900,
-          "next_close_gain_pct": -4.36,
+          "next_open_price": 135400,
+          "next_open_gap_pct": 3.68,
+          "next_high_price": 138900,
+          "next_max_gain_pct": 6.36,
+          "next_low_price": 130900,
+          "next_close_price": 136800,
+          "next_close_gain_pct": 4.75,
           "hit_am_3pct": false,
-          "hit_next_5pct": false,
-          "hit_stoploss": true,
-          "realized_return_pct": -2.1,
-          "trade_result": "🛡️ 익일 09:15전 -1.8% 기계적 손절 (세후 -2.10%)",
-          "is_win": false,
+          "hit_next_5pct": true,
+          "hit_stoploss": false,
+          "realized_return_pct": 2.7,
+          "trade_result": "⚡ 익일 09:15전 +3.0% 단기반등 청산",
+          "is_win": true,
           "catalyst": "[v2.9-ARGON 83.0점], 👑 '화장품' 대장주(동조율 100%), 고가유지 99.2%(usr 0.08), 정규대금 260억 · +12.10%, 외+기 +36.2억",
           "settlement_tier": "VERIFIED_1M_CHRONO"
         },
@@ -2359,16 +2359,16 @@
           "next_high_price": 8960,
           "next_max_gain_pct": 3.34,
           "next_low_price": 8380,
-          "next_close_price": 8560,
-          "next_close_gain_pct": -1.27,
+          "next_close_price": 8530,
+          "next_close_gain_pct": -1.61,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
-          "hit_stoploss": false,
-          "realized_return_pct": -1.11,
-          "trade_result": "⚠️ 09:15 1분봉미수신·시가보수추정 (-1.11%)",
+          "hit_stoploss": true,
+          "realized_return_pct": -2.1,
+          "trade_result": "🛡️ 익일 09:15전 -1.8% 기계적 손절 (세후 -2.10%)",
           "is_win": false,
           "catalyst": "[v2.9-ARGON 80.0점], 👑 '면역항암제' 대장주(동조율 100%), 고가유지 98.2%(usr 0.14), 정규대금 93억 · +15.37%, 외+기 +13.6억",
-          "settlement_tier": "UNVERIFIED_1M_FALLBACK_OPEN"
+          "settlement_tier": "VERIFIED_1M_CHRONO"
         }
       ]
     }
@@ -2385,23 +2385,23 @@
     "settled_forward_days": 3,
     "min_incubation_days": 30,
     "empirical_win_rate": 0.5938,
-    "empirical_payoff_ratio": 1.302,
-    "empirical_mean_ev_pct": 0.725,
+    "empirical_payoff_ratio": 1.333,
+    "empirical_mean_ev_pct": 0.744,
     "drawdown_state": {
       "evaluated_sessions": 32,
-      "simple_cum_return_pct": 23.21,
-      "sized_cum_return_pct": 4.7,
+      "simple_cum_return_pct": 23.82,
+      "sized_cum_return_pct": 4.83,
       "raw_100pct_mdd_pct": 9.77,
-      "raw_100pct_current_dd_pct": 8.22,
+      "raw_100pct_current_dd_pct": 7.62,
       "account_mdd_pct": 2.02,
-      "account_current_dd_pct": 1.6,
+      "account_current_dd_pct": 1.48,
       "current_underwater_days": 21,
       "max_underwater_days": 21,
       "max_loss_limit_pct": 20.0,
       "max_underwater_limit_days": 60,
       "circuit_breaker_tripped": false,
       "underwater_warning": true,
-      "circuit_status": "THROTTLE_CAUTION (DD -8.22% · 수중 21일)"
+      "circuit_status": "THROTTLE_CAUTION (DD -7.62% · 수중 21일)"
     }
   }
 }
