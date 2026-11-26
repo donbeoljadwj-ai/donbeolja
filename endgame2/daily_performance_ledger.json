@@ -2,18 +2,18 @@
   "metadata": {
     "system_name": "GEMINI ENDGAME 2 Closing Performance Ledger",
     "strategy": "정규장 15:00~15:30 종가 매수 ➜ 당일 AM +3% / 익일 +5.5% 급등 모멘텀 엔진",
-    "last_updated": "2026-11-25 23:21:12",
+    "last_updated": "2026-11-26 15:11:03",
     "engine_version": "v2.9-ARGON"
   },
   "summary": {
-    "total_trades": 95,
+    "total_trades": 96,
     "win_trades": 52,
-    "win_rate_pct": 54.7,
+    "win_rate_pct": 54.2,
     "hit_am_3pct_count": 24,
-    "hit_am_3pct_rate": 25.3,
-    "hit_next_5pct_rate": 34.7,
-    "avg_realized_profit_pct": 0.83,
-    "stop_loss_rate": 43.2
+    "hit_am_3pct_rate": 25.0,
+    "hit_next_5pct_rate": 34.4,
+    "avg_realized_profit_pct": 0.78,
+    "stop_loss_rate": 44.8
   },
   "days": {
     "2026-10-02": {
@@ -798,21 +798,21 @@
           "entry_price": 1267,
           "am_high_price": 1267,
           "am_high_gain_pct": 0.0,
-          "next_open_price": 1404,
-          "next_open_gap_pct": 10.81,
-          "next_high_price": 1628,
-          "next_max_gain_pct": 28.49,
+          "next_open_price": 1493,
+          "next_open_gap_pct": 17.84,
+          "next_high_price": 1857,
+          "next_max_gain_pct": 46.57,
           "hit_am_3pct": false,
           "hit_next_5pct": true,
-          "trade_result": "🔥 익일 장중 +28.49% 목표(+5.5%) 익절 달성",
+          "trade_result": "🔥 익일 장중 +46.57% 목표(+5.5%) 익절 달성",
           "realized_return_pct": 5.2,
           "catalyst": "[👑 1위 원픽] 영상콘텐츠 수급 집중 (종가점수 88.2점, ▲AI승격)",
           "is_win": true,
-          "next_close_price": 1489,
-          "next_close_gain_pct": 17.52,
+          "next_close_price": 1520,
+          "next_close_gain_pct": 19.97,
           "hit_stoploss": false,
           "am_hold_passed": false,
-          "next_low_price": 1180
+          "next_low_price": 1440
         }
       ]
     },
@@ -828,21 +828,21 @@
           "entry_price": 482000,
           "am_high_price": 483000,
           "am_high_gain_pct": 0.21,
-          "next_open_price": 477000,
-          "next_open_gap_pct": -1.04,
-          "next_high_price": 489000,
-          "next_max_gain_pct": 1.45,
-          "next_close_price": 461500,
-          "next_close_gain_pct": -4.25,
+          "next_open_price": 455500,
+          "next_open_gap_pct": -5.5,
+          "next_high_price": 465500,
+          "next_max_gain_pct": -3.42,
+          "next_close_price": 465500,
+          "next_close_gain_pct": -3.42,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
           "hit_stoploss": true,
           "realized_return_pct": -2.1,
-          "trade_result": "🛡️ -1.8% 기계적 손절 방어",
+          "trade_result": "🛡️ 익일 시초(-5.50%) 실체결 손절 (-2.10%)",
           "is_win": false,
           "catalyst": "[AI검증유지|+5%확률:79%/+10%:54%] 1일연속양매수, 테마1등주, 테마 '조림사업'(Zone:소외, Heat:56), 고가 대비 100.1% 초밀착 종가마감, 외인/기관 양매수 유입",
           "am_hold_passed": false,
-          "next_low_price": 457000
+          "next_low_price": 438500
         }
       ]
     },
@@ -1758,8 +1758,8 @@
           "am_high_gain_pct": 1.77,
           "next_open_price": 25150,
           "next_open_gap_pct": -11.13,
-          "next_high_price": 27450,
-          "next_max_gain_pct": -3.0,
+          "next_high_price": 27250,
+          "next_max_gain_pct": -3.71,
           "next_close_price": 26450,
           "next_close_gain_pct": -6.54,
           "hit_am_3pct": false,
@@ -1781,8 +1781,8 @@
           "am_high_gain_pct": 2.05,
           "next_open_price": 66300,
           "next_open_gap_pct": -14.89,
-          "next_high_price": 81000,
-          "next_max_gain_pct": 3.98,
+          "next_high_price": 79700,
+          "next_max_gain_pct": 2.31,
           "next_close_price": 76600,
           "next_close_gain_pct": -1.67,
           "hit_am_3pct": false,
@@ -2104,7 +2104,7 @@
           "is_win": false,
           "catalyst": "[ARGON v4 83.7점], 👑 '반도체 장비' 독자대장주(동조율 97%), 고가유지 99.0% 밀착마감, 정규장 대금 121억 집중, 정규장 +16.60% 돌파",
           "am_hold_passed": false,
-          "next_low_price": 7200
+          "next_low_price": 7350
         },
         {
           "rank": 4,
@@ -2150,7 +2150,7 @@
           "is_win": false,
           "catalyst": "[ARGON v4 77.0점], 테마 '반도체 장비'(동조율 97%), 고가유지 99.8% 밀착마감, 정규장 대금 512억 집중, 정규장 +11.03% 돌파",
           "am_hold_passed": false,
-          "next_low_price": 26550
+          "next_low_price": 28700
         },
         {
           "rank": 6,
@@ -2220,14 +2220,14 @@
           "next_close_gain_pct": -5.69,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
-          "hit_stoploss": false,
-          "realized_return_pct": -0.61,
-          "trade_result": "⚠️ 09:15 1분봉미수신·시가보수추정 (-0.61%)",
+          "hit_stoploss": true,
+          "realized_return_pct": -2.1,
+          "trade_result": "🛡️ 익일 09:15전 -1.8% 기계적 손절 (세후 -2.10%)",
           "is_win": false,
           "catalyst": "[ARGON v4 76.0점], 👑 '기판' 독자대장주(동조율 57%), 고가유지 98.3% 밀착마감, 정규장 대금 215억 집중, 정규장 +15.34% 돌파",
           "am_hold_passed": false,
           "next_low_price": 18010,
-          "settlement_tier": "UNVERIFIED_1M_FALLBACK_OPEN"
+          "settlement_tier": "VERIFIED_1M_CHRONO"
         }
       ]
     },
@@ -2253,12 +2253,12 @@
           "next_close_gain_pct": -4.36,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
-          "hit_stoploss": false,
-          "realized_return_pct": -1.14,
-          "trade_result": "⚠️ 09:15 1분봉미수신·시가보수추정 (-1.14%)",
+          "hit_stoploss": true,
+          "realized_return_pct": -2.1,
+          "trade_result": "🛡️ 익일 09:15전 -1.8% 기계적 손절 (세후 -2.10%)",
           "is_win": false,
           "catalyst": "[v2.9-ARGON 83.0점], 👑 '화장품' 대장주(동조율 100%), 고가유지 99.2%(usr 0.08), 정규대금 260억 · +12.10%, 외+기 +36.2억",
-          "settlement_tier": "UNVERIFIED_1M_FALLBACK_OPEN"
+          "settlement_tier": "VERIFIED_1M_CHRONO"
         },
         {
           "rank": 2,
@@ -2279,10 +2279,10 @@
           "hit_next_5pct": false,
           "hit_stoploss": true,
           "realized_return_pct": -7.87,
-          "trade_result": "🛡️ 시초 갭하락(-7.57%) 즉시 손절",
+          "trade_result": "🛡️ 익일 09:00 시초갭하락 실체결 손절 (-7.87%)",
           "is_win": false,
           "catalyst": "[v2.9-ARGON 82.7점], 👑 '전후 재건(우크라/중동 전쟁 등)' 대장주(동조율 100%), 고가유지 97.6%(usr 0.15), 정규대금 231억 · +14.83%, 외+기 +10.0억",
-          "settlement_tier": "OPEN_GAP_STOPLOSS_VERIFIED"
+          "settlement_tier": "VERIFIED_1M_CHRONO"
         },
         {
           "rank": 3,
@@ -2302,11 +2302,11 @@
           "hit_am_3pct": false,
           "hit_next_5pct": true,
           "hit_stoploss": false,
-          "realized_return_pct": -0.74,
-          "trade_result": "⚠️ 09:15 1분봉미수신·시가보수추정 (-0.74%)",
+          "realized_return_pct": -1.48,
+          "trade_result": "⏱️ 09:15 타임스탑 청산 (-1.48%)",
           "is_win": false,
           "catalyst": "[v2.9-ARGON 79.6점], 테마 '수급주도'(동조율 55%), 고가유지 98.7%(usr 0.07), 정규대금 129억 · +17.36%, 외+기 +4.5억",
-          "settlement_tier": "UNVERIFIED_1M_FALLBACK_OPEN"
+          "settlement_tier": "VERIFIED_1M_CHRONO"
         }
       ]
     },
@@ -2334,10 +2334,10 @@
           "hit_next_5pct": false,
           "hit_stoploss": true,
           "realized_return_pct": -2.37,
-          "trade_result": "🛡️ 시초 갭하락(-2.07%) 즉시 손절",
+          "trade_result": "🛡️ 익일 09:00 시초갭하락 실체결 손절 (-2.37%)",
           "is_win": false,
           "catalyst": "[v2.9-ARGON 81.1점], 👑 'AI 챗봇(챗GPT 등)' 대장주(동조율 100%), 고가유지 98.3%(usr 0.12), 정규대금 292억 · +13.43%, 외+기 +10.1억",
-          "settlement_tier": "OPEN_GAP_STOPLOSS_VERIFIED"
+          "settlement_tier": "VERIFIED_1M_CHRONO"
         }
       ]
     },
@@ -2354,20 +2354,21 @@
           "am_high_price": 8670,
           "am_high_gain_pct": 0.0,
           "am_hold_passed": false,
-          "next_open_price": 0,
-          "next_open_gap_pct": 0.0,
-          "next_high_price": 0,
-          "next_max_gain_pct": 0.0,
-          "next_low_price": 0,
-          "next_close_price": 0,
-          "next_close_gain_pct": 0.0,
+          "next_open_price": 8600,
+          "next_open_gap_pct": -0.81,
+          "next_high_price": 8960,
+          "next_max_gain_pct": 3.34,
+          "next_low_price": 8380,
+          "next_close_price": 8560,
+          "next_close_gain_pct": -1.27,
           "hit_am_3pct": false,
           "hit_next_5pct": false,
           "hit_stoploss": false,
-          "realized_return_pct": 0.0,
-          "trade_result": "⚠️ 당일 AM +0.00% (+2% 미달 ➜ 익일 09:15 타임스탑 대상)",
-          "is_win": true,
-          "catalyst": "[v2.9-ARGON 80.0점], 👑 '면역항암제' 대장주(동조율 100%), 고가유지 98.2%(usr 0.14), 정규대금 93억 · +15.37%, 외+기 +13.6억"
+          "realized_return_pct": -1.11,
+          "trade_result": "⚠️ 09:15 1분봉미수신·시가보수추정 (-1.11%)",
+          "is_win": false,
+          "catalyst": "[v2.9-ARGON 80.0점], 👑 '면역항암제' 대장주(동조율 100%), 고가유지 98.2%(usr 0.14), 정규대금 93억 · +15.37%, 외+기 +13.6억",
+          "settlement_tier": "UNVERIFIED_1M_FALLBACK_OPEN"
         }
       ]
     }
@@ -2378,29 +2379,29 @@
     "hypothesis_id": "KRX-V29-CLOSING-RETENTION-TIMESTTOP",
     "hypothesis_owner": "HUMAN_DOMAIN_HYPOTHESIS",
     "stage": "STAGE_3_INCUBATE",
-    "stage_badge": "🐣 STAGE 3: INCUBATE 소액검증 (2/30일 · 최대 5% 시드)",
+    "stage_badge": "🐣 STAGE 3: INCUBATE 소액검증 (3/30일 · 최대 5% 시드)",
     "live_trading_allowed": true,
     "max_position_alloc_pct": 5.0,
-    "settled_forward_days": 2,
+    "settled_forward_days": 3,
     "min_incubation_days": 30,
-    "empirical_win_rate": 0.6452,
-    "empirical_payoff_ratio": 1.152,
-    "empirical_mean_ev_pct": 0.827,
+    "empirical_win_rate": 0.5938,
+    "empirical_payoff_ratio": 1.302,
+    "empirical_mean_ev_pct": 0.725,
     "drawdown_state": {
-      "evaluated_sessions": 31,
-      "simple_cum_return_pct": 25.63,
-      "sized_cum_return_pct": 5.21,
+      "evaluated_sessions": 32,
+      "simple_cum_return_pct": 23.21,
+      "sized_cum_return_pct": 4.7,
       "raw_100pct_mdd_pct": 9.77,
-      "raw_100pct_current_dd_pct": 5.94,
+      "raw_100pct_current_dd_pct": 8.22,
       "account_mdd_pct": 2.02,
-      "account_current_dd_pct": 1.12,
-      "current_underwater_days": 20,
-      "max_underwater_days": 20,
+      "account_current_dd_pct": 1.6,
+      "current_underwater_days": 21,
+      "max_underwater_days": 21,
       "max_loss_limit_pct": 20.0,
       "max_underwater_limit_days": 60,
       "circuit_breaker_tripped": false,
       "underwater_warning": true,
-      "circuit_status": "THROTTLE_CAUTION (DD -5.94% · 수중 20일)"
+      "circuit_status": "THROTTLE_CAUTION (DD -8.22% · 수중 21일)"
     }
   }
 }
