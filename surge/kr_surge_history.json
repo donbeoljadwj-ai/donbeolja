@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 12:00:31",
+  "updated_at": "2026-11-26 12:01:44",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-26",
   "cumulative": {
@@ -13,7 +13,7 @@
     "fail_count": 10,
     "win_rate_pct": 81.1,
     "hit_5pct_rate": 30.2,
-    "strategy_net_sum_pct": 50.37,
+    "strategy_net_sum_pct": 49.52,
     "algo5_count": 31,
     "algo5_hit5_count": 26,
     "algo10_count": 46,
@@ -137313,7 +137313,7 @@
     },
     "2026-11-26": {
       "date": "2026-11-26",
-      "regime": "강세 상승장",
+      "regime": "혼조 보합장",
       "card_count": 36,
       "wait_count": 19,
       "total_count": 17,
@@ -137324,7 +137324,7 @@
       "win_rate_pct": 47.1,
       "hit_5pct_rate": 23.5,
       "avg_peak_ret_pct": 2.69,
-      "strategy_net_sum_pct": -12.05,
+      "strategy_net_sum_pct": -12.9,
       "algo5_count": 10,
       "algo5_hit5_count": 6,
       "algo10_count": 14,
@@ -137334,7 +137334,7 @@
           "date": "2026-11-26",
           "code": "129920",
           "name": "대성하이텍",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대(주황5선50%)",
           "upper_score": 4,
           "scout_used": true,
@@ -137350,14 +137350,14 @@
           "day_open": 5900,
           "day_high": 7230,
           "day_low": 5800,
-          "close_px": 6570,
+          "close_px": 6590,
           "post_high": 7230,
           "peak_hm": "09:53",
           "post_low": 6530,
           "low_hm": "11:58",
           "max_ret_pct": 9.55,
           "min_ret_pct": -1.06,
-          "close_ret_pct": -0.45,
+          "close_ret_pct": -0.15,
           "strategy_net_pct": 1.38,
           "exit_time": "09:57",
           "exit_label": "래칫·본절보호",
@@ -137370,8 +137370,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
-          "reason_line": "⚡ [강세 상승장] S2선발대(주황5선50%) · 09:57 래칫·본절보호 확정 (전략 세후 +1.38%)",
-          "bar_count": 181,
+          "reason_line": "⚡ [혼조 보합장] S2선발대(주황5선50%) · 09:57 래칫·본절보호 확정 (전략 세후 +1.38%)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -139176,12 +139176,22 @@
             {
               "hm": "12:01",
               "o": 6570,
-              "h": 6570,
-              "l": 6570,
+              "h": 6580,
+              "l": 6560,
               "c": 6570,
-              "v": 61,
+              "v": 847,
               "kj": 6840,
               "e5": 6608
+            },
+            {
+              "hm": "12:02",
+              "o": 6580,
+              "h": 6590,
+              "l": 6570,
+              "c": 6590,
+              "v": 769,
+              "kj": 6840,
+              "e5": 6615
             }
           ]
         },
@@ -139189,7 +139199,7 @@
           "date": "2026-11-26",
           "code": "295310",
           "name": "에이치브이엠",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 첫터치(100%)",
           "upper_score": 4,
           "scout_used": false,
@@ -139205,14 +139215,14 @@
           "day_open": 53600,
           "day_high": 62300,
           "day_low": 53600,
-          "close_px": 56700,
+          "close_px": 56600,
           "post_high": 61600,
           "peak_hm": "09:37",
           "post_low": 56100,
           "low_hm": "11:04",
           "max_ret_pct": 6.02,
           "min_ret_pct": -3.44,
-          "close_ret_pct": -2.41,
+          "close_ret_pct": -2.58,
           "strategy_net_pct": 2.5,
           "exit_time": "09:40",
           "exit_label": "래칫·본절보호",
@@ -139225,8 +139235,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "⚡ [강세 상승장] 5분기준선26절벽 첫터치(100%) · 09:40 래칫·본절보호 확정 (전략 세후 +2.50%)",
-          "bar_count": 182,
+          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 09:40 래칫·본절보호 확정 (전략 세후 +2.50%)",
+          "bar_count": 183,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -141041,12 +141051,22 @@
             {
               "hm": "12:01",
               "o": 56700,
-              "h": 56700,
+              "h": 56900,
               "l": 56700,
-              "c": 56700,
-              "v": 80,
+              "c": 56800,
+              "v": 257,
               "kj": 58550,
-              "e5": 56896
+              "e5": 56929
+            },
+            {
+              "hm": "12:02",
+              "o": 56700,
+              "h": 56700,
+              "l": 56600,
+              "c": 56600,
+              "v": 307,
+              "kj": 58550,
+              "e5": 56863
             }
           ]
         },
@@ -141054,7 +141074,7 @@
           "date": "2026-11-26",
           "code": "209640",
           "name": "와이제이링크",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대(주황5선50%)",
           "upper_score": 4,
           "scout_used": true,
@@ -141070,14 +141090,14 @@
           "day_open": 3400,
           "day_high": 3960,
           "day_low": 3395,
-          "close_px": 3645,
+          "close_px": 3675,
           "post_high": 3960,
           "peak_hm": "09:59",
           "post_low": 3620,
           "low_hm": "11:04",
           "max_ret_pct": 6.02,
           "min_ret_pct": -3.08,
-          "close_ret_pct": -2.41,
+          "close_ret_pct": -1.61,
           "strategy_net_pct": 0.86,
           "exit_time": "09:43",
           "exit_label": "래칫·본절보호",
@@ -141090,8 +141110,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
-          "reason_line": "⚡ [강세 상승장] S2선발대(주황5선50%) · 09:43 래칫·본절보호 확정 (전략 세후 +0.86%)",
-          "bar_count": 181,
+          "reason_line": "⚡ [혼조 보합장] S2선발대(주황5선50%) · 09:43 래칫·본절보호 확정 (전략 세후 +0.86%)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -142896,12 +142916,22 @@
             {
               "hm": "12:01",
               "o": 3660,
-              "h": 3660,
+              "h": 3665,
               "l": 3645,
-              "c": 3645,
-              "v": 931,
+              "c": 3650,
+              "v": 979,
               "kj": 3790,
-              "e5": 3662
+              "e5": 3663
+            },
+            {
+              "hm": "12:02",
+              "o": 3665,
+              "h": 3675,
+              "l": 3650,
+              "c": 3675,
+              "v": 871,
+              "kj": 3790,
+              "e5": 3672
             }
           ]
         },
@@ -142909,7 +142939,7 @@
           "date": "2026-11-26",
           "code": "046940",
           "name": "우원개발",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2분할완성(5선50%+절벽50%)",
           "upper_score": 4,
           "scout_used": true,
@@ -142925,14 +142955,14 @@
           "day_open": 2180,
           "day_high": 2765,
           "day_low": 2155,
-          "close_px": 2470,
+          "close_px": 2480,
           "post_high": 2650,
           "peak_hm": "11:03",
           "post_low": 2440,
           "low_hm": "11:20",
           "max_ret_pct": 5.08,
           "min_ret_pct": -3.25,
-          "close_ret_pct": -2.06,
+          "close_ret_pct": -1.67,
           "strategy_net_pct": 1.47,
           "exit_time": "11:24",
           "exit_label": "래칫·본절보호",
@@ -142945,8 +142975,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
-          "reason_line": "⚡ [강세 상승장] S2분할완성(5선50%+절벽50%) · 11:24 래칫·본절보호 확정 (전략 세후 +1.47%)",
-          "bar_count": 181,
+          "reason_line": "⚡ [혼조 보합장] S2분할완성(5선50%+절벽50%) · 11:24 래칫·본절보호 확정 (전략 세후 +1.47%)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -144751,12 +144781,22 @@
             {
               "hm": "12:01",
               "o": 2460,
-              "h": 2470,
+              "h": 2480,
               "l": 2460,
-              "c": 2470,
-              "v": 465,
+              "c": 2480,
+              "v": 3043,
               "kj": 2470,
-              "e5": 2487
+              "e5": 2490
+            },
+            {
+              "hm": "12:02",
+              "o": 2480,
+              "h": 2495,
+              "l": 2480,
+              "c": 2480,
+              "v": 2341,
+              "kj": 2470,
+              "e5": 2490
             }
           ]
         },
@@ -144764,7 +144804,7 @@
           "date": "2026-11-26",
           "code": "170920",
           "name": "엘티씨",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2분할완성(5선50%+절벽50%)",
           "upper_score": 3,
           "scout_used": true,
@@ -144780,15 +144820,15 @@
           "day_open": 25000,
           "day_high": 28300,
           "day_low": 24400,
-          "close_px": 27050,
+          "close_px": 26900,
           "post_high": 28250,
           "peak_hm": "10:17",
           "post_low": 26800,
           "low_hm": "11:05",
           "max_ret_pct": 3.2,
           "min_ret_pct": -2.1,
-          "close_ret_pct": -1.19,
-          "strategy_net_pct": -1.44,
+          "close_ret_pct": -1.74,
+          "strategy_net_pct": -1.99,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": "10:16",
@@ -144800,8 +144840,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★3점",
-          "reason_line": "⚡ [강세 상승장] S2분할완성(5선50%+절벽50%) · 기준선 통합손절 26,190원 · 1차목표 28,196원",
-          "bar_count": 181,
+          "reason_line": "⚡ [혼조 보합장] S2분할완성(5선50%+절벽50%) · 기준선 통합손절 26,190원 · 1차목표 28,196원",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -146606,12 +146646,22 @@
             {
               "hm": "12:01",
               "o": 27050,
-              "h": 27050,
-              "l": 27050,
-              "c": 27050,
-              "v": 15,
+              "h": 27100,
+              "l": 26950,
+              "c": 26950,
+              "v": 145,
               "kj": 27450,
-              "e5": 27094
+              "e5": 27061
+            },
+            {
+              "hm": "12:02",
+              "o": 27000,
+              "h": 27050,
+              "l": 26850,
+              "c": 26900,
+              "v": 317,
+              "kj": 27450,
+              "e5": 27044
             }
           ]
         },
@@ -146619,7 +146669,7 @@
           "date": "2026-11-26",
           "code": "036710",
           "name": "심텍홀딩스",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2분할완성(5선50%+절벽50%)",
           "upper_score": 4,
           "scout_used": true,
@@ -146655,7 +146705,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
-          "reason_line": "⚡ [강세 상승장] S2분할완성(5선50%+절벽50%) · 11:03 기준선손절 확정 (전략 세후 -4.77%)",
+          "reason_line": "⚡ [혼조 보합장] S2분할완성(5선50%+절벽50%) · 11:03 기준선손절 확정 (전략 세후 -4.77%)",
           "bar_count": 128,
           "bars_1m": [
             {
@@ -147944,7 +147994,7 @@
           "date": "2026-11-26",
           "code": "032350",
           "name": "롯데관광개발",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대(주황5선50%)",
           "upper_score": 1,
           "scout_used": true,
@@ -147960,15 +148010,15 @@
           "day_open": 10770,
           "day_high": 11800,
           "day_low": 10760,
-          "close_px": 11450,
+          "close_px": 11480,
           "post_high": 11800,
           "peak_hm": "10:02",
           "post_low": 11370,
           "low_hm": "09:42",
           "max_ret_pct": 2.34,
           "min_ret_pct": -1.39,
-          "close_ret_pct": -0.69,
-          "strategy_net_pct": -0.47,
+          "close_ret_pct": -0.43,
+          "strategy_net_pct": -0.34,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": null,
@@ -147980,8 +148030,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
-          "reason_line": "⚡ [강세 상승장] S2선발대(주황5선50%) · 기준선 통합손절 10,926원 · 1차목표 11,876원",
-          "bar_count": 182,
+          "reason_line": "⚡ [혼조 보합장] S2선발대(주황5선50%) · 기준선 통합손절 10,926원 · 1차목표 11,876원",
+          "bar_count": 183,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -149798,10 +149848,20 @@
               "o": 11490,
               "h": 11490,
               "l": 11400,
-              "c": 11450,
-              "v": 4132,
+              "c": 11470,
+              "v": 5306,
               "kj": 11600,
-              "e5": 11521
+              "e5": 11527
+            },
+            {
+              "hm": "12:02",
+              "o": 11460,
+              "h": 11480,
+              "l": 11450,
+              "c": 11480,
+              "v": 1018,
+              "kj": 11600,
+              "e5": 11531
             }
           ]
         },
@@ -149809,7 +149869,7 @@
           "date": "2026-11-26",
           "code": "389470",
           "name": "인벤티지랩",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 첫터치(100%)",
           "upper_score": 4,
           "scout_used": false,
@@ -149825,15 +149885,15 @@
           "day_open": 20300,
           "day_high": 23750,
           "day_low": 20050,
-          "close_px": 23100,
+          "close_px": 23000,
           "post_high": 23150,
           "peak_hm": "11:59",
           "post_low": 22750,
           "low_hm": "11:59",
           "max_ret_pct": 1.31,
           "min_ret_pct": -0.44,
-          "close_ret_pct": 1.09,
-          "strategy_net_pct": 0.84,
+          "close_ret_pct": 0.66,
+          "strategy_net_pct": 0.41,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": null,
@@ -149845,8 +149905,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "⚡ [강세 상승장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 22,164원 · 1차목표 23,536원",
-          "bar_count": 182,
+          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 22,164원 · 1차목표 23,536원",
+          "bar_count": 183,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -151667,6 +151727,16 @@
               "v": 0,
               "kj": 22825,
               "e5": 23144
+            },
+            {
+              "hm": "12:02",
+              "o": 23050,
+              "h": 23050,
+              "l": 23000,
+              "c": 23000,
+              "v": 100,
+              "kj": 22825,
+              "e5": 23111
             }
           ]
         },
@@ -151674,7 +151744,7 @@
           "date": "2026-11-26",
           "code": "323280",
           "name": "태성",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 첫터치(100%)",
           "upper_score": 3,
           "scout_used": false,
@@ -151710,7 +151780,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★3점",
-          "reason_line": "⚡ [강세 상승장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 44,232원 · 1차목표 46,968원",
+          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 44,232원 · 1차목표 46,968원",
           "bar_count": 124,
           "bars_1m": [
             {
@@ -152959,7 +153029,7 @@
           "date": "2026-11-26",
           "code": "036930",
           "name": "주성엔지니어링",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 첫터치(100%)",
           "upper_score": 2,
           "scout_used": false,
@@ -152975,14 +153045,14 @@
           "day_open": 137800,
           "day_high": 150400,
           "day_low": 137800,
-          "close_px": 139400,
+          "close_px": 139300,
           "post_high": 146200,
           "peak_hm": "09:47",
           "post_low": 138600,
           "low_hm": "11:03",
           "max_ret_pct": 1.18,
           "min_ret_pct": -4.08,
-          "close_ret_pct": -3.53,
+          "close_ret_pct": -3.6,
           "strategy_net_pct": -3.25,
           "exit_time": "11:01",
           "exit_label": "기준선손절",
@@ -152995,8 +153065,8 @@
           "pass_10pct_filter": false,
           "filter_tier": "TIER_5PCT",
           "filter_tier_label": "🛡️ 절벽타점 · ★2점",
-          "reason_line": "⚡ [강세 상승장] 5분기준선26절벽 첫터치(100%) · 11:01 기준선손절 확정 (전략 세후 -3.25%)",
-          "bar_count": 181,
+          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 11:01 기준선손절 확정 (전략 세후 -3.25%)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -154802,11 +154872,21 @@
               "hm": "12:01",
               "o": 139400,
               "h": 139400,
-              "l": 139300,
-              "c": 139400,
-              "v": 670,
+              "l": 139200,
+              "c": 139300,
+              "v": 1096,
               "kj": 141350,
-              "e5": 139753
+              "e5": 139720
+            },
+            {
+              "hm": "12:02",
+              "o": 139300,
+              "h": 139300,
+              "l": 139200,
+              "c": 139300,
+              "v": 661,
+              "kj": 141350,
+              "e5": 139720
             }
           ]
         },
@@ -154814,7 +154894,7 @@
           "date": "2026-11-26",
           "code": "006110",
           "name": "삼아알미늄",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대(주황5선50%)",
           "upper_score": 1,
           "scout_used": true,
@@ -154850,7 +154930,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
-          "reason_line": "⚡ [강세 상승장] S2선발대(주황5선50%) · 기준선 통합손절 34,417원 · 1차목표 37,132원",
+          "reason_line": "⚡ [혼조 보합장] S2선발대(주황5선50%) · 기준선 통합손절 34,417원 · 1차목표 37,132원",
           "bar_count": 44,
           "bars_1m": [
             {
@@ -155299,7 +155379,7 @@
           "date": "2026-11-26",
           "code": "089030",
           "name": "테크윙",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2분할완성(5선50%+절벽50%)",
           "upper_score": 1,
           "scout_used": true,
@@ -155335,7 +155415,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
-          "reason_line": "⚡ [강세 상승장] S2분할완성(5선50%+절벽50%) · 기준선 통합손절 32,544원 · 1차목표 34,685원",
+          "reason_line": "⚡ [혼조 보합장] S2분할완성(5선50%+절벽50%) · 기준선 통합손절 32,544원 · 1차목표 34,685원",
           "bar_count": 88,
           "bars_1m": [
             {
@@ -156224,7 +156304,7 @@
           "date": "2026-11-26",
           "code": "204620",
           "name": "글로벌텍스프리",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 첫터치(100%)",
           "upper_score": 2,
           "scout_used": false,
@@ -156260,8 +156340,8 @@
           "pass_10pct_filter": false,
           "filter_tier": "TIER_5PCT",
           "filter_tier_label": "🛡️ 절벽타점 · ★2점",
-          "reason_line": "⚡ [강세 상승장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 6,344원 · 1차목표 6,736원",
-          "bar_count": 181,
+          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 기준선 통합손절 6,344원 · 1차목표 6,736원",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -158069,7 +158149,17 @@
               "h": 6600,
               "l": 6570,
               "c": 6580,
-              "v": 3605,
+              "v": 4467,
+              "kj": 6540,
+              "e5": 6585
+            },
+            {
+              "hm": "12:02",
+              "o": 6590,
+              "h": 6590,
+              "l": 6570,
+              "c": 6580,
+              "v": 2776,
               "kj": 6540,
               "e5": 6585
             }
@@ -158079,7 +158169,7 @@
           "date": "2026-11-26",
           "code": "394800",
           "name": "쓰리빌리언",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대(주황5선50%)",
           "upper_score": 1,
           "scout_used": true,
@@ -158115,7 +158205,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
-          "reason_line": "⚡ [강세 상승장] S2선발대(주황5선50%) · 기준선 통합손절 6,222원 · 1차목표 6,860원",
+          "reason_line": "⚡ [혼조 보합장] S2선발대(주황5선50%) · 기준선 통합손절 6,222원 · 1차목표 6,860원",
           "bar_count": 115,
           "bars_1m": [
             {
@@ -159274,7 +159364,7 @@
           "date": "2026-11-26",
           "code": "348370",
           "name": "엔켐",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대(주황5선50%)",
           "upper_score": 1,
           "scout_used": true,
@@ -159310,7 +159400,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
-          "reason_line": "⚡ [강세 상승장] S2선발대(주황5선50%) · 기준선 통합손절 9,296원 · 1차목표 10,248원",
+          "reason_line": "⚡ [혼조 보합장] S2선발대(주황5선50%) · 기준선 통합손절 9,296원 · 1차목표 10,248원",
           "bar_count": 68,
           "bars_1m": [
             {
@@ -159999,7 +160089,7 @@
           "date": "2026-11-26",
           "code": "010060",
           "name": "OCI홀딩스",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 첫터치(100%)",
           "upper_score": 2,
           "scout_used": false,
@@ -160035,7 +160125,7 @@
           "pass_10pct_filter": false,
           "filter_tier": "TIER_5PCT",
           "filter_tier_label": "🛡️ 절벽타점 · ★2점",
-          "reason_line": "⚡ [강세 상승장] 5분기준선26절벽 첫터치(100%) · 10:06 기준선손절 확정 (전략 세후 -3.25%)",
+          "reason_line": "⚡ [혼조 보합장] 5분기준선26절벽 첫터치(100%) · 10:06 기준선손절 확정 (전략 세후 -3.25%)",
           "bar_count": 130,
           "bars_1m": [
             {
@@ -161344,7 +161434,7 @@
           "date": "2026-11-26",
           "code": "347850",
           "name": "디앤디파마텍",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대(주황5선50%)",
           "upper_score": 1,
           "scout_used": true,
@@ -161380,7 +161470,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
-          "reason_line": "⚡ [강세 상승장] S2선발대(주황5선50%) · 기준선 통합손절 34,490원 · 1차목표 38,110원",
+          "reason_line": "⚡ [혼조 보합장] S2선발대(주황5선50%) · 기준선 통합손절 34,490원 · 1차목표 38,110원",
           "bar_count": 86,
           "bars_1m": [
             {
@@ -162249,7 +162339,7 @@
           "date": "2026-11-26",
           "code": "310210",
           "name": "보로노이",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 1,
           "scout_used": false,
@@ -162265,14 +162355,14 @@
           "day_open": 121800,
           "day_high": 131300,
           "day_low": 119900,
-          "close_px": 131200,
+          "close_px": 130800,
           "post_high": 131300,
           "peak_hm": "11:59",
           "post_low": 126100,
           "low_hm": "10:09",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 4.63,
+          "close_ret_pct": 4.31,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -162285,8 +162375,8 @@
           "pass_10pct_filter": false,
           "filter_tier": "TIER_5PCT",
           "filter_tier_label": "🛡️ 절벽타점 · ★1점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 125,400원 매수 대기 (통합손절 121,638원)",
-          "bar_count": 182,
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 125,400원 매수 대기 (통합손절 121,638원)",
+          "bar_count": 183,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -164102,11 +164192,21 @@
               "hm": "12:01",
               "o": 131100,
               "h": 131200,
-              "l": 131000,
-              "c": 131200,
-              "v": 140,
+              "l": 130700,
+              "c": 130800,
+              "v": 213,
               "kj": 128700,
-              "e5": 130645
+              "e5": 130512
+            },
+            {
+              "hm": "12:02",
+              "o": 130800,
+              "h": 131000,
+              "l": 130500,
+              "c": 130800,
+              "v": 116,
+              "kj": 128700,
+              "e5": 130512
             }
           ]
         },
@@ -164114,7 +164214,7 @@
           "date": "2026-11-26",
           "code": "226950",
           "name": "올릭스",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대 분할대기",
           "upper_score": 4,
           "scout_used": true,
@@ -164150,8 +164250,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
-          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 85,900원 매수 대기 (통합손절 81,674원)",
-          "bar_count": 182,
+          "reason_line": "📡 [혼조 보합장] S2선발대 분할대기 · 지정가 85,900원 매수 대기 (통합손절 81,674원)",
+          "bar_count": 183,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -165967,9 +166067,19 @@
               "hm": "12:01",
               "o": 91000,
               "h": 91100,
-              "l": 91000,
+              "l": 90800,
+              "c": 90900,
+              "v": 463,
+              "kj": 90000,
+              "e5": 90996
+            },
+            {
+              "hm": "12:02",
+              "o": 90900,
+              "h": 91000,
+              "l": 90800,
               "c": 91000,
-              "v": 170,
+              "v": 198,
               "kj": 90000,
               "e5": 91029
             }
@@ -165979,7 +166089,7 @@
           "date": "2026-11-26",
           "code": "171090",
           "name": "선익시스템",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 3,
           "scout_used": false,
@@ -165995,14 +166105,14 @@
           "day_open": 67300,
           "day_high": 73800,
           "day_low": 66200,
-          "close_px": 72600,
+          "close_px": 72400,
           "post_high": 73800,
           "peak_hm": "11:29",
           "post_low": 70300,
           "low_hm": "11:03",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 5.07,
+          "close_ret_pct": 4.78,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -166015,8 +166125,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★3점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 69,100원 매수 대기 (통합손절 67,027원)",
-          "bar_count": 182,
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 69,100원 매수 대기 (통합손절 67,027원)",
+          "bar_count": 183,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -167831,12 +167941,22 @@
             {
               "hm": "12:01",
               "o": 72600,
-              "h": 72600,
+              "h": 72700,
               "l": 72500,
-              "c": 72600,
-              "v": 19,
+              "c": 72700,
+              "v": 54,
               "kj": 70400,
-              "e5": 72680
+              "e5": 72714
+            },
+            {
+              "hm": "12:02",
+              "o": 72600,
+              "h": 72700,
+              "l": 72400,
+              "c": 72400,
+              "v": 104,
+              "kj": 70400,
+              "e5": 72614
             }
           ]
         },
@@ -167844,7 +167964,7 @@
           "date": "2026-11-26",
           "code": "099320",
           "name": "쎄트렉아이",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대 분할대기",
           "upper_score": 2,
           "scout_used": true,
@@ -167880,7 +168000,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★2점",
-          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 71,700원 매수 대기 (통합손절 68,967원)",
+          "reason_line": "📡 [혼조 보합장] S2선발대 분할대기 · 지정가 71,700원 매수 대기 (통합손절 68,967원)",
           "bar_count": 23,
           "bars_1m": [
             {
@@ -168119,7 +168239,7 @@
           "date": "2026-11-26",
           "code": "218410",
           "name": "RFHIC",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 4,
           "scout_used": false,
@@ -168135,14 +168255,14 @@
           "day_open": 56900,
           "day_high": 61100,
           "day_low": 56400,
-          "close_px": 60100,
+          "close_px": 60200,
           "post_high": 61100,
           "peak_hm": "11:21",
           "post_low": 59900,
           "low_hm": "11:56",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 2.56,
+          "close_ret_pct": 2.73,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -168155,8 +168275,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 58,600원 매수 대기 (통합손절 56,842원)",
-          "bar_count": 182,
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 58,600원 매수 대기 (통합손절 56,842원)",
+          "bar_count": 183,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -169973,10 +170093,20 @@
               "o": 60300,
               "h": 60300,
               "l": 60100,
-              "c": 60100,
-              "v": 616,
+              "c": 60200,
+              "v": 2287,
               "kj": 59250,
-              "e5": 60330
+              "e5": 60363
+            },
+            {
+              "hm": "12:02",
+              "o": 60200,
+              "h": 60200,
+              "l": 60100,
+              "c": 60200,
+              "v": 480,
+              "kj": 59250,
+              "e5": 60363
             }
           ]
         },
@@ -169984,7 +170114,7 @@
           "date": "2026-11-26",
           "code": "456160",
           "name": "지투지바이오",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 2,
           "scout_used": false,
@@ -170000,14 +170130,14 @@
           "day_open": 40250,
           "day_high": 45500,
           "day_low": 40000,
-          "close_px": 44950,
+          "close_px": 44800,
           "post_high": 45300,
           "peak_hm": "11:26",
           "post_low": 44000,
           "low_hm": "11:03",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 4.9,
+          "close_ret_pct": 4.55,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -170020,8 +170150,8 @@
           "pass_10pct_filter": false,
           "filter_tier": "TIER_5PCT",
           "filter_tier_label": "🛡️ 절벽타점 · ★2점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 42,850원 매수 대기 (통합손절 41,564원)",
-          "bar_count": 182,
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 42,850원 매수 대기 (통합손절 41,564원)",
+          "bar_count": 183,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -171836,12 +171966,22 @@
             {
               "hm": "12:01",
               "o": 44900,
-              "h": 44950,
+              "h": 45000,
               "l": 44900,
               "c": 44950,
-              "v": 112,
+              "v": 749,
               "kj": 44275,
               "e5": 44917
+            },
+            {
+              "hm": "12:02",
+              "o": 44900,
+              "h": 45000,
+              "l": 44700,
+              "c": 44800,
+              "v": 682,
+              "kj": 44275,
+              "e5": 44867
             }
           ]
         },
@@ -171849,7 +171989,7 @@
           "date": "2026-11-26",
           "code": "073490",
           "name": "LIG아큐버",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 4,
           "scout_used": false,
@@ -171865,14 +172005,14 @@
           "day_open": 35600,
           "day_high": 39500,
           "day_low": 35550,
-          "close_px": 38500,
+          "close_px": 38450,
           "post_high": 39500,
           "peak_hm": "11:42",
           "post_low": 38000,
           "low_hm": "11:57",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 2.94,
+          "close_ret_pct": 2.81,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -171885,8 +172025,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 37,400원 매수 대기 (통합손절 36,278원)",
-          "bar_count": 181,
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 37,400원 매수 대기 (통합손절 36,278원)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -173692,11 +173832,21 @@
               "hm": "12:01",
               "o": 38550,
               "h": 38550,
-              "l": 38500,
-              "c": 38500,
-              "v": 32,
+              "l": 38450,
+              "c": 38450,
+              "v": 67,
               "kj": 37550,
-              "e5": 38621
+              "e5": 38604
+            },
+            {
+              "hm": "12:02",
+              "o": 38400,
+              "h": 38450,
+              "l": 38300,
+              "c": 38450,
+              "v": 243,
+              "kj": 37550,
+              "e5": 38604
             }
           ]
         },
@@ -173704,7 +173854,7 @@
           "date": "2026-11-26",
           "code": "354320",
           "name": "알멕",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 3,
           "scout_used": false,
@@ -173740,8 +173890,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★3점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 33,250원 매수 대기 (통합손절 32,252원)",
-          "bar_count": 181,
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 33,250원 매수 대기 (통합손절 32,252원)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -175547,9 +175697,19 @@
               "hm": "12:01",
               "o": 34250,
               "h": 34250,
-              "l": 34250,
+              "l": 34200,
               "c": 34250,
-              "v": 1,
+              "v": 95,
+              "kj": 33875,
+              "e5": 34354
+            },
+            {
+              "hm": "12:02",
+              "o": 34200,
+              "h": 34300,
+              "l": 34200,
+              "c": 34250,
+              "v": 159,
               "kj": 33875,
               "e5": 34354
             }
@@ -175559,7 +175719,7 @@
           "date": "2026-11-26",
           "code": "476830",
           "name": "알지노믹스",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대 분할대기",
           "upper_score": 4,
           "scout_used": true,
@@ -175575,14 +175735,14 @@
           "day_open": 21500,
           "day_high": 26650,
           "day_low": 21450,
-          "close_px": 24700,
+          "close_px": 24650,
           "post_high": 26650,
           "peak_hm": "09:52",
           "post_low": 23500,
           "low_hm": "09:27",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 6.7,
+          "close_ret_pct": 6.48,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -175595,8 +175755,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
-          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 23,150원 매수 대기 (통합손절 21,922원)",
-          "bar_count": 182,
+          "reason_line": "📡 [혼조 보합장] S2선발대 분할대기 · 지정가 23,150원 매수 대기 (통합손절 21,922원)",
+          "bar_count": 183,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -177414,9 +177574,19 @@
               "h": 24800,
               "l": 24700,
               "c": 24700,
-              "v": 2963,
+              "v": 3563,
               "kj": 25475,
               "e5": 24820
+            },
+            {
+              "hm": "12:02",
+              "o": 24700,
+              "h": 24700,
+              "l": 24650,
+              "c": 24650,
+              "v": 1700,
+              "kj": 25475,
+              "e5": 24804
             }
           ]
         },
@@ -177424,7 +177594,7 @@
           "date": "2026-11-26",
           "code": "100790",
           "name": "미래에셋벤처투자",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대 분할대기",
           "upper_score": 5,
           "scout_used": true,
@@ -177440,14 +177610,14 @@
           "day_open": 15930,
           "day_high": 20050,
           "day_low": 15890,
-          "close_px": 18740,
+          "close_px": 18770,
           "post_high": 20050,
           "peak_hm": "09:38",
           "post_low": 17310,
           "low_hm": "09:23",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 9.65,
+          "close_ret_pct": 9.83,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -177460,8 +177630,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★5점",
-          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 17,090원 매수 대기 (통합손절 16,248원)",
-          "bar_count": 181,
+          "reason_line": "📡 [혼조 보합장] S2선발대 분할대기 · 지정가 17,090원 매수 대기 (통합손절 16,248원)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -179268,10 +179438,20 @@
               "o": 18760,
               "h": 18780,
               "l": 18710,
-              "c": 18740,
-              "v": 1944,
+              "c": 18770,
+              "v": 5429,
               "kj": 19055,
-              "e5": 18875
+              "e5": 18885
+            },
+            {
+              "hm": "12:02",
+              "o": 18760,
+              "h": 18780,
+              "l": 18740,
+              "c": 18770,
+              "v": 4369,
+              "kj": 19055,
+              "e5": 18885
             }
           ]
         },
@@ -179279,7 +179459,7 @@
           "date": "2026-11-26",
           "code": "250030",
           "name": "진코스텍",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 4,
           "scout_used": false,
@@ -179293,16 +179473,16 @@
           "tp3_px": 9414,
           "tp5_px": 9597,
           "day_open": 8390,
-          "day_high": 10140,
+          "day_high": 10920,
           "day_low": 8090,
-          "close_px": 10140,
-          "post_high": 10140,
-          "peak_hm": "10:06",
-          "post_low": 9970,
-          "low_hm": "10:06",
+          "close_px": 10800,
+          "post_high": 10920,
+          "peak_hm": "11:29",
+          "post_low": 9260,
+          "low_hm": "10:14",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 10.94,
+          "close_ret_pct": 18.16,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -179315,8 +179495,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 9,140원 매수 대기 (통합손절 8,866원)",
-          "bar_count": 68,
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 9,140원 매수 대기 (통합손절 8,866원)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -179992,11 +180172,1151 @@
               "hm": "10:08",
               "o": 10140,
               "h": 10140,
-              "l": 10140,
-              "c": 10140,
-              "v": 0,
+              "l": 9970,
+              "c": 10060,
+              "v": 12317,
               "kj": 9115,
-              "e5": 9771
+              "e5": 9744
+            },
+            {
+              "hm": "10:09",
+              "o": 9980,
+              "h": 10060,
+              "l": 9840,
+              "c": 9880,
+              "v": 5103,
+              "kj": 9115,
+              "e5": 9684
+            },
+            {
+              "hm": "10:10",
+              "o": 9900,
+              "h": 9930,
+              "l": 9770,
+              "c": 9780,
+              "v": 3978,
+              "kj": 9115,
+              "e5": 9716
+            },
+            {
+              "hm": "10:11",
+              "o": 9780,
+              "h": 9780,
+              "l": 9610,
+              "c": 9630,
+              "v": 10918,
+              "kj": 9115,
+              "e5": 9666
+            },
+            {
+              "hm": "10:12",
+              "o": 9630,
+              "h": 9640,
+              "l": 9470,
+              "c": 9490,
+              "v": 6026,
+              "kj": 9115,
+              "e5": 9619
+            },
+            {
+              "hm": "10:13",
+              "o": 9490,
+              "h": 9600,
+              "l": 9400,
+              "c": 9460,
+              "v": 17553,
+              "kj": 9115,
+              "e5": 9609
+            },
+            {
+              "hm": "10:14",
+              "o": 9450,
+              "h": 9450,
+              "l": 9260,
+              "c": 9420,
+              "v": 5771,
+              "kj": 9115,
+              "e5": 9596
+            },
+            {
+              "hm": "10:15",
+              "o": 9410,
+              "h": 9480,
+              "l": 9350,
+              "c": 9350,
+              "v": 2865,
+              "kj": 9115,
+              "e5": 9514
+            },
+            {
+              "hm": "10:16",
+              "o": 9350,
+              "h": 9460,
+              "l": 9350,
+              "c": 9460,
+              "v": 927,
+              "kj": 9115,
+              "e5": 9551
+            },
+            {
+              "hm": "10:17",
+              "o": 9440,
+              "h": 9440,
+              "l": 9310,
+              "c": 9370,
+              "v": 11353,
+              "kj": 9115,
+              "e5": 9521
+            },
+            {
+              "hm": "10:18",
+              "o": 9400,
+              "h": 9460,
+              "l": 9400,
+              "c": 9460,
+              "v": 426,
+              "kj": 9115,
+              "e5": 9551
+            },
+            {
+              "hm": "10:19",
+              "o": 9470,
+              "h": 9570,
+              "l": 9470,
+              "c": 9570,
+              "v": 1584,
+              "kj": 9115,
+              "e5": 9587
+            },
+            {
+              "hm": "10:20",
+              "o": 9560,
+              "h": 9580,
+              "l": 9430,
+              "c": 9540,
+              "v": 2042,
+              "kj": 9115,
+              "e5": 9572
+            },
+            {
+              "hm": "10:21",
+              "o": 9540,
+              "h": 9550,
+              "l": 9450,
+              "c": 9520,
+              "v": 569,
+              "kj": 9115,
+              "e5": 9565
+            },
+            {
+              "hm": "10:22",
+              "o": 9520,
+              "h": 9600,
+              "l": 9460,
+              "c": 9560,
+              "v": 1812,
+              "kj": 9115,
+              "e5": 9578
+            },
+            {
+              "hm": "10:23",
+              "o": 9560,
+              "h": 9570,
+              "l": 9520,
+              "c": 9570,
+              "v": 676,
+              "kj": 9115,
+              "e5": 9582
+            },
+            {
+              "hm": "10:24",
+              "o": 9580,
+              "h": 9690,
+              "l": 9570,
+              "c": 9570,
+              "v": 2124,
+              "kj": 9115,
+              "e5": 9582
+            },
+            {
+              "hm": "10:25",
+              "o": 9620,
+              "h": 9690,
+              "l": 9620,
+              "c": 9690,
+              "v": 255,
+              "kj": 9115,
+              "e5": 9618
+            },
+            {
+              "hm": "10:26",
+              "o": 9690,
+              "h": 9780,
+              "l": 9670,
+              "c": 9760,
+              "v": 1870,
+              "kj": 9115,
+              "e5": 9641
+            },
+            {
+              "hm": "10:27",
+              "o": 9770,
+              "h": 9770,
+              "l": 9730,
+              "c": 9730,
+              "v": 1033,
+              "kj": 9115,
+              "e5": 9631
+            },
+            {
+              "hm": "10:28",
+              "o": 9750,
+              "h": 9790,
+              "l": 9750,
+              "c": 9770,
+              "v": 1229,
+              "kj": 9115,
+              "e5": 9644
+            },
+            {
+              "hm": "10:29",
+              "o": 9770,
+              "h": 9850,
+              "l": 9770,
+              "c": 9830,
+              "v": 1121,
+              "kj": 9115,
+              "e5": 9664
+            },
+            {
+              "hm": "10:30",
+              "o": 9830,
+              "h": 9980,
+              "l": 9750,
+              "c": 9900,
+              "v": 4522,
+              "kj": 9115,
+              "e5": 9743
+            },
+            {
+              "hm": "10:31",
+              "o": 9870,
+              "h": 9940,
+              "l": 9870,
+              "c": 9920,
+              "v": 1504,
+              "kj": 9115,
+              "e5": 9750
+            },
+            {
+              "hm": "10:32",
+              "o": 9920,
+              "h": 9920,
+              "l": 9790,
+              "c": 9870,
+              "v": 2063,
+              "kj": 9115,
+              "e5": 9733
+            },
+            {
+              "hm": "10:33",
+              "o": 9870,
+              "h": 9990,
+              "l": 9870,
+              "c": 9930,
+              "v": 2933,
+              "kj": 9115,
+              "e5": 9753
+            },
+            {
+              "hm": "10:34",
+              "o": 9900,
+              "h": 9910,
+              "l": 9900,
+              "c": 9910,
+              "v": 232,
+              "kj": 9115,
+              "e5": 9746
+            },
+            {
+              "hm": "10:35",
+              "o": 9910,
+              "h": 9920,
+              "l": 9900,
+              "c": 9910,
+              "v": 4929,
+              "kj": 9115,
+              "e5": 9801
+            },
+            {
+              "hm": "10:36",
+              "o": 9910,
+              "h": 9960,
+              "l": 9900,
+              "c": 9950,
+              "v": 3029,
+              "kj": 9115,
+              "e5": 9814
+            },
+            {
+              "hm": "10:37",
+              "o": 9930,
+              "h": 10040,
+              "l": 9910,
+              "c": 10040,
+              "v": 4299,
+              "kj": 9115,
+              "e5": 9844
+            },
+            {
+              "hm": "10:38",
+              "o": 10040,
+              "h": 10040,
+              "l": 9950,
+              "c": 10000,
+              "v": 4099,
+              "kj": 9115,
+              "e5": 9831
+            },
+            {
+              "hm": "10:39",
+              "o": 10000,
+              "h": 10030,
+              "l": 9950,
+              "c": 10000,
+              "v": 942,
+              "kj": 9115,
+              "e5": 9831
+            },
+            {
+              "hm": "10:40",
+              "o": 10000,
+              "h": 10040,
+              "l": 9980,
+              "c": 10040,
+              "v": 6516,
+              "kj": 9115,
+              "e5": 9901
+            },
+            {
+              "hm": "10:41",
+              "o": 10050,
+              "h": 10200,
+              "l": 10050,
+              "c": 10170,
+              "v": 10824,
+              "kj": 9145,
+              "e5": 9944
+            },
+            {
+              "hm": "10:42",
+              "o": 10170,
+              "h": 10210,
+              "l": 10090,
+              "c": 10090,
+              "v": 8703,
+              "kj": 9150,
+              "e5": 9917
+            },
+            {
+              "hm": "10:43",
+              "o": 10080,
+              "h": 10170,
+              "l": 10060,
+              "c": 10110,
+              "v": 2701,
+              "kj": 9150,
+              "e5": 9924
+            },
+            {
+              "hm": "10:44",
+              "o": 10120,
+              "h": 10170,
+              "l": 10070,
+              "c": 10140,
+              "v": 1928,
+              "kj": 9150,
+              "e5": 9934
+            },
+            {
+              "hm": "10:45",
+              "o": 10140,
+              "h": 10140,
+              "l": 10090,
+              "c": 10110,
+              "v": 1465,
+              "kj": 9150,
+              "e5": 9993
+            },
+            {
+              "hm": "10:46",
+              "o": 10110,
+              "h": 10170,
+              "l": 10020,
+              "c": 10060,
+              "v": 9069,
+              "kj": 9150,
+              "e5": 9976
+            },
+            {
+              "hm": "10:47",
+              "o": 10080,
+              "h": 10130,
+              "l": 10010,
+              "c": 10070,
+              "v": 2357,
+              "kj": 9150,
+              "e5": 9979
+            },
+            {
+              "hm": "10:48",
+              "o": 10060,
+              "h": 10060,
+              "l": 9930,
+              "c": 9940,
+              "v": 5160,
+              "kj": 9150,
+              "e5": 9936
+            },
+            {
+              "hm": "10:49",
+              "o": 9940,
+              "h": 9990,
+              "l": 9940,
+              "c": 9980,
+              "v": 409,
+              "kj": 9150,
+              "e5": 9949
+            },
+            {
+              "hm": "10:50",
+              "o": 9980,
+              "h": 10130,
+              "l": 9950,
+              "c": 10100,
+              "v": 4839,
+              "kj": 9150,
+              "e5": 10000
+            },
+            {
+              "hm": "10:51",
+              "o": 10100,
+              "h": 10170,
+              "l": 10050,
+              "c": 10060,
+              "v": 4137,
+              "kj": 9150,
+              "e5": 9986
+            },
+            {
+              "hm": "10:52",
+              "o": 10110,
+              "h": 10140,
+              "l": 10000,
+              "c": 10010,
+              "v": 4048,
+              "kj": 9150,
+              "e5": 9970
+            },
+            {
+              "hm": "10:53",
+              "o": 10000,
+              "h": 10010,
+              "l": 9980,
+              "c": 9980,
+              "v": 1226,
+              "kj": 9150,
+              "e5": 9960
+            },
+            {
+              "hm": "10:54",
+              "o": 9975,
+              "h": 9980,
+              "l": 9960,
+              "c": 9960,
+              "v": 904,
+              "kj": 9150,
+              "e5": 9953
+            },
+            {
+              "hm": "10:55",
+              "o": 9980,
+              "h": 9980,
+              "l": 9950,
+              "c": 9960,
+              "v": 380,
+              "kj": 9150,
+              "e5": 9955
+            },
+            {
+              "hm": "10:56",
+              "o": 9980,
+              "h": 10100,
+              "l": 9960,
+              "c": 10060,
+              "v": 5467,
+              "kj": 9150,
+              "e5": 9989
+            },
+            {
+              "hm": "10:57",
+              "o": 10080,
+              "h": 10090,
+              "l": 10000,
+              "c": 10090,
+              "v": 1054,
+              "kj": 9150,
+              "e5": 9999
+            },
+            {
+              "hm": "10:58",
+              "o": 10090,
+              "h": 10090,
+              "l": 10010,
+              "c": 10070,
+              "v": 465,
+              "kj": 9150,
+              "e5": 9992
+            },
+            {
+              "hm": "10:59",
+              "o": 10070,
+              "h": 10070,
+              "l": 9990,
+              "c": 10010,
+              "v": 1043,
+              "kj": 9150,
+              "e5": 9972
+            },
+            {
+              "hm": "11:00",
+              "o": 10010,
+              "h": 10060,
+              "l": 9990,
+              "c": 10000,
+              "v": 1243,
+              "kj": 9150,
+              "e5": 9981
+            },
+            {
+              "hm": "11:01",
+              "o": 10050,
+              "h": 10050,
+              "l": 10000,
+              "c": 10030,
+              "v": 175,
+              "kj": 9150,
+              "e5": 9991
+            },
+            {
+              "hm": "11:02",
+              "o": 10020,
+              "h": 10020,
+              "l": 9990,
+              "c": 10000,
+              "v": 1123,
+              "kj": 9150,
+              "e5": 9981
+            },
+            {
+              "hm": "11:03",
+              "o": 9990,
+              "h": 10010,
+              "l": 9970,
+              "c": 10000,
+              "v": 682,
+              "kj": 9150,
+              "e5": 9981
+            },
+            {
+              "hm": "11:04",
+              "o": 10010,
+              "h": 10110,
+              "l": 10000,
+              "c": 10090,
+              "v": 1414,
+              "kj": 9150,
+              "e5": 10011
+            },
+            {
+              "hm": "11:05",
+              "o": 10110,
+              "h": 10300,
+              "l": 10110,
+              "c": 10300,
+              "v": 14557,
+              "kj": 9195,
+              "e5": 10108
+            },
+            {
+              "hm": "11:06",
+              "o": 10310,
+              "h": 10430,
+              "l": 10170,
+              "c": 10170,
+              "v": 8622,
+              "kj": 9260,
+              "e5": 10064
+            },
+            {
+              "hm": "11:07",
+              "o": 10200,
+              "h": 10250,
+              "l": 10200,
+              "c": 10210,
+              "v": 1091,
+              "kj": 9260,
+              "e5": 10078
+            },
+            {
+              "hm": "11:08",
+              "o": 10210,
+              "h": 10270,
+              "l": 10200,
+              "c": 10240,
+              "v": 1370,
+              "kj": 9260,
+              "e5": 10088
+            },
+            {
+              "hm": "11:09",
+              "o": 10250,
+              "h": 10250,
+              "l": 10190,
+              "c": 10210,
+              "v": 1287,
+              "kj": 9260,
+              "e5": 10078
+            },
+            {
+              "hm": "11:10",
+              "o": 10210,
+              "h": 10230,
+              "l": 10190,
+              "c": 10220,
+              "v": 1679,
+              "kj": 9410,
+              "e5": 10125
+            },
+            {
+              "hm": "11:11",
+              "o": 10210,
+              "h": 10260,
+              "l": 10190,
+              "c": 10260,
+              "v": 2879,
+              "kj": 9410,
+              "e5": 10138
+            },
+            {
+              "hm": "11:12",
+              "o": 10270,
+              "h": 10300,
+              "l": 10240,
+              "c": 10290,
+              "v": 1579,
+              "kj": 9410,
+              "e5": 10148
+            },
+            {
+              "hm": "11:13",
+              "o": 10290,
+              "h": 10310,
+              "l": 10260,
+              "c": 10310,
+              "v": 693,
+              "kj": 9410,
+              "e5": 10155
+            },
+            {
+              "hm": "11:14",
+              "o": 10300,
+              "h": 10310,
+              "l": 10250,
+              "c": 10270,
+              "v": 2076,
+              "kj": 9410,
+              "e5": 10142
+            },
+            {
+              "hm": "11:15",
+              "o": 10260,
+              "h": 10290,
+              "l": 10260,
+              "c": 10260,
+              "v": 1087,
+              "kj": 9715,
+              "e5": 10181
+            },
+            {
+              "hm": "11:16",
+              "o": 10260,
+              "h": 10400,
+              "l": 10260,
+              "c": 10400,
+              "v": 5705,
+              "kj": 9715,
+              "e5": 10228
+            },
+            {
+              "hm": "11:17",
+              "o": 10400,
+              "h": 10480,
+              "l": 10360,
+              "c": 10410,
+              "v": 4979,
+              "kj": 9740,
+              "e5": 10231
+            },
+            {
+              "hm": "11:18",
+              "o": 10420,
+              "h": 10420,
+              "l": 10330,
+              "c": 10390,
+              "v": 2385,
+              "kj": 9740,
+              "e5": 10224
+            },
+            {
+              "hm": "11:19",
+              "o": 10390,
+              "h": 10400,
+              "l": 10350,
+              "c": 10360,
+              "v": 2300,
+              "kj": 9740,
+              "e5": 10214
+            },
+            {
+              "hm": "11:20",
+              "o": 10360,
+              "h": 10450,
+              "l": 10360,
+              "c": 10390,
+              "v": 1976,
+              "kj": 9740,
+              "e5": 10273
+            },
+            {
+              "hm": "11:21",
+              "o": 10410,
+              "h": 10410,
+              "l": 10370,
+              "c": 10400,
+              "v": 1223,
+              "kj": 9740,
+              "e5": 10276
+            },
+            {
+              "hm": "11:22",
+              "o": 10400,
+              "h": 10480,
+              "l": 10400,
+              "c": 10480,
+              "v": 3465,
+              "kj": 9740,
+              "e5": 10303
+            },
+            {
+              "hm": "11:23",
+              "o": 10480,
+              "h": 10500,
+              "l": 10470,
+              "c": 10490,
+              "v": 3234,
+              "kj": 9750,
+              "e5": 10306
+            },
+            {
+              "hm": "11:24",
+              "o": 10490,
+              "h": 10600,
+              "l": 10480,
+              "c": 10580,
+              "v": 9760,
+              "kj": 9800,
+              "e5": 10336
+            },
+            {
+              "hm": "11:25",
+              "o": 10580,
+              "h": 10585,
+              "l": 10480,
+              "c": 10540,
+              "v": 2824,
+              "kj": 9855,
+              "e5": 10404
+            },
+            {
+              "hm": "11:26",
+              "o": 10530,
+              "h": 10550,
+              "l": 10480,
+              "c": 10480,
+              "v": 3553,
+              "kj": 9855,
+              "e5": 10384
+            },
+            {
+              "hm": "11:27",
+              "o": 10470,
+              "h": 10480,
+              "l": 10390,
+              "c": 10440,
+              "v": 4760,
+              "kj": 9855,
+              "e5": 10371
+            },
+            {
+              "hm": "11:28",
+              "o": 10440,
+              "h": 10690,
+              "l": 10440,
+              "c": 10660,
+              "v": 14228,
+              "kj": 9900,
+              "e5": 10444
+            },
+            {
+              "hm": "11:29",
+              "o": 10660,
+              "h": 10920,
+              "l": 10630,
+              "c": 10690,
+              "v": 109488,
+              "kj": 10015,
+              "e5": 10454
+            },
+            {
+              "hm": "11:30",
+              "o": 10690,
+              "h": 10770,
+              "l": 10620,
+              "c": 10630,
+              "v": 7760,
+              "kj": 10080,
+              "e5": 10513
+            },
+            {
+              "hm": "11:31",
+              "o": 10640,
+              "h": 10660,
+              "l": 10580,
+              "c": 10620,
+              "v": 6559,
+              "kj": 10080,
+              "e5": 10509
+            },
+            {
+              "hm": "11:32",
+              "o": 10600,
+              "h": 10650,
+              "l": 10600,
+              "c": 10630,
+              "v": 2234,
+              "kj": 10080,
+              "e5": 10513
+            },
+            {
+              "hm": "11:33",
+              "o": 10630,
+              "h": 10700,
+              "l": 10600,
+              "c": 10690,
+              "v": 4088,
+              "kj": 10080,
+              "e5": 10533
+            },
+            {
+              "hm": "11:34",
+              "o": 10690,
+              "h": 10740,
+              "l": 10660,
+              "c": 10720,
+              "v": 3731,
+              "kj": 10080,
+              "e5": 10543
+            },
+            {
+              "hm": "11:35",
+              "o": 10720,
+              "h": 10720,
+              "l": 10650,
+              "c": 10670,
+              "v": 2578,
+              "kj": 10090,
+              "e5": 10585
+            },
+            {
+              "hm": "11:36",
+              "o": 10675,
+              "h": 10690,
+              "l": 10660,
+              "c": 10670,
+              "v": 875,
+              "kj": 10090,
+              "e5": 10585
+            },
+            {
+              "hm": "11:37",
+              "o": 10670,
+              "h": 10700,
+              "l": 10660,
+              "c": 10670,
+              "v": 2022,
+              "kj": 10090,
+              "e5": 10585
+            },
+            {
+              "hm": "11:38",
+              "o": 10680,
+              "h": 10740,
+              "l": 10670,
+              "c": 10730,
+              "v": 3683,
+              "kj": 10090,
+              "e5": 10605
+            },
+            {
+              "hm": "11:39",
+              "o": 10680,
+              "h": 10770,
+              "l": 10670,
+              "c": 10760,
+              "v": 2937,
+              "kj": 10090,
+              "e5": 10615
+            },
+            {
+              "hm": "11:40",
+              "o": 10760,
+              "h": 10760,
+              "l": 10680,
+              "c": 10720,
+              "v": 2766,
+              "kj": 10090,
+              "e5": 10650
+            },
+            {
+              "hm": "11:41",
+              "o": 10710,
+              "h": 10760,
+              "l": 10700,
+              "c": 10720,
+              "v": 2350,
+              "kj": 10090,
+              "e5": 10650
+            },
+            {
+              "hm": "11:42",
+              "o": 10700,
+              "h": 10750,
+              "l": 10680,
+              "c": 10750,
+              "v": 2751,
+              "kj": 10090,
+              "e5": 10660
+            },
+            {
+              "hm": "11:43",
+              "o": 10750,
+              "h": 10760,
+              "l": 10710,
+              "c": 10730,
+              "v": 3644,
+              "kj": 10090,
+              "e5": 10653
+            },
+            {
+              "hm": "11:44",
+              "o": 10730,
+              "h": 10730,
+              "l": 10680,
+              "c": 10690,
+              "v": 3432,
+              "kj": 10090,
+              "e5": 10640
+            },
+            {
+              "hm": "11:45",
+              "o": 10680,
+              "h": 10710,
+              "l": 10670,
+              "c": 10670,
+              "v": 830,
+              "kj": 10090,
+              "e5": 10650
+            },
+            {
+              "hm": "11:46",
+              "o": 10670,
+              "h": 10690,
+              "l": 10660,
+              "c": 10660,
+              "v": 793,
+              "kj": 10090,
+              "e5": 10647
+            },
+            {
+              "hm": "11:47",
+              "o": 10680,
+              "h": 10750,
+              "l": 10680,
+              "c": 10730,
+              "v": 2731,
+              "kj": 10090,
+              "e5": 10670
+            },
+            {
+              "hm": "11:48",
+              "o": 10740,
+              "h": 10740,
+              "l": 10710,
+              "c": 10720,
+              "v": 574,
+              "kj": 10090,
+              "e5": 10667
+            },
+            {
+              "hm": "11:49",
+              "o": 10730,
+              "h": 10750,
+              "l": 10710,
+              "c": 10750,
+              "v": 1318,
+              "kj": 10090,
+              "e5": 10677
+            },
+            {
+              "hm": "11:50",
+              "o": 10750,
+              "h": 10850,
+              "l": 10750,
+              "c": 10800,
+              "v": 5344,
+              "kj": 10090,
+              "e5": 10718
+            },
+            {
+              "hm": "11:51",
+              "o": 10810,
+              "h": 10820,
+              "l": 10780,
+              "c": 10800,
+              "v": 1585,
+              "kj": 10090,
+              "e5": 10718
+            },
+            {
+              "hm": "11:52",
+              "o": 10800,
+              "h": 10860,
+              "l": 10780,
+              "c": 10790,
+              "v": 5845,
+              "kj": 10090,
+              "e5": 10715
+            },
+            {
+              "hm": "11:53",
+              "o": 10790,
+              "h": 10800,
+              "l": 10770,
+              "c": 10770,
+              "v": 1481,
+              "kj": 10090,
+              "e5": 10708
+            },
+            {
+              "hm": "11:54",
+              "o": 10770,
+              "h": 10790,
+              "l": 10750,
+              "c": 10780,
+              "v": 921,
+              "kj": 10090,
+              "e5": 10711
+            },
+            {
+              "hm": "11:55",
+              "o": 10790,
+              "h": 10790,
+              "l": 10760,
+              "c": 10760,
+              "v": 911,
+              "kj": 10090,
+              "e5": 10727
+            },
+            {
+              "hm": "11:56",
+              "o": 10760,
+              "h": 10790,
+              "l": 10700,
+              "c": 10720,
+              "v": 3745,
+              "kj": 10090,
+              "e5": 10714
+            },
+            {
+              "hm": "11:57",
+              "o": 10720,
+              "h": 10720,
+              "l": 10680,
+              "c": 10680,
+              "v": 537,
+              "kj": 10090,
+              "e5": 10701
+            },
+            {
+              "hm": "11:58",
+              "o": 10680,
+              "h": 10710,
+              "l": 10670,
+              "c": 10710,
+              "v": 1322,
+              "kj": 10090,
+              "e5": 10711
+            },
+            {
+              "hm": "11:59",
+              "o": 10760,
+              "h": 10770,
+              "l": 10670,
+              "c": 10710,
+              "v": 784,
+              "kj": 10090,
+              "e5": 10711
+            },
+            {
+              "hm": "12:00",
+              "o": 10710,
+              "h": 10860,
+              "l": 10680,
+              "c": 10840,
+              "v": 6463,
+              "kj": 10090,
+              "e5": 10754
+            },
+            {
+              "hm": "12:01",
+              "o": 10840,
+              "h": 10870,
+              "l": 10820,
+              "c": 10830,
+              "v": 3394,
+              "kj": 10090,
+              "e5": 10751
+            },
+            {
+              "hm": "12:02",
+              "o": 10820,
+              "h": 10820,
+              "l": 10790,
+              "c": 10800,
+              "v": 1245,
+              "kj": 10090,
+              "e5": 10741
             }
           ]
         },
@@ -180004,7 +181324,7 @@
           "date": "2026-11-26",
           "code": "0015N0",
           "name": "아로마티카",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 1,
           "scout_used": false,
@@ -180018,16 +181338,16 @@
           "tp3_px": 7735,
           "tp5_px": 7886,
           "day_open": 6800,
-          "day_high": 7930,
+          "day_high": 7880,
           "day_low": 6770,
-          "close_px": 7600,
-          "post_high": 7930,
-          "peak_hm": "11:44",
-          "post_low": 7500,
-          "low_hm": "12:00",
+          "close_px": 7770,
+          "post_high": 7880,
+          "peak_hm": "11:32",
+          "post_low": 7740,
+          "low_hm": "11:29",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 1.2,
+          "close_ret_pct": 3.46,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -180040,8 +181360,8 @@
           "pass_10pct_filter": false,
           "filter_tier": "TIER_5PCT",
           "filter_tier_label": "🛡️ 절벽타점 · ★1점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 7,510원 매수 대기 (통합손절 7,285원)",
-          "bar_count": 181,
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 7,510원 매수 대기 (통합손절 7,285원)",
+          "bar_count": 154,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -181582,276 +182902,6 @@
               "v": 883,
               "kj": 7560,
               "e5": 7715
-            },
-            {
-              "hm": "11:35",
-              "o": 7770,
-              "h": 7770,
-              "l": 7760,
-              "c": 7760,
-              "v": 1021,
-              "kj": 7595,
-              "e5": 7730
-            },
-            {
-              "hm": "11:36",
-              "o": 7790,
-              "h": 7800,
-              "l": 7760,
-              "c": 7800,
-              "v": 258,
-              "kj": 7595,
-              "e5": 7743
-            },
-            {
-              "hm": "11:37",
-              "o": 7800,
-              "h": 7810,
-              "l": 7790,
-              "c": 7790,
-              "v": 507,
-              "kj": 7595,
-              "e5": 7740
-            },
-            {
-              "hm": "11:38",
-              "o": 7810,
-              "h": 7810,
-              "l": 7750,
-              "c": 7770,
-              "v": 1034,
-              "kj": 7595,
-              "e5": 7733
-            },
-            {
-              "hm": "11:39",
-              "o": 7770,
-              "h": 7840,
-              "l": 7760,
-              "c": 7830,
-              "v": 1746,
-              "kj": 7595,
-              "e5": 7753
-            },
-            {
-              "hm": "11:40",
-              "o": 7830,
-              "h": 7830,
-              "l": 7780,
-              "c": 7780,
-              "v": 135,
-              "kj": 7595,
-              "e5": 7762
-            },
-            {
-              "hm": "11:41",
-              "o": 7790,
-              "h": 7830,
-              "l": 7780,
-              "c": 7830,
-              "v": 393,
-              "kj": 7595,
-              "e5": 7779
-            },
-            {
-              "hm": "11:42",
-              "o": 7830,
-              "h": 7850,
-              "l": 7820,
-              "c": 7850,
-              "v": 560,
-              "kj": 7595,
-              "e5": 7786
-            },
-            {
-              "hm": "11:43",
-              "o": 7860,
-              "h": 7880,
-              "l": 7850,
-              "c": 7880,
-              "v": 765,
-              "kj": 7595,
-              "e5": 7796
-            },
-            {
-              "hm": "11:44",
-              "o": 7860,
-              "h": 7930,
-              "l": 7830,
-              "c": 7830,
-              "v": 8460,
-              "kj": 7620,
-              "e5": 7779
-            },
-            {
-              "hm": "11:45",
-              "o": 7830,
-              "h": 7840,
-              "l": 7810,
-              "c": 7810,
-              "v": 679,
-              "kj": 7620,
-              "e5": 7789
-            },
-            {
-              "hm": "11:46",
-              "o": 7810,
-              "h": 7850,
-              "l": 7790,
-              "c": 7790,
-              "v": 1183,
-              "kj": 7620,
-              "e5": 7783
-            },
-            {
-              "hm": "11:47",
-              "o": 7800,
-              "h": 7820,
-              "l": 7790,
-              "c": 7810,
-              "v": 438,
-              "kj": 7620,
-              "e5": 7789
-            },
-            {
-              "hm": "11:48",
-              "o": 7830,
-              "h": 7830,
-              "l": 7810,
-              "c": 7820,
-              "v": 846,
-              "kj": 7620,
-              "e5": 7793
-            },
-            {
-              "hm": "11:49",
-              "o": 7820,
-              "h": 7820,
-              "l": 7810,
-              "c": 7810,
-              "v": 75,
-              "kj": 7620,
-              "e5": 7789
-            },
-            {
-              "hm": "11:50",
-              "o": 7810,
-              "h": 7820,
-              "l": 7780,
-              "c": 7790,
-              "v": 1786,
-              "kj": 7620,
-              "e5": 7790
-            },
-            {
-              "hm": "11:51",
-              "o": 7780,
-              "h": 7780,
-              "l": 7760,
-              "c": 7760,
-              "v": 852,
-              "kj": 7620,
-              "e5": 7780
-            },
-            {
-              "hm": "11:52",
-              "o": 7760,
-              "h": 7760,
-              "l": 7650,
-              "c": 7680,
-              "v": 2340,
-              "kj": 7620,
-              "e5": 7753
-            },
-            {
-              "hm": "11:53",
-              "o": 7690,
-              "h": 7710,
-              "l": 7670,
-              "c": 7710,
-              "v": 1099,
-              "kj": 7620,
-              "e5": 7763
-            },
-            {
-              "hm": "11:54",
-              "o": 7680,
-              "h": 7730,
-              "l": 7680,
-              "c": 7730,
-              "v": 690,
-              "kj": 7620,
-              "e5": 7770
-            },
-            {
-              "hm": "11:55",
-              "o": 7720,
-              "h": 7720,
-              "l": 7710,
-              "c": 7720,
-              "v": 176,
-              "kj": 7620,
-              "e5": 7753
-            },
-            {
-              "hm": "11:56",
-              "o": 7690,
-              "h": 7710,
-              "l": 7670,
-              "c": 7670,
-              "v": 194,
-              "kj": 7620,
-              "e5": 7736
-            },
-            {
-              "hm": "11:57",
-              "o": 7670,
-              "h": 7670,
-              "l": 7610,
-              "c": 7640,
-              "v": 7305,
-              "kj": 7620,
-              "e5": 7726
-            },
-            {
-              "hm": "11:58",
-              "o": 7650,
-              "h": 7660,
-              "l": 7630,
-              "c": 7630,
-              "v": 201,
-              "kj": 7620,
-              "e5": 7723
-            },
-            {
-              "hm": "11:59",
-              "o": 7640,
-              "h": 7650,
-              "l": 7530,
-              "c": 7550,
-              "v": 1816,
-              "kj": 7620,
-              "e5": 7696
-            },
-            {
-              "hm": "12:00",
-              "o": 7600,
-              "h": 7610,
-              "l": 7500,
-              "c": 7560,
-              "v": 1772,
-              "kj": 7620,
-              "e5": 7651
-            },
-            {
-              "hm": "12:01",
-              "o": 7580,
-              "h": 7640,
-              "l": 7580,
-              "c": 7600,
-              "v": 1503,
-              "kj": 7620,
-              "e5": 7664
             }
           ]
         },
@@ -181859,7 +182909,7 @@
           "date": "2026-11-26",
           "code": "417010",
           "name": "나노팀",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 4,
           "scout_used": false,
@@ -181895,7 +182945,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 5,400원 매수 대기 (통합손절 5,238원)",
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 5,400원 매수 대기 (통합손절 5,238원)",
           "bar_count": 124,
           "bars_1m": [
             {
@@ -183144,7 +184194,7 @@
           "date": "2026-11-26",
           "code": "271160",
           "name": "하나에어로",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 5,
           "scout_used": false,
@@ -183180,7 +184230,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 4,310원 매수 대기 (통합손절 4,181원)",
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 4,310원 매수 대기 (통합손절 4,181원)",
           "bar_count": 43,
           "bars_1m": [
             {
@@ -183619,7 +184669,7 @@
           "date": "2026-11-26",
           "code": "261780",
           "name": "아리바이오랩",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대 분할대기",
           "upper_score": 4,
           "scout_used": true,
@@ -183655,7 +184705,7 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
-          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 4,015원 매수 대기 (통합손절 3,764원)",
+          "reason_line": "📡 [혼조 보합장] S2선발대 분할대기 · 지정가 4,015원 매수 대기 (통합손절 3,764원)",
           "bar_count": 85,
           "bars_1m": [
             {
@@ -184514,7 +185564,7 @@
           "date": "2026-11-26",
           "code": "493410",
           "name": "넥스아이",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대 분할대기",
           "upper_score": 2,
           "scout_used": true,
@@ -184530,14 +185580,14 @@
           "day_open": 3175,
           "day_high": 3560,
           "day_low": 3120,
-          "close_px": 3465,
+          "close_px": 3435,
           "post_high": 3545,
           "peak_hm": "10:21",
           "post_low": 3385,
           "low_hm": "10:38",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 0.43,
+          "close_ret_pct": -0.43,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -184550,8 +185600,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★2점",
-          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 3,450원 매수 대기 (통합손절 3,250원)",
-          "bar_count": 181,
+          "reason_line": "📡 [혼조 보합장] S2선발대 분할대기 · 지정가 3,450원 매수 대기 (통합손절 3,250원)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -186357,11 +187407,21 @@
               "hm": "12:01",
               "o": 3480,
               "h": 3480,
-              "l": 3460,
-              "c": 3465,
-              "v": 1534,
+              "l": 3437,
+              "c": 3440,
+              "v": 4358,
               "kj": 3422,
-              "e5": 3468
+              "e5": 3459
+            },
+            {
+              "hm": "12:02",
+              "o": 3440,
+              "h": 3440,
+              "l": 3435,
+              "c": 3435,
+              "v": 419,
+              "kj": 3422,
+              "e5": 3458
             }
           ]
         },
@@ -186369,7 +187429,7 @@
           "date": "2026-11-26",
           "code": "027360",
           "name": "아주IB투자",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 2,
           "scout_used": false,
@@ -186405,7 +187465,7 @@
           "pass_10pct_filter": false,
           "filter_tier": "TIER_5PCT",
           "filter_tier_label": "🛡️ 절벽타점 · ★2점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 2,625원 매수 대기 (통합손절 2,546원)",
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 2,625원 매수 대기 (통합손절 2,546원)",
           "bar_count": 36,
           "bars_1m": [
             {
@@ -186774,7 +187834,7 @@
           "date": "2026-11-26",
           "code": "290690",
           "name": "아리바이오홀딩스",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "S2선발대 분할대기",
           "upper_score": 4,
           "scout_used": true,
@@ -186790,14 +187850,14 @@
           "day_open": 2000,
           "day_high": 2630,
           "day_low": 1950,
-          "close_px": 2490,
+          "close_px": 2495,
           "post_high": 2630,
           "peak_hm": "10:30",
           "post_low": 2235,
           "low_hm": "10:16",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 8.03,
+          "close_ret_pct": 8.24,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -186810,8 +187870,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
-          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 2,305원 매수 대기 (통합손절 2,134원)",
-          "bar_count": 181,
+          "reason_line": "📡 [혼조 보합장] S2선발대 분할대기 · 지정가 2,305원 매수 대기 (통합손절 2,134원)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -188616,12 +189676,22 @@
             {
               "hm": "12:01",
               "o": 2485,
-              "h": 2490,
+              "h": 2495,
               "l": 2485,
               "c": 2490,
-              "v": 979,
+              "v": 2660,
               "kj": 2348,
               "e5": 2488
+            },
+            {
+              "hm": "12:02",
+              "o": 2490,
+              "h": 2495,
+              "l": 2485,
+              "c": 2495,
+              "v": 3984,
+              "kj": 2348,
+              "e5": 2489
             }
           ]
         },
@@ -188629,7 +189699,7 @@
           "date": "2026-11-26",
           "code": "179530",
           "name": "애드바이오텍",
-          "regime": "강세 상승장",
+          "regime": "혼조 보합장",
           "setup": "5분기준선26절벽 대기",
           "upper_score": 3,
           "scout_used": false,
@@ -188645,14 +189715,14 @@
           "day_open": 794,
           "day_high": 1000,
           "day_low": 749,
-          "close_px": 936,
+          "close_px": 956,
           "post_high": 1000,
           "peak_hm": "11:30",
           "post_low": 930,
           "low_hm": "11:51",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 6.12,
+          "close_ret_pct": 8.39,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -188665,8 +189735,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★3점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 882원 매수 대기 (통합손절 856원)",
-          "bar_count": 181,
+          "reason_line": "📡 [혼조 보합장] 5분기준선26절벽 대기 · 지정가 882원 매수 대기 (통합손절 856원)",
+          "bar_count": 182,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -190471,12 +191541,22 @@
             {
               "hm": "12:01",
               "o": 934,
-              "h": 939,
+              "h": 947,
               "l": 934,
-              "c": 936,
-              "v": 751,
+              "c": 946,
+              "v": 9837,
               "kj": 904,
-              "e5": 944
+              "e5": 948
+            },
+            {
+              "hm": "12:02",
+              "o": 946,
+              "h": 960,
+              "l": 943,
+              "c": 956,
+              "v": 38784,
+              "kj": 904,
+              "e5": 951
             }
           ]
         }
