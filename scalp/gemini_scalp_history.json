@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 15:29:56",
+  "updated_at": "2026-11-26 15:35:00",
   "cumulative_start_date": "2026-11-18",
   "latest_date": "2026-11-26",
   "cumulative": {
@@ -78341,14 +78341,14 @@
           "day_open": 55300,
           "day_high": 56700,
           "day_low": 51100,
-          "close_px": 52400,
+          "close_px": 52200,
           "post_high": 53600,
           "peak_hm": "13:34",
           "post_low": 51100,
           "low_hm": "12:20",
           "max_ret_pct": 2.1,
           "min_ret_pct": -2.67,
-          "close_ret_pct": -0.19,
+          "close_ret_pct": -0.57,
           "hit_3pct_hm": null,
           "hit_5pct_hm": null,
           "status": "FAIL",
@@ -81511,9 +81511,9 @@
               "hm": "15:30",
               "o": 52400,
               "h": 52400,
-              "l": 52400,
-              "c": 52400,
-              "v": 0
+              "l": 52200,
+              "c": 52200,
+              "v": 3505
             }
           ]
         }
