@@ -233,7 +233,7 @@
       "selection_note": "1분봉검증:STOP_LOSS_FIRST | 시초갭 -1.43% (GAP_FAVORABLE (-1.43%)) | ★20일 시가+5%슈팅빈도 60%(12/20일) · ★20일평균O2H +8.19% · 5일ATR 10.78% · ★연기금·보험·사모 순매수(+58.6억) · ★외인·기관 순매수(+83.2억) · ★건전윗꼬리 매물소화(usr 0.145)"
     }
   ],
-  "last_updated": "2026-11-26 23:00:24",
+  "last_updated": "2026-11-26 23:10:23",
   "backtest_discipline_guard": {
     "track": "V4",
     "engine_version": "v4.3-FROZEN",
