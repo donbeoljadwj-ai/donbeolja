@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-26 20:12:42",
+  "updated_at": "2026-11-26 23:10:56",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v1.9-FROZEN",
     "engine_sha256": "a42c86dcaae6e937",
-    "preopen_logged_days": 7,
+    "preopen_logged_days": 8,
     "settled_preopen_days": 7,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
@@ -95,7 +95,7 @@
     },
     "note": "v1.9-FROZEN (ATR20 클린 엔진) 기준으로 즉시 복원 완료."
   },
-  "upcoming_target_date": "2026-11-26",
+  "upcoming_target_date": "2026-11-27",
   "daily_comparison": {
     "2026-10-01": {
       "before_orig_rank1": {
