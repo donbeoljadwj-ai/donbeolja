@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-26 15:11:24",
+  "updated_at": "2026-11-26 20:10:52",
   "active_version": "v1.9-FROZEN",
   "frozen_winrate_gate": {
     "track": "v1",
     "engine_version": "v1.9-FROZEN",
     "engine_sha256": "a42c86dcaae6e937",
     "preopen_logged_days": 7,
-    "settled_preopen_days": 6,
+    "settled_preopen_days": 7,
     "min_required_days": 30,
     "win_rate_display_allowed": false,
-    "status_badge": "엔진 동결 전진검증 누적 중 (6/30일 · 30거래일 미만 승률 미표시)"
+    "status_badge": "엔진 동결 전진검증 누적 중 (7/30일 · 30거래일 미만 승률 미표시)"
   },
   "backtest_discipline_guard": {
     "track": "V1",
@@ -17,81 +17,81 @@
     "hypothesis_id": "KRX-V19-ATR20-AM-PULLBACK",
     "hypothesis_owner": "HUMAN_DOMAIN_HYPOTHESIS",
     "stage": "CIRCUIT_BREAKER_HALT",
-    "stage_badge": "🛑 CIRCUIT HALT (HALT_MAX_LOSS_EXCEEDED (29.36% >= 20.0%))",
+    "stage_badge": "🛑 CIRCUIT HALT (HALT_MAX_LOSS_EXCEEDED (31.22% >= 20.0%))",
     "live_trading_allowed": false,
     "max_position_alloc_pct": 0.0,
-    "settled_forward_days": 6,
+    "settled_forward_days": 7,
     "min_incubation_days": 30,
-    "empirical_win_rate": 0.5,
-    "empirical_payoff_ratio": 1.01,
-    "empirical_mean_ev_pct": 0.028,
+    "empirical_win_rate": 0.4872,
+    "empirical_payoff_ratio": 1.038,
+    "empirical_mean_ev_pct": -0.04,
     "drawdown_state": {
-      "evaluated_sessions": 38,
-      "simple_cum_return_pct": 1.08,
-      "sized_cum_return_pct": -0.13,
+      "evaluated_sessions": 39,
+      "simple_cum_return_pct": -1.55,
+      "sized_cum_return_pct": -0.66,
       "raw_100pct_mdd_pct": 32.77,
-      "raw_100pct_current_dd_pct": 29.36,
+      "raw_100pct_current_dd_pct": 31.22,
       "account_mdd_pct": 7.35,
-      "account_current_dd_pct": 6.41,
-      "current_underwater_days": 8,
+      "account_current_dd_pct": 6.9,
+      "current_underwater_days": 9,
       "max_underwater_days": 21,
       "max_loss_limit_pct": 20.0,
       "max_underwater_limit_days": 60,
       "circuit_breaker_tripped": true,
       "underwater_warning": true,
-      "circuit_status": "HALT_MAX_LOSS_EXCEEDED (29.36% >= 20.0%)"
+      "circuit_status": "HALT_MAX_LOSS_EXCEEDED (31.22% >= 20.0%)"
     }
   },
-  "evaluated_days": 38,
+  "evaluated_days": 39,
   "honest_regular_bar_comparison": {
     "definition": "확정 KRX 정규장 일봉(09:00~15:30) · 왕복비용 0.35% 차감",
     "v1_before_original_rank1": {
-      "all_recommended_days": 38,
-      "active_traded_days": 38,
+      "all_recommended_days": 39,
+      "active_traded_days": 39,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit35_count": 19,
-      "rank1_hit35_rate_pct": 50.0,
+      "rank1_hit35_count": 20,
+      "rank1_hit35_rate_pct": 51.3,
       "rank1_hit5_daily_count": 19,
-      "rank1_hit5_daily_rate_pct": 50.0,
+      "rank1_hit5_daily_rate_pct": 48.7,
       "rank1_net_wins": 14,
-      "rank1_net_win_rate_pct": 36.8,
-      "rank1_mean_net_pct": -1.26,
-      "rank1_cum_net_pct": -47.7
+      "rank1_net_win_rate_pct": 35.9,
+      "rank1_mean_net_pct": -1.29,
+      "rank1_cum_net_pct": -50.33
     },
     "v1_after_v19_atr_clean_rank1": {
-      "all_recommended_days": 38,
-      "active_traded_days": 38,
+      "all_recommended_days": 39,
+      "active_traded_days": 39,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit35_count": 27,
-      "rank1_hit35_rate_pct": 71.1,
+      "rank1_hit35_count": 28,
+      "rank1_hit35_rate_pct": 71.8,
       "rank1_hit5_daily_count": 25,
-      "rank1_hit5_daily_rate_pct": 65.8,
+      "rank1_hit5_daily_rate_pct": 64.1,
       "rank1_net_wins": 19,
-      "rank1_net_win_rate_pct": 50.0,
-      "rank1_mean_net_pct": 0.03,
-      "rank1_cum_net_pct": 1.08
+      "rank1_net_win_rate_pct": 48.7,
+      "rank1_mean_net_pct": -0.04,
+      "rank1_cum_net_pct": -1.55
     },
     "v1_after_v20_gap_and_2stage_rank1": {
-      "all_recommended_days": 38,
-      "active_traded_days": 19,
+      "all_recommended_days": 39,
+      "active_traded_days": 20,
       "round_trip_cost_pct": 0.35,
-      "rank1_hit35_count": 12,
-      "rank1_hit35_rate_pct": 63.2,
+      "rank1_hit35_count": 13,
+      "rank1_hit35_rate_pct": 65.0,
       "rank1_hit5_daily_count": 11,
-      "rank1_hit5_daily_rate_pct": 57.9,
-      "rank1_net_wins": 6,
-      "rank1_net_win_rate_pct": 31.6,
-      "rank1_mean_net_pct": -0.27,
-      "rank1_cum_net_pct": -10.27
+      "rank1_hit5_daily_rate_pct": 55.0,
+      "rank1_net_wins": 7,
+      "rank1_net_win_rate_pct": 35.0,
+      "rank1_mean_net_pct": -0.22,
+      "rank1_cum_net_pct": -8.67
     },
     "v19_last10_summary": {
       "days": 10,
-      "wins": 4,
-      "win_rate_pct": 40.0,
-      "hit5_count": 5,
-      "hit5_rate_pct": 50.0,
-      "cum_net_pct": -24.51,
-      "mean_net_pct": -2.45
+      "wins": 3,
+      "win_rate_pct": 30.0,
+      "hit5_count": 4,
+      "hit5_rate_pct": 40.0,
+      "cum_net_pct": -27.31,
+      "mean_net_pct": -2.73
     },
     "note": "v1.9-FROZEN (ATR20 클린 엔진) 기준으로 즉시 복원 완료."
   },
@@ -140,7 +140,7 @@
       "after_v19_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.411,
+        "atr20_pct": 11.454,
         "score": 0.0,
         "open_gap_pct": -3.06,
         "o2h_pct": 6.55,
@@ -150,7 +150,7 @@
       "after_v20_rank1": {
         "name": "디아이",
         "code": "003160",
-        "atr20_pct": 11.411,
+        "atr20_pct": 11.454,
         "score": 0.0,
         "gap_band_ok": false,
         "open_gap_pct": -3.06,
@@ -172,8 +172,8 @@
       "after_v19_rank1": {
         "name": "아이비젼웍스",
         "code": "469750",
-        "atr20_pct": 12.64,
-        "score": 98.38,
+        "atr20_pct": 13.493,
+        "score": 99.8,
         "open_gap_pct": 1.93,
         "o2h_pct": 5.86,
         "o2c_net_pct": 4.99,
@@ -182,8 +182,8 @@
       "after_v20_rank1": {
         "name": "아이비젼웍스",
         "code": "469750",
-        "atr20_pct": 12.64,
-        "score": 98.38,
+        "atr20_pct": 13.493,
+        "score": 99.8,
         "gap_band_ok": true,
         "open_gap_pct": 1.93,
         "o2h_pct": 5.86,
@@ -268,8 +268,8 @@
       "after_v19_rank1": {
         "name": "한빛레이저",
         "code": "452190",
-        "atr20_pct": 9.279,
-        "score": 86.22,
+        "atr20_pct": 9.299,
+        "score": 86.32,
         "open_gap_pct": 1.11,
         "o2h_pct": 5.66,
         "o2c_net_pct": -2.39,
@@ -278,8 +278,8 @@
       "after_v20_rank1": {
         "name": "한빛레이저",
         "code": "452190",
-        "atr20_pct": 9.279,
-        "score": 86.22,
+        "atr20_pct": 9.299,
+        "score": 86.32,
         "gap_band_ok": true,
         "open_gap_pct": 1.11,
         "o2h_pct": 5.66,
@@ -396,7 +396,7 @@
       "after_v19_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 12.903,
+        "atr20_pct": 13.075,
         "score": 99.8,
         "open_gap_pct": 4.86,
         "o2h_pct": 9.86,
@@ -406,7 +406,7 @@
       "after_v20_rank1": {
         "name": "토마토시스템",
         "code": "393210",
-        "atr20_pct": 12.903,
+        "atr20_pct": 13.075,
         "score": 99.8,
         "gap_band_ok": false,
         "open_gap_pct": 4.86,
@@ -460,7 +460,7 @@
       "after_v19_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 12.682,
+        "atr20_pct": 12.822,
         "score": 99.8,
         "open_gap_pct": -0.8,
         "o2h_pct": 2.26,
@@ -470,7 +470,7 @@
       "after_v20_rank1": {
         "name": "알멕",
         "code": "354320",
-        "atr20_pct": 12.682,
+        "atr20_pct": 12.822,
         "score": 99.8,
         "gap_band_ok": true,
         "open_gap_pct": -0.8,
@@ -492,8 +492,8 @@
       "after_v19_rank1": {
         "name": "코리아써키트",
         "code": "007810",
-        "atr20_pct": 12.298,
-        "score": 99.76,
+        "atr20_pct": 12.388,
+        "score": 99.8,
         "open_gap_pct": 3.68,
         "o2h_pct": 0.41,
         "o2c_net_pct": -1.85,
@@ -502,8 +502,8 @@
       "after_v20_rank1": {
         "name": "코리아써키트",
         "code": "007810",
-        "atr20_pct": 12.298,
-        "score": 99.76,
+        "atr20_pct": 12.388,
+        "score": 99.8,
         "gap_band_ok": false,
         "open_gap_pct": 3.68,
         "o2h_pct": 0.41,
@@ -1311,6 +1311,38 @@
         "two_stage_net_pct": 4.11,
         "hit_35pct_daily": true,
         "hit_5pct_daily": true
+      }
+    },
+    "2026-11-26": {
+      "before_orig_rank1": {
+        "name": "한싹",
+        "code": "430690",
+        "o2h_pct": 3.8,
+        "o2c_net_pct": -2.63,
+        "hit_5pct_daily": false
+      },
+      "after_v19_rank1": {
+        "name": "한싹",
+        "code": "430690",
+        "atr20_pct": 16.896,
+        "score": 99.8,
+        "open_gap_pct": -2.47,
+        "o2h_pct": 3.8,
+        "o2c_net_pct": -2.63,
+        "hit_5pct_daily": false
+      },
+      "after_v20_rank1": {
+        "name": "한싹",
+        "code": "430690",
+        "atr20_pct": 16.896,
+        "score": 99.8,
+        "gap_band_ok": true,
+        "open_gap_pct": -2.47,
+        "o2h_pct": 3.8,
+        "o2c_net_pct": -2.63,
+        "two_stage_net_pct": 1.6,
+        "hit_35pct_daily": true,
+        "hit_5pct_daily": false
       }
     }
   }
