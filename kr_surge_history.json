@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 10:37:56",
+  "updated_at": "2026-11-27 10:39:04",
   "cumulative_start_date": "2026-11-11",
   "latest_date": "2026-11-27",
   "cumulative": {
@@ -7,17 +7,17 @@
     "trading_days": 13,
     "total_count": 77,
     "wait_count": 42,
-    "success_count": 58,
+    "success_count": 57,
     "hit_5pct_count": 26,
-    "hit_3pct_count": 32,
-    "fail_count": 19,
-    "win_rate_pct": 75.3,
+    "hit_3pct_count": 31,
+    "fail_count": 20,
+    "win_rate_pct": 74.0,
     "hit_5pct_rate": 33.8,
-    "strategy_net_sum_pct": 69.42,
+    "strategy_net_sum_pct": 69.05,
     "algo5_count": 49,
     "algo5_hit5_count": 33,
     "algo10_count": 65,
-    "algo10_hit10_count": 52
+    "algo10_hit10_count": 51
   },
   "days": {
     "2026-11-11": {
@@ -292204,18 +292204,18 @@
       "card_count": 43,
       "wait_count": 28,
       "total_count": 15,
-      "success_count": 11,
+      "success_count": 10,
       "hit_5pct_count": 6,
-      "hit_3pct_count": 5,
-      "fail_count": 4,
-      "win_rate_pct": 73.3,
+      "hit_3pct_count": 4,
+      "fail_count": 5,
+      "win_rate_pct": 66.7,
       "hit_5pct_rate": 40.0,
       "avg_peak_ret_pct": 5.41,
-      "strategy_net_sum_pct": 20.71,
+      "strategy_net_sum_pct": 20.34,
       "algo5_count": 4,
       "algo5_hit5_count": 3,
       "algo10_count": 14,
-      "algo10_hit10_count": 10,
+      "algo10_hit10_count": 9,
       "items": [
         {
           "date": "2026-11-27",
@@ -292238,15 +292238,15 @@
           "day_open": 8210,
           "day_high": 10410,
           "day_low": 8210,
-          "close_px": 10300,
+          "close_px": 10250,
           "post_high": 10410,
           "peak_hm": "10:32",
           "post_low": 8990,
           "low_hm": "09:30",
           "max_ret_pct": 15.67,
           "min_ret_pct": -0.11,
-          "close_ret_pct": 14.44,
-          "strategy_net_pct": 4.37,
+          "close_ret_pct": 13.89,
+          "strategy_net_pct": 4.22,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": "09:36",
@@ -292259,7 +292259,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
           "reason_line": "⚡ [강세 상승장] #10위 S2선발대(주황5선50%) · 기준선 통합손절 8,489원 · 1차목표 9,270원",
-          "bar_count": 98,
+          "bar_count": 99,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -293234,12 +293234,22 @@
             {
               "hm": "10:38",
               "o": 10300,
-              "h": 10300,
+              "h": 10380,
               "l": 10230,
-              "c": 10300,
-              "v": 8490,
+              "c": 10380,
+              "v": 18651,
               "kj": 9310,
-              "e5": 10192
+              "e5": 10219
+            },
+            {
+              "hm": "10:39",
+              "o": 10370,
+              "h": 10370,
+              "l": 10240,
+              "c": 10250,
+              "v": 3783,
+              "kj": 9310,
+              "e5": 10175
             }
           ]
         },
@@ -293264,15 +293274,15 @@
           "day_open": 8710,
           "day_high": 10720,
           "day_low": 8710,
-          "close_px": 10700,
+          "close_px": 10660,
           "post_high": 10720,
           "peak_hm": "10:38",
           "post_low": 9280,
           "low_hm": "09:30",
           "max_ret_pct": 14.16,
           "min_ret_pct": -1.17,
-          "close_ret_pct": 13.95,
-          "strategy_net_pct": 4.24,
+          "close_ret_pct": 13.53,
+          "strategy_net_pct": 4.13,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": "09:36",
@@ -293285,7 +293295,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★3점",
           "reason_line": "⚡ [강세 상승장] #9위 S2선발대(주황5선50%) · 기준선 통합손절 8,926원 · 1차목표 9,672원",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -294273,9 +294283,19 @@
               "h": 10720,
               "l": 10495,
               "c": 10700,
-              "v": 7323,
+              "v": 7843,
               "kj": 9715,
               "e5": 10413
+            },
+            {
+              "hm": "10:39",
+              "o": 10690,
+              "h": 10720,
+              "l": 10600,
+              "c": 10660,
+              "v": 7067,
+              "kj": 9715,
+              "e5": 10399
             }
           ]
         },
@@ -294300,14 +294320,14 @@
           "day_open": 9460,
           "day_high": 11080,
           "day_low": 9460,
-          "close_px": 10570,
+          "close_px": 10540,
           "post_high": 11080,
           "peak_hm": "10:09",
           "post_low": 9590,
           "low_hm": "09:29",
           "max_ret_pct": 12.26,
           "min_ret_pct": -2.84,
-          "close_ret_pct": 7.09,
+          "close_ret_pct": 6.79,
           "strategy_net_pct": 4.0,
           "exit_time": "10:32",
           "exit_label": "래칫·본절보호",
@@ -294321,7 +294341,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★3점",
           "reason_line": "⚡ [강세 상승장] #4위 5분기준선26절벽 첫터치(100%) · 10:32 래칫·본절보호 확정 (전략 세후 +4.00%)",
-          "bar_count": 98,
+          "bar_count": 99,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -295299,9 +295319,19 @@
               "h": 10580,
               "l": 10520,
               "c": 10570,
-              "v": 7792,
+              "v": 8425,
               "kj": 10270,
               "e5": 10586
+            },
+            {
+              "hm": "10:39",
+              "o": 10550,
+              "h": 10570,
+              "l": 10520,
+              "c": 10540,
+              "v": 3015,
+              "kj": 10270,
+              "e5": 10576
             }
           ]
         },
@@ -295326,15 +295356,15 @@
           "day_open": 49450,
           "day_high": 56500,
           "day_low": 49100,
-          "close_px": 55100,
+          "close_px": 55000,
           "post_high": 56500,
           "peak_hm": "09:52",
           "post_low": 52200,
           "low_hm": "09:18",
           "max_ret_pct": 8.24,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 5.56,
-          "strategy_net_pct": 2.13,
+          "close_ret_pct": 5.36,
+          "strategy_net_pct": 2.1,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": "09:23",
@@ -295347,7 +295377,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
           "reason_line": "⚡ [강세 상승장] #3위 S2선발대(주황5선50%) · 기준선 통합손절 49,813원 · 1차목표 53,766원",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -296335,9 +296365,19 @@
               "h": 55400,
               "l": 55100,
               "c": 55100,
-              "v": 6195,
+              "v": 6382,
               "kj": 52800,
               "e5": 55394
+            },
+            {
+              "hm": "10:39",
+              "o": 55200,
+              "h": 55200,
+              "l": 55000,
+              "c": 55000,
+              "v": 3454,
+              "kj": 52800,
+              "e5": 55361
             }
           ]
         },
@@ -296362,15 +296402,15 @@
           "day_open": 93600,
           "day_high": 108200,
           "day_low": 93600,
-          "close_px": 106600,
+          "close_px": 106700,
           "post_high": 108200,
           "peak_hm": "10:06",
           "post_low": 100200,
           "low_hm": "09:18",
           "max_ret_pct": 7.98,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 6.39,
-          "strategy_net_pct": 2.35,
+          "close_ret_pct": 6.49,
+          "strategy_net_pct": 2.38,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": "09:22",
@@ -296383,7 +296423,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★2점",
           "reason_line": "⚡ [강세 상승장] #2위 S2선발대(주황5선50%) · 기준선 통합손절 95,734원 · 1차목표 103,206원",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -297369,11 +297409,21 @@
               "hm": "10:38",
               "o": 107000,
               "h": 107300,
-              "l": 106600,
-              "c": 106600,
-              "v": 1423,
+              "l": 106500,
+              "c": 106700,
+              "v": 1723,
               "kj": 100900,
-              "e5": 106874
+              "e5": 106908
+            },
+            {
+              "hm": "10:39",
+              "o": 106800,
+              "h": 107100,
+              "l": 106200,
+              "c": 106700,
+              "v": 3345,
+              "kj": 100900,
+              "e5": 106908
             }
           ]
         },
@@ -297398,14 +297448,14 @@
           "day_open": 56200,
           "day_high": 61300,
           "day_low": 55200,
-          "close_px": 60400,
+          "close_px": 60000,
           "post_high": 61300,
           "peak_hm": "10:12",
           "post_low": 57200,
           "low_hm": "09:26",
           "max_ret_pct": 6.24,
           "min_ret_pct": -0.87,
-          "close_ret_pct": 4.68,
+          "close_ret_pct": 3.99,
           "strategy_net_pct": 1.68,
           "exit_time": "09:43",
           "exit_label": "추종익절",
@@ -297419,7 +297469,7 @@
           "filter_tier": "TIER_5PCT",
           "filter_tier_label": "🛡️ 절벽타점 · ★2점",
           "reason_line": "⚡ [강세 상승장] #6위 5분기준선26절벽 첫터치(100%) · 09:43 추종익절 확정 (전략 세후 +1.68%)",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -298406,10 +298456,20 @@
               "o": 60400,
               "h": 60600,
               "l": 60400,
-              "c": 60400,
-              "v": 360,
+              "c": 60500,
+              "v": 363,
               "kj": 58250,
-              "e5": 60068
+              "e5": 60102
+            },
+            {
+              "hm": "10:39",
+              "o": 60400,
+              "h": 60400,
+              "l": 60000,
+              "c": 60000,
+              "v": 1605,
+              "kj": 58250,
+              "e5": 59935
             }
           ]
         },
@@ -298455,7 +298515,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
           "reason_line": "⚡ [강세 상승장] #5위 S2선발대(주황5선50%) · 기준선 통합손절 81,189원 · 1차목표 87,859원",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -299443,7 +299503,17 @@
               "h": 87800,
               "l": 87500,
               "c": 87600,
-              "v": 679,
+              "v": 682,
+              "kj": 84300,
+              "e5": 87547
+            },
+            {
+              "hm": "10:39",
+              "o": 87700,
+              "h": 87700,
+              "l": 87300,
+              "c": 87600,
+              "v": 627,
               "kj": 84300,
               "e5": 87547
             }
@@ -299470,15 +299540,15 @@
           "day_open": 82200,
           "day_high": 90800,
           "day_low": 82200,
-          "close_px": 90700,
+          "close_px": 90600,
           "post_high": 90800,
           "peak_hm": "10:35",
           "post_low": 88400,
           "low_hm": "10:15",
           "max_ret_pct": 2.71,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 2.6,
-          "strategy_net_pct": 1.18,
+          "close_ret_pct": 2.49,
+          "strategy_net_pct": 1.11,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": null,
@@ -299491,7 +299561,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
           "reason_line": "⚡ [강세 상승장] #15위 S2선발대(주황5선50%) · 기준선 통합손절 83,135원 · 1차목표 91,052원",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -300478,10 +300548,20 @@
               "o": 90500,
               "h": 90800,
               "l": 90500,
-              "c": 90700,
-              "v": 2399,
+              "c": 90800,
+              "v": 2690,
               "kj": 86500,
-              "e5": 89976
+              "e5": 90009
+            },
+            {
+              "hm": "10:39",
+              "o": 90700,
+              "h": 90800,
+              "l": 90550,
+              "c": 90600,
+              "v": 975,
+              "kj": 86500,
+              "e5": 89942
             }
           ]
         },
@@ -300509,10 +300589,10 @@
           "close_px": 427500,
           "post_high": 439500,
           "peak_hm": "10:12",
-          "post_low": 427000,
-          "low_hm": "09:47",
+          "post_low": 426500,
+          "low_hm": "10:39",
           "max_ret_pct": 2.69,
-          "min_ret_pct": -0.23,
+          "min_ret_pct": -0.35,
           "close_ret_pct": -0.12,
           "strategy_net_pct": -0.18,
           "exit_time": "",
@@ -300527,7 +300607,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★1점",
           "reason_line": "⚡ [강세 상승장] #12위 S2선발대(주황5선50%) · 기준선 통합손절 400,596원 · 1차목표 440,840원",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -301514,8 +301594,18 @@
               "o": 428500,
               "h": 429000,
               "l": 427000,
+              "c": 427000,
+              "v": 737,
+              "kj": 415000,
+              "e5": 429997
+            },
+            {
+              "hm": "10:39",
+              "o": 427000,
+              "h": 427500,
+              "l": 426500,
               "c": 427500,
-              "v": 718,
+              "v": 617,
               "kj": 415000,
               "e5": 430164
             }
@@ -302009,7 +302099,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★2점",
           "reason_line": "⚡ [강세 상승장] #8위 S2선발대(주황5선50%) · 기준선 통합손절 82,697원 · 1차목표 89,404원",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -302997,7 +303087,17 @@
               "h": 88100,
               "l": 88000,
               "c": 88000,
-              "v": 623,
+              "v": 632,
+              "kj": 85050,
+              "e5": 87772
+            },
+            {
+              "hm": "10:39",
+              "o": 88100,
+              "h": 88100,
+              "l": 88000,
+              "c": 88000,
+              "v": 1187,
               "kj": 85050,
               "e5": 87772
             }
@@ -303620,15 +303720,15 @@
           "day_open": 41900,
           "day_high": 46650,
           "day_low": 41550,
-          "close_px": 45900,
+          "close_px": 45950,
           "post_high": 46450,
           "peak_hm": "10:33",
           "post_low": 45550,
           "low_hm": "10:02",
           "max_ret_pct": 1.2,
           "min_ret_pct": -0.76,
-          "close_ret_pct": 0.0,
-          "strategy_net_pct": -0.12,
+          "close_ret_pct": 0.11,
+          "strategy_net_pct": -0.07,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": null,
@@ -303641,7 +303741,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★3점",
           "reason_line": "⚡ [강세 상승장] #11위 S2선발대(주황5선50%) · 기준선 통합손절 42,905원 · 1차목표 47,277원",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -304632,6 +304732,16 @@
               "v": 445,
               "kj": 44100,
               "e5": 46050
+            },
+            {
+              "hm": "10:39",
+              "o": 45950,
+              "h": 45950,
+              "l": 45850,
+              "c": 45950,
+              "v": 203,
+              "kj": 44100,
+              "e5": 46066
             }
           ]
         },
@@ -304656,28 +304766,28 @@
           "day_open": 47350,
           "day_high": 53100,
           "day_low": 47100,
-          "close_px": 52500,
+          "close_px": 52400,
           "post_high": 52700,
           "peak_hm": "10:35",
           "post_low": 50900,
           "low_hm": "10:07",
           "max_ret_pct": 0.76,
           "min_ret_pct": -2.68,
-          "close_ret_pct": 0.38,
-          "strategy_net_pct": 0.07,
+          "close_ret_pct": 0.19,
+          "strategy_net_pct": -0.02,
           "exit_time": "",
           "exit_label": "",
           "hit_3pct_hm": null,
           "hit_5pct_hm": null,
-          "status": "HIT_3PCT",
-          "status_label": "✅ +3%·익절 달성",
-          "is_success": true,
+          "status": "FAIL",
+          "status_label": "❌ 손절·미달",
+          "is_success": false,
           "pass_5pct_filter": false,
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★3점",
           "reason_line": "⚡ [강세 상승장] #13위 S2선발대(주황5선50%) · 기준선 통합손절 48,743원 · 1차목표 53,869원",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -305668,6 +305778,16 @@
               "v": 723,
               "kj": 50100,
               "e5": 52320
+            },
+            {
+              "hm": "10:39",
+              "o": 52400,
+              "h": 52500,
+              "l": 52400,
+              "c": 52400,
+              "v": 116,
+              "kj": 50100,
+              "e5": 52286
             }
           ]
         },
@@ -307044,14 +307164,14 @@
           "day_open": 74600,
           "day_high": 81200,
           "day_low": 73600,
-          "close_px": 80500,
+          "close_px": 80200,
           "post_high": 81200,
           "peak_hm": "10:11",
           "post_low": 79400,
           "low_hm": "09:41",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 4.14,
+          "close_ret_pct": 3.75,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -307064,8 +307184,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 77,300원 미도달 미체결 (종가 80,500원, +4.1%)",
-          "bar_count": 99,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 77,300원 미도달 미체결 (종가 80,200원, +3.8%)",
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -308053,9 +308173,19 @@
               "h": 80800,
               "l": 80500,
               "c": 80500,
-              "v": 1386,
+              "v": 1406,
               "kj": 77400,
               "e5": 80598
+            },
+            {
+              "hm": "10:39",
+              "o": 80500,
+              "h": 80600,
+              "l": 80100,
+              "c": 80200,
+              "v": 281,
+              "kj": 77400,
+              "e5": 80498
             }
           ]
         },
@@ -309027,7 +309157,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
           "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 62,500원 미도달 미체결 (종가 65,900원, +5.4%)",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -310015,7 +310145,17 @@
               "h": 66200,
               "l": 65800,
               "c": 65900,
-              "v": 1291,
+              "v": 1478,
+              "kj": 62500,
+              "e5": 65846
+            },
+            {
+              "hm": "10:39",
+              "o": 65900,
+              "h": 66000,
+              "l": 65800,
+              "c": 65900,
+              "v": 1487,
               "kj": 62500,
               "e5": 65846
             }
@@ -310042,14 +310182,14 @@
           "day_open": 43700,
           "day_high": 49450,
           "day_low": 43700,
-          "close_px": 48750,
+          "close_px": 48500,
           "post_high": 49450,
           "peak_hm": "10:14",
           "post_low": 47950,
           "low_hm": "10:27",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 5.52,
+          "close_ret_pct": 4.98,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -310062,8 +310202,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★3점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 46,200원 미도달 미체결 (종가 48,750원, +5.5%)",
-          "bar_count": 98,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 46,200원 미도달 미체결 (종가 48,500원, +5.0%)",
+          "bar_count": 99,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -311039,11 +311179,21 @@
               "hm": "10:38",
               "o": 49100,
               "h": 49200,
-              "l": 48750,
+              "l": 48700,
               "c": 48750,
-              "v": 3468,
+              "v": 3586,
               "kj": 46575,
               "e5": 48588
+            },
+            {
+              "hm": "10:39",
+              "o": 48700,
+              "h": 48700,
+              "l": 48500,
+              "c": 48500,
+              "v": 424,
+              "kj": 46575,
+              "e5": 48504
             }
           ]
         },
@@ -311394,14 +311544,14 @@
           "day_open": 38000,
           "day_high": 46000,
           "day_low": 38000,
-          "close_px": 45150,
+          "close_px": 45200,
           "post_high": 46000,
           "peak_hm": "10:35",
           "post_low": 43850,
           "low_hm": "10:08",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 9.72,
+          "close_ret_pct": 9.84,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -311414,8 +311564,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 41,150원 미도달 미체결 (종가 45,150원, +9.7%)",
-          "bar_count": 99,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 41,150원 미도달 미체결 (종가 45,200원, +9.8%)",
+          "bar_count": 101,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -312401,11 +312551,31 @@
               "hm": "10:38",
               "o": 45600,
               "h": 45600,
-              "l": 45150,
+              "l": 45100,
               "c": 45150,
-              "v": 9152,
+              "v": 10712,
               "kj": 42000,
               "e5": 45042
+            },
+            {
+              "hm": "10:39",
+              "o": 45150,
+              "h": 45250,
+              "l": 45050,
+              "c": 45250,
+              "v": 4435,
+              "kj": 42000,
+              "e5": 45075
+            },
+            {
+              "hm": "10:40",
+              "o": 45200,
+              "h": 45250,
+              "l": 45200,
+              "c": 45200,
+              "v": 343,
+              "kj": 42000,
+              "e5": 45117
             }
           ]
         },
@@ -312451,7 +312621,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
           "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 42,650원 미도달 미체결 (종가 45,200원, +6.0%)",
-          "bar_count": 98,
+          "bar_count": 99,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -313429,7 +313599,17 @@
               "h": 45200,
               "l": 44950,
               "c": 45200,
-              "v": 413,
+              "v": 468,
+              "kj": 43225,
+              "e5": 44998
+            },
+            {
+              "hm": "10:39",
+              "o": 45150,
+              "h": 45200,
+              "l": 45100,
+              "c": 45200,
+              "v": 383,
               "kj": 43225,
               "e5": 44998
             }
@@ -313477,7 +313657,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
           "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 41,650원 미도달 미체결 (종가 43,100원, +3.5%)",
-          "bar_count": 99,
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -314463,9 +314643,19 @@
               "hm": "10:38",
               "o": 43150,
               "h": 43250,
-              "l": 43100,
+              "l": 43000,
+              "c": 43050,
+              "v": 1135,
+              "kj": 40525,
+              "e5": 42854
+            },
+            {
+              "hm": "10:39",
+              "o": 43100,
+              "h": 43200,
+              "l": 42900,
               "c": 43100,
-              "v": 744,
+              "v": 1295,
               "kj": 40525,
               "e5": 42871
             }
@@ -315204,14 +315394,14 @@
           "day_open": 22050,
           "day_high": 25000,
           "day_low": 21800,
-          "close_px": 24350,
+          "close_px": 24400,
           "post_high": 25000,
           "peak_hm": "10:03",
           "post_low": 22800,
           "low_hm": "09:20",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 6.56,
+          "close_ret_pct": 6.78,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -315224,8 +315414,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★5점",
-          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 22,850원 미도달 미체결 (종가 24,350원, +6.6%)",
-          "bar_count": 99,
+          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 22,850원 미도달 미체결 (종가 24,400원, +6.8%)",
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -316213,9 +316403,19 @@
               "h": 24400,
               "l": 24250,
               "c": 24350,
-              "v": 1270,
+              "v": 1415,
               "kj": 23400,
               "e5": 24287
+            },
+            {
+              "hm": "10:39",
+              "o": 24350,
+              "h": 24400,
+              "l": 24350,
+              "c": 24400,
+              "v": 925,
+              "kj": 23400,
+              "e5": 24303
             }
           ]
         },
@@ -316240,14 +316440,14 @@
           "day_open": 15700,
           "day_high": 19980,
           "day_low": 15670,
-          "close_px": 18990,
+          "close_px": 18940,
           "post_high": 19980,
           "peak_hm": "09:29",
           "post_low": 18220,
           "low_hm": "10:27",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 9.39,
+          "close_ret_pct": 9.1,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -316260,8 +316460,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 17,360원 미도달 미체결 (종가 18,990원, +9.4%)",
-          "bar_count": 98,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 17,360원 미도달 미체결 (종가 18,940원, +9.1%)",
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -317238,10 +317438,30 @@
               "o": 19020,
               "h": 19040,
               "l": 18920,
-              "c": 18990,
-              "v": 20644,
+              "c": 18970,
+              "v": 21382,
               "kj": 17825,
-              "e5": 18737
+              "e5": 18731
+            },
+            {
+              "hm": "10:39",
+              "o": 18950,
+              "h": 18980,
+              "l": 18930,
+              "c": 18950,
+              "v": 8659,
+              "kj": 17825,
+              "e5": 18724
+            },
+            {
+              "hm": "10:40",
+              "o": 18950,
+              "h": 18950,
+              "l": 18940,
+              "c": 18940,
+              "v": 9,
+              "kj": 17825,
+              "e5": 18796
             }
           ]
         },
@@ -319314,14 +319534,14 @@
           "day_open": 15580,
           "day_high": 18000,
           "day_low": 15370,
-          "close_px": 17850,
+          "close_px": 17860,
           "post_high": 18000,
           "peak_hm": "09:51",
           "post_low": 17540,
           "low_hm": "09:46",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 7.34,
+          "close_ret_pct": 7.4,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -319334,8 +319554,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 16,630원 미도달 미체결 (종가 17,850원, +7.3%)",
-          "bar_count": 98,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 16,630원 미도달 미체결 (종가 17,860원, +7.4%)",
+          "bar_count": 99,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -320313,9 +320533,19 @@
               "h": 17850,
               "l": 17830,
               "c": 17850,
-              "v": 120,
+              "v": 121,
               "kj": 16685,
               "e5": 17784
+            },
+            {
+              "hm": "10:39",
+              "o": 17850,
+              "h": 17880,
+              "l": 17850,
+              "c": 17860,
+              "v": 180,
+              "kj": 16685,
+              "e5": 17787
             }
           ]
         },
@@ -320976,14 +321206,14 @@
           "day_open": 13950,
           "day_high": 16720,
           "day_low": 13880,
-          "close_px": 16690,
+          "close_px": 16400,
           "post_high": 16720,
           "peak_hm": "10:38",
           "post_low": 15810,
           "low_hm": "10:28",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 8.8,
+          "close_ret_pct": 6.91,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -320996,8 +321226,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 15,340원 미도달 미체결 (종가 16,690원, +8.8%)",
-          "bar_count": 98,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 15,340원 미도달 미체결 (종가 16,400원, +6.9%)",
+          "bar_count": 99,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -321974,10 +322204,20 @@
               "o": 16600,
               "h": 16720,
               "l": 16520,
-              "c": 16690,
-              "v": 2571,
+              "c": 16560,
+              "v": 2607,
               "kj": 15300,
-              "e5": 16306
+              "e5": 16263
+            },
+            {
+              "hm": "10:39",
+              "o": 16570,
+              "h": 16570,
+              "l": 16400,
+              "c": 16400,
+              "v": 1795,
+              "kj": 15300,
+              "e5": 16209
             }
           ]
         },
@@ -322002,14 +322242,14 @@
           "day_open": 13110,
           "day_high": 15940,
           "day_low": 13030,
-          "close_px": 15020,
+          "close_px": 14980,
           "post_high": 15850,
           "peak_hm": "10:12",
           "post_low": 14900,
           "low_hm": "10:37",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 3.44,
+          "close_ret_pct": 3.17,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -322022,8 +322262,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 14,520원 미도달 미체결 (종가 15,020원, +3.4%)",
-          "bar_count": 98,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 14,520원 미도달 미체결 (종가 14,980원, +3.2%)",
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -323001,9 +323241,29 @@
               "h": 15050,
               "l": 14950,
               "c": 15020,
-              "v": 11494,
+              "v": 11637,
               "kj": 14485,
               "e5": 15029
+            },
+            {
+              "hm": "10:39",
+              "o": 15020,
+              "h": 15020,
+              "l": 14950,
+              "c": 14970,
+              "v": 5614,
+              "kj": 14485,
+              "e5": 15012
+            },
+            {
+              "hm": "10:40",
+              "o": 14980,
+              "h": 14980,
+              "l": 14980,
+              "c": 14980,
+              "v": 10,
+              "kj": 14485,
+              "e5": 15002
             }
           ]
         },
@@ -323028,14 +323288,14 @@
           "day_open": 10000,
           "day_high": 12390,
           "day_low": 9870,
-          "close_px": 12120,
+          "close_px": 12160,
           "post_high": 12390,
           "peak_hm": "10:32",
           "post_low": 12020,
           "low_hm": "10:38",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 9.19,
+          "close_ret_pct": 9.55,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -323048,8 +323308,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 11,100원 미도달 미체결 (종가 12,120원, +9.2%)",
-          "bar_count": 98,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 11,100원 미도달 미체결 (종가 12,160원, +9.6%)",
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -324027,9 +324287,29 @@
               "h": 12150,
               "l": 12020,
               "c": 12120,
-              "v": 3873,
+              "v": 5967,
               "kj": 11130,
               "e5": 11921
+            },
+            {
+              "hm": "10:39",
+              "o": 12120,
+              "h": 12230,
+              "l": 12090,
+              "c": 12150,
+              "v": 7328,
+              "kj": 11130,
+              "e5": 11931
+            },
+            {
+              "hm": "10:40",
+              "o": 12150,
+              "h": 12160,
+              "l": 12150,
+              "c": 12160,
+              "v": 609,
+              "kj": 11130,
+              "e5": 12007
             }
           ]
         },
@@ -324054,14 +324334,14 @@
           "day_open": 10410,
           "day_high": 12190,
           "day_low": 10410,
-          "close_px": 12040,
+          "close_px": 12060,
           "post_high": 12190,
           "peak_hm": "09:31",
           "post_low": 11720,
           "low_hm": "10:09",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 4.42,
+          "close_ret_pct": 4.6,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -324074,8 +324354,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 S2 분할 · ★4점",
-          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 11,530원 미도달 미체결 (종가 12,040원, +4.4%)",
-          "bar_count": 98,
+          "reason_line": "📡 [강세 상승장] S2선발대 분할대기 · 지정가 11,530원 미도달 미체결 (종가 12,060원, +4.6%)",
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -325051,11 +325331,31 @@
               "hm": "10:38",
               "o": 12050,
               "h": 12070,
-              "l": 12040,
-              "c": 12040,
-              "v": 4217,
+              "l": 12050,
+              "c": 12070,
+              "v": 4242,
               "kj": 11300,
-              "e5": 11967
+              "e5": 11977
+            },
+            {
+              "hm": "10:39",
+              "o": 12070,
+              "h": 12070,
+              "l": 12050,
+              "c": 12060,
+              "v": 1856,
+              "kj": 11300,
+              "e5": 11973
+            },
+            {
+              "hm": "10:40",
+              "o": 12060,
+              "h": 12060,
+              "l": 12060,
+              "c": 12060,
+              "v": 0,
+              "kj": 11300,
+              "e5": 12002
             }
           ]
         },
@@ -326117,7 +326417,7 @@
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
           "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 6,820원 미도달 미체결 (종가 7,950원, +16.6%)",
-          "bar_count": 98,
+          "bar_count": 99,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -327098,6 +327398,16 @@
               "v": 384,
               "kj": 7050,
               "e5": 7933
+            },
+            {
+              "hm": "10:39",
+              "o": 7950,
+              "h": 7950,
+              "l": 7950,
+              "c": 7950,
+              "v": 1015,
+              "kj": 7050,
+              "e5": 7933
             }
           ]
         },
@@ -327754,14 +328064,14 @@
           "day_open": 3345,
           "day_high": 4070,
           "day_low": 3345,
-          "close_px": 3925,
+          "close_px": 3920,
           "post_high": 4070,
           "peak_hm": "10:05",
           "post_low": 3835,
           "low_hm": "09:51",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 6.95,
+          "close_ret_pct": 6.81,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -327774,8 +328084,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★5점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 3,670원 미도달 미체결 (종가 3,925원, +7.0%)",
-          "bar_count": 98,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 3,670원 미도달 미체결 (종가 3,920원, +6.8%)",
+          "bar_count": 99,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -328751,11 +329061,21 @@
               "hm": "10:38",
               "o": 3930,
               "h": 3935,
-              "l": 3925,
-              "c": 3925,
-              "v": 861,
+              "l": 3895,
+              "c": 3895,
+              "v": 2911,
               "kj": 3708,
-              "e5": 3941
+              "e5": 3931
+            },
+            {
+              "hm": "10:39",
+              "o": 3925,
+              "h": 3925,
+              "l": 3900,
+              "c": 3920,
+              "v": 3320,
+              "kj": 3708,
+              "e5": 3939
             }
           ]
         },
@@ -328780,14 +329100,14 @@
           "day_open": 1157,
           "day_high": 1469,
           "day_low": 1157,
-          "close_px": 1436,
+          "close_px": 1433,
           "post_high": 1469,
           "peak_hm": "10:28",
           "post_low": 1420,
           "low_hm": "10:20",
           "max_ret_pct": 0.0,
           "min_ret_pct": 0.0,
-          "close_ret_pct": 9.45,
+          "close_ret_pct": 9.22,
           "strategy_net_pct": null,
           "exit_time": "",
           "exit_label": "",
@@ -328800,8 +329120,8 @@
           "pass_10pct_filter": true,
           "filter_tier": "TIER_10PCT",
           "filter_tier_label": "🚀 대장주 ★4점",
-          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 1,312원 미도달 미체결 (종가 1,436원, +9.4%)",
-          "bar_count": 98,
+          "reason_line": "📡 [강세 상승장] 5분기준선26절벽 대기 · 지정가 1,312원 미도달 미체결 (종가 1,433원, +9.2%)",
+          "bar_count": 100,
           "bars_1m": [
             {
               "hm": "09:01",
@@ -329778,10 +330098,30 @@
               "o": 1435,
               "h": 1439,
               "l": 1435,
-              "c": 1436,
-              "v": 29184,
+              "c": 1438,
+              "v": 30533,
               "kj": 1313,
-              "e5": 1433
+              "e5": 1434
+            },
+            {
+              "hm": "10:39",
+              "o": 1439,
+              "h": 1439,
+              "l": 1433,
+              "c": 1433,
+              "v": 86680,
+              "kj": 1313,
+              "e5": 1432
+            },
+            {
+              "hm": "10:40",
+              "o": 1433,
+              "h": 1433,
+              "l": 1433,
+              "c": 1433,
+              "v": 140,
+              "kj": 1313,
+              "e5": 1432
             }
           ]
         }
