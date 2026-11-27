@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-11-27 09:10:34",
+  "updated_at": "2026-11-27 09:13:28",
   "cumulative_start_date": "2026-11-18",
   "latest_date": "2026-11-27",
   "cumulative": {
     "start_date": "2026-11-18",
     "trading_days": 7,
-    "total_count": 30,
-    "success_count": 17,
-    "hit_5pct_count": 12,
+    "total_count": 31,
+    "success_count": 18,
+    "hit_5pct_count": 13,
     "hit_3pct_count": 5,
     "fail_count": 13,
-    "win_rate_pct": 56.7,
-    "hit_5pct_rate": 40.0,
-    "algo5_count": 7,
-    "algo5_hit5_count": 6,
+    "win_rate_pct": 58.1,
+    "hit_5pct_rate": 41.9,
+    "algo5_count": 8,
+    "algo5_hit5_count": 7,
     "algo10_count": 3,
     "algo10_hit10_count": 3
   },
@@ -91094,16 +91094,16 @@
     },
     "2026-11-27": {
       "date": "2026-11-27",
-      "total_count": 1,
-      "success_count": 0,
-      "hit_5pct_count": 0,
+      "total_count": 2,
+      "success_count": 1,
+      "hit_5pct_count": 1,
       "hit_3pct_count": 0,
       "fail_count": 1,
-      "win_rate_pct": 0.0,
-      "hit_5pct_rate": 0.0,
-      "avg_peak_ret_pct": 0.33,
-      "algo5_count": 1,
-      "algo5_hit5_count": 0,
+      "win_rate_pct": 50.0,
+      "hit_5pct_rate": 50.0,
+      "avg_peak_ret_pct": 2.94,
+      "algo5_count": 2,
+      "algo5_hit5_count": 1,
       "algo10_count": 0,
       "algo10_hit10_count": 0,
       "items": [
@@ -91118,45 +91118,45 @@
           "tp3_px": 6304,
           "tp5_px": 6426,
           "day_open": 5980,
-          "day_high": 6140,
-          "day_low": 5980,
-          "close_px": 6070,
-          "post_high": 6140,
-          "peak_hm": "09:06",
-          "post_low": 6040,
-          "low_hm": "09:05",
-          "max_ret_pct": 0.33,
-          "min_ret_pct": -1.31,
-          "close_ret_pct": -0.82,
-          "hit_3pct_hm": null,
-          "hit_5pct_hm": null,
-          "status": "FAIL",
-          "status_label": "❌ 미달성(실패)",
-          "is_success": false,
+          "day_high": 6480,
+          "day_low": 5880,
+          "close_px": 6300,
+          "post_high": 6480,
+          "peak_hm": "09:11",
+          "post_low": 6020,
+          "low_hm": "09:04",
+          "max_ret_pct": 5.88,
+          "min_ret_pct": -1.63,
+          "close_ret_pct": 2.94,
+          "hit_3pct_hm": "09:11",
+          "hit_5pct_hm": "09:11",
+          "status": "HIT_5PCT",
+          "status_label": "🏆 +5% 달성",
+          "is_success": true,
           "pass_5pct_filter": true,
           "pass_10pct_filter": false,
           "filter_tier": "TIER_5PCT",
           "filter_tier_label": "🛡️ 5%+ 정밀 타점",
           "drop_reasons_5pct": [],
           "drop_reasons_10pct": [
-            "R6 초입 변동폭 기소진 (시가대비 +2.34%, 변동폭 2.17%)"
+            "R6 초입 변동폭 기소진 (시가대비 +2.34%, 변동폭 3.57%)"
           ],
           "features_at_entry": {
             "open_gap": 3.28,
             "e_chg": 5.7,
             "e_vs_open": 2.34,
-            "dd_hi": 0.16,
-            "rng": 2.17,
-            "pos_rng": 107.7,
-            "cum_val_b": 7.56,
-            "val_pm": 1.51,
-            "d_vwap": 1.25,
-            "d_kijun": 1.24,
-            "d_ema5": 0.16,
-            "v_pwr": 100.0,
-            "est_strength": 150.0
+            "dd_hi": 0.49,
+            "rng": 3.57,
+            "pos_rng": 114.3,
+            "cum_val_b": 7.49,
+            "val_pm": 1.5,
+            "d_vwap": 1.7,
+            "d_kijun": 2.26,
+            "d_ema5": 0.82,
+            "v_pwr": 91.8,
+            "est_strength": 350.0
           },
-          "bar_count": 9,
+          "bar_count": 15,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -91168,35 +91168,35 @@
             },
             {
               "hm": "09:01",
-              "o": 5980,
-              "h": 6010,
-              "l": 5980,
+              "o": 5900,
+              "h": 5990,
+              "l": 5880,
+              "c": 5980,
+              "v": 25365
+            },
+            {
+              "hm": "09:02",
+              "o": 5970,
+              "h": 6070,
+              "l": 5950,
               "c": 6010,
               "v": 26646
             },
             {
-              "hm": "09:02",
+              "hm": "09:03",
               "o": 6010,
-              "h": 6060,
-              "l": 6010,
+              "h": 6090,
+              "l": 6000,
               "c": 6060,
               "v": 36898
             },
             {
-              "hm": "09:03",
-              "o": 6060,
-              "h": 6070,
-              "l": 6060,
+              "hm": "09:04",
+              "o": 6080,
+              "h": 6080,
+              "l": 6020,
               "c": 6070,
               "v": 10175
-            },
-            {
-              "hm": "09:04",
-              "o": 6070,
-              "h": 6110,
-              "l": 6070,
-              "c": 6110,
-              "v": 26048
             },
             {
               "hm": "09:05",
@@ -91208,27 +91208,216 @@
             },
             {
               "hm": "09:06",
+              "o": 6120,
+              "h": 6130,
+              "l": 6080,
+              "c": 6110,
+              "v": 24071
+            },
+            {
+              "hm": "09:07",
               "o": 6110,
-              "h": 6140,
-              "l": 6110,
+              "h": 6180,
+              "l": 6100,
               "c": 6140,
               "v": 21790
             },
             {
-              "hm": "09:07",
+              "hm": "09:08",
               "o": 6140,
               "h": 6140,
-              "l": 6070,
+              "l": 6050,
               "c": 6070,
               "v": 15275
             },
             {
-              "hm": "09:08",
+              "hm": "09:09",
               "o": 6070,
-              "h": 6070,
-              "l": 6070,
+              "h": 6080,
+              "l": 6050,
               "c": 6070,
               "v": 12131
+            },
+            {
+              "hm": "09:10",
+              "o": 6070,
+              "h": 6250,
+              "l": 6060,
+              "c": 6240,
+              "v": 41653
+            },
+            {
+              "hm": "09:11",
+              "o": 6230,
+              "h": 6480,
+              "l": 6230,
+              "c": 6410,
+              "v": 190009
+            },
+            {
+              "hm": "09:12",
+              "o": 6400,
+              "h": 6410,
+              "l": 6300,
+              "c": 6330,
+              "v": 42237
+            },
+            {
+              "hm": "09:13",
+              "o": 6340,
+              "h": 6350,
+              "l": 6270,
+              "c": 6320,
+              "v": 29573
+            },
+            {
+              "hm": "09:14",
+              "o": 6320,
+              "h": 6330,
+              "l": 6290,
+              "c": 6300,
+              "v": 3931
+            }
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "code": "122640",
+          "name": "예스티",
+          "entry_hm": "09:11",
+          "entry_time_full": "2026-11-27 09:13:26",
+          "entry_px": 23150,
+          "prev_close": 22850,
+          "tp3_px": 23844,
+          "tp5_px": 24308,
+          "day_open": 22750,
+          "day_high": 23150,
+          "day_low": 22750,
+          "close_px": 23150,
+          "post_high": 23150,
+          "peak_hm": "09:11",
+          "post_low": 23150,
+          "low_hm": "09:11",
+          "max_ret_pct": 0.0,
+          "min_ret_pct": 0.0,
+          "close_ret_pct": 0.0,
+          "hit_3pct_hm": null,
+          "hit_5pct_hm": null,
+          "status": "FAIL",
+          "status_label": "❌ 미달성(실패)",
+          "is_success": false,
+          "pass_5pct_filter": true,
+          "pass_10pct_filter": false,
+          "filter_tier": "TIER_5PCT",
+          "filter_tier_label": "🛡️ 5%+ 정밀 타점",
+          "drop_reasons_5pct": [],
+          "drop_reasons_10pct": [
+            "R5 09:10 이후 2차파동 진입 (09:11)"
+          ],
+          "features_at_entry": {
+            "open_gap": -0.44,
+            "e_chg": 1.31,
+            "e_vs_open": 1.76,
+            "dd_hi": 0.0,
+            "rng": 1.76,
+            "pos_rng": 100.0,
+            "cum_val_b": 6.34,
+            "val_pm": 0.58,
+            "d_vwap": 0.45,
+            "d_kijun": 0.87,
+            "d_ema5": 0.29,
+            "v_pwr": 89.3,
+            "est_strength": 350.0
+          },
+          "bar_count": 11,
+          "bars_1m": [
+            {
+              "hm": "09:00",
+              "o": 22750,
+              "h": 22750,
+              "l": 22750,
+              "c": 22750,
+              "v": 2689
+            },
+            {
+              "hm": "09:01",
+              "o": 22750,
+              "h": 22750,
+              "l": 22750,
+              "c": 22750,
+              "v": 918
+            },
+            {
+              "hm": "09:02",
+              "o": 22750,
+              "h": 22975,
+              "l": 22750,
+              "c": 22975,
+              "v": 1014
+            },
+            {
+              "hm": "09:03",
+              "o": 22975,
+              "h": 23000,
+              "l": 22975,
+              "c": 23000,
+              "v": 2987
+            },
+            {
+              "hm": "09:04",
+              "o": 23000,
+              "h": 23100,
+              "l": 23000,
+              "c": 23100,
+              "v": 541
+            },
+            {
+              "hm": "09:05",
+              "o": 23100,
+              "h": 23100,
+              "l": 23050,
+              "c": 23050,
+              "v": 169
+            },
+            {
+              "hm": "09:06",
+              "o": 23050,
+              "h": 23050,
+              "l": 23000,
+              "c": 23000,
+              "v": 1393
+            },
+            {
+              "hm": "09:07",
+              "o": 23000,
+              "h": 23000,
+              "l": 23000,
+              "c": 23000,
+              "v": 337
+            },
+            {
+              "hm": "09:08",
+              "o": 23000,
+              "h": 23000,
+              "l": 23000,
+              "c": 23000,
+              "v": 1197
+            },
+            {
+              "hm": "09:09",
+              "o": 23000,
+              "h": 23000,
+              "l": 22950,
+              "c": 22950,
+              "v": 1390
+            },
+            {
+              "hm": "09:10",
+              "o": 22750,
+              "h": 23150,
+              "l": 22750,
+              "c": 23150,
+              "v": 14861
             }
           ]
         }
