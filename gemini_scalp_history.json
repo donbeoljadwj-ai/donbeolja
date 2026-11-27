@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-27 10:10:26",
+  "updated_at": "2026-11-27 10:15:31",
   "cumulative_start_date": "2026-11-18",
   "latest_date": "2026-11-27",
   "cumulative": {
     "start_date": "2026-11-18",
     "trading_days": 7,
     "total_count": 32,
-    "success_count": 19,
+    "success_count": 20,
     "hit_5pct_count": 13,
-    "hit_3pct_count": 6,
-    "fail_count": 13,
-    "win_rate_pct": 59.4,
+    "hit_3pct_count": 7,
+    "fail_count": 12,
+    "win_rate_pct": 62.5,
     "hit_5pct_rate": 40.6,
     "algo5_count": 7,
     "algo5_hit5_count": 6,
@@ -91095,13 +91095,13 @@
     "2026-11-27": {
       "date": "2026-11-27",
       "total_count": 3,
-      "success_count": 2,
+      "success_count": 3,
       "hit_5pct_count": 1,
-      "hit_3pct_count": 1,
-      "fail_count": 1,
-      "win_rate_pct": 66.7,
+      "hit_3pct_count": 2,
+      "fail_count": 0,
+      "win_rate_pct": 100.0,
       "hit_5pct_rate": 33.3,
-      "avg_peak_ret_pct": 4.57,
+      "avg_peak_ret_pct": 4.93,
       "algo5_count": 1,
       "algo5_hit5_count": 0,
       "algo10_count": 0,
@@ -91120,14 +91120,14 @@
           "day_open": 72600,
           "day_high": 73600,
           "day_low": 68000,
-          "close_px": 72300,
-          "post_high": 72900,
-          "peak_hm": "09:50",
+          "close_px": 73100,
+          "post_high": 73200,
+          "peak_hm": "10:15",
           "post_low": 68000,
           "low_hm": "09:30",
-          "max_ret_pct": 6.58,
+          "max_ret_pct": 7.02,
           "min_ret_pct": -0.58,
-          "close_ret_pct": 5.7,
+          "close_ret_pct": 6.87,
           "hit_3pct_hm": "09:34",
           "hit_5pct_hm": "09:47",
           "status": "HIT_5PCT",
@@ -91164,7 +91164,7 @@
             "v_pwr": 34.2,
             "est_strength": 51.9
           },
-          "bar_count": 72,
+          "bar_count": 77,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -91739,8 +91739,48 @@
               "o": 72500,
               "h": 72600,
               "l": 72300,
-              "c": 72300,
-              "v": 253
+              "c": 72600,
+              "v": 610
+            },
+            {
+              "hm": "10:12",
+              "o": 72600,
+              "h": 72900,
+              "l": 72500,
+              "c": 72900,
+              "v": 1626
+            },
+            {
+              "hm": "10:13",
+              "o": 72850,
+              "h": 73000,
+              "l": 72800,
+              "c": 73000,
+              "v": 4331
+            },
+            {
+              "hm": "10:14",
+              "o": 73000,
+              "h": 73100,
+              "l": 72900,
+              "c": 73000,
+              "v": 3492
+            },
+            {
+              "hm": "10:15",
+              "o": 73100,
+              "h": 73200,
+              "l": 73000,
+              "c": 73200,
+              "v": 2347
+            },
+            {
+              "hm": "10:16",
+              "o": 73100,
+              "h": 73200,
+              "l": 73100,
+              "c": 73100,
+              "v": 482
             }
           ]
         },
@@ -91757,14 +91797,14 @@
           "day_open": 5980,
           "day_high": 6410,
           "day_low": 5980,
-          "close_px": 6310,
+          "close_px": 6260,
           "post_high": 6410,
           "peak_hm": "09:10",
           "post_low": 6040,
           "low_hm": "09:05",
           "max_ret_pct": 4.74,
           "min_ret_pct": -1.31,
-          "close_ret_pct": 3.1,
+          "close_ret_pct": 2.29,
           "hit_3pct_hm": "09:10",
           "hit_5pct_hm": null,
           "status": "HIT_3PCT",
@@ -91793,7 +91833,7 @@
             "v_pwr": 100.0,
             "est_strength": 150.0
           },
-          "bar_count": 68,
+          "bar_count": 73,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -92338,6 +92378,46 @@
               "l": 6270,
               "c": 6310,
               "v": 24530
+            },
+            {
+              "hm": "10:08",
+              "o": 6310,
+              "h": 6310,
+              "l": 6260,
+              "c": 6260,
+              "v": 7498
+            },
+            {
+              "hm": "10:09",
+              "o": 6260,
+              "h": 6270,
+              "l": 6260,
+              "c": 6270,
+              "v": 4189
+            },
+            {
+              "hm": "10:10",
+              "o": 6270,
+              "h": 6270,
+              "l": 6260,
+              "c": 6260,
+              "v": 3317
+            },
+            {
+              "hm": "10:11",
+              "o": 6260,
+              "h": 6290,
+              "l": 6260,
+              "c": 6290,
+              "v": 7596
+            },
+            {
+              "hm": "10:12",
+              "o": 6290,
+              "h": 6290,
+              "l": 6260,
+              "c": 6260,
+              "v": 1882
             }
           ]
         },
@@ -92352,21 +92432,21 @@
           "tp3_px": 23844,
           "tp5_px": 24308,
           "day_open": 22750,
-          "day_high": 23700,
+          "day_high": 23850,
           "day_low": 22600,
-          "close_px": 23500,
-          "post_high": 23700,
-          "peak_hm": "09:48",
+          "close_px": 23850,
+          "post_high": 23850,
+          "peak_hm": "10:16",
           "post_low": 22600,
           "low_hm": "09:18",
-          "max_ret_pct": 2.38,
+          "max_ret_pct": 3.02,
           "min_ret_pct": -2.38,
-          "close_ret_pct": 1.51,
-          "hit_3pct_hm": null,
+          "close_ret_pct": 3.02,
+          "hit_3pct_hm": "10:16",
           "hit_5pct_hm": null,
-          "status": "FAIL",
-          "status_label": "❌ 미달성(실패)",
-          "is_success": false,
+          "status": "HIT_3PCT",
+          "status_label": "✅ +3% 달성",
+          "is_success": true,
           "pass_5pct_filter": false,
           "pass_10pct_filter": false,
           "filter_tier": "FILTERED_OUT",
@@ -92392,7 +92472,7 @@
             "v_pwr": 45.6,
             "est_strength": 83.8
           },
-          "bar_count": 72,
+          "bar_count": 77,
           "bars_1m": [
             {
               "hm": "09:00",
@@ -92965,10 +93045,50 @@
             {
               "hm": "10:11",
               "o": 23450,
-              "h": 23500,
+              "h": 23550,
               "l": 23350,
-              "c": 23500,
-              "v": 195
+              "c": 23550,
+              "v": 777
+            },
+            {
+              "hm": "10:12",
+              "o": 23500,
+              "h": 23600,
+              "l": 23450,
+              "c": 23600,
+              "v": 715
+            },
+            {
+              "hm": "10:13",
+              "o": 23600,
+              "h": 23650,
+              "l": 23500,
+              "c": 23600,
+              "v": 869
+            },
+            {
+              "hm": "10:14",
+              "o": 23550,
+              "h": 23600,
+              "l": 23550,
+              "c": 23550,
+              "v": 137
+            },
+            {
+              "hm": "10:15",
+              "o": 23550,
+              "h": 23750,
+              "l": 23550,
+              "c": 23750,
+              "v": 3427
+            },
+            {
+              "hm": "10:16",
+              "o": 23750,
+              "h": 23850,
+              "l": 23700,
+              "c": 23850,
+              "v": 3539
             }
           ]
         }
