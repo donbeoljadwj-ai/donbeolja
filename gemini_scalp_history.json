@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-27 04:07:55",
+  "updated_at": "2026-11-27 09:05:14",
   "cumulative_start_date": "2026-11-18",
-  "latest_date": "2026-11-26",
+  "latest_date": "2026-11-27",
   "cumulative": {
     "start_date": "2026-11-18",
-    "trading_days": 6,
-    "total_count": 29,
+    "trading_days": 7,
+    "total_count": 30,
     "success_count": 17,
     "hit_5pct_count": 12,
     "hit_3pct_count": 5,
-    "fail_count": 12,
-    "win_rate_pct": 58.6,
-    "hit_5pct_rate": 41.4,
-    "algo5_count": 6,
+    "fail_count": 13,
+    "win_rate_pct": 56.7,
+    "hit_5pct_rate": 40.0,
+    "algo5_count": 7,
     "algo5_hit5_count": 6,
     "algo10_count": 3,
     "algo10_hit10_count": 3
@@ -91087,6 +91087,132 @@
               "l": 52400,
               "c": 52400,
               "v": 0
+            }
+          ]
+        }
+      ]
+    },
+    "2026-11-27": {
+      "date": "2026-11-27",
+      "total_count": 1,
+      "success_count": 0,
+      "hit_5pct_count": 0,
+      "hit_3pct_count": 0,
+      "fail_count": 1,
+      "win_rate_pct": 0.0,
+      "hit_5pct_rate": 0.0,
+      "avg_peak_ret_pct": 0.16,
+      "algo5_count": 1,
+      "algo5_hit5_count": 0,
+      "algo10_count": 0,
+      "algo10_hit10_count": 0,
+      "items": [
+        {
+          "date": "2026-11-27",
+          "code": "460940",
+          "name": "피앤에스로보틱스",
+          "entry_hm": "09:04",
+          "entry_time_full": "2026-11-27 09:05:12",
+          "entry_px": 6120,
+          "prev_close": 5790,
+          "tp3_px": 6304,
+          "tp5_px": 6426,
+          "day_open": 5980,
+          "day_high": 6130,
+          "day_low": 5880,
+          "close_px": 6090,
+          "post_high": 6130,
+          "peak_hm": "09:05",
+          "post_low": 6020,
+          "low_hm": "09:04",
+          "max_ret_pct": 0.16,
+          "min_ret_pct": -1.63,
+          "close_ret_pct": -0.49,
+          "hit_3pct_hm": null,
+          "hit_5pct_hm": null,
+          "status": "FAIL",
+          "status_label": "❌ 미달성(실패)",
+          "is_success": false,
+          "pass_5pct_filter": true,
+          "pass_10pct_filter": false,
+          "filter_tier": "TIER_5PCT",
+          "filter_tier_label": "🛡️ 5%+ 정밀 타점",
+          "drop_reasons_5pct": [],
+          "drop_reasons_10pct": [
+            "R6 초입 변동폭 기소진 (시가대비 +2.34%, 변동폭 3.57%)"
+          ],
+          "features_at_entry": {
+            "open_gap": 3.28,
+            "e_chg": 5.7,
+            "e_vs_open": 2.34,
+            "dd_hi": 0.49,
+            "rng": 3.57,
+            "pos_rng": 114.3,
+            "cum_val_b": 7.49,
+            "val_pm": 1.5,
+            "d_vwap": 1.7,
+            "d_kijun": 2.26,
+            "d_ema5": 0.82,
+            "v_pwr": 91.8,
+            "est_strength": 350.0
+          },
+          "bar_count": 7,
+          "bars_1m": [
+            {
+              "hm": "09:00",
+              "o": 5980,
+              "h": 5980,
+              "l": 5980,
+              "c": 5980,
+              "v": 25365
+            },
+            {
+              "hm": "09:01",
+              "o": 5900,
+              "h": 5990,
+              "l": 5880,
+              "c": 5980,
+              "v": 25365
+            },
+            {
+              "hm": "09:02",
+              "o": 5970,
+              "h": 6070,
+              "l": 5950,
+              "c": 6010,
+              "v": 26646
+            },
+            {
+              "hm": "09:03",
+              "o": 6010,
+              "h": 6090,
+              "l": 6000,
+              "c": 6060,
+              "v": 36898
+            },
+            {
+              "hm": "09:04",
+              "o": 6080,
+              "h": 6080,
+              "l": 6020,
+              "c": 6070,
+              "v": 10175
+            },
+            {
+              "hm": "09:05",
+              "o": 6060,
+              "h": 6130,
+              "l": 6040,
+              "c": 6110,
+              "v": 26048
+            },
+            {
+              "hm": "09:06",
+              "o": 6120,
+              "h": 6130,
+              "l": 6090,
+              "c": 6090,
+              "v": 8107
             }
           ]
         }
