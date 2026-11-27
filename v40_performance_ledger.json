@@ -3,17 +3,17 @@
   "engine_version": "v4.3-FROZEN",
   "after_market_data_usage_pct": 0.0,
   "round_trip_cost_pct": 0.35,
-  "upcoming_target_date": "2026-11-27",
+  "upcoming_target_date": "2026-11-30",
   "audit_notice": "외부 리포트(dante/study/endgame_v40_backtest_report.json)에서 복사했던 기존 27일 원장(84%/96%)은 엔진 자체 필터와 불일치(25개 전수 탈락, 실가동 0일)하므로 data/quarantine/으로 격리 폐기함. 동결 엔진(v4.1-FROZEN) 개장 전 타임스탬프 로그 기준 30거래일 누적 전까지 실전 승률을 표시하지 않음.",
   "summary": {
-    "total_trading_days": 12,
-    "active_entry_days": 11,
+    "total_trading_days": 13,
+    "active_entry_days": 12,
     "gap_skip_days": 0,
-    "o2c_net_wins": 4,
+    "o2c_net_wins": 5,
     "round_trip_cost_pct": 0.35,
     "win_rate_display_allowed": false,
-    "hit_open_plus_5pct_wins": 4,
-    "two_stage_net_wins": 2
+    "hit_open_plus_5pct_wins": 5,
+    "two_stage_net_wins": 3
   },
   "daily_ledger": [
     {
@@ -231,9 +231,27 @@
       "v40_2stage_net_pct": -2.85,
       "v40_result": "🟢 O2C_WIN (종가양봉 +0.06% · 고가+4.76%)",
       "selection_note": "1분봉검증:STOP_LOSS_FIRST | 시초갭 -1.43% (GAP_FAVORABLE (-1.43%)) | ★20일 시가+5%슈팅빈도 60%(12/20일) · ★20일평균O2H +8.19% · 5일ATR 10.78% · ★연기금·보험·사모 순매수(+58.6억) · ★외인·기관 순매수(+83.2억) · ★건전윗꼬리 매물소화(usr 0.145)"
+    },
+    {
+      "day_idx": 13,
+      "date": "2026-11-27 (v4.3-FROZEN)",
+      "target_date": "2026-11-27",
+      "engine_version": "v4.3-FROZEN",
+      "v40_pick": "LIG아큐버 (073490)",
+      "v40_score": 91.0,
+      "stock_open_gap_pct": 1.99,
+      "gap_gate_passed": true,
+      "hit_stage1_35pct": true,
+      "hit_open_plus_5pct": true,
+      "v40_o2h_pct": 12.93,
+      "v40_o2c_gross_pct": 10.24,
+      "v40_o2c_pct": 9.89,
+      "v40_2stage_net_pct": 4.65,
+      "v40_result": "🏆 TARGET_HIT (고가+12.93% · 2단세후 +4.65% / 종가세후 +9.89%)",
+      "selection_note": "1분봉검증:DUAL_STAGE_TP_HIT | 시초갭 +1.99% (GAP_FAVORABLE (+1.99%)) | ★20일 시가+5%슈팅빈도 55%(11/20일) · ★20일평균O2H +6.77% · 5일ATR 9.92% · ★연기금·보험·사모 순매수(+1.5억) · ★외인·기관 순매수(+16.7억) · ★건전윗꼬리 매물소화(usr 0.205)"
     }
   ],
-  "last_updated": "2026-11-26 23:10:23",
+  "last_updated": "2026-11-27 23:00:28",
   "backtest_discipline_guard": {
     "track": "V4",
     "engine_version": "v4.3-FROZEN",
